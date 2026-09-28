@@ -1,0 +1,1809 @@
+{
+  "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+  "meta_description": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP, là một trong những doanh nghiệp hàng đầu trong lĩnh vực dược phẩm. Chúng tôi tự hào cung cấp các sản phẩm dược phẩm chất lượng cao, đáp ứng nhu cầu đa dạng của thị trường y tế. ",
+  "robots_meta": "INDEX,FOLLOW",
+  "canonical": "https://addp.vn/",
+  "hreflang": [],
+  "headings": [
+    {
+      "level": 2,
+      "text": "Khám Phá Các Dòng Sản Phẩm ADDP"
+    },
+    {
+      "level": 3,
+      "text": "GLUCARE PLUS"
+    },
+    {
+      "level": 3,
+      "text": "VIÊN AN ĐƯỜNG"
+    },
+    {
+      "level": 3,
+      "text": "DOVITAL"
+    },
+    {
+      "level": 2,
+      "text": "Form Tư vấn"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+      "alt": "Magento Commerce",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+      "alt": "Magento Commerce",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "alt": "Vietnam",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "alt": "English",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Men's",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Lắng nghe và thấu hiểu",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Giải pháp phù hợp",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Chia sẻ kiến thức",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Đồng hành dài lâu",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Sức khỏe bền vững",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Minh bạch và tận tâm",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Men's",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Men's",
+      "loading": null
+    },
+    {
+      "src": null,
+      "alt": "Men's",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+      "alt": "test-01.jpg",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+      "alt": "test-02.jpg",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+      "alt": "test-03.jpg",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+      "alt": "test-01.jpg",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+      "alt": "",
+      "loading": null
+    },
+    {
+      "src": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+      "alt": "Accept Payment",
+      "loading": null
+    }
+  ],
+  "links": [
+    {
+      "href": "https://addp.vn/customer/account/",
+      "raw_href": "https://addp.vn/customer/account/",
+      "text": "My Account",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuLw~~/",
+      "raw_href": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuLw~~/",
+      "text": "Đăng nhập",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/customer/account/create/",
+      "raw_href": "https://addp.vn/customer/account/create/",
+      "text": "Tạo tài khoản",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#contentarea",
+      "raw_href": "#contentarea",
+      "text": "Chuyển đến nội dung",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/",
+      "raw_href": "https://addp.vn/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/gioi-thieu",
+      "raw_href": "/gioi-thieu",
+      "text": "Giới thiệu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc.html",
+      "raw_href": "/thuoc.html",
+      "text": "Thuốc",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "raw_href": "/thuc-pham-chuc-nang.html",
+      "text": "Thực phẩm chức năng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-dinh-duong.html",
+      "raw_href": "/sua-dinh-duong.html",
+      "text": "Sữa Dinh Dưỡng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te.html",
+      "raw_href": "/thiet-bi-y-te.html",
+      "text": "Thiết bị Y tế",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/benh-ly",
+      "raw_href": "/benh-ly",
+      "text": "Bệnh lý",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "raw_href": "/blog/category/suc-khoe-tieu-duong",
+      "text": "Sức khỏe Tiểu đường",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/contact",
+      "raw_href": "/contact",
+      "text": "Liên hệ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/checkout/cart/",
+      "raw_href": "https://addp.vn/checkout/cart/",
+      "text": "Your Cart",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/catalogsearch/advanced/",
+      "raw_href": "https://addp.vn/catalogsearch/advanced/",
+      "text": "Tìm kiếm nâng cao",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#store.menu",
+      "raw_href": "#store.menu",
+      "text": "Menu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#store.links",
+      "raw_href": "#store.links",
+      "text": "Tài khoản",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#store.settings",
+      "raw_href": "#store.settings",
+      "text": "Cài đặt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "English",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Khám phá ngay",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Tư vấn miễn phí",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-hat-glucare-plus",
+      "raw_href": "/sua-hat-glucare-plus",
+      "text": "GLUCARE PLUSSữa hạt dinh dưỡng Khám phá",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/vien-an-duong",
+      "raw_href": "/vien-an-duong",
+      "text": "VIÊN AN ĐƯỜNGHỗ trợ đường huyết Khám phá",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sui-dovital",
+      "raw_href": "/sui-dovital",
+      "text": "DOVITALBổ sung vitamin & thể trạng Khám phá",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/cdn-cgi/l/email-protection",
+      "raw_href": "/cdn-cgi/l/email-protection",
+      "text": "[email protected]",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "facebook",
+      "rel": null
+    },
+    {
+      "href": "https://www.facebook.com/duocphamaddp",
+      "raw_href": "https://www.facebook.com/duocphamaddp",
+      "text": "twitter",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "pinterest",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "google plus",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "rss",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/gioi-thieu/",
+      "raw_href": "https://addp.vn/gioi-thieu/",
+      "text": "Giới thiệu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/chinh-sach-dat-hang",
+      "raw_href": "https://addp.vn/chinh-sach-dat-hang",
+      "text": "Chính sách đặt hàng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/chinh-sach-thanh-toan",
+      "raw_href": "https://addp.vn/chinh-sach-thanh-toan",
+      "text": "Chính sách thanh toán",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "raw_href": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "text": "Chính sách vận chuyển và giao nhận",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "raw_href": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "text": "Chính sách đổi trả và hoàn tiền",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-hat-glucare-plus",
+      "raw_href": "sua-hat-glucare-plus",
+      "text": "Sữa hạt Glucare Plus",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/vien-an-duong",
+      "raw_href": "vien-an-duong",
+      "text": "ADDP Viên An Đường",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/vien-sui-dovital",
+      "raw_href": "vien-sui-dovital",
+      "text": "Viên sủi Dovital",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Tất cả danh mục",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/",
+      "raw_href": "https://addp.vn/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/customer/account/",
+      "raw_href": "https://addp.vn/customer/account/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/contact/",
+      "raw_href": "https://addp.vn/contact/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/wishlist/",
+      "raw_href": "https://addp.vn/wishlist/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/catalog/product_compare/",
+      "raw_href": "https://addp.vn/catalog/product_compare/",
+      "text": "",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/about-us/",
+      "raw_href": "https://addp.vn/about-us/",
+      "text": "Giới thiệu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Câu hỏi thường gặp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Danh mục sản phẩm",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-dinh-duong.html",
+      "raw_href": "https://addp.vn/sua-dinh-duong.html",
+      "text": "Sữa dinh dưỡng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "raw_href": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "text": "Sữa trẻ em",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "raw_href": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "text": "Sữa người lớn",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "text": "Thực phẩm chức năng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat.html",
+      "text": "Vitamin và Khoáng chất",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/b-sung-canxi-vitamin-d.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/b-sung-canxi-vitamin-d.html",
+      "text": "Bổ sung Canxi & Vitamin D",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-tong-hop.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-tong-hop.html",
+      "text": "Vitamin tổng hợp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/dau-ca-omega-3-dha.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/dau-ca-omega-3-dha.html",
+      "text": "Dầu cá, Omega 3, DHA",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-c-cac-loai.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-c-cac-loai.html",
+      "text": "Vitamin C các loại",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/bo-sung-sat-axit-folic.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/bo-sung-sat-axit-folic.html",
+      "text": "Bổ sung Sắt & Axit Folic",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-e-cac-loai.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/vitamin-e-cac-loai.html",
+      "text": "Vitamin E các loại",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/bo-sung-kem-magie.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/vitamin-khoang-chat/bo-sung-kem-magie.html",
+      "text": "Bổ sung Kẽm & Magie",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to.html",
+      "text": "Sinh lý - Nội tiết tố",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/sinh-ly-nam.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/sinh-ly-nam.html",
+      "text": "Sinh lý nam",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/sinh-ly-nu.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/sinh-ly-nu.html",
+      "text": "Sinh lý nữ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/can-bang-noi-tiet-to.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/can-bang-noi-tiet-to.html",
+      "text": "Cân bằng nội tiết tố",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/ho-tro-man-kinh.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/ho-tro-man-kinh.html",
+      "text": "Hỗ trợ mãn kinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/vo-sinh-hi-m-mu-n-nam.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/vo-sinh-hi-m-mu-n-nam.html",
+      "text": "Vô sinh hiếm muộn nam",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/vo-sinh-hiem-muon-nu.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/sinh-ly-noi-tiet-to/vo-sinh-hiem-muon-nu.html",
+      "text": "Vô sinh hiếm muộn nữ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "text": "Cải thiện tăng cường chức năng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/chuc-nang-gan.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/chuc-nang-gan.html",
+      "text": "Chức năng gan",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/tang-suc-de-khang-mien-dich.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/tang-suc-de-khang-mien-dich.html",
+      "text": "Tăng sức đề kháng, miễn dịch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "text": "Bổ mắt, bảo vệ mắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/h-tr-trao-d-i-ch-t.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/h-tr-trao-d-i-ch-t.html",
+      "text": "Hỗ trợ trao đổi chất",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/giai-ruou-cai-ruou.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/giai-ruou-cai-ruou.html",
+      "text": "Giải rượu, cai rượu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/chong-lao-hoa.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/chong-lao-hoa.html",
+      "text": "Chống lão hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri.html",
+      "text": "Hỗ trợ điều trị",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/co-xuong-khop.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/co-xuong-khop.html",
+      "text": "Cơ xương khớp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-hap-ho-xoang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-hap-ho-xoang.html",
+      "text": "Hô hấp, ho, xoang",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/than-tien-liet-tuyen.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/than-tien-liet-tuyen.html",
+      "text": "Thận, tiền liệt tuyến",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-tri.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-tri.html",
+      "text": "Hỗ trợ điều trị trĩ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-gout.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-gout.html",
+      "text": "Hỗ trợ điều trị gout",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-tieu-duong.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-tieu-duong.html",
+      "text": "Hỗ trợ điều trị tiểu đường",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-trung-thu.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-dieu-tri/ho-tro-dieu-tri-trung-thu.html",
+      "text": "Hỗ trợ điều trị ung thư",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa.html",
+      "text": "Hỗ trợ tiêu hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/da-day-ta-trang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/da-day-ta-trang.html",
+      "text": "Dạ dày, tá tràng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/tao-bon.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/tao-bon.html",
+      "text": "Táo bón",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/vi-sinh-probiotic.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/vi-sinh-probiotic.html",
+      "text": "Vi sinh - Probiotic",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/dai-trang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/dai-trang.html",
+      "text": "Đại tràng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/kho-tieu.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-tieu-hoa/kho-tieu.html",
+      "text": "Khó tiêu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao.html",
+      "text": "Thần kinh não",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/bo-nao-cai-thien-tri-nho.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/bo-nao-cai-thien-tri-nho.html",
+      "text": "Bổ não - cải thiện trí nhớ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/ho-tro-giac-ngu-ngon.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/ho-tro-giac-ngu-ngon.html",
+      "text": "Hỗ trợ giấc ngủ ngon",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/tuan-hoan-mau.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/tuan-hoan-mau.html",
+      "text": "Tuần hoàn máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/kiem-soat-cang-thang.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/kiem-soat-cang-thang.html",
+      "text": "Kiểm soát căng thẳng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/hoat-huyet.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/than-kinh-nao/hoat-huyet.html",
+      "text": "Hoạt huyết",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep.html",
+      "text": "Hỗ trợ làm đẹp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/da.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/da.html",
+      "text": "Da",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/toc.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/toc.html",
+      "text": "Tóc",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/giam-can.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/ho-tro-lam-dep/giam-can.html",
+      "text": "Giảm cân",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach.html",
+      "text": "Sức khỏe tim mạch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/giam-cholesterol.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/giam-cholesterol.html",
+      "text": "Giảm Cholesterol",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/huyet-ap.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/huyet-ap.html",
+      "text": "Huyết áp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/suy-gian-tinh-mach.html",
+      "raw_href": "https://addp.vn/thuc-pham-chuc-nang/suc-khoe-tim-mach/suy-gian-tinh-mach.html",
+      "text": "Suy giãn tĩnh mạch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te.html",
+      "raw_href": "https://addp.vn/thiet-bi-y-te.html",
+      "text": "Thiết bị y tế",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "raw_href": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "text": "Dụng cụ y tế",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "raw_href": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "text": "Dụng cụ theo dõi",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "raw_href": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "text": "Dụng cụ sơ cứu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "raw_href": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "text": "Khẩu trang",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc.html",
+      "raw_href": "https://addp.vn/thuoc.html",
+      "text": "Thuốc",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-thay-the.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-thay-the.html",
+      "text": "Thuốc thay thế",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-thay-the/nhung-san-pham-thao-duoc.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-thay-the/nhung-san-pham-thao-duoc.html",
+      "text": "Những sản phẩm thảo dược",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-thay-the/men-vi-sinh.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-thay-the/men-vi-sinh.html",
+      "text": "Men vi sinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh.html",
+      "text": "Thuốc kháng sinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-chong-sot-ret.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-chong-sot-ret.html",
+      "text": "Thuốc chống sốt rét",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-chua-benh-lao.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-chua-benh-lao.html",
+      "text": "Thuốc chữa bệnh lao",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-tay-giun-san.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-tay-giun-san.html",
+      "text": "Thuốc tẩy giun sán",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-khang-nam.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-khang-nam.html",
+      "text": "Thuốc kháng nấm",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-beta-lactam-khac.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-beta-lactam-khac.html",
+      "text": "Các beta-lactam khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/cephalosporin.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/cephalosporin.html",
+      "text": "Cephalosporin",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/macrolid.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/macrolid.html",
+      "text": "Macrolid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-loai-khang-sinh-khac.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-loai-khang-sinh-khac.html",
+      "text": "Các loại kháng sinh khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/khang-sinh-nhom-penicillin.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/khang-sinh-nhom-penicillin.html",
+      "text": "Kháng sinh nhóm Penicillin",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/quinolon.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/quinolon.html",
+      "text": "Quinolon",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/sulphonamid.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/sulphonamid.html",
+      "text": "Sulphonamid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/tetracyclin.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/tetracyclin.html",
+      "text": "Tetracyclin",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-diet-amib.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-diet-amib.html",
+      "text": "Thuốc diệt amib",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/aminoglycosid.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/aminoglycosid.html",
+      "text": "Aminoglycosid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-phoi-hop-khang-khuan.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/cac-phoi-hop-khang-khuan.html",
+      "text": "Các phối hợp kháng khuẩn",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-khang-virus.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-khang-sinh/thuoc-khang-virus.html",
+      "text": "Thuốc kháng virus",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu.html",
+      "text": "Thuốc chống ung thư",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/hoa-tri-gay-doc-te-bao.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/hoa-tri-gay-doc-te-bao.html",
+      "text": "Hóa trị gây độc tế bào",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-noi-tiet-trong-dieu-tri-ung-thu.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-noi-tiet-trong-dieu-tri-ung-thu.html",
+      "text": "Liệu pháp nội tiết trong điều trị ung thư",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-mien-dich.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-mien-dich.html",
+      "text": "Liệu pháp miễn dịch trong điều trị ung thư",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-nham-trung-dich.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/lieu-phap-nham-trung-dich.html",
+      "text": "Liệu pháp nhắm trúng đích",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/thuoc-chong-ung-thu-khac.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-chong-ung-thu/thuoc-chong-ung-thu-khac.html",
+      "text": "Thuốc chống ung thư khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau.html",
+      "text": "Hệ tim mạch và tạo máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-antiadrenergic.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-antiadrenergic.html",
+      "text": "Thuốc Antiadrenergic, tác dụng tập trung",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-tang-huyet-ap.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-tang-huyet-ap.html",
+      "text": "Thuốc trị tăng huyết áp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/chat-doi-khang-thu-the-aldosterone.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/chat-doi-khang-thu-the-aldosterone.html",
+      "text": "Chất đối kháng thụ thể aldosterone",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-uc-che-men-chuyen-angiotensin.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-uc-che-men-chuyen-angiotensin.html",
+      "text": "Thuốc ức chế men chuyển angiotensin/ Thuốc ức chế trực tiếp renin",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-doi-khanh-thu-the-angiotensin-ii.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-doi-khanh-thu-the-angiotensin-ii.html",
+      "text": "Thuốc đối kháng thụ thể angiotensin II",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tim.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tim.html",
+      "text": "Thuốc tim",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chong-dau-that-nguc.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chong-dau-that-nguc.html",
+      "text": "Thuốc chống đau thắt ngực",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chen-thu-the-beta.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chen-thu-the-beta.html",
+      "text": "Thuốc chẹn thụ thể bêta",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-doi-khang-calci.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-doi-khang-calci.html",
+      "text": "Thuốc đối kháng calci",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-loi-tieu.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-loi-tieu.html",
+      "text": "Thuốc lợi tiểu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-khang-dong.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-khang-dong.html",
+      "text": "Thuốc kháng đông, chống kết dính tiểu cầu & tiêu sợi huyết",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-gian-mach-ngoai-bien.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-gian-mach-ngoai-bien.html",
+      "text": "Thuốc giãn mạch ngoại biên & thuốc hoạt hóa não",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-viem-tinh-mach.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-viem-tinh-mach.html",
+      "text": "Thuốc trị viêm tĩnh mạch & giãn tĩnh mạch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-cam-mau.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-cam-mau.html",
+      "text": "Thuốc cầm máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chong-loi-tieu.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-chong-loi-tieu.html",
+      "text": "Thuốc chống lợi tiểu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-roi-loan-lipid-mau.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-tri-roi-loan-lipid-mau.html",
+      "text": "Thuốc trị rối loạn lipid máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/cac-tac-nhan-tao-mau.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/cac-tac-nhan-tao-mau.html",
+      "text": "Các tác nhân tạo máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-uc-che-men-chuyen.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/thuoc-uc-che-men-chuyen.html",
+      "text": "Thuốc ức chế men chuyển/Thuốc chẹn kênh Canxi",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/cac-loai-thuoc-tim-mach-khac.html",
+      "raw_href": "https://addp.vn/thuoc/he-tim-mach-va-tao-mau/cac-loai-thuoc-tim-mach-khac.html",
+      "text": "Các loại thuốc tim mạch khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong.html",
+      "text": "Hệ thần kinh trung ương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giam-dau.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giam-dau.html",
+      "text": "Thuốc giảm đau (không opioid) & hạ sốt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-co-giat.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-co-giat.html",
+      "text": "Thuốc chống co giật",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-benh-parkinson.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-benh-parkinson.html",
+      "text": "Thuốc trị bệnh Parkinson",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-ngu-thuoc-an-than.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-ngu-thuoc-an-than.html",
+      "text": "Thuốc ngủ & thuốc an thần",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-chong-mat.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-chong-mat.html",
+      "text": "Thuốc trị chóng mặt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-tram-cam.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-tram-cam.html",
+      "text": "Thuốc chống trầm cảm",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giai-lo-au.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giai-lo-au.html",
+      "text": "Thuốc giải lo âu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-loan-than.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-chong-loan-than.html",
+      "text": "Thuốc chống loạn thần",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-benh-thoai-hoa-than-kinh.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-benh-thoai-hoa-than-kinh.html",
+      "text": "Thuốc trị bệnh thoái hóa thần kinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giam-dau-opioid.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-giam-dau-opioid.html",
+      "text": "Thuốc giảm đau (opioid)",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-khang-viem-khong-steroid.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-khang-viem-khong-steroid.html",
+      "text": "Thuốc kháng viêm không steroid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-dau-nua-dau.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-dau-nua-dau.html",
+      "text": "Thuốc trị đau nửa đầu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-dau-do-benh-ly-than-kinh.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-tri-dau-do-benh-ly-than-kinh.html",
+      "text": "Thuốc trị đau do bệnh lý thần kinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-huong-than-kinh.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/thuoc-huong-than-kinh.html",
+      "text": "Thuốc hướng thần kinh & thuốc bổ thần kinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/khac-he-thong-than-kinh-trung-uong.html",
+      "raw_href": "https://addp.vn/thuoc/he-than-kinh-trung-uong/khac-he-thong-than-kinh-trung-uong.html",
+      "text": "Khác hệ thống thần kinh trung ương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat.html",
+      "text": "Hệ tiêu hóa và gan mật",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tri-benh-vung-hau-mon-truc-trang.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tri-benh-vung-hau-mon-truc-trang.html",
+      "text": "Thuốc trị bệnh vùng hậu môn trực tràng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-chong-non.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-chong-non.html",
+      "text": "Thuốc chống nôn",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-dieu-hoa-tieu-hoa.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-dieu-hoa-tieu-hoa.html",
+      "text": "Thuốc điều hòa tiêu hóa, chống đầy hơi & kháng viêm",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-khang-acid.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-khang-acid.html",
+      "text": "Thuốc kháng acid, chống trào ngược & chống loét",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tri-tieu-chay.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tri-tieu-chay.html",
+      "text": "Thuốc trị tiêu chảy",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-thong-mat-tan-soi-mat-bao-ve-gan.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-thong-mat-tan-soi-mat-bao-ve-gan.html",
+      "text": "Thuốc thông mật, tan sỏi mật & bảo vệ gan",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tro-tieu-hoa.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-tro-tieu-hoa.html",
+      "text": "Thuốc trợ tiêu hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-nhuan-trang-thuoc-xo.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-nhuan-trang-thuoc-xo.html",
+      "text": "Thuốc nhuận tràng, thuốc xổ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-chong-co-that.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/thuoc-chong-co-that.html",
+      "text": "Thuốc chống co thắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/cac-thuoc-tieu-hoa-khac.html",
+      "raw_href": "https://addp.vn/thuoc/he-tieu-hoa-va-gan-mat/cac-thuoc-tieu-hoa-khac.html",
+      "text": "Các thuốc tiêu hóa khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc.html",
+      "text": "Hệ tiết niệu và sinh dục",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tac-dung-len-am-dao.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tac-dung-len-am-dao.html",
+      "text": "Thuốc tác dụng lên âm đạo",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-khu-trung-duong-nieu.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-khu-trung-duong-nieu.html",
+      "text": "Thuốc khử trùng đường niệu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tac-dung-len-tu-cung.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tac-dung-len-tu-cung.html",
+      "text": "Thuốc tác dụng lên tử cung",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tri-roi-loan-cuong-va-roi-loan-xuat-tinh.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tri-roi-loan-cuong-va-roi-loan-xuat-tinh.html",
+      "text": "Thuốc trị rối loạn cương và rối loạn xuất tinh",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tri-cac-roi-loan-o-bang-quang.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/thuoc-tri-cac-roi-loan-o-bang-quang.html",
+      "text": "Thuốc trị các rối loạn ở bàng quang & tuyến tiền liệt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/cac-thuoc-tieu-nieu-sinh-duc-khac.html",
+      "raw_href": "https://addp.vn/thuoc/he-tiet-nieu-va-sinh-duc/cac-thuoc-tieu-nieu-sinh-duc-khac.html",
+      "text": "Các thuốc tiết niệu-sinh dục khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/hormon.html",
+      "raw_href": "https://addp.vn/thuoc/hormon.html",
+      "text": "Hormon (Nội tiết tố)",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/hormon/androgen-cac-thuoc-tong-hop-co-lien-quan.html",
+      "raw_href": "https://addp.vn/thuoc/hormon/androgen-cac-thuoc-tong-hop-co-lien-quan.html",
+      "text": "Androgen & các thuốc tổng hợp có liên quan",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/hormon/estrogen-progesteron-cac-thuoc-tong-hop-co-lien-quan.html",
+      "raw_href": "https://addp.vn/thuoc/hormon/estrogen-progesteron-cac-thuoc-tong-hop-co-lien-quan.html",
+      "text": "Estrogen, progesteron & các thuốc tổng hợp có liên quan",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/hormon/hormon-steroid.html",
+      "raw_href": "https://addp.vn/thuoc/hormon/hormon-steroid.html",
+      "text": "Hormon steroid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/hormon/hormon-dinh-duong-cac-thuoc-tong-hop-co-lien-quan.html",
+      "raw_href": "https://addp.vn/thuoc/hormon/hormon-dinh-duong-cac-thuoc-tong-hop-co-lien-quan.html",
+      "text": "Hormon dinh dưỡng & các thuốc tổng hợp có liên quan",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-ho-hap.html",
+      "raw_href": "https://addp.vn/thuoc/he-ho-hap.html",
+      "text": "Hệ hô hấp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-ho-hap/thuoc-tri-hen-benh-phoi-tac-nghen-man-tinh.html",
+      "raw_href": "https://addp.vn/thuoc/he-ho-hap/thuoc-tri-hen-benh-phoi-tac-nghen-man-tinh.html",
+      "text": "Thuốc trị hen & bệnh phổi tắc nghẽn mạn tính",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-ho-hap/thuoc-chong-sung-huyet-mui.html",
+      "raw_href": "https://addp.vn/thuoc/he-ho-hap/thuoc-chong-sung-huyet-mui.html",
+      "text": "Thuốc chống sung huyết mũi & các chế phẩm khác dùng cho mũi",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-ho-hap/thuoc-ho-cam.html",
+      "raw_href": "https://addp.vn/thuoc/he-ho-hap/thuoc-ho-cam.html",
+      "text": "Thuốc ho & cảm",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-ho-hap/cac-thuoc-khac-co-tac-dung-tren-he-ho-hap.html",
+      "raw_href": "https://addp.vn/thuoc/he-ho-hap/cac-thuoc-khac-co-tac-dung-tren-he-ho-hap.html",
+      "text": "Các thuốc khác có tác dụng trên hệ hô hấp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich.html",
+      "raw_href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich.html",
+      "text": "Dị ứng và hệ miễn dịch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/thuoc-uc-che-mien-dich.html",
+      "raw_href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/thuoc-uc-che-mien-dich.html",
+      "text": "Thuốc ức chế miễn dịch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/vaccin-khang-huyet-thanh-thuoc-mien-dich.html",
+      "raw_href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/vaccin-khang-huyet-thanh-thuoc-mien-dich.html",
+      "text": "Vaccin, kháng huyết thanh & thuốc miễn dịch",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/thuoc-khang-histamin-khang-di-ung.html",
+      "raw_href": "https://addp.vn/thuoc/di-ung-va-he-mien-dich/thuoc-khang-histamin-khang-di-ung.html",
+      "text": "Thuốc kháng histamin & kháng dị ứng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa.html",
+      "text": "Hệ nội tiết và chuyển hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-tri-dai-thao-duong.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-tri-dai-thao-duong.html",
+      "text": "Thuốc trị đái tháo đường",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-anh-huong-chuyen-hoa-xuong.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-anh-huong-chuyen-hoa-xuong.html",
+      "text": "Thuốc ảnh hưởng chuyển hóa xương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/insulin.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/insulin.html",
+      "text": "Insulin",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-khang-giap.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-khang-giap.html",
+      "text": "Thuốc kháng giáp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/hormon-tuyen-giap.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/hormon-tuyen-giap.html",
+      "text": "Hormon tuyến giáp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-chong-beo-phi.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/thuoc-chong-beo-phi.html",
+      "text": "Thuốc chống béo phì",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/cac-thuoc-khac-anh-huong-den-chuyen-hoa.html",
+      "raw_href": "https://addp.vn/thuoc/he-noi-tiet-va-chuyen-hoa/cac-thuoc-khac-anh-huong-den-chuyen-hoa.html",
+      "text": "Các thuốc khác ảnh hưởng đến chuyển hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/san-pham-dinh-duong.html",
+      "raw_href": "https://addp.vn/thuoc/san-pham-dinh-duong.html",
+      "text": "Sản phẩm dinh dưỡng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/san-pham-dinh-duong/san-pham-dinh-duong-ngoai-duong-tieu-hoa.html",
+      "raw_href": "https://addp.vn/thuoc/san-pham-dinh-duong/san-pham-dinh-duong-ngoai-duong-tieu-hoa.html",
+      "text": "Sản phẩm dinh dưỡng ngoài đường tiêu hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/san-pham-dinh-duong/chat-dien-giai.html",
+      "raw_href": "https://addp.vn/thuoc/san-pham-dinh-duong/chat-dien-giai.html",
+      "text": "Chất điện giải",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/san-pham-dinh-duong/san-pham-dinh-duong.html",
+      "raw_href": "https://addp.vn/thuoc/san-pham-dinh-duong/san-pham-dinh-duong.html",
+      "text": "Sản phẩm dinh dưỡng / dùng qua đường tiêu hóa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-dung-ngoai.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-dung-ngoai.html",
+      "text": "Thuốc dùng ngoài",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-thai-doc-khu-doc-cai-nghien.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-thai-doc-khu-doc-cai-nghien.html",
+      "text": "Thuốc thải độc, khử độc và hỗ trợ cai nghiện",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu.html",
+      "text": "Thuốc da liễu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-virus-dung-tai-cho.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-virus-dung-tai-cho.html",
+      "text": "Thuốc kháng virus dùng tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-khu-n-co-corticoid-dung-t-i-ch.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-khu-n-co-corticoid-dung-t-i-ch.html",
+      "text": "Thuốc kháng khuẩn có corticoid dùng tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/corticoid-dung-tai-cho.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/corticoid-dung-tai-cho.html",
+      "text": "Corticoid dùng tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-vay-nen-tang-tiet-ba-nhon-vay-ca.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-vay-nen-tang-tiet-ba-nhon-vay-ca.html",
+      "text": "Thuốc trị vẩy nến, tăng tiết bã nhờn & vảy cá",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-mun-coc-chai-da.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-mun-coc-chai-da.html",
+      "text": "Thuốc trị mụn cóc & chai da",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khu-trung-sat-trung-da.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khu-trung-sat-trung-da.html",
+      "text": "Thuốc khử trùng & sát trùng da",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-mun.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-tri-mun.html",
+      "text": "Thuốc trị mụn",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-sinh-tai-cho.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-sinh-tai-cho.html",
+      "text": "Thuốc kháng sinh tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-diet-nam-ky-sinh-trung-dung-tai-cho.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-diet-nam-ky-sinh-trung-dung-tai-cho.html",
+      "text": "Thuốc diệt nấm & ký sinh trùng dùng tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-histamin.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-khang-histamin.html",
+      "text": "Thuốc kháng histamin/ chống ngứa dùng tại chỗ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-da-lieu-khac.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-da-lieu/thuoc-da-lieu-khac.html",
+      "text": "Thuốc da liễu khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong.html",
+      "text": "Hệ cơ xương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/thuoc-gian-co.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/thuoc-gian-co.html",
+      "text": "Thuốc giãn cơ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/thuoc-tri-tang-acid-uric-mau-benh-gout.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/thuoc-tri-tang-acid-uric-mau-benh-gout.html",
+      "text": "Thuốc trị tăng acid uric máu & bệnh gout",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/thuoc-chong-thap-khop.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/thuoc-chong-thap-khop.html",
+      "text": "Thuốc chống thấp khớp có cải thiện bệnh trạng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/khang-viem-dang-men.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/khang-viem-dang-men.html",
+      "text": "Kháng viêm dạng men",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/thuoc-tri-roi-loan-than-kinh-co.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/thuoc-tri-roi-loan-than-kinh-co.html",
+      "text": "Thuốc trị rối loạn thần kinh-cơ",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/he-co-xuong/cac-thuoc-khac-tac-dong-len-he-co-xuong.html",
+      "raw_href": "https://addp.vn/thuoc/he-co-xuong/cac-thuoc-khac-tac-dong-len-he-co-xuong.html",
+      "text": "Các thuốc khác tác động lên hệ cơ-xương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-ngua-thai.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-ngua-thai.html",
+      "text": "Thuốc ngừa thai",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat.html",
+      "raw_href": "https://addp.vn/thuoc/mat.html",
+      "text": "Mắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-khu-trung-mat.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-khu-trung-mat.html",
+      "text": "Thuốc khử trùng mắt có corticoid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-khang-khuan-khu-trung-mat.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-khang-khuan-khu-trung-mat.html",
+      "text": "Thuốc kháng khuẩn & khử trùng mắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/corticoid-dung-cho-mat.html",
+      "raw_href": "https://addp.vn/thuoc/mat/corticoid-dung-cho-mat.html",
+      "text": "Corticoid dùng cho mắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-gay-gian-dong-tu.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-gay-gian-dong-tu.html",
+      "text": "Thuốc gây giãn đồng tử",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-tri-tang-nhan-ap.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-tri-tang-nhan-ap.html",
+      "text": "Thuốc trị tăng nhãn áp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-giam-sung-huyet.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-giam-sung-huyet.html",
+      "text": "Thuốc giảm sung huyết, gây tê, kháng viêm trong Nhãn khoa",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-boi-tron-nhan-cau.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-boi-tron-nhan-cau.html",
+      "text": "Thuốc bôi trơn nhãn cầu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/thuoc-nho-mat.html",
+      "raw_href": "https://addp.vn/thuoc/mat/thuoc-nho-mat.html",
+      "text": "Thuốc nhỏ mắt",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mat/cac-thuoc-nhan-khoa-khac.html",
+      "raw_href": "https://addp.vn/thuoc/mat/cac-thuoc-nhan-khoa-khac.html",
+      "text": "Các thuốc nhãn khoa khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/vitamin-khoang-chat.html",
+      "raw_href": "https://addp.vn/thuoc/vitamin-khoang-chat.html",
+      "text": "Vitamin và khoáng chất",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-khoang-chat.html",
+      "raw_href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-khoang-chat.html",
+      "text": "Vitamin & khoáng chất (trước & sau sinh)/ Thuốc trị thiếu máu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-a-d-e.html",
+      "raw_href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-a-d-e.html",
+      "text": "Vitamin A, D & E",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-nhom-b-vitamin-nhom-b-c-ket-hop.html",
+      "raw_href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-nhom-b-vitamin-nhom-b-c-ket-hop.html",
+      "text": "Vitamin Nhóm B/ Vitamin nhóm B, C kết hợp",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-c.html",
+      "raw_href": "https://addp.vn/thuoc/vitamin-khoang-chat/vitamin-c.html",
+      "text": "Vitamin C",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong.html",
+      "text": "Tai & Miệng/họng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/corticoid-dung-cho-tai.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/corticoid-dung-cho-tai.html",
+      "text": "Corticoid dùng cho tai",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khang-khu-khuan-khu-trung-tai.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khang-khu-khuan-khu-trung-tai.html",
+      "text": "Thuốc kháng khuẩn & khử trùng tai",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khu-trung-tai-co-corticoid.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khu-trung-tai-co-corticoid.html",
+      "text": "Thuốc khử trùng tai có corticoid",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-dung-trong-viem-loet-mieng.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-dung-trong-viem-loet-mieng.html",
+      "text": "Thuốc dùng trong viêm & loét miệng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khang-khuan-vung-hau-hong.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/thuoc-khang-khuan-vung-hau-hong.html",
+      "text": "Thuốc kháng khuẩn vùng hầu họng",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/tai-mieng-hong/cac-thuoc-khac-dung-cho-tai.html",
+      "raw_href": "https://addp.vn/thuoc/tai-mieng-hong/cac-thuoc-khac-dung-cho-tai.html",
+      "text": "Các thuốc khác dùng cho tai",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/thuoc-gay-me-gay-te.html",
+      "raw_href": "https://addp.vn/thuoc/thuoc-gay-me-gay-te.html",
+      "text": "Thuốc gây mê-gây tê, chế phẩm dùng trong phẫu thuật và chăm sóc vết thương",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/dung-dich-tiem-tinh-mach.html",
+      "raw_href": "https://addp.vn/thuoc/dung-dich-tiem-tinh-mach.html",
+      "text": "Dung dịch tiêm tĩnh mạch & các loại dung dịch vô trùng khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/san-pham-cham-soc-da-ca-nhan.html",
+      "raw_href": "https://addp.vn/thuoc/san-pham-cham-soc-da-ca-nhan.html",
+      "text": "Sản phẩm chăm sóc da & chăm sóc cá nhân",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/mieng-dan-cao-xoa-dau.html",
+      "raw_href": "https://addp.vn/thuoc/mieng-dan-cao-xoa-dau.html",
+      "text": "Miếng dán, cao xoa, dầu",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/thuoc/cac-san-pham-tri-lieu-khac.html",
+      "raw_href": "https://addp.vn/thuoc/cac-san-pham-tri-lieu-khac.html",
+      "text": "Các sản phẩm trị liệu khác",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Theo dõi đơn hàng của bạn",
+      "rel": null
+    },
+    {
+      "href": "https://addp.vn/#",
+      "raw_href": "#",
+      "text": "Liên kết tùy chỉnh đặt hàng",
+      "rel": null
+    }
+  ],
+  "schema": [],
+  "scripts": [
+    "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+    "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+  ],
+  "status": 200,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "max-age=0, must-revalidate, no-cache, no-store",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a42389395e24f87e-SIN",
+    "connection": "keep-alive",
+    "content-encoding": "br",
+    "content-security-policy-report-only": "worker-src blob:; font-src www.paypalobjects.com fonts.gstatic.com use.typekit.net *.typekit.net *.gstatic.com *.cdn-apple.com *.kxcdn.com *.fontawesome.com https://fonts.bunny.net data: 'self' 'unsafe-inline'; form-action geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com pilot-payflowlink.paypal.com www.paypal.com www.sandbox.paypal.com *.paypal.com https://seo.mageplaza.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com bid.g.doubleclick.net *.youtube.com *.youtube-nocookie.com geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.paypal.com www.sandbox.paypal.com pilot-payflowlink.paypal.com www.paypalobjects.com player.vimeo.com https://www.google.com/recaptcha/ *.braintreegateway.com *.paypal.com google.com *.google.com facebook.com www.facebook.com *.kxcdn.com youtube.com www.youtube.com platform.twitter.com *.addthis.com 'self' 'unsafe-inline'; img-src data: assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com www.googleadservices.com *.google-analytics.com googleads.g.doubleclick.net www.google.com bid.g.doubleclick.net *.analytics.google.com www.googletagmanager.com *.ftcdn.net *.behance.net t.paypal.com www.paypal.com www.paypalobjects.com fpdbs.paypal.com fpdbs.sandbox.paypal.com *.vimeocdn.com i.ytimg.com *.youtube.com p.typekit.net *.paypal.com *.typekit.net *.gstatic.com validator.swagger.io *.cdninstagram.com *.kxcdn.com *.twitter.com *.googleapis.com *.google.com *.fbcdn.net blob: https://firebasestorage.googleapis.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com *.newrelic.com *.nr-data.net geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com *.commerce-payment-services.com commerce-payments-sdk.adobe.io www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ amcglobal.sc.omtrdc.net *.magento-ds.com use.typekit.net *.typekit.net google.com *.google.com *.cdn-apple.com *.braintreegateway.com *.googleapis.com *.gstatic.com cdn.ampproject.org connect.facebook.net googletagmanager.com *.kxcdn.com platform.twitter.com *.addthis.com *.addthisedge.com *.moatads.com *.cloudflareinsights.com s7.addthis.com *.avada.io *.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com fonts.googleapis.com *.googleapis.com *.google.com *.kxcdn.com *.gstatic.com *.fontawesome.com https://fonts.bunny.net 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net *.google-analytics.com www.googleadservices.com *.analytics.google.com www.googletagmanager.com *.newrelic.com *.nr-data.net vimeo.com geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com *.adobe.io performance.typekit.net *.sentry.io *.paypal.com google.com *.google.com *.braintreegateway.com *.braintree-api.com https://www.paypal.com/xoplatform/logger/api/logger cdn.ampproject.org *.kxcdn.com *.instagram.com ekr.zdassets.com/ https://get.geojs.io *.avada.io 'self' 'unsafe-inline'; child-src http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline'; report-uri https://csp-reporting-service.com/my-project/endpoint; report-to report-endpoint;",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Mon, 28 Sep 2026 14:46:10 GMT",
+    "expires": "Sun, 28 Sep 2025 09:14:20 GMT",
+    "pragma": "no-cache",
+    "report-to": "{\"group\":\"report-endpoint\",\"max_age\":10886400,\"endpoints\":[{\"url\":\"https:\\/\\/csp-reporting-service.com\\/my-project\\/endpoint\"}]}",
+    "server": "cloudflare",
+    "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=10,cfOrigin;dur=770",
+    "set-cookie": "PHPSESSID=s4vudfsefbpcbsbprt839kbs8a; expires=Mon, 28 Sep 2026 15:46:10 GMT; Max-Age=3600; path=/; domain=addp.vn; secure; HttpOnly; SameSite=Lax",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-turbo-charged-by": "LiteSpeed",
+    "x-xss-protection": "1; mode=block"
+  },
+  "final_url": "https://addp.vn/",
+  "redirects": []
+}

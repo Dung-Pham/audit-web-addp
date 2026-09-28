@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "discovered_from": [
+      "target",
+      "priority",
+      "link:https://addp.vn/"
+    ],
+    "http_status": 200,
+    "canonical": "https://addp.vn/",
+    "indexability": "indexable_or_unknown",
+    "importance": "critical",
+    "final_url": "https://addp.vn/",
+    "redirects": [],
+    "collection_status": "partial",
+    "browser": {
+      "desktop": {
+        "status": 200,
+        "final_url": "https://addp.vn/",
+        "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+        "lcp_ms": 14676,
+        "cls": 0.16647540491174767,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-E3461AC4808842D8",
+        "error": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_for_addp_pharmacy_strictly_based_on.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=fugm4rvn0roc4hl3rvi4dds6au\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m  - ← 200 OK\u001b[22m\n\u001b[2m    - date: Mon, 28 Sep 2026 12:54:01 GMT\u001b[22m\n\u001b[2m    - content-type: image/png\u001b[22m\n\u001b[2m    - content-length: 1321722\u001b[22m\n\u001b[2m    - connection: keep-alive\u001b[22m\n\u001b[2m    - cache-control: public, max-age=604800\u001b[22m\n\u001b[2m    - expires: Mon, 05 Oct 2026 12:54:01 GMT\u001b[22m\n\u001b[2m    - etag: \"142afa-6aacb9d9-40c99734;;;\"\u001b[22m\n\u001b[2m    - last-modified: Fri, 18 Sep 2026 04:11:05 GMT\u001b[22m\n\u001b[2m    - accept-ranges: bytes\u001b[22m\n\u001b[2m    - server: cloudflare\u001b[22m\n\u001b[2m    - x-turbo-charged-by: LiteSpeed\u001b[22m\n\u001b[2m    - cf-cache-status: MISS\u001b[22m\n\u001b[2m    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\u001b[22m\n\u001b[2m    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=PmNGDjohwb2CLjJDMwcq5zIL1BTFxYXwVYJ%2FGQsyGwGD5sdhcu6Cco0idoKJX48cxIvK647yOyeuyE0CescCA2Advo9SL3iA2HPZPJw0%2B3%2Bv13EmTTfMz0oc\"}]}\u001b[22m\n\u001b[2m    - cf-ray: a422e4efc88ad41f-KIX\u001b[22m\n\u001b[2m    - alt-svc: h3=\":443\"; ma=86400\u001b[22m\n; request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/loader.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=fugm4rvn0roc4hl3rvi4dds6au\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n"
+      },
+      "mobile": {
+        "status": 200,
+        "final_url": "https://addp.vn/",
+        "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+        "lcp_ms": 21328,
+        "cls": 0.14420781410450786,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-593BA7163638B99D"
+      }
+    },
+    "render_collection_version": "render-stabilized-v2",
+    "collected_at": "2026-09-28T12:55:20.202Z"
+  },
+  {
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "discovered_from": [
+      "priority",
+      "link:https://addp.vn/"
+    ],
+    "http_status": 200,
+    "canonical": "https://addp.vn/sua-hat-glucare-plus",
+    "indexability": "indexable_or_unknown",
+    "importance": "critical",
+    "final_url": "https://addp.vn/sua-hat-glucare-plus",
+    "redirects": []
+  }
+]

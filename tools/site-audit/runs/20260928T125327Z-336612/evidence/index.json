@@ -1,0 +1,619 @@
+[
+  {
+    "evidence_id": "EVD-C51AC48D3DB98538",
+    "url": "https://addp.vn/robots.txt",
+    "page_type": "sitewide",
+    "collector": "discovery",
+    "type": "robots_txt",
+    "viewport": null,
+    "artifact": "evidence/discovery/robots.txt",
+    "raw_fact": {
+      "status": 200,
+      "bytes": 331,
+      "available": true
+    },
+    "observed_at": "2026-09-28T12:53:28.859Z"
+  },
+  {
+    "evidence_id": "EVD-B093A16D09E3A37E",
+    "url": "https://addp.vn/pub/sitemap.xml",
+    "page_type": "sitewide",
+    "collector": "discovery",
+    "type": "sitemap_http_response",
+    "viewport": null,
+    "artifact": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+    "raw_fact": {
+      "status": 404,
+      "bytes": 108820
+    },
+    "observed_at": "2026-09-28T12:53:31.406Z"
+  },
+  {
+    "evidence_id": "EVD-A57DC932D580B784",
+    "url": "https://addp.vn/sitemap.xml",
+    "page_type": "sitewide",
+    "collector": "discovery",
+    "type": "sitemap_http_response",
+    "viewport": null,
+    "artifact": "evidence/discovery/sitemap-52618716ffbf735c.xml",
+    "raw_fact": {
+      "status": 404,
+      "bytes": 108812
+    },
+    "observed_at": "2026-09-28T12:53:32.950Z"
+  },
+  {
+    "evidence_id": "EVD-80DB3C701FE061F9",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "raw-http",
+    "type": "raw_html",
+    "viewport": null,
+    "artifact": "evidence/html/e4e0c9a45799894e.render-stabilized-v2.raw.html",
+    "raw_fact": {
+      "status": 200,
+      "final_url": "https://addp.vn/",
+      "bytes": 169472,
+      "redirects": [],
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:53:36.391Z"
+  },
+  {
+    "evidence_id": "EVD-88DD509F3586ACF5",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "raw_seo",
+    "viewport": null,
+    "artifact": "evidence/seo/e4e0c9a45799894e.render-stabilized-v2.raw.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "canonical": "https://addp.vn/",
+      "robots_meta": "INDEX,FOLLOW",
+      "x_robots_tag": null,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:53:36.509Z"
+  },
+  {
+    "evidence_id": "EVD-43FB9DEFD6EDE605",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v2.initial.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:53:58.480Z"
+  },
+  {
+    "evidence_id": "EVD-49A5344C4B6C5FED",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v2.initial.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:00.544Z"
+  },
+  {
+    "evidence_id": "EVD-85956D06B433ABCA",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "desktop",
+    "artifact": "evidence/lighthouse/e4e0c9a45799894e.desktop.render-stabilized-v2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "lcp_ms": 14676,
+      "cls": 0.16647540491174767,
+      "ttfb_ms": 6117.399999976158,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:00.619Z"
+  },
+  {
+    "evidence_id": "EVD-E3461AC4808842D8",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "desktop",
+    "artifact": "evidence/render/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "render_complete": false,
+      "load_timed_out": true,
+      "asset_wait_timed_out": false,
+      "failed_resources": 2,
+      "font_decode_failures": 0,
+      "image_decode_failures": 3,
+      "pending_images": 0,
+      "scroll_iterations": 7,
+      "scroll_height_before": 4971,
+      "scroll_height_after": 4971,
+      "scroll_height_increased": false,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_partial_unstable_dom",
+        "render_partial_visible_asset_failure"
+      ],
+      "resource_health": {
+        "failed_resources": 2,
+        "failed_images": 3,
+        "failed_fonts": 0,
+        "pending_images": 0
+      },
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.190Z"
+  },
+  {
+    "evidence_id": "EVD-A606C27223349F8A",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "desktop",
+    "artifact": "evidence/html/e4e0c9a45799894e.desktop.render-stabilized-v2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/",
+      "status": 200,
+      "bytes": 238401,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.222Z"
+  },
+  {
+    "evidence_id": "EVD-A81704E1324D31CC",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "desktop",
+    "artifact": "evidence/seo/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "headings": 5,
+      "links": 308,
+      "images": 20,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.402Z"
+  },
+  {
+    "evidence_id": "EVD-32CB6452441EDF9E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "desktop",
+    "artifact": "evidence/schema/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.405Z"
+  },
+  {
+    "evidence_id": "EVD-AEE314AA3F7151E7",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "desktop",
+    "artifact": "evidence/dom/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "links": 318,
+      "buttons": 10,
+      "forms": 4,
+      "visible_text_length": 3402,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.693Z"
+  },
+  {
+    "evidence_id": "EVD-DBF33A19881A487E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "desktop",
+    "artifact": "evidence/analytics/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.697Z"
+  },
+  {
+    "evidence_id": "EVD-8C749E8D6F00DF83",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:22.915Z"
+  },
+  {
+    "evidence_id": "EVD-702877ACD4E72E55",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v2.stabilized.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:24.887Z"
+  },
+  {
+    "evidence_id": "EVD-6E93B5B6099AB8DE",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "desktop",
+    "artifact": "evidence/accessibility/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "violations": 4,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:31.745Z"
+  },
+  {
+    "evidence_id": "EVD-D180D4E34ABF95BC",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "desktop",
+    "artifact": "evidence/network/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "events": 280,
+      "audit_blocked": 14,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:31.752Z"
+  },
+  {
+    "evidence_id": "EVD-60CBF75CE8FE2864",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "desktop",
+    "artifact": "evidence/console/e4e0c9a45799894e.desktop.render-stabilized-v2.json",
+    "raw_fact": {
+      "errors": 27,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:31.752Z"
+  },
+  {
+    "evidence_id": "EVD-9B3746A447795E5D",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v2.initial.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:53.396Z"
+  },
+  {
+    "evidence_id": "EVD-90A6A817C6116577",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v2.initial.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:53.771Z"
+  },
+  {
+    "evidence_id": "EVD-3D15DCDB359887BF",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "mobile",
+    "artifact": "evidence/lighthouse/e4e0c9a45799894e.mobile.render-stabilized-v2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "lcp_ms": 21328,
+      "cls": 0.14420781410450786,
+      "ttfb_ms": 6018.800000011921,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:54:53.796Z"
+  },
+  {
+    "evidence_id": "EVD-593BA7163638B99D",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "mobile",
+    "artifact": "evidence/render/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "render_complete": false,
+      "load_timed_out": true,
+      "asset_wait_timed_out": false,
+      "failed_resources": 2,
+      "font_decode_failures": 0,
+      "image_decode_failures": 2,
+      "pending_images": 0,
+      "scroll_iterations": 10,
+      "scroll_height_before": 5554,
+      "scroll_height_after": 5767,
+      "scroll_height_increased": true,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_partial_unstable_dom",
+        "render_partial_visible_asset_failure"
+      ],
+      "resource_health": {
+        "failed_resources": 2,
+        "failed_images": 2,
+        "failed_fonts": 0,
+        "pending_images": 0
+      },
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.269Z"
+  },
+  {
+    "evidence_id": "EVD-0B1AEB9BA55C2F0C",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "mobile",
+    "artifact": "evidence/html/e4e0c9a45799894e.mobile.render-stabilized-v2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/",
+      "status": 200,
+      "bytes": 239103,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.302Z"
+  },
+  {
+    "evidence_id": "EVD-AEED7CD9E819A9C7",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "mobile",
+    "artifact": "evidence/seo/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "headings": 5,
+      "links": 308,
+      "images": 20,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.357Z"
+  },
+  {
+    "evidence_id": "EVD-C16C9A26189A6C8E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "mobile",
+    "artifact": "evidence/schema/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.360Z"
+  },
+  {
+    "evidence_id": "EVD-2CA66D18158349D8",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "mobile",
+    "artifact": "evidence/dom/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "links": 318,
+      "buttons": 10,
+      "forms": 4,
+      "visible_text_length": 3141,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.601Z"
+  },
+  {
+    "evidence_id": "EVD-04B228A36544C865",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "mobile",
+    "artifact": "evidence/analytics/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.603Z"
+  },
+  {
+    "evidence_id": "EVD-4256DF417284230A",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:12.672Z"
+  },
+  {
+    "evidence_id": "EVD-92E0841363C85BA1",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v2.stabilized.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:13.306Z"
+  },
+  {
+    "evidence_id": "EVD-3425B7ADB4DE40C6",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "mobile",
+    "artifact": "evidence/accessibility/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "violations": 5,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:20.157Z"
+  },
+  {
+    "evidence_id": "EVD-0A4B53A36849E3DA",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "mobile",
+    "artifact": "evidence/network/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "events": 280,
+      "audit_blocked": 12,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:20.162Z"
+  },
+  {
+    "evidence_id": "EVD-8C7E9CF272FB4245",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "mobile",
+    "artifact": "evidence/console/e4e0c9a45799894e.mobile.render-stabilized-v2.json",
+    "raw_fact": {
+      "errors": 23,
+      "render_collection_version": "render-stabilized-v2"
+    },
+    "observed_at": "2026-09-28T12:55:20.162Z"
+  }
+]

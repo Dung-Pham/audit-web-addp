@@ -213,7 +213,7 @@ test('regression classifies fixed, improved, unchanged, regressed and new', () =
 
 test('final consistency catches broken cross-artifact references', async t => {
   const { root, runDir } = await fixture(t);
-  const goodManifest = { ...manifest, RUN_ID: 'RUN-1', timestamp: '2026-09-27T00:00:00.000Z', stage_status: {}, safety_flags: { allow_real_order: false, allow_payment: false, allow_account_creation: false, allow_destructive_actions: false }, safety_outcomes: { real_orders: 0, real_payments: 0, accounts_created: 0, forms_submitted: 0, website_changes: 0 }, effective_models: null, website_source_available: false };
+  const goodManifest = { ...manifest, RUN_ID: 'RUN-1', timestamp: '2026-09-27T00:00:00.000Z', stage_status: {}, safety_flags: { allow_cart_mutation: false, allow_real_order: false, allow_payment: false, allow_account_creation: false, allow_destructive_actions: false }, safety_outcomes: { real_orders: 0, real_payments: 0, accounts_created: 0, forms_submitted: 0, website_changes: 0 }, effective_models: null, website_source_available: false };
   const input = { runDir, evidence: [evidence()], requirements: [{ id: 'REQ-1' }], accepted: [finding()], backlog: [task()], manifest: goodManifest, checks: [{ requirement_id: 'REQ-1', status: 'PASS', evidence_ids: ['EVD-1'] }] };
   assert.deepEqual(await validateConsistency(input), { valid: true, errors: [] });
   const broken = await validateConsistency({ ...input, evidence: [evidence('EVD-1', '../escape')], checks: [{ requirement_id: 'REQ-X', evidence_ids: ['EVD-X'] }], backlog: [task('TASK-1', { dependencies: ['TASK-X'] })] });
@@ -293,10 +293,11 @@ test('final validation requires populated report, plan and dependency artifacts'
   const missing = await validateConsistency({ ...base, finalValidation: true });
   assert.match(missing.errors.join(' '), /AUDIT_REPORT.md/);
   assert.match(missing.errors.join(' '), /DEPENDENCIES.json/);
-  for (const relative of ['reports/AUDIT_REPORT.md', 'reports/IMPROVEMENT_PLAN.md', 'reports/EXECUTIVE_PLAN.md', 'backlog/IMPLEMENTATION_BACKLOG.json', 'backlog/DEPENDENCIES.json']) {
+  for (const relative of ['reports/AUDIT_REPORT.md', 'reports/IMPROVEMENT_PLAN.md', 'reports/TRANSFORMATION_PLAN.md', 'reports/EXECUTIVE_PLAN.md', 'reports/EXECUTIVE_AUDIT.md', 'backlog/IMPLEMENTATION_BACKLOG.json', 'backlog/DEPENDENCIES.json', 'review/coverage-matrix.json', 'review/product-coverage-matrix.json', 'review/article-coverage-matrix.json']) {
     const file = path.join(runDir, relative);
     await mkdir(path.dirname(file), { recursive: true });
-    await writeFile(file, relative.endsWith('.json') ? '[]' : '# Fixture report');
+    const json = relative === 'review/coverage-matrix.json' ? { gate: { status: 'analysis_complete' } } : relative === 'review/product-coverage-matrix.json' ? { products: { glucare: {}, vien_an_duong: {}, dovital: {} } } : relative === 'review/article-coverage-matrix.json' ? { coverage_gap: null, articles: [{}] } : [];
+    await writeFile(file, relative.endsWith('.json') ? JSON.stringify(json) : '# Fixture report');
   }
   await mkdir(path.join(runDir,'review'),{recursive:true});
   await writeFile(path.join(runDir,'review/evidence-decisions.json'),JSON.stringify([{finding_id:'FND-1',status:'accepted',supported:true,reviewer_role:'evidence_reviewer',reviewer_id:'fixture-reviewer',reason:'Fixture artifact inspected',evidence_ids_reviewed:['EVD-1'],supported_facts:['Title absent in fixture response'],observation_reviewed:'The title is absent.',page_reviewed:baseUrl,source_requirement_ids_reviewed:['REQ-1']} ]));
@@ -316,7 +317,7 @@ function consistentInput(runDir) {
     runDir, pages:[{url:baseUrl,page_type:'homepage'}],evidence: [evidence()], requirements: [{ id: 'REQ-1' }], accepted: [finding()], backlog: [task()],
     manifest: {
       RUN_ID: path.basename(runDir), timestamp: '2026-09-27T00:00:00.000Z', target: baseUrl, environment: 'fixture',
-      stage_status: stages, safety_flags: { allow_real_order: false, allow_payment: false, allow_account_creation: false, allow_destructive_actions: false },
+      stage_status: stages, safety_flags: { allow_cart_mutation: false, allow_real_order: false, allow_payment: false, allow_account_creation: false, allow_destructive_actions: false },
       safety_outcomes: { real_orders: 0, real_payments: 0, accounts_created: 0, forms_submitted: 0, website_changes: 0 },
       effective_models: null, website_source_available: false
     },

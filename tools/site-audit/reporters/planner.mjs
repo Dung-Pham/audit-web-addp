@@ -16,10 +16,20 @@ export function planFindings(accepted, diagnostics = []) {
     seen.add(finding.finding_id);
     return true;
   });
-  const idToTask = new Map(findings.map((finding, index) => [finding.finding_id, `TASK-${String(index + 1).padStart(3, '0')}`]));
+  // A reviewer may explicitly assign a pattern key only when the semantic
+  // problem and proposed implementation unit are shared. Never infer this
+  // from a title alone.
+  const groups = new Map();
+  for (const finding of findings) {
+    const key = clean(finding.pattern_key) ? `pattern:${clean(finding.pattern_key)}` : `instance:${finding.finding_id}`;
+    groups.set(key, [...(groups.get(key) || []), finding]);
+  }
+  const grouped = [...groups.values()];
+  const idToTask = new Map(grouped.flatMap((group, index) => group.map(finding => [finding.finding_id, `TASK-${String(index + 1).padStart(3, '0')}`])));
   const diagByFinding = new Map(diagnostics.filter(d => d && idToTask.has(d.finding_id)).map(d => [d.finding_id, d]));
 
-  return findings.map(finding => {
+  return grouped.map(group => {
+    const finding = group[0];
     const d = diagByFinding.get(finding.finding_id) || {};
     const diagnosticPlanning = d.planning && typeof d.planning === 'object' && !Array.isArray(d.planning) ? d.planning : {};
     const findingPlanning = finding.planning && typeof finding.planning === 'object' && !Array.isArray(finding.planning) ? finding.planning : {};
@@ -40,25 +50,30 @@ export function planFindings(accepted, diagnostics = []) {
     }
     const task = {
       task_id: idToTask.get(finding.finding_id),
-      finding_ids: [finding.finding_id],
+      finding_ids: group.map(item => item.finding_id),
+      finding_kind: group.length > 1 ? 'pattern_finding' : 'instance_finding',
+      instances: group.map(item => ({ finding_id: item.finding_id, page: clean(item.page), evidence_ids: strings(item.evidence_ids) })),
       title: clean(p.title) || `Address: ${clean(finding.title) || finding.finding_id}`,
       objective: clean(p.objective) || `Address accepted finding ${finding.finding_id}: ${clean(finding.title) || observation}`,
       current_problem: clean(p.current_problem) || observation,
       target_state: clean(p.target_state) || (direction ? `The observed problem is addressed through: ${direction}` : `The observed problem in ${finding.finding_id} is resolved on the affected public pages.`),
       recommended_changes: changes,
-      affected_urls: scope,
+      affected_urls: [...new Set([...scope, ...group.flatMap(item => strings([item.page, ...asList(item.affected_urls)]).filter(v => /^https?:\/\//i.test(v)))])],
       implementation_area: strings(p.implementation_area ?? d.implementation_area),
       developer_investigation: investigation,
       dependencies: [...new Set(dependencies)],
+      dependency_details: dependencies.map(task_id => ({ task_id, blocking_reason: clean(p.blocking_reason) || 'Prerequisite sequencing supplied by the reviewer/planner.', prerequisite_type: clean(p.prerequisite_type) || 'implementation' })),
+      workstream: clean(p.workstream) || strings(p.implementation_area ?? d.implementation_area)[0] || 'Unassigned',
       priority: choice(p.priority, ['P0', 'P1', 'P2', 'P3'], ({ critical: 'P0', high: 'P1', medium: 'P2', low: 'P3' })[finding.severity] || 'P2'),
+      priority_rationale: clean(p.priority_rationale) || `Priority derives from ${finding.severity || 'unclassified'} severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.`,
       effort: choice(p.effort, ['S', 'M', 'L', 'XL'], 'M'),
       acceptance_criteria: acceptance.length ? acceptance : [`The observable problem described by ${finding.finding_id} is absent on the affected URL(s) under the recorded audit conditions.`, `Evidence for ${finding.finding_id} is re-collected and reviewed against its linked requirement(s).`],
       automated_verification: automatic.length ? automatic : [`Repeat the applicable external collector check for ${finding.finding_id} and compare with evidence ${strings(finding.evidence_ids).join(', ') || '(unavailable)'}.`],
       manual_verification: manual.length ? manual : [`Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for ${finding.finding_id}.`],
       risks: strings([...(p.risks === undefined ? asList(finding.unknowns) : asList(p.risks)), ...(!p.effort ? ['Effort is provisional until developer investigation.'] : []), ...(!p.priority ? ['Priority is inferred from finding severity; confirm business sequencing.'] : [])]),
       status: 'planned',
-      source_requirement_ids: strings(finding.source_requirement_ids),
-      evidence_ids: strings(finding.evidence_ids),
+      source_requirement_ids: [...new Set(group.flatMap(item => strings(item.source_requirement_ids)))],
+      evidence_ids: [...new Set(group.flatMap(item => strings(item.evidence_ids)))],
       source: finding.source === 'checklist' ? 'checklist' : 'best_practice',
       diagnostic: {
         observed_external_facts: strings(d.confirmed_external_facts),

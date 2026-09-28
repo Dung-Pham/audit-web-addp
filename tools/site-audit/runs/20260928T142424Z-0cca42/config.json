@@ -1,0 +1,58 @@
+{
+  "target": "https://addp.vn/",
+  "environment": "production",
+  "mode": "production_read_only",
+  "AUDIT_MODE": "production_read_only",
+  "AUDIT_ALLOW_REAL_ORDER": false,
+  "AUDIT_ALLOW_DESTRUCTIVE_ACTION": false,
+  "AUDIT_ALLOW_REAL_PAYMENT": false,
+  "AUDIT_ALLOW_ACCOUNT_CREATION": false,
+  "allowRealOrder": false,
+  "allowDestructiveAction": false,
+  "allowRealPayment": false,
+  "allowAccountCreation": false,
+  "maxPages": 2,
+  "maxDepth": 0,
+  "requestDelayMs": 700,
+  "initialRenderTimeoutMs": 8000,
+  "totalRenderBudgetMs": 30000,
+  "scrollStepRatio": 0.8,
+  "scrollPauseMs": 180,
+  "stepStabilityTimeoutMs": 3000,
+  "stabilitySampleMs": 180,
+  "stabilityConsecutiveSamples": 3,
+  "maxScrollIterations": 80,
+  "authorizedTransactionTest": false,
+  "priorityUrls": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ],
+  "include": [
+    "/",
+    "/sua-hat-glucare-plus"
+  ],
+  "exclude": [
+    "/customer/",
+    "/admin/",
+    "/rest/",
+    "/graphql"
+  ],
+  "representativeSampling": true,
+  "browserExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "requestedUrls": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ]
+}

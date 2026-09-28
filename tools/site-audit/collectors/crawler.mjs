@@ -82,6 +82,44 @@ function matchesFilter(url, filters = []) {
   });
 }
 
+const canonicalProducts = [
+  { id: 'glucare', match: /glucare/i },
+  { id: 'vien_an_duong', match: /vien[\s_-]?an[\s_-]?duong/i },
+  { id: 'dovital', match: /dovital/i }
+];
+const routeKey = candidate => {
+  const raw = candidate.canonical || candidate.final_url || candidate.url;
+  const url = new URL(raw); url.hash = ''; url.search = ''; url.pathname = url.pathname.replace(/\/+$/, '') || '/';
+  return url.href;
+};
+const candidateText = candidate => decodeURIComponent(`${candidate.url} ${candidate.canonical || ''}`).toLowerCase();
+const isArticleDetail = candidate => candidate.page_type === 'article' && /\/(?:blog|news|tin-tuc|kien-thuc)\/[^/]+/i.test(new URL(candidate.url).pathname);
+const preference = candidate => /(?:combo|mua-\d|tang-\d|khuyen-mai|promotion)/i.test(candidate.url) ? 1 : 0;
+
+/** Deterministic bounded selection: coverage reservations first, ranking second. */
+export function selectCandidates(successful, { maxPages = 25, representativeSampling = true } = {}) {
+  const sorted = [...successful].sort((a, b) => b.priority - a.priority || a.depth - b.depth || a.url.localeCompare(b.url));
+  const selected = [], reasons = new Map(), seenRoutes = new Set();
+  const add = (candidate, reason) => {
+    if (!candidate || selected.length >= maxPages || seenRoutes.has(routeKey(candidate))) return false;
+    selected.push(candidate); reasons.set(candidate.url, reason); seenRoutes.add(routeKey(candidate)); return true;
+  };
+  add(sorted.find(c => c.page_type === 'homepage'), 'mandatory_homepage');
+  for (const product of canonicalProducts) {
+    const match = sorted.filter(c => c.page_type === 'product_detail' && product.match.test(candidateText(c))).sort((a, b) => preference(a) - preference(b) || a.url.localeCompare(b.url));
+    add(match[0], `mandatory_product_${product.id}`);
+  }
+  // Reserve a compact, diverse evidence sample before generic pages take the cap.
+  for (const candidate of sorted.filter(isArticleDetail).slice(0, 3)) add(candidate, 'mandatory_article_sample');
+  for (const candidate of sorted.filter(c => ['company/about', 'contact', 'policy'].includes(c.page_type))) add(candidate, 'mandatory_policy');
+  if (representativeSampling) {
+    const types = new Set(selected.map(c => c.page_type));
+    for (const candidate of sorted) if (!types.has(candidate.page_type) && add(candidate, 'representative_priority')) types.add(candidate.page_type);
+  }
+  for (const candidate of sorted) add(candidate, 'representative_priority');
+  return { selected, reasons, route_keys: [...seenRoutes] };
+}
+
 export async function discover({ target, runDir, config = {} }) {
   const root = normalizeUrl(target, target);
   if (!root) throw new Error('Target must be an HTTP(S) URL');
@@ -242,23 +280,20 @@ export async function discover({ target, runDir, config = {} }) {
     if (fetched % 5 === 0) await atomicJson(discoveryPath, { target: root, complete: false, robots: { url: robotsUrl, status: robotsStatus, text: robotsText, artifact: robotsArtifact, rules: robots.rules, crawlDelayMs: robots.crawlDelayMs }, sitemap, blocked, candidates: [...candidates.values()], fetched, config: { maxPages, maxDepth, key: configKey } });
   }
   const successful = [...candidates.values()].filter(c => c.http_status >= 200 && c.http_status < 400 && /html/i.test(c.content_type ?? ''));
-  const selected = [];
-  const sorted = successful.sort((a, b) => b.priority - a.priority || a.depth - b.depth || a.url.localeCompare(b.url));
-  if (config.representativeSampling !== false) {
-    const types = new Set();
-    for (const c of sorted) if (!types.has(c.page_type)) { selected.push(c); types.add(c.page_type); }
-  }
-  for (const c of sorted) if (selected.length < maxPages && !selected.includes(c)) selected.push(c);
+  const selection = selectCandidates(successful, { maxPages, representativeSampling: config.representativeSampling !== false });
+  const selected = selection.selected;
   const priorPages = await json(pagesPath, []);
   const priorByUrl = new Map(priorPages.map(p => [p.url, p]));
   const pages = selected.slice(0, maxPages).map(c => ({
     ...priorByUrl.get(c.url), url: c.url, page_type: c.page_type,
     discovered_from: c.discovered_from, http_status: c.http_status,
     canonical: c.canonical ?? null, indexability: c.indexability ?? null,
-    importance: importance(c.page_type), final_url: c.final_url, redirects: c.redirects ?? []
+    importance: importance(c.page_type), final_url: c.final_url, redirects: c.redirects ?? [], selection_reason: selection.reasons.get(c.url)
   }));
+  const selectionArtifact = { selection_method: 'mandatory_coverage_then_representative', max_pages: maxPages, selected: pages.map(page => ({ url: page.url, page_type: page.page_type, selection_reason: page.selection_reason, normalized_route: routeKey(page) })) };
   const discovery = { target: root, complete: true, status: 'complete', robots: { url: robotsUrl, status: robotsStatus, text: robotsText, artifact: robotsArtifact, rules: robots.rules, crawlDelayMs: robots.crawlDelayMs }, sitemap, blocked, candidates: [...candidates.values()], fetched, selected: pages.map(p => p.url), config: { maxPages, maxDepth, key: configKey } };
   await atomicJson(discoveryPath, discovery);
   await atomicJson(pagesPath, pages);
+  await atomicJson(join(runDir, 'inventory', 'selection.json'), selectionArtifact);
   return { pages, discovery, blocked };
 }

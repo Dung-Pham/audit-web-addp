@@ -1,0 +1,96 @@
+{
+  "RUN_ID": "20260928T125327Z-336612",
+  "timestamp": "2026-09-28T12:53:27.553Z",
+  "target": "https://addp.vn/",
+  "environment": "production",
+  "mode": "production_read_only",
+  "run_kind": "smoke",
+  "requested_urls": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ],
+  "checklist_hash": "71a39e82b8ab8ea0c66d0eefb3538a39dbac8f277057c522fa1c92cb36b7054f",
+  "config_hash": "8b7d61bcf4ba514ea9e6c4a2cdcd4bcba25fa348f183cf83eed75596af61678b",
+  "audit_framework_version": "1.0.0",
+  "audit_framework_hash": "b39a11290cf99ab97e9cc5093c5fd474981cf137a78e5a40b30cc0eadbbc36a7",
+  "website_source_available": false,
+  "tool_versions": {
+    "node": "v22.17.0",
+    "playwright": "1.63.0",
+    "axe": "4.13.0",
+    "codex_cli": "0.158.0-alpha.2.1"
+  },
+  "viewport": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "effective_models": null,
+  "routing_status": "supported_requested_models_unverified",
+  "requested_routing": {
+    "DEEP": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "SPECIALIST": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "FAST": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "ASTRA_EXCEPTION": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "use_only_for": [
+        "architecture blockers",
+        "unresolved contradictions",
+        "final deep synthesis if Sol is insufficient"
+      ]
+    },
+    "NO_MODEL": {
+      "model": null,
+      "reasoning_effort": null
+    }
+  },
+  "stage_status": {
+    "discovery": {
+      "reason": "Smoke command halted: discovery was not bounded to requested URLs; no browser collection evidence created.",
+      "status": "interrupted",
+      "updated_at": "2026-09-28T12:56:53.876Z"
+    }
+  },
+  "safety_flags": {
+    "AUDIT_MODE": "production_read_only",
+    "AUDIT_ALLOW_REAL_ORDER": false,
+    "AUDIT_ALLOW_REAL_PAYMENT": false,
+    "AUDIT_ALLOW_DESTRUCTIVE_ACTION": false,
+    "AUDIT_ALLOW_ACCOUNT_CREATION": false,
+    "allow_real_order": false,
+    "allow_payment": false,
+    "allow_account_creation": false,
+    "allow_destructive_actions": false
+  },
+  "safety_outcomes": {
+    "real_orders": 0,
+    "real_payments": 0,
+    "accounts_created": 0,
+    "forms_submitted": 0,
+    "website_changes": 0
+  },
+  "limitations": [
+    "No source, backend, analytics admin or KiotViet access.",
+    "Non-GET browser requests blocked and explicitly labelled audit induced.",
+    "Actual inference model metadata is not exposed.",
+    "No purchase/lead submission and no cart mutation."
+  ],
+  "escalations": []
+}

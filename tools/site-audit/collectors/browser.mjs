@@ -7,7 +7,7 @@ import { artifact, assertReadOnly, evidenceFor, hash, inspectedUrl, normalizeUrl
 
 const telemetry = /(?:google-analytics\.com|googletagmanager\.com\/(?:g\/collect|gtm\.js)|doubleclick\.net|facebook\.com\/tr|connect\.facebook\.net|bat\.bing\.com|analytics|pixel|collect(?:\/|\?)|telemetry|hotjar|clarity\.ms|segment\.io|mixpanel|amplitude)/i;
 const DEFAULT_VIEWPORTS = [{ name: 'desktop', width: 1440, height: 1000 }, { name: 'mobile', width: 390, height: 844 }];
-export const RENDER_COLLECTION_VERSION = 'render-stabilized-v1';
+export const RENDER_COLLECTION_VERSION = 'render-stabilized-v3.3';
 export const boundedTimeout = (value, fallback, minimum, maximum) => Math.max(minimum, Math.min(maximum, Number(value) || fallback));
 
 function isReadOnlyRenderAsset(url, method, resourceType) {
@@ -185,11 +185,23 @@ async function renderState(page) {
       status: document.fonts.status,
       faces: [...document.fonts].map(font => ({ family: font.family, status: font.status, style: font.style, weight: font.weight }))
     } : { status: 'unsupported', faces: [] };
-    const images = [...document.images].map(image => ({
-      src: image.currentSrc || image.src || null, complete: image.complete,
+    const images = [...document.images].map((image, index) => {
+      const rect = image.getBoundingClientRect();
+      const visible = rect.width > 1 && rect.height > 1 && rect.bottom > 0 && rect.top < innerHeight && rect.right > 0 && rect.left < innerWidth;
+      const near_viewport = rect.width > 1 && rect.height > 1 && rect.bottom > -innerHeight && rect.top < innerHeight * 2;
+      // HTMLImageElement.src resolves to the document URL when no src
+      // attribute exists; use the attribute so a lazy pending state stays
+      // observable instead of looking falsely loaded.
+      const actual_src = image.currentSrc || image.getAttribute('src') || null;
+      return {
+      identity: `${index}:${image.id || image.getAttribute('data-audit-id') || image.getAttribute('alt') || ''}:${image.getAttribute('data-src') || image.getAttribute('src') || ''}`,
+      src: actual_src, declared_src: image.getAttribute('src') || null, data_src: image.getAttribute('data-src') || null, data_srcset: image.getAttribute('data-srcset') || null,
+      complete: image.complete,
       natural_width: image.naturalWidth, natural_height: image.naturalHeight,
-      loading: image.loading || null, failed: image.complete && image.naturalWidth === 0
-    }));
+      loading: image.loading || null, failed: image.complete && image.naturalWidth === 0,
+      rect: { top: Math.round(rect.top), bottom: Math.round(rect.bottom), width: Math.round(rect.width), height: Math.round(rect.height) }, visible, near_viewport,
+      material: Boolean(actual_src) && (visible || near_viewport)
+    }; });
     const resources = performance.getEntriesByType('resource').map(entry => ({
       name: entry.name, initiator_type: entry.initiatorType, duration: entry.duration,
       transfer_size: entry.transferSize, encoded_body_size: entry.encodedBodySize,
@@ -219,6 +231,54 @@ async function renderState(page) {
   });
 }
 
+async function installRenderDiagnostics(page) {
+  await page.evaluate(() => {
+    if (window.__auditRenderDiagnostics) return;
+    const result = { relevant_mutations: 0, noise_mutations: 0, categories: {}, recent: [], final_window: null };
+    const short = (value, length = 120) => String(value || '').slice(0, length);
+    const location = target => { const r = target.getBoundingClientRect?.(); if (!r) return { visible: false, intersects_viewport: false, position: 'unknown', rect: null }; const visible = r.width > 1 && r.height > 1; const intersects_viewport = visible && r.bottom > 0 && r.top < innerHeight; return { visible, intersects_viewport, position: !visible ? 'unknown' : intersects_viewport ? 'intersecting' : r.bottom <= 0 ? 'above_viewport' : 'below_viewport', rect: { top: Math.round(r.top), bottom: Math.round(r.bottom), width: Math.round(r.width), height: Math.round(r.height) } }; };
+    const signature = (mutation, category) => { const target = mutation.target.nodeType === Node.ELEMENT_NODE ? mutation.target : mutation.target.parentElement; const loc = target ? location(target) : location({}); const section = target?.closest?.('section,main,article,[role="main"],[id]') || null; return { type: mutation.type, category, attribute: mutation.attributeName || null, target_tag: target?.tagName || '#text', target_id: short(target?.id, 80) || null, target_classes: short(target?.className, 160) || null, section_hint: short(section?.id || section?.className || section?.tagName, 160) || null, ...loc, added_nodes: mutation.addedNodes?.length || 0, removed_nodes: mutation.removedNodes?.length || 0, node_tags: [...(mutation.addedNodes || []), ...(mutation.removedNodes || [])].slice(0, 8).map(node => node.nodeType === Node.ELEMENT_NODE ? node.tagName : '#text') }; };
+    const substantive = node => node && node.nodeType === Node.ELEMENT_NODE && !['SCRIPT', 'STYLE', 'NOSCRIPT'].includes(node.tagName);
+    const classify = mutation => {
+      if (mutation.type === 'childList') return [...mutation.addedNodes, ...mutation.removedNodes].some(substantive) ? 'child_list_substantive' : 'child_list_noise';
+      const name = mutation.attributeName || '';
+      const target = mutation.target;
+      if (['src', 'srcset', 'href'].includes(name)) return 'content_resource_attribute';
+      if (name === 'style' && /transform/i.test(target.getAttribute('style') || '') && !/display|visibility|height|width/i.test(target.getAttribute('style') || '')) return 'animation_transform_noise';
+      if (['class', 'style', 'hidden', 'aria-hidden'].includes(name)) {
+        const rect = target.getBoundingClientRect?.();
+        return rect && rect.width > 1 && rect.height > 1 ? 'visible_layout_candidate' : 'offscreen_attribute_noise';
+      }
+      if (mutation.type === 'characterData') return 'text_candidate';
+      return 'attribute_noise';
+    };
+    new MutationObserver(mutations => mutations.forEach(mutation => {
+      const category = classify(mutation);
+      const material = /substantive|content_resource|visible_layout|text_candidate/.test(category);
+      if (material) result.relevant_mutations++; else result.noise_mutations++;
+      if (result.final_window) {
+        if (material) result.final_window.material_mutations++; else result.final_window.noise_mutations++;
+        const detail = signature(mutation, category); const key = JSON.stringify([detail.type, detail.category, detail.attribute, detail.target_tag, detail.target_id, detail.target_classes, detail.section_hint, detail.position]);
+        const entry = result.final_window.signatures[key] || { ...detail, count: 0, first_observed_ms: Math.round(performance.now() - result.final_window.started_at), last_observed_ms: 0 };
+        entry.count++; entry.last_observed_ms = Math.round(performance.now() - result.final_window.started_at); entry.added_nodes += detail.added_nodes; entry.removed_nodes += detail.removed_nodes; result.final_window.signatures[key] = entry;
+      }
+      result.categories[category] = (result.categories[category] || 0) + 1;
+      if (result.recent.length < 100) result.recent.push({ category, material, type: mutation.type, attribute: mutation.attributeName || null });
+    })).observe(document.documentElement, { subtree: true, childList: true, attributes: true, characterData: true, attributeFilter: ['src', 'srcset', 'href', 'class', 'style', 'hidden', 'aria-hidden'] });
+    window.__auditRenderDiagnostics = result;
+  });
+}
+
+async function renderDiagnosticsSnapshot(page) {
+  return page.evaluate(() => ({ ...window.__auditRenderDiagnostics, categories: { ...(window.__auditRenderDiagnostics?.categories || {}) } }));
+}
+
+async function beginFinalStabilityWindow(page) {
+  await page.evaluate(() => {
+    if (window.__auditRenderDiagnostics) window.__auditRenderDiagnostics.final_window = { material_mutations: 0, noise_mutations: 0, started_at: performance.now(), signatures: {} };
+  });
+}
+
 export async function waitForRenderAssets(page, timeoutMs = 8_000) {
   const bounded = Math.max(250, Math.min(20_000, Number(timeoutMs) || 8_000));
   return page.evaluate(async timeout => {
@@ -227,10 +287,28 @@ export async function waitForRenderAssets(page, timeoutMs = 8_000) {
     const deadline = new Promise(resolve => setTimeout(() => { timedOut = true; resolve('timeout'); }, timeout));
     const fontPromise = document.fonts?.ready ? document.fonts.ready.then(() => 'ready', () => 'failed') : Promise.resolve('unsupported');
     const imagesAtStart = [...document.images];
-    const imagePromise = Promise.all(imagesAtStart.map(image => image.complete ? Promise.resolve() : new Promise(resolve => {
-      image.addEventListener('load', resolve, { once: true });
-      image.addEventListener('error', resolve, { once: true });
-    })));
+    // Re-enumerate until the bounded deadline: lazy images may only be added
+    // when a preceding natural scroll has triggered an observer.
+    const settleImage = image => image.complete ? Promise.resolve() : new Promise(resolve => {
+      image.addEventListener('load', resolve, { once: true }); image.addEventListener('error', resolve, { once: true });
+    });
+    const imagePromise = (async () => {
+      const seen = new Set();
+      while (performance.now() - started < timeout) {
+        const batch = [...document.images].filter(image => !seen.has(image));
+        batch.forEach(image => seen.add(image));
+        await Promise.race([Promise.all(batch.map(settleImage)), new Promise(resolve => setTimeout(resolve, 75))]);
+        // An untouched lazy/hidden image is not evidence that the content we
+        // naturally reached failed to render. Only an actual source near the
+        // current viewport can hold this bounded wait open.
+        if ([...document.images].filter(image => {
+          const rect = image.getBoundingClientRect();
+          const actual = image.getAttribute('src') || image.currentSrc;
+          return actual && rect.width > 1 && rect.height > 1 && rect.bottom > -innerHeight && rect.top < innerHeight * 2;
+        }).every(image => image.complete)) return 'settled';
+      }
+      return 'timeout';
+    })();
     const [fontResult, imageResult] = await Promise.all([
       Promise.race([fontPromise, deadline]),
       Promise.race([imagePromise.then(() => 'settled'), deadline])
@@ -241,38 +319,100 @@ export async function waitForRenderAssets(page, timeoutMs = 8_000) {
       duration_ms: Math.round(performance.now() - started),
       timed_out: timedOut || fontResult === 'timeout' || imageResult === 'timeout',
       fonts: { result: fontResult, status: document.fonts?.status ?? 'unsupported', total: document.fonts ? [...document.fonts].length : 0, failed: document.fonts ? [...document.fonts].filter(font => font.status === 'error').length : 0 },
-      images: { discovered_at_start: imagesAtStart.length, discovered_at_end: images.length, complete: images.filter(image => image.complete && image.naturalWidth > 0).length, failed: images.filter(image => image.complete && image.naturalWidth === 0).length, pending: images.filter(image => !image.complete).length }
+      images: { discovered_at_start: imagesAtStart.length, discovered_at_end: images.length, discovered_after_start: Math.max(0, images.length - imagesAtStart.length), complete: images.filter(image => image.complete && image.naturalWidth > 0).length, failed: images.filter(image => image.complete && image.naturalWidth === 0).length, pending: images.filter(image => !image.complete).length, pending_relevant: images.filter(image => { const r = image.getBoundingClientRect(); return !image.complete && Boolean(image.getAttribute('src') || image.currentSrc) && r.width > 1 && r.height > 1 && r.bottom > -innerHeight && r.top < innerHeight * 2; }).length }
     };
   }, bounded);
 }
 
-export async function scrollForRender(page, { pauseMs = 180, maxIterations = 80 } = {}) {
+export async function scrollForRender(page, { pauseMs = 180, maxIterations = 80, totalBudgetMs = 30_000, stabilitySampleMs = 180, stabilityConsecutiveSamples = 3, stepStabilityTimeoutMs = 3_000, stepRatio = .8, progressiveBudgetFraction = .6, finalSettleReserveMs = 9_000, bottomPassCount = 3, heightTolerancePx = 2 } = {}) {
   const pause = Math.max(25, Math.min(1_000, Number(pauseMs) || 180));
   const limit = Math.max(1, Math.min(160, Number(maxIterations) || 80));
   await page.evaluate(() => window.scrollTo({ top: 0, left: 0, behavior: 'instant' }));
-  const samples = [];
+  await installRenderDiagnostics(page);
+  const samples = []; const started = Date.now(); let budgetExhausted = false; let stopReason = 'iteration_cap';
+  const reserve = Math.max(1_000, Math.min(totalBudgetMs - 500, Number(finalSettleReserveMs) || totalBudgetMs * .3));
+  const progressiveCap = Math.max(1_000, Math.min(totalBudgetMs - reserve, totalBudgetMs * Math.max(.2, Math.min(.85, Number(progressiveBudgetFraction) || .6))));
   let bottomPasses = 0;
   for (let iteration = 0; iteration < limit; iteration++) {
-    const sample = await page.evaluate(() => {
+    const elapsedBefore = Date.now() - started;
+    const pre = await page.evaluate(() => ({ y: scrollY, height: Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0), viewport: innerHeight }));
+    const distanceBefore = Math.max(0, pre.height - pre.viewport - pre.y);
+    // The reserve reduces intermediate settling, but is never permission to
+    // abandon forward progress before bottom. Reaching bottom is prerequisite
+    // to final settling.
+    const sample = await page.evaluate(ratio => {
       const root = document.documentElement;
       const height = Math.max(root.scrollHeight, document.body?.scrollHeight || 0);
       const before = scrollY;
       const maximum = Math.max(0, height - innerHeight);
-      const next = Math.min(maximum, before + Math.max(1, Math.floor(innerHeight * 0.85)));
+      const next = Math.min(maximum, before + Math.max(1, Math.floor(innerHeight * Math.max(.7, Math.min(.85, Number(ratio) || .8)))));
       window.scrollTo({ top: next, left: 0, behavior: 'instant' });
       return { iteration: 0, before, requested: next, height_before: height, viewport_height: innerHeight, at_bottom: next >= maximum };
-    });
+    }, stepRatio);
     await page.waitForTimeout(pause);
+    let stableSamples = 0, previous = null, stepTimedOut = false, assetSummary = null;
+    const stepStarted = Date.now();
+    const isBottomCandidate = sample.at_bottom;
+    const nearReserve = totalBudgetMs - elapsedBefore <= reserve;
+    const stepCap = isBottomCandidate ? stepStabilityTimeoutMs : (nearReserve ? Math.min(350, stepStabilityTimeoutMs) : Math.min(stepStabilityTimeoutMs, Math.max(150, Math.floor(reserve / 8))));
+    while (stableSamples < stabilityConsecutiveSamples && Date.now() - stepStarted < stepCap && Date.now() - started < totalBudgetMs) {
+      assetSummary = await waitForRenderAssets(page, Math.min(250, stepCap));
+      const state = await renderState(page);
+      const relevantPending = state.images.filter(i => !i.complete && i.material).length;
+      const marker = [Math.round(state.dimensions.scroll_height / Math.max(1, heightTolerancePx)), state.images.filter(i => i.complete && !i.failed).length, relevantPending, state.resources.length, state.reveal_markers].join(':');
+      stableSamples = marker === previous ? stableSamples + 1 : 0; previous = marker;
+      if (stableSamples < stabilityConsecutiveSamples) await page.waitForTimeout(Math.max(25, stabilitySampleMs));
+    }
+    if (Date.now() - stepStarted >= stepCap) stepTimedOut = true;
+    if (Date.now() - started >= totalBudgetMs) { budgetExhausted = true; stopReason = 'total_budget'; }
     const after = await page.evaluate(() => ({ scroll_y: scrollY, height_after: Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0), viewport_height: innerHeight }));
     sample.iteration = iteration + 1;
     Object.assign(sample, after);
     sample.height_increased = sample.height_after > sample.height_before;
-    samples.push(sample);
-    const atBottomNow = sample.scroll_y + sample.viewport_height >= sample.height_after - 2;
+    const state = await renderState(page); const mutations = await renderDiagnosticsSnapshot(page);
+    const imageCounts = { total: state.images.length, loaded: state.images.filter(i => i.complete && !i.failed).length, failed: state.images.filter(i => i.failed).length, pending: state.images.filter(i => !i.complete).length, pending_visible: state.images.filter(i => !i.complete && i.visible).length, pending_near_viewport: state.images.filter(i => !i.complete && i.near_viewport).length, visible_failed: state.images.filter(i => i.failed && i.visible).length };
+    Object.assign(sample, { stable_samples: stableSamples, step_timed_out: stepTimedOut, elapsed_step_ms: Date.now() - stepStarted, cumulative_render_ms: Date.now() - started, distance_to_bottom: Math.max(0, sample.height_after - sample.viewport_height - sample.scroll_y), bottom_candidate: isBottomCandidate, entered_minimum_dwell_progress_mode: nearReserve && !isBottomCandidate, assets: assetSummary, images: imageCounts, resources_count: state.resources.length, relevant_dom_mutation_count: mutations.relevant_mutations, ignored_noise_mutation_count: mutations.noise_mutations, budget_remaining_ms: Math.max(0, totalBudgetMs - (Date.now() - started)) }); samples.push(sample);
+    const atBottomNow = sample.scroll_y + sample.viewport_height >= sample.height_after - heightTolerancePx;
     bottomPasses = atBottomNow && !sample.height_increased ? bottomPasses + 1 : 0;
-    if (bottomPasses >= 2) break;
+    if (bottomPasses >= bottomPassCount) { stopReason = 'stable_bottom_passes'; break; }
+    if (budgetExhausted) break;
   }
-  const beforeReturn = await page.evaluate(() => ({ final_scroll_y: scrollY, final_height: Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0) }));
+  // Phase B: always spend the reserved bounded window at the current/new bottom.
+  const finalStarted = Date.now();
+  const mayFinalSettle = samples.some(sample => sample.bottom_candidate || sample.scroll_y + sample.viewport_height >= sample.height_after - heightTolerancePx);
+  if (mayFinalSettle) { await beginFinalStabilityWindow(page); bottomPasses = 0; }
+  let finalStableSamples = 0, finalFingerprintChanged = false, finalHeightChanged = false, finalRelevantImageStateChanged = false, finalPrevious = null; const finalTimeline = [];
+  while (mayFinalSettle && Date.now() - finalStarted < reserve && Date.now() - started < totalBudgetMs && bottomPasses < bottomPassCount) {
+    const step = await page.evaluate(tolerance => { const h = Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0); const max = Math.max(0, h - innerHeight); window.scrollTo({ top: max, left: 0, behavior: 'instant' }); return { scroll_y: scrollY, height: h, viewport_height: innerHeight, tolerance }; }, heightTolerancePx);
+    await page.waitForTimeout(pause);
+    const before = await renderState(page); const beforeFinalMutations = (await renderDiagnosticsSnapshot(page)).final_window?.material_mutations ?? 0;
+    await waitForRenderAssets(page, Math.min(500, Math.max(100, reserve - (Date.now() - finalStarted))));
+    const after = await renderState(page); const afterFinalMutations = (await renderDiagnosticsSnapshot(page)).final_window?.material_mutations ?? 0;
+    const atBottom = step.scroll_y + step.viewport_height >= after.dimensions.scroll_height - heightTolerancePx;
+    const relevantPending = after.images.filter(i => !i.complete && i.material).length;
+    const fingerprint = [Math.round(after.dimensions.scroll_height / Math.max(1, heightTolerancePx)), after.images.filter(i => i.complete && !i.failed).length, relevantPending, after.resources.length, after.reveal_markers].join(':');
+    const fingerprintChangedThisSample = finalPrevious !== null && finalPrevious !== fingerprint;
+    finalFingerprintChanged ||= fingerprintChangedThisSample;
+    finalHeightChanged ||= Math.abs(after.dimensions.scroll_height - before.dimensions.scroll_height) > heightTolerancePx;
+    finalRelevantImageStateChanged ||= before.images.filter(i => !i.complete && i.material).length !== relevantPending;
+    // Mutation activity remains diagnostic evidence. Final convergence is
+    // determined by the resulting audit-material state after the dwell, not
+    // by event silence: reveal/content/image/layout changes still alter one
+    // of the substantive state dimensions below.
+    const stable = Math.abs(after.dimensions.scroll_height - before.dimensions.scroll_height) <= heightTolerancePx && relevantPending === 0 && !fingerprintChangedThisSample;
+    const stableBefore = finalStableSamples; const reset_reasons = [];
+    const mutation_activity_observed = afterFinalMutations !== beforeFinalMutations;
+    if (fingerprintChangedThisSample) reset_reasons.push('fingerprint_changed');
+    if (Math.abs(after.dimensions.scroll_height - before.dimensions.scroll_height) > heightTolerancePx) reset_reasons.push('height_changed');
+    if (before.images.filter(i => !i.complete && i.material).length !== relevantPending) reset_reasons.push('relevant_image_state_changed');
+    finalStableSamples = stable ? finalStableSamples + 1 : 0;
+    finalPrevious = fingerprint;
+    if (finalTimeline.length < 30) finalTimeline.push({ relative_ms: Date.now() - finalStarted, fingerprint, fingerprint_changed: reset_reasons.includes('fingerprint_changed'), document_height: after.dimensions.scroll_height, height_changed: reset_reasons.includes('height_changed'), relevant_image_state: relevantPending, relevant_image_state_changed: reset_reasons.includes('relevant_image_state_changed'), material_mutation_delta: afterFinalMutations - beforeFinalMutations, mutation_activity_observed, noise_mutation_delta: ((await renderDiagnosticsSnapshot(page)).final_window?.noise_mutations ?? 0), stable, stable_counter_before: stableBefore, stable_counter_after: finalStableSamples, reset_reasons });
+    bottomPasses = atBottom && stable ? bottomPasses + 1 : 0;
+  }
+  if (Date.now() - started >= totalBudgetMs) { budgetExhausted = true; if (stopReason === 'iteration_cap') stopReason = 'total_budget'; }
+  const beforeReturn = await page.evaluate(() => { const final_height = Math.max(document.documentElement.scrollHeight, document.body?.scrollHeight || 0); return { final_scroll_y: scrollY, final_height, viewport_height: innerHeight, max_scroll_y: Math.max(0, final_height - innerHeight), remaining_pixels: Math.max(0, final_height - innerHeight - scrollY) }; });
+  const finalMutationDiagnostics = await renderDiagnosticsSnapshot(page);
   await page.evaluate(() => window.scrollTo({ top: 0, left: 0, behavior: 'instant' }));
   await page.waitForTimeout(pause);
   return {
@@ -280,11 +420,23 @@ export async function scrollForRender(page, { pauseMs = 180, maxIterations = 80 
     action: 'incremental read-only scroll for render stabilization',
     iterations: samples.length,
     max_iterations: limit,
-    reached_bottom: samples.some(sample => sample.scroll_y + sample.viewport_height >= sample.height_after - 2),
+    reached_bottom: bottomPasses >= bottomPassCount || samples.some(sample => sample.scroll_y + sample.viewport_height >= sample.height_after - heightTolerancePx),
     height_increased: samples.some(sample => sample.height_increased),
     initial_height: samples[0]?.height_before ?? beforeReturn.final_height,
     final_height: beforeReturn.final_height,
     returned_to_top: await page.evaluate(() => scrollY === 0),
+    budget_exhausted: budgetExhausted,
+    total_budget_ms: totalBudgetMs,
+    progressive_budget_cap_ms: progressiveCap,
+    final_settle_reserve_ms: reserve,
+    final_settle_elapsed_ms: Date.now() - finalStarted,
+    bottom_passes: bottomPasses,
+    bottom_pass_count_required: bottomPassCount,
+    height_tolerance_px: heightTolerancePx,
+    stop_reason: stopReason,
+    final_position: beforeReturn,
+    mutation_diagnostics: finalMutationDiagnostics,
+    final_stability: { historical_material_mutations: finalMutationDiagnostics.relevant_mutations, historical_noise_mutations: finalMutationDiagnostics.noise_mutations, final_window_material_mutations: finalMutationDiagnostics.final_window?.material_mutations ?? null, final_window_noise_mutations: finalMutationDiagnostics.final_window?.noise_mutations ?? null, final_mutation_signatures: Object.values(finalMutationDiagnostics.final_window?.signatures || {}).sort((a, b) => b.count - a.count).slice(0, 25), final_sample_timeline: finalTimeline, final_stable_samples: finalStableSamples, required_final_stable_samples: bottomPassCount, final_fingerprint_changed: finalFingerprintChanged, final_height_changed: finalHeightChanged, final_relevant_image_state_changed: finalRelevantImageStateChanged },
     samples
   };
 }
@@ -438,7 +590,7 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
       let loadTimedOut = false;
       await page.waitForLoadState('load', { timeout: loadTimeout }).catch(() => { loadTimedOut = true; });
       await page.waitForTimeout(Math.max(0, Math.min(5_000, Number(config.settleMs ?? 500))));
-      const initialAssets = await waitForRenderAssets(page, Number(config.renderAssetTimeoutMs ?? 8_000));
+      const initialAssets = await waitForRenderAssets(page, Number(config.initialRenderTimeoutMs ?? config.renderAssetTimeoutMs ?? 8_000));
       const beforeScroll = await renderState(page);
       const capture = async (phase, mode, animationMode, extra = {}) => {
         const screenshotPath = `evidence/screenshots/${key}.${name}.${revision}.${phase}.${mode}.png`;
@@ -456,11 +608,23 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
           return null;
         }
       };
-      await capture('initial', 'viewport', 'allow', { asset_wait_timed_out: initialAssets.timed_out });
-      await capture('initial', 'full', 'allow', { asset_wait_timed_out: initialAssets.timed_out });
+      await capture('initial', 'viewport', 'allow', { capture_phase: 'first_viewport', asset_wait_timed_out: initialAssets.timed_out });
+      await capture('initial', 'full', 'allow', { capture_phase: 'first_viewport', asset_wait_timed_out: initialAssets.timed_out });
+      // This is deliberately measured before synthetic scrolling. It remains
+      // LAB evidence and is not presented as field performance.
+      const performance = await performanceState(page, network);
+      const perfPath = `evidence/lighthouse/${key}.${name}.${revision}.lab.json`;
+      performance.capture_phase = 'performance_clean_load';
+      performance.synthetic_scroll_before_measurement = false;
+      await artifact(runDir, perfPath, JSON.stringify(performance, null, 2));
+      add('performance', 'lab_metrics', name, perfPath, { capture_phase: 'performance_clean_load', synthetic_scroll_before_measurement: false, lcp_ms: performance.lcp_ms, cls: performance.cls, ttfb_ms: performance.ttfb_ms, inp: null, field_available: false, lighthouse_scores_available: false });
       const scroll = await scrollForRender(page, {
         pauseMs: Number(config.scrollPauseMs ?? 180),
-        maxIterations: Number(config.maxScrollIterations ?? 80)
+        maxIterations: Number(config.maxScrollIterations ?? 80), totalBudgetMs: Number(config.totalRenderBudgetMs ?? 30_000),
+        stabilitySampleMs: Number(config.stabilitySampleMs ?? 180), stabilityConsecutiveSamples: Number(config.stabilityConsecutiveSamples ?? 3),
+        stepStabilityTimeoutMs: Number(config.stepStabilityTimeoutMs ?? 3_000), stepRatio: Number(config.scrollStepRatio ?? .8),
+        progressiveBudgetFraction: Number(config.progressiveRenderBudgetFraction ?? .6), finalSettleReserveMs: Number(config.finalSettleReserveMs ?? 9_000),
+        bottomPassCount: Number(config.bottomPassCount ?? 3), heightTolerancePx: Number(config.heightTolerancePx ?? 2)
       });
       const postScrollAssets = await waitForRenderAssets(page, Number(config.renderAssetTimeoutMs ?? 8_000));
       const animations = await waitForAnimations(page, Number(config.animationSettleTimeoutMs ?? 2_500));
@@ -473,6 +637,29 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
         images: postScrollAssets.images.failed,
         pending_images: postScrollAssets.images.pending
       };
+      const imageStateTransitions = afterScroll.images.map(image => {
+        const before = beforeScroll.images.find(candidate => candidate.identity === image.identity);
+        const states = [];
+        if (!before) states.push('discovered_after_scroll');
+        const beforePending = before && (!before.complete || (!before.src && Boolean(before.data_src || before.data_srcset)));
+        if (beforePending && image.complete && !image.failed) states.push('pending_to_loaded');
+        if (beforePending && image.failed) states.push('pending_to_failed');
+        if (before && before.src !== image.src) states.push('src_changed');
+        if (image.visible) states.push('visible'); else if (image.near_viewport) states.push('near_viewport'); else states.push('offscreen_or_unknown');
+        return { identity: image.identity, transitions: states.length ? states : ['present_unchanged'], final: image };
+      });
+      const relevantPendingImages = afterScroll.images.filter(image => !image.complete && image.material);
+      // A decoded failure with a concrete rendered box is material even if we
+      // have returned to the top for the final capture; the compact step
+      // diagnostics retain whether it was visible during traversal.
+      const visibleFailedAssets = afterScroll.images.filter(image => image.failed && image.rect.width > 1 && image.rect.height > 1 && Boolean(image.src || image.declared_src)).map(image => ({ url: image.src || image.declared_src || image.data_src, tag: 'img', natural_width: image.natural_width, natural_height: image.natural_height, rect: image.rect, alt: image.identity.split(':')[2] || null, materiality: image.visible ? 'visible' : 'traversed_or_unknown', context: image.visible ? 'viewport_intersection' : 'rendered_box_with_concrete_source' }));
+      const visibleFailedImages = visibleFailedAssets.length;
+      const renderReasonCodes = [];
+      if (scroll.budget_exhausted) renderReasonCodes.push('render_partial_budget_exhausted');
+      if (!scroll.reached_bottom) renderReasonCodes.push('render_partial_bottom_not_reached');
+      if (scroll.reached_bottom && (scroll.final_stability.final_stable_samples < scroll.final_stability.required_final_stable_samples || scroll.final_stability.final_fingerprint_changed || scroll.final_stability.final_height_changed || scroll.final_stability.final_relevant_image_state_changed)) renderReasonCodes.push('render_partial_unstable_dom');
+      if (relevantPendingImages.length) renderReasonCodes.push('render_partial_lazy_timeout');
+      if (visibleFailedImages) renderReasonCodes.push('render_partial_visible_asset_failure');
       const stabilization = {
         version: RENDER_COLLECTION_VERSION,
         audit_induced_scroll: true,
@@ -484,10 +671,21 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
         animations: { ...animations, deterministic_freeze_applied_for_final_capture: animationFreezeApplied, freeze: animationFreeze },
         before_scroll: beforeScroll,
         after_scroll: afterScroll,
+        image_diagnostics: {
+          images_declared_at_start: beforeScroll.images.length,
+          images_discovered_after_start: Math.max(0, afterScroll.images.length - beforeScroll.images.length),
+          image_state_transitions: imageStateTransitions,
+          pending_visible: relevantPendingImages.filter(image => image.visible).length,
+          pending_near_viewport: relevantPendingImages.filter(image => image.near_viewport).length,
+          pending_offscreen_or_unknown: afterScroll.images.filter(image => !image.complete && !image.material).length
+        },
+        failed_visible_assets: visibleFailedAssets,
         failed_resources: renderFailures,
         decode_failures: decodeFailures,
         final_capture_after_stabilization: true,
-        render_complete: !loadTimedOut && !initialAssets.timed_out && !postScrollAssets.timed_out && scroll.reached_bottom && renderFailures.length === 0 && decodeFailures.fonts === 0 && decodeFailures.images === 0 && decodeFailures.pending_images === 0
+        resource_health: { failed_resources: renderFailures.length, failed_images: decodeFailures.images, failed_fonts: decodeFailures.fonts, pending_images: decodeFailures.pending_images, relevant_pending_images: relevantPendingImages.length, visible_failed_images: visibleFailedImages },
+        render_reason_codes: renderReasonCodes.length ? renderReasonCodes : ['render_complete'],
+        render_complete: renderReasonCodes.length === 0
       };
       const stabilizationPath = `evidence/render/${key}.${name}.${revision}.json`;
       await artifact(runDir, stabilizationPath, JSON.stringify(stabilization, null, 2));
@@ -503,7 +701,7 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
         scroll_height_before: scroll.initial_height,
         scroll_height_after: scroll.final_height,
         scroll_height_increased: scroll.height_increased,
-        animation_freeze_applied: animationFreezeApplied
+        animation_freeze_applied: animationFreezeApplied, render_reason_codes: stabilization.render_reason_codes, resource_health: stabilization.resource_health
       });
       const rendered = await page.content();
       const renderedPath = `evidence/html/${key}.${name}.${revision}.rendered.html`;
@@ -524,8 +722,8 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
       const trackingPath = `evidence/analytics/${key}.${name}.${revision}.json`;
       await artifact(runDir, trackingPath, JSON.stringify(tracking, null, 2));
       add('analytics', 'tracking_signals', name, trackingPath, { gtm: tracking.gtm_script_urls.length, ga4_requests_blocked: tracking.ga4_request_urls.length, data_layer_present: tracking.data_layer_present });
-      await capture('stabilized', 'viewport', 'allow', { stabilization_evidence_id: stabilizationEvidence.evidence_id, animation_freeze_applied: animationFreezeApplied, animation_freeze_method: animationFreeze.method });
-      await capture('stabilized', 'full', 'allow', { stabilization_evidence_id: stabilizationEvidence.evidence_id, animation_freeze_applied: animationFreezeApplied, animation_freeze_method: animationFreeze.method });
+      await capture('stabilized', 'viewport', 'allow', { capture_phase: 'scroll_stabilized', stabilization_evidence_id: stabilizationEvidence.evidence_id, animation_freeze_applied: animationFreezeApplied, animation_freeze_method: animationFreeze.method });
+      await capture('stabilized', 'full', 'allow', { capture_phase: 'scroll_stabilized', stabilization_evidence_id: stabilizationEvidence.evidence_id, animation_freeze_applied: animationFreezeApplied, animation_freeze_method: animationFreeze.method });
       let accessibility;
       try {
         await page.addScriptTag({ content: axe.source });
@@ -534,10 +732,6 @@ export async function collectPage({ browser, pageInfo, runDir, target, config = 
       const axePath = `evidence/accessibility/${key}.${name}.${revision}.json`;
       await artifact(runDir, axePath, JSON.stringify(accessibility, null, 2));
       add('axe', 'accessibility', name, axePath, { violations: accessibility.violations?.length ?? null, unavailable: accessibility.unavailable ?? false });
-      const performance = await performanceState(page, network);
-      const perfPath = `evidence/lighthouse/${key}.${name}.${revision}.lab.json`;
-      await artifact(runDir, perfPath, JSON.stringify(performance, null, 2));
-      add('performance', 'lab_metrics', name, perfPath, { lcp_ms: performance.lcp_ms, cls: performance.cls, ttfb_ms: performance.ttfb_ms, inp: null, field_available: false, lighthouse_scores_available: false });
       browserResults[name] = {
         status: response?.status() ?? null, final_url: page.url(), title: seo.title,
         lcp_ms: performance.lcp_ms, cls: performance.cls,

@@ -1,0 +1,53 @@
+{"RUN_ID":"20260928T161550Z-full-audit","runDir":"D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\runs\\20260928T161550Z-full-audit","mode":"full"}
+[site-audit] Collecting 1/25: https://addp.vn/
+[site-audit] 1/25 complete: https://addp.vn/ (33 evidence)
+[site-audit] Collecting 2/25: https://addp.vn/benh-ly
+[site-audit] 2/25 complete: https://addp.vn/benh-ly (63 evidence)
+[site-audit] Collecting 3/25: https://addp.vn/blog/category/suc-khoe-tieu-duong
+[site-audit] 3/25 partial: https://addp.vn/blog/category/suc-khoe-tieu-duong (93 evidence)
+[site-audit] Collecting 4/25: https://addp.vn/chinh-sach-dat-hang
+[site-audit] 4/25 partial: https://addp.vn/chinh-sach-dat-hang (123 evidence)
+[site-audit] Collecting 5/25: https://addp.vn/contact
+[site-audit] 5/25 partial: https://addp.vn/contact (153 evidence)
+[site-audit] Collecting 6/25: https://addp.vn/gioi-thieu
+[site-audit] 6/25 partial: https://addp.vn/gioi-thieu (183 evidence)
+[site-audit] Collecting 7/25: https://addp.vn/sua-hat-glucare-plus
+[site-audit] 7/25 complete: https://addp.vn/sua-hat-glucare-plus (213 evidence)
+[site-audit] Collecting 8/25: https://addp.vn/catalogsearch/advanced/
+[site-audit] 8/25 partial: https://addp.vn/catalogsearch/advanced/ (243 evidence)
+[site-audit] Collecting 9/25: https://addp.vn/chinh-sach-doi-tra-va-hoan-tien
+[site-audit] 9/25 complete: https://addp.vn/chinh-sach-doi-tra-va-hoan-tien (273 evidence)
+[site-audit] Collecting 10/25: https://addp.vn/chinh-sach-thanh-toan
+[site-audit] 10/25 partial: https://addp.vn/chinh-sach-thanh-toan (303 evidence)
+[site-audit] Collecting 11/25: https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan
+[site-audit] 11/25 complete: https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan (333 evidence)
+[site-audit] Collecting 12/25: https://addp.vn/contact/
+[site-audit] 12/25 partial: https://addp.vn/contact/ (363 evidence)
+[site-audit] Collecting 13/25: https://addp.vn/gioi-thieu/
+[site-audit] 13/25 partial: https://addp.vn/gioi-thieu/ (393 evidence)
+[site-audit] Collecting 14/25: https://addp.vn/sua-dinh-duong.html
+[site-audit] 14/25 complete: https://addp.vn/sua-dinh-duong.html (423 evidence)
+[site-audit] Collecting 15/25: https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html
+[site-audit] 15/25 partial: https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html (453 evidence)
+[site-audit] Collecting 16/25: https://addp.vn/sua-dinh-duong/sua-tre-em.html
+[site-audit] 16/25 complete: https://addp.vn/sua-dinh-duong/sua-tre-em.html (483 evidence)
+[site-audit] Collecting 17/25: https://addp.vn/sui-dovital
+[site-audit] 17/25 partial: https://addp.vn/sui-dovital (513 evidence)
+[site-audit] Collecting 18/25: https://addp.vn/thiet-bi-y-te.html
+[site-audit] 18/25 complete: https://addp.vn/thiet-bi-y-te.html (543 evidence)
+[site-audit] Collecting 19/25: https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html
+[site-audit] 19/25 complete: https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html (573 evidence)
+[site-audit] Collecting 20/25: https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html
+[site-audit] 20/25 complete: https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html (603 evidence)
+[site-audit] Collecting 21/25: https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html
+[site-audit] 21/25 complete: https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html (633 evidence)
+[site-audit] Collecting 22/25: https://addp.vn/thiet-bi-y-te/khau-trang.html
+[site-audit] 22/25 complete: https://addp.vn/thiet-bi-y-te/khau-trang.html (663 evidence)
+[site-audit] Collecting 23/25: https://addp.vn/thuc-pham-chuc-nang.html
+[site-audit] 23/25 partial: https://addp.vn/thuc-pham-chuc-nang.html (693 evidence)
+[site-audit] Collecting 24/25: https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html
+[site-audit] 24/25 complete: https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html (723 evidence)
+[site-audit] Collecting 25/25: https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html
+[site-audit] 25/25 partial: https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html (753 evidence)
+Agent packets ready; live Codex multi-agent execution required. This message is not an analysis-complete claim.
+Status: awaiting live agent stages. Current session continues automatically through personas, specialists, technical diagnosis, reviewers and planner.

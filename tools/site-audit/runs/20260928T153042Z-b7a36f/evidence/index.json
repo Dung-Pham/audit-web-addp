@@ -1,0 +1,1159 @@
+[
+  {
+    "evidence_id": "EVD-80DB3C701FE061F9",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "raw-http",
+    "type": "raw_html",
+    "viewport": null,
+    "artifact": "evidence/html/e4e0c9a45799894e.render-stabilized-v3_2.raw.html",
+    "raw_fact": {
+      "status": 200,
+      "final_url": "https://addp.vn/",
+      "bytes": 169472,
+      "redirects": [],
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:30:45.262Z"
+  },
+  {
+    "evidence_id": "EVD-88DD509F3586ACF5",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "raw_seo",
+    "viewport": null,
+    "artifact": "evidence/seo/e4e0c9a45799894e.render-stabilized-v3_2.raw.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "canonical": "https://addp.vn/",
+      "robots_meta": "INDEX,FOLLOW",
+      "x_robots_tag": null,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:30:45.346Z"
+  },
+  {
+    "evidence_id": "EVD-43FB9DEFD6EDE605",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v3_2.initial.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:05.107Z"
+  },
+  {
+    "evidence_id": "EVD-49A5344C4B6C5FED",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v3_2.initial.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:05.871Z"
+  },
+  {
+    "evidence_id": "EVD-85956D06B433ABCA",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "desktop",
+    "artifact": "evidence/lighthouse/e4e0c9a45799894e.desktop.render-stabilized-v3_2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "synthetic_scroll_before_measurement": false,
+      "lcp_ms": 17788,
+      "cls": 0.165148603477949,
+      "ttfb_ms": 6070.200000017881,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:05.906Z"
+  },
+  {
+    "evidence_id": "EVD-E3461AC4808842D8",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "desktop",
+    "artifact": "evidence/render/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "render_complete": true,
+      "load_timed_out": false,
+      "asset_wait_timed_out": false,
+      "failed_resources": 2,
+      "font_decode_failures": 0,
+      "image_decode_failures": 2,
+      "pending_images": 0,
+      "scroll_iterations": 7,
+      "scroll_height_before": 4971,
+      "scroll_height_after": 4971,
+      "scroll_height_increased": false,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_complete"
+      ],
+      "resource_health": {
+        "failed_resources": 2,
+        "failed_images": 2,
+        "failed_fonts": 0,
+        "pending_images": 0,
+        "relevant_pending_images": 0,
+        "visible_failed_images": 0
+      },
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.456Z"
+  },
+  {
+    "evidence_id": "EVD-A606C27223349F8A",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "desktop",
+    "artifact": "evidence/html/e4e0c9a45799894e.desktop.render-stabilized-v3_2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/",
+      "status": 200,
+      "bytes": 238980,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.472Z"
+  },
+  {
+    "evidence_id": "EVD-A81704E1324D31CC",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "desktop",
+    "artifact": "evidence/seo/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "headings": 5,
+      "links": 308,
+      "images": 20,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.538Z"
+  },
+  {
+    "evidence_id": "EVD-32CB6452441EDF9E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "desktop",
+    "artifact": "evidence/schema/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.540Z"
+  },
+  {
+    "evidence_id": "EVD-AEE314AA3F7151E7",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "desktop",
+    "artifact": "evidence/dom/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "links": 318,
+      "buttons": 10,
+      "forms": 4,
+      "visible_text_length": 3402,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.673Z"
+  },
+  {
+    "evidence_id": "EVD-DBF33A19881A487E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "desktop",
+    "artifact": "evidence/analytics/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.675Z"
+  },
+  {
+    "evidence_id": "EVD-8C749E8D6F00DF83",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v3_2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:14.792Z"
+  },
+  {
+    "evidence_id": "EVD-702877ACD4E72E55",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.desktop.render-stabilized-v3_2.stabilized.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-E3461AC4808842D8",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:15.651Z"
+  },
+  {
+    "evidence_id": "EVD-6E93B5B6099AB8DE",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "desktop",
+    "artifact": "evidence/accessibility/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "violations": 4,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:21.606Z"
+  },
+  {
+    "evidence_id": "EVD-D180D4E34ABF95BC",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "desktop",
+    "artifact": "evidence/network/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "events": 281,
+      "audit_blocked": 12,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:21.620Z"
+  },
+  {
+    "evidence_id": "EVD-60CBF75CE8FE2864",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "desktop",
+    "artifact": "evidence/console/e4e0c9a45799894e.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "errors": 23,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:21.620Z"
+  },
+  {
+    "evidence_id": "EVD-9B3746A447795E5D",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v3_2.initial.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:41.452Z"
+  },
+  {
+    "evidence_id": "EVD-90A6A817C6116577",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v3_2.initial.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:41.713Z"
+  },
+  {
+    "evidence_id": "EVD-3D15DCDB359887BF",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "mobile",
+    "artifact": "evidence/lighthouse/e4e0c9a45799894e.mobile.render-stabilized-v3_2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "synthetic_scroll_before_measurement": false,
+      "lcp_ms": 19712,
+      "cls": 0.13613555053463677,
+      "ttfb_ms": 5976.5999999940395,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:41.732Z"
+  },
+  {
+    "evidence_id": "EVD-593BA7163638B99D",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "mobile",
+    "artifact": "evidence/render/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "render_complete": true,
+      "load_timed_out": false,
+      "asset_wait_timed_out": false,
+      "failed_resources": 2,
+      "font_decode_failures": 0,
+      "image_decode_failures": 2,
+      "pending_images": 0,
+      "scroll_iterations": 10,
+      "scroll_height_before": 5768,
+      "scroll_height_after": 5767,
+      "scroll_height_increased": false,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_complete"
+      ],
+      "resource_health": {
+        "failed_resources": 2,
+        "failed_images": 2,
+        "failed_fonts": 0,
+        "pending_images": 0,
+        "relevant_pending_images": 0,
+        "visible_failed_images": 0
+      },
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:53.894Z"
+  },
+  {
+    "evidence_id": "EVD-0B1AEB9BA55C2F0C",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "mobile",
+    "artifact": "evidence/html/e4e0c9a45799894e.mobile.render-stabilized-v3_2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/",
+      "status": 200,
+      "bytes": 239139,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:53.920Z"
+  },
+  {
+    "evidence_id": "EVD-AEED7CD9E819A9C7",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "mobile",
+    "artifact": "evidence/seo/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+      "headings": 5,
+      "links": 308,
+      "images": 20,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:53.952Z"
+  },
+  {
+    "evidence_id": "EVD-C16C9A26189A6C8E",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "mobile",
+    "artifact": "evidence/schema/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:53.954Z"
+  },
+  {
+    "evidence_id": "EVD-2CA66D18158349D8",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "mobile",
+    "artifact": "evidence/dom/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "links": 318,
+      "buttons": 10,
+      "forms": 4,
+      "visible_text_length": 3141,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:54.072Z"
+  },
+  {
+    "evidence_id": "EVD-04B228A36544C865",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "mobile",
+    "artifact": "evidence/analytics/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:54.084Z"
+  },
+  {
+    "evidence_id": "EVD-4256DF417284230A",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v3_2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:54.138Z"
+  },
+  {
+    "evidence_id": "EVD-92E0841363C85BA1",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v3_2.stabilized.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-593BA7163638B99D",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:31:54.472Z"
+  },
+  {
+    "evidence_id": "EVD-3425B7ADB4DE40C6",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "mobile",
+    "artifact": "evidence/accessibility/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "violations": 5,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:00.208Z"
+  },
+  {
+    "evidence_id": "EVD-0A4B53A36849E3DA",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "mobile",
+    "artifact": "evidence/network/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "events": 281,
+      "audit_blocked": 12,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:00.211Z"
+  },
+  {
+    "evidence_id": "EVD-8C7E9CF272FB4245",
+    "url": "https://addp.vn/",
+    "page_type": "homepage",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "mobile",
+    "artifact": "evidence/console/e4e0c9a45799894e.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "errors": 23,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:00.211Z"
+  },
+  {
+    "evidence_id": "EVD-42AE297DAC33A1B9",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "raw-http",
+    "type": "raw_html",
+    "viewport": null,
+    "artifact": "evidence/html/ebd40bf592e2f9a7.render-stabilized-v3_2.raw.html",
+    "raw_fact": {
+      "status": 200,
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "bytes": 336528,
+      "redirects": [],
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:01.925Z"
+  },
+  {
+    "evidence_id": "EVD-1753B10CEB844A9E",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "seo",
+    "type": "raw_seo",
+    "viewport": null,
+    "artifact": "evidence/seo/ebd40bf592e2f9a7.render-stabilized-v3_2.raw.json",
+    "raw_fact": {
+      "title": "Sữa hạt Glucare",
+      "canonical": "https://addp.vn/sua-hat-glucare-plus",
+      "robots_meta": "INDEX,FOLLOW",
+      "x_robots_tag": null,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:01.959Z"
+  },
+  {
+    "evidence_id": "EVD-FB24D9B8334093C4",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.initial.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:22.593Z"
+  },
+  {
+    "evidence_id": "EVD-6F7194C1DA51041E",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.initial.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:23.616Z"
+  },
+  {
+    "evidence_id": "EVD-9F9FDDCFDF43F393",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "desktop",
+    "artifact": "evidence/lighthouse/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "synthetic_scroll_before_measurement": false,
+      "lcp_ms": 20740,
+      "cls": 0.16579612388328271,
+      "ttfb_ms": 5876.4000000059605,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:23.649Z"
+  },
+  {
+    "evidence_id": "EVD-64D373C3AF06867B",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "desktop",
+    "artifact": "evidence/render/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "render_complete": true,
+      "load_timed_out": false,
+      "asset_wait_timed_out": false,
+      "failed_resources": 3,
+      "font_decode_failures": 0,
+      "image_decode_failures": 2,
+      "pending_images": 8,
+      "scroll_iterations": 10,
+      "scroll_height_before": 6934,
+      "scroll_height_after": 6934,
+      "scroll_height_increased": false,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_complete"
+      ],
+      "resource_health": {
+        "failed_resources": 3,
+        "failed_images": 2,
+        "failed_fonts": 0,
+        "pending_images": 8,
+        "relevant_pending_images": 0,
+        "visible_failed_images": 0
+      },
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.383Z"
+  },
+  {
+    "evidence_id": "EVD-689120860F2FACA2",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "desktop",
+    "artifact": "evidence/html/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "status": 200,
+      "bytes": 412114,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-64D373C3AF06867B",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.407Z"
+  },
+  {
+    "evidence_id": "EVD-D1249648026B4D96",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "desktop",
+    "artifact": "evidence/seo/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "title": "Sữa hạt Glucare",
+      "headings": 39,
+      "links": 344,
+      "images": 26,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.519Z"
+  },
+  {
+    "evidence_id": "EVD-80257931D1966034",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "desktop",
+    "artifact": "evidence/schema/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.520Z"
+  },
+  {
+    "evidence_id": "EVD-DF63C483FC434445",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "desktop",
+    "artifact": "evidence/dom/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "links": 355,
+      "buttons": 29,
+      "forms": 20,
+      "visible_text_length": 5471,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.697Z"
+  },
+  {
+    "evidence_id": "EVD-97810824842F6F36",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "desktop",
+    "artifact": "evidence/analytics/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.699Z"
+  },
+  {
+    "evidence_id": "EVD-C86C629E938B1E14",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-64D373C3AF06867B",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:38.939Z"
+  },
+  {
+    "evidence_id": "EVD-EA78205F3017C505",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "desktop",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.stabilized.full.png",
+    "raw_fact": {
+      "width": 1440,
+      "height": 1000,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-64D373C3AF06867B",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:39.828Z"
+  },
+  {
+    "evidence_id": "EVD-4D473131699530B4",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "desktop",
+    "artifact": "evidence/accessibility/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "violations": 6,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:45.761Z"
+  },
+  {
+    "evidence_id": "EVD-15BC6493711E3B3E",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "desktop",
+    "artifact": "evidence/network/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "events": 290,
+      "audit_blocked": 10,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:45.775Z"
+  },
+  {
+    "evidence_id": "EVD-3E33A81616F1E834",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "desktop",
+    "artifact": "evidence/console/ebd40bf592e2f9a7.desktop.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "errors": 23,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:32:45.775Z"
+  },
+  {
+    "evidence_id": "EVD-F65D8AFB77A88775",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "initial_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.initial.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:06.509Z"
+  },
+  {
+    "evidence_id": "EVD-9AD93BA7577712EC",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "initial_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.initial.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "initial",
+      "audit_induced_scroll": false,
+      "animation_mode": "allow",
+      "captured_after_stabilization": false,
+      "capture_phase": "first_viewport",
+      "asset_wait_timed_out": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:06.900Z"
+  },
+  {
+    "evidence_id": "EVD-1FE036CF43DBF534",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "performance",
+    "type": "lab_metrics",
+    "viewport": "mobile",
+    "artifact": "evidence/lighthouse/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.lab.json",
+    "raw_fact": {
+      "capture_phase": "performance_clean_load",
+      "synthetic_scroll_before_measurement": false,
+      "lcp_ms": 13276,
+      "cls": 0.031606942083836756,
+      "ttfb_ms": 5943,
+      "inp": null,
+      "field_available": false,
+      "lighthouse_scores_available": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:06.929Z"
+  },
+  {
+    "evidence_id": "EVD-EBDFC0DBD50D3635",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "browser",
+    "type": "render_stabilization",
+    "viewport": "mobile",
+    "artifact": "evidence/render/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "render_complete": false,
+      "load_timed_out": false,
+      "asset_wait_timed_out": false,
+      "failed_resources": 3,
+      "font_decode_failures": 0,
+      "image_decode_failures": 2,
+      "pending_images": 13,
+      "scroll_iterations": 17,
+      "scroll_height_before": 10681,
+      "scroll_height_after": 10680,
+      "scroll_height_increased": false,
+      "animation_freeze_applied": true,
+      "render_reason_codes": [
+        "render_partial_budget_exhausted",
+        "render_partial_unstable_dom"
+      ],
+      "resource_health": {
+        "failed_resources": 3,
+        "failed_images": 2,
+        "failed_fonts": 0,
+        "pending_images": 13,
+        "relevant_pending_images": 0,
+        "visible_failed_images": 0
+      },
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.109Z"
+  },
+  {
+    "evidence_id": "EVD-AADDB45759F67004",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "browser",
+    "type": "rendered_html",
+    "viewport": "mobile",
+    "artifact": "evidence/html/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.rendered.html",
+    "raw_fact": {
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "status": 200,
+      "bytes": 471696,
+      "phase": "stabilized",
+      "stabilization_evidence_id": "EVD-EBDFC0DBD50D3635",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.140Z"
+  },
+  {
+    "evidence_id": "EVD-1BA12AFB05B5BD13",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "seo",
+    "type": "rendered_seo",
+    "viewport": "mobile",
+    "artifact": "evidence/seo/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "title": "Sữa hạt Glucare",
+      "headings": 39,
+      "links": 398,
+      "images": 44,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.308Z"
+  },
+  {
+    "evidence_id": "EVD-5DEB9224EB2D897C",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "structured-data",
+    "type": "jsonld",
+    "viewport": "mobile",
+    "artifact": "evidence/schema/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "valid": 0,
+      "invalid": 0,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.309Z"
+  },
+  {
+    "evidence_id": "EVD-733F5C04719022AE",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "dom",
+    "type": "visible_controls",
+    "viewport": "mobile",
+    "artifact": "evidence/dom/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "links": 409,
+      "buttons": 53,
+      "forms": 38,
+      "visible_text_length": 5496,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.579Z"
+  },
+  {
+    "evidence_id": "EVD-6F5D373CB335C509",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "analytics",
+    "type": "tracking_signals",
+    "viewport": "mobile",
+    "artifact": "evidence/analytics/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "gtm": 0,
+      "ga4_requests_blocked": 0,
+      "data_layer_present": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.581Z"
+  },
+  {
+    "evidence_id": "EVD-E178F1827F773846",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "stabilized_viewport_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.stabilized.viewport.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-EBDFC0DBD50D3635",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.677Z"
+  },
+  {
+    "evidence_id": "EVD-0581A36B72F4A783",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "screenshot",
+    "type": "stabilized_full_screenshot",
+    "viewport": "mobile",
+    "artifact": "evidence/screenshots/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.stabilized.full.png",
+    "raw_fact": {
+      "width": 390,
+      "height": 844,
+      "phase": "stabilized",
+      "audit_induced_scroll": true,
+      "animation_mode": "allow",
+      "captured_after_stabilization": true,
+      "capture_phase": "scroll_stabilized",
+      "stabilization_evidence_id": "EVD-EBDFC0DBD50D3635",
+      "animation_freeze_applied": true,
+      "animation_freeze_method": "Web Animations API pause at current time",
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:39.989Z"
+  },
+  {
+    "evidence_id": "EVD-238D776F29EAE37D",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "axe",
+    "type": "accessibility",
+    "viewport": "mobile",
+    "artifact": "evidence/accessibility/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "violations": 8,
+      "unavailable": false,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:45.985Z"
+  },
+  {
+    "evidence_id": "EVD-5B64268901E5FAFD",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "network",
+    "type": "network_log",
+    "viewport": "mobile",
+    "artifact": "evidence/network/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "events": 291,
+      "audit_blocked": 10,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:45.990Z"
+  },
+  {
+    "evidence_id": "EVD-90496E03399113B9",
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "collector": "console",
+    "type": "console_log",
+    "viewport": "mobile",
+    "artifact": "evidence/console/ebd40bf592e2f9a7.mobile.render-stabilized-v3_2.json",
+    "raw_fact": {
+      "errors": 23,
+      "render_collection_version": "render-stabilized-v3.2"
+    },
+    "observed_at": "2026-09-28T15:33:45.990Z"
+  }
+]

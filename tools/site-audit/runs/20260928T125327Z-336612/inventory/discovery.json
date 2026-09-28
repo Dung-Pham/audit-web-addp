@@ -1,0 +1,437 @@
+{
+  "target": "https://addp.vn/",
+  "complete": true,
+  "status": "complete",
+  "robots": {
+    "url": "https://addp.vn/robots.txt",
+    "status": 200,
+    "text": "User-agent: *\r\nDisallow: /index.php/\r\nDisallow: /*?\r\nDisallow: /checkout/\r\nDisallow: /app/\r\nDisallow: /lib/\r\nDisallow: /*.php$\r\nDisallow: /pkginfo/\r\nDisallow: /report/\r\nDisallow: /var/\r\nDisallow: /catalog/\r\nDisallow: /customer/\r\nDisallow: /sendfriend/\r\nDisallow: /review/\r\nDisallow: /*SID=\nSitemap: https://addp.vn/pub/sitemap.xml\n",
+    "artifact": "evidence/discovery/robots.txt",
+    "rules": [
+      {
+        "allow": false,
+        "path": "/index.php/"
+      },
+      {
+        "allow": false,
+        "path": "/*?"
+      },
+      {
+        "allow": false,
+        "path": "/checkout/"
+      },
+      {
+        "allow": false,
+        "path": "/app/"
+      },
+      {
+        "allow": false,
+        "path": "/lib/"
+      },
+      {
+        "allow": false,
+        "path": "/*.php$"
+      },
+      {
+        "allow": false,
+        "path": "/pkginfo/"
+      },
+      {
+        "allow": false,
+        "path": "/report/"
+      },
+      {
+        "allow": false,
+        "path": "/var/"
+      },
+      {
+        "allow": false,
+        "path": "/catalog/"
+      },
+      {
+        "allow": false,
+        "path": "/customer/"
+      },
+      {
+        "allow": false,
+        "path": "/sendfriend/"
+      },
+      {
+        "allow": false,
+        "path": "/review/"
+      },
+      {
+        "allow": false,
+        "path": "/*SID="
+      }
+    ],
+    "crawlDelayMs": 0
+  },
+  "sitemap": [
+    {
+      "url": "https://addp.vn/pub/sitemap.xml",
+      "status": 404,
+      "artifact": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+      "bytes": 108820
+    },
+    {
+      "url": "https://addp.vn/sitemap.xml",
+      "status": 404,
+      "artifact": "evidence/discovery/sitemap-52618716ffbf735c.xml",
+      "bytes": 108812
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://addp.vn/customer/account/",
+      "reason": "Disallowed by robots.txt"
+    },
+    {
+      "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuLw~~/",
+      "reason": "Disallowed by robots.txt"
+    },
+    {
+      "url": "https://addp.vn/customer/account/create/",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:;",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "https://addp.vn/checkout/cart/",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascipt:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "https://addp.vn/customer/account/",
+      "reason": "Disallowed by robots.txt"
+    },
+    {
+      "url": "https://addp.vn/catalog/product_compare/",
+      "reason": "Disallowed by robots.txt"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "https://addp.vn/customer/account/create/",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:;",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "https://addp.vn/checkout/cart/",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascipt:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "tel:18006825",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "Mutating GET URL"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://addp.vn/",
+      "depth": 0,
+      "priority": 100,
+      "discovered_from": [
+        "target",
+        "priority",
+        "link:https://addp.vn/"
+      ],
+      "fetched": true,
+      "page_type": "homepage",
+      "http_status": 200,
+      "final_url": "https://addp.vn/",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "canonical": "https://addp.vn/",
+      "indexability": "indexable_or_unknown"
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "depth": 0,
+      "priority": 90,
+      "discovered_from": [
+        "priority",
+        "link:https://addp.vn/"
+      ],
+      "fetched": true,
+      "page_type": "product_detail",
+      "http_status": 200,
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "redirects": [],
+      "content_type": "text/html; charset=UTF-8",
+      "canonical": "https://addp.vn/sua-hat-glucare-plus",
+      "indexability": "indexable_or_unknown"
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "company/about"
+    },
+    {
+      "url": "https://addp.vn/thuoc.html",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "category"
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "contact"
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/vien-an-duong",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "product_detail"
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "product_detail"
+    },
+    {
+      "url": "https://addp.vn/cdn-cgi/l/email-protection",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu/",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "company/about"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "policy"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "policy"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "policy"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "policy"
+    },
+    {
+      "url": "https://addp.vn/vien-sui-dovital",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "product_detail"
+    },
+    {
+      "url": "https://addp.vn/contact/",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "contact"
+    },
+    {
+      "url": "https://addp.vn/wishlist/",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    },
+    {
+      "url": "https://addp.vn/about-us/",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "company/about"
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "depth": 1,
+      "priority": 25,
+      "discovered_from": [
+        "link:https://addp.vn/"
+      ],
+      "fetched": false,
+      "page_type": "other"
+    }
+  ],
+  "fetched": 2,
+  "selected": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ],
+  "config": {
+    "maxPages": 2,
+    "maxDepth": 0,
+    "key": "ed6c400854e62c93"
+  }
+}

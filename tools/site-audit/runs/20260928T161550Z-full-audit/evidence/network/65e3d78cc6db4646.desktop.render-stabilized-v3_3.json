@@ -1,0 +1,2722 @@
+[
+  {
+    "kind": "response",
+    "url": "https://addp.vn/benh-ly",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "document",
+    "content_type": "text/html; charset=UTF-8",
+    "content_length": null,
+    "server_timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=14,cfOrigin;dur=744"
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "41982",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "text/javascript;charset=UTF-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "7337",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/155_sot_xuat_huyet_dengue_1952_62b9_large_3758770373_1.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/benh_nu_gioi_2a908943f7.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/438_ebola_4203_626b_large_4345b84c27.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/benh_nam_gioi_59ffe55bf6.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/svg+xml",
+    "content_length": "62835",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "37193",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "2008",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/benh_nguoi_gia_dff432d9ef_1.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/benh_tre_em_2c6d60650b.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/434_cum_2830_6299_large_44ca2f5f55.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/432_benh_tay_chan_mieng_3731_6299_large_819e0ca02c.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/jpeg",
+    "content_length": "1692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "27275",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/png",
+    "content_length": "8586",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+    "status": 404,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "text/html; charset=UTF-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "12108",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.googleapis.com/css?family=Roboto",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css; charset=utf-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+    "status": 404,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "text/html; charset=UTF-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "17771",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/png",
+    "content_length": "73454",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "269",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1966",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "892",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "213",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1204",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "5975",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "322",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1421",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magefan_Blog/js/lib/mfblogunveil.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "647",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "83735",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/javascript; charset=UTF-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.8347257916658471:1790611231:9Ug_1fcHaDAQzTkBRkeXV8Qd1yzTDqwqLOHEFF_m9j8/a42413c55cd0a29d",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/png",
+    "content_length": "96",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "278",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1084",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "666",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "508",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "672",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1489",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "871",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "865",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "777",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "516",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "467",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "6005",
+    "server_timing": null
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.8347257916658471:1790611231:9Ug_1fcHaDAQzTkBRkeXV8Qd1yzTDqwqLOHEFF_m9j8/a42413c55cd0a29d",
+    "method": "POST",
+    "resource_type": "xhr",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3670",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "10838",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "601",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "18983",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "588",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3501",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3105",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "76900",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "5204",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "866",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1194",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2172",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "477",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1070",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "180",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2964",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1288",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "70512",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "243",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "602",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "192",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "3192",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3703",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "application/json",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2612",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1058",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "312",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2969",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "462",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1422",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1193",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "587",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "953",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "684",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "448",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "309",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "451",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "992",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "926",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "227",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "494",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "775",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/class.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1196",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1096",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1985",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "424",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "38492",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "962",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "271",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "465",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2498",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1435",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1241",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1995",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2941",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1367",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1267",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2497",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "14340",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "29392",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "43136",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "745",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "411",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "995",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1234",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "952",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1094",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "857",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1073",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "377",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2998",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "4470",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "412",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "768",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "681",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "447",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "427",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "348",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "561",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "437",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "470",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "564",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/spectrum.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "17473",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/tinycolor.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "9720",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/moment.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "18399",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "464",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "221",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/tooltip/tooltip.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1114",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "280",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "282",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "293",
+    "server_timing": null
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "method": "POST",
+    "resource_type": "xhr",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "method": "GET",
+    "resource_type": "script",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "method": "GET",
+    "resource_type": "script",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "method": "GET",
+    "resource_type": "script",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "method": "GET",
+    "resource_type": "script",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "method": "GET",
+    "resource_type": "script",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/block-loader.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "830",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Search/js/form-mini.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2851",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "other",
+    "content_type": "image/png",
+    "content_length": "5816",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/widget-initializer.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "491",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/cookie-status.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "343",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/customer-global-session-loader.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "330",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dropdown.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1547",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/validation/validation.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1318",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/section-config.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "820",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/invalidation-processor.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "444",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/collection.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2805",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/view/customer.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "217",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/view/image.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "198",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/cart-item-renderer.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "300",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/js/view/social-buttons.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "696",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/customer-data.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2867",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/minicart.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1566",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/view/compare-products.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "573",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaFrontendUi/js/ui-messages-mixin.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "408",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/view/messages.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "642",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Persistent/js/view/customer-data-mixin.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "698",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_MegaMenu/js/menu.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "6668",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/view/authentication-popup.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "988",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/view/messages.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "762",
+    "server_timing": null
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/storage-manager.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1609",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/bindEvents.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "808",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/dataProvider.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1239",
+    "server_timing": null
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "method": "GET",
+    "resource_type": "xhr",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "other",
+    "content_type": "image/png",
+    "content_length": "5816",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/matchMedia.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1467",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/tabs.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2106",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/content-type/row/appearance/default/widget.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "473",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/content-type/tabs/appearance/default/widget.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "553",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/element/element.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3744",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/dialog.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "6593",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Bundle/js/validation.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "530",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/block-loader.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/validation.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "12990",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaFrontendUi/js/registry.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "172",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/model/authentication-popup.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "418",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-storage/storage-wrapper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "602",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/sidebar.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2244",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/storage.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "547",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/form.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2266",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Security/js/escaper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1630",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effects/effect-blind.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "681",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/decorate.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1096",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/url.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "252",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/model/messageList.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/action/login.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "636",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/js/provider.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "956",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/alert.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "484",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/minicart.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2612",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/widget/video-background.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "490",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/tabs.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "6886",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "6042",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/events.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "369",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/element/links.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1637",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/storage-service.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1453",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-storage/js.storage.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "4527",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/position.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3899",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/button.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3384",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/draggable.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "8691",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/loader-1.gif",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "image",
+    "content_type": "image/gif",
+    "content_length": "17255",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effects/effect-fade.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "467",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/spinner.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "295",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/resizable.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "7652",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.validate.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "14259",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/resolver.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1149",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax-wrapper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/model/messages.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "668",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/collapsible.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "3067",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/vimeo/vimeo-wrapper.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/adapter.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "512",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/ids-storage.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "848",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/data-storage.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1844",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/autocomplete.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "392",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/ids-storage-compare.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "746",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/checkboxradio.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2281",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.cookie.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/controlgroup.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2649",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.metadata.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1722",
+    "server_timing": null
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790612452388",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790612452388",
+    "method": "GET",
+    "resource_type": "xhr",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/adapter/buttons.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/vimeo/player.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "15076",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/query-builder.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "314",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/mouse.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1921",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form-reset-mixin.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "692",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/invalidation-rules/website-rule.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "349",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax-video.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "7524",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/template/autocomplete.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effect.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "7398",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/page-cache.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "2462",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-var-for-color.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "281",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkCXkaWzU.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "15344",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkCHkaWzU.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "31820",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnka.woff2",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "font",
+    "content_type": "font/woff2",
+    "content_length": "47208",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/template/authentication-popup.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/vendor/jquery-color/jquery.color.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "5338",
+    "server_timing": null
+  },
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790612452389",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790612452389",
+    "method": "GET",
+    "resource_type": "xhr",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "audit_induced": true
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/template/social-buttons.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/template/minicart/content.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/loader.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "1634",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/template/minicart/content.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/template/messages.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/collection.html",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/html",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/theme-widgets.js",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "script",
+    "content_type": "application/x-javascript",
+    "content_length": "11638",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/animate/animate.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "2509",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/print.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "443",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/calendar.min.css",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "content_length": "1018",
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.googleapis.com/css?family=Roboto",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/css; charset=utf-8",
+    "content_length": null,
+    "server_timing": null
+  },
+  {
+    "kind": "response",
+    "url": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+    "status": 200,
+    "method": "GET",
+    "resource_type": "xhr",
+    "content_type": "text/css; charset=utf-8",
+    "content_length": null,
+    "server_timing": null
+  }
+]

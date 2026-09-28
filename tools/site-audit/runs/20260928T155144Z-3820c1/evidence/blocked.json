@@ -1,0 +1,407 @@
+[
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7935170319792062:1790607647:t2oOqahreJ6JmQ7Pb4p-oScYUSkGKnCYKI2PUd8dCr0/a423e97adc08fcfa",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790610719996",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790610719997",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7935170319792062:1790607647:t2oOqahreJ6JmQ7Pb4p-oScYUSkGKnCYKI2PUd8dCr0/a423eab30cfe0930",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790610769322",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790610769323",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7935170319792062:1790607647:t2oOqahreJ6JmQ7Pb4p-oScYUSkGKnCYKI2PUd8dCr0/a423ebc01a51f888",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790610815304",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790610815305",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/style-addp.css",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Request context disposed.\nCall log:\n\u001b[2m  - → GET https://addp.vn/style-addp.css\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=tb3vep3c0qotbtkfu4cog5rsu4; form_key=TppncvQbkQRk8SvN; searchsuiteautocomplete={}; mage-cache-storage={}; mage-cache-storage-section-invalidation={}; mage-cache-sessid=true; mage-messages=; recently_viewed_product={}; recently_viewed_product_previous={}; recently_compared_product={}; recently_compared_product_previous={}; product_data_storage={}; css_first_load=1\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7935170319792062:1790607647:t2oOqahreJ6JmQ7Pb4p-oScYUSkGKnCYKI2PUd8dCr0/a423ed012ebd1087",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790610864835",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790610864836",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  }
+]

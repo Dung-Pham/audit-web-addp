@@ -48,7 +48,9 @@ export function inspectedUrl(input, base) {
   try { return new URL(input, base).href; } catch { return null; }
 }
 
-const dangerousPath = /(?:^|[\/_-])(add[\/_-]?to[\/_-]?cart|cart[\/_-]?add|add[\/_-]?cart|place[\/_-]?order|create[\/_-]?order|order[\/_-]?(?:submit|create|confirm)|checkout[\/_-]?(?:submit|process|complete|place)|pay(?:ment)?[\/_-]?(?:process|submit|confirm)|register|signup|sign[\/_-]?up|logout|log[\/_-]?out|subscribe|unsubscribe|delete|remove|update|save|upload|webhook|trigger|add|create|submit|send|apply|post|execute)(?:[\/_.-]|$)/i;
+// Route actions must be explicit.  In particular, `post` is a common content
+// noun (for example `/blog/post/a-slug`), not an HTTP method or mutation.
+const dangerousPath = /(?:^|[\/_-])(add[\/_-]?to[\/_-]?cart|cart[\/_-]?add|add[\/_-]?cart|place[\/_-]?order|create[\/_-]?order|order[\/_-]?(?:submit|create|confirm)|checkout[\/_-]?(?:submit|process|complete|place)|pay(?:ment)?[\/_-]?(?:process|submit|confirm)|register|signup|sign[\/_-]?up|logout|log[\/_-]?out|subscribe|unsubscribe|delete|remove|update|save|upload|webhook|trigger|add|create|submit|send|apply|execute)(?:[\/_.-]|$)/i;
 const dangerousQuery = /^(?:action|act|operation|command|op|do|cmd|controller|route|task|event)$/i;
 const dangerousValue = /^(?:add|buy|purchase|order|checkout|pay|submit|create|register|subscribe|delete|remove|update|save|upload|logout)/i;
 

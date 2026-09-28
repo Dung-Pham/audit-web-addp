@@ -1,0 +1,351 @@
+TAP version 13
+# Subtest: all 17 business rows and original cell texts preserved, unique stable IDs
+ok 1 - all 17 business rows and original cell texts preserved, unique stable IDs
+  ---
+  duration_ms: 7.0321
+  type: 'test'
+  ...
+# Subtest: all source cells extracted including strategic objectives and headings
+ok 2 - all source cells extracted including strategic objectives and headings
+  ---
+  duration_ms: 1.8246
+  type: 'test'
+  ...
+# Subtest: normalization rejects silent requirement mutation
+ok 3 - normalization rejects silent requirement mutation
+  ---
+  duration_ms: 1.313
+  type: 'test'
+  ...
+# Subtest: normalization rejects a newly appended unmapped source cell
+ok 4 - normalization rejects a newly appended unmapped source cell
+  ---
+  duration_ms: 0.5781
+  type: 'test'
+  ...
+# Subtest: redirect guard keeps source cookies and authorization away from a second local origin
+ok 5 - redirect guard keeps source cookies and authorization away from a second local origin
+  ---
+  duration_ms: 3199.228
+  type: 'test'
+  ...
+# Subtest: safety and page classification cover dangerous actions and named products
+ok 6 - safety and page classification cover dangerous actions and named products
+  ---
+  duration_ms: 18.7781
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/6: http://127.0.0.1:50572/
+# [site-audit] 1/6 complete: http://127.0.0.1:50572/ (33 evidence)
+# [site-audit] Collecting 2/6: http://127.0.0.1:50572/category
+# [site-audit] 2/6 complete: http://127.0.0.1:50572/category (63 evidence)
+# [site-audit] Collecting 3/6: http://127.0.0.1:50572/news/article
+# [site-audit] 3/6 complete: http://127.0.0.1:50572/news/article (93 evidence)
+# [site-audit] Collecting 4/6: http://127.0.0.1:50572/product/glucare-plus
+# [site-audit] 4/6 complete: http://127.0.0.1:50572/product/glucare-plus (123 evidence)
+# [site-audit] Collecting 5/6: http://127.0.0.1:50572/contact
+# [site-audit] 5/6 complete: http://127.0.0.1:50572/contact (153 evidence)
+# [site-audit] Collecting 6/6: http://127.0.0.1:50572/product/dovital
+# [site-audit] 6/6 complete: http://127.0.0.1:50572/product/dovital (183 evidence)
+# Subtest: localhost discovery and Chrome collection are read-only, complete, and resumable
+ok 7 - localhost discovery and Chrome collection are read-only, complete, and resumable
+  ---
+  duration_ms: 44608.9087
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:52599/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:52599/render-stabilization (19 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:52599/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:52599/render-stabilization (21 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:52599/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:52599/render-stabilization (21 evidence)
+# Subtest: render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+ok 8 - render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+  ---
+  duration_ms: 18896.768
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Robots unavailable: robots.txt status 503
+# Subtest: robots server failure blocks collection with explicit status and no page fetches
+ok 9 - robots server failure blocks collection with explicit status and no page fetches
+  ---
+  duration_ms: 34.9167
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:50716/browser-cross-origin
+# [site-audit] 1/1 complete: http://127.0.0.1:50716/browser-cross-origin (19 evidence)
+# Subtest: Chrome blocks script-initiated cross-origin navigation
+ok 10 - Chrome blocks script-initiated cross-origin navigation
+  ---
+  duration_ms: 4327.9297
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:58276/attack-browser
+# [site-audit] 1/1 complete: http://127.0.0.1:58276/attack-browser (19 evidence)
+# Subtest: context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+ok 11 - context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+  ---
+  duration_ms: 4832.6267
+  type: 'test'
+  ...
+# Subtest: direct collectSite API applies production gate before network or files
+ok 12 - direct collectSite API applies production gate before network or files
+  ---
+  duration_ms: 8.4323
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Disallowed by robots.txt; Mutating GET URL; Unsafe redirect blocked; Discovery selected zero pages
+# Subtest: raw discovery rejects an unsafe second redirect hop
+ok 13 - raw discovery rejects an unsafe second redirect hop
+  ---
+  duration_ms: 80.8677
+  type: 'test'
+  ...
+# Subtest: all contract schemas accept their required shapes and reject malformed data
+ok 14 - all contract schemas accept their required shapes and reject malformed data
+  ---
+  duration_ms: 15.5329
+  type: 'test'
+  ...
+# Subtest: evidence validates IDs, artifact existence and containment including symlinks
+ok 15 - evidence validates IDs, artifact existence and containment including symlinks
+  ---
+  duration_ms: 67.2786
+  type: 'test'
+  ...
+# Subtest: review rejects unsupported references, routes subjective claims and persists reasons
+ok 16 - review rejects unsupported references, routes subjective claims and persists reasons
+  ---
+  duration_ms: 331.1213
+  type: 'test'
+  ...
+# Subtest: review cannot accept missing or invalid artifact-backed evidence
+ok 17 - review cannot accept missing or invalid artifact-backed evidence
+  ---
+  duration_ms: 48.7003
+  type: 'test'
+  ...
+# Subtest: deduplication retains origins, evidence, requirements and affected URLs
+ok 18 - deduplication retains origins, evidence, requirements and affected URLs
+  ---
+  duration_ms: 1.7923
+  type: 'test'
+  ...
+# Subtest: contradictions stay unresolved and both claims require manual review
+ok 19 - contradictions stay unresolved and both claims require manual review
+  ---
+  duration_ms: 1.2827
+  type: 'test'
+  ...
+# Subtest: backlog enforces accepted traceability and acyclic, existing dependencies
+ok 20 - backlog enforces accepted traceability and acyclic, existing dependencies
+  ---
+  duration_ms: 3.6874
+  type: 'test'
+  ...
+# Subtest: request guard permits read-only navigation and blocks mutation even with permissive config
+ok 21 - request guard permits read-only navigation and blocks mutation even with permissive config
+  ---
+  duration_ms: 7.1912
+  type: 'test'
+  ...
+# Subtest: run creation is exclusive, resume preserves state, and stage writes remain valid
+ok 22 - run creation is exclusive, resume preserves state, and stage writes remain valid
+  ---
+  duration_ms: 77.8242
+  type: 'test'
+  ...
+# Subtest: regression classifies fixed, improved, unchanged, regressed and new
+ok 23 - regression classifies fixed, improved, unchanged, regressed and new
+  ---
+  duration_ms: 2.1491
+  type: 'test'
+  ...
+# Subtest: final consistency catches broken cross-artifact references
+ok 24 - final consistency catches broken cross-artifact references
+  ---
+  duration_ms: 30.2387
+  type: 'test'
+  ...
+# Subtest: final consistency requires each requirement exactly once and forbids false PASS
+ok 25 - final consistency requires each requirement exactly once and forbids false PASS
+  ---
+  duration_ms: 60.3924
+  type: 'test'
+  ...
+# Subtest: final consistency requires every accepted finding in backlog
+ok 26 - final consistency requires every accepted finding in backlog
+  ---
+  duration_ms: 18.8817
+  type: 'test'
+  ...
+# Subtest: final consistency requires explicit read-only flags and zero outcomes
+ok 27 - final consistency requires explicit read-only flags and zero outcomes
+  ---
+  duration_ms: 18.9542
+  type: 'test'
+  ...
+# Subtest: final consistency rejects unsupported model and source claims
+ok 28 - final consistency rejects unsupported model and source claims
+  ---
+  duration_ms: 18.8595
+  type: 'test'
+  ...
+# Subtest: final consistency validates external diagnostic semantics
+ok 29 - final consistency validates external diagnostic semantics
+  ---
+  duration_ms: 19.9507
+  type: 'test'
+  ...
+# Subtest: final validation requires populated report, plan and dependency artifacts
+ok 30 - final validation requires populated report, plan and dependency artifacts
+  ---
+  duration_ms: 42.0569
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:62974/
+# [site-audit] 1/1 complete: http://127.0.0.1:62974/ (32 evidence)
+# Subtest: offline browser evidence -> reviewed finding -> planner -> complete report artifacts -> resume
+ok 31 - offline browser evidence -> reviewed finding -> planner -> complete report artifacts -> resume
+  ---
+  duration_ms: 9586.7753
+  type: 'test'
+  ...
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: four actual browser journeys preserve click evidence without order/form side effects
+ok 32 - four actual browser journeys preserve click evidence without order/form side effects
+  ---
+  duration_ms: 10608.441
+  type: 'test'
+  ...
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+ok 33 - persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+  ---
+  duration_ms: 8789.7818
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Robots unavailable: robots.txt status 503
+# Subtest: robots failure leaves immutable run blocked, without an audited page or phase-complete claim
+ok 34 - robots failure leaves immutable run blocked, without an audited page or phase-complete claim
+  ---
+  duration_ms: 305.8368
+  type: 'test'
+  ...
+# Subtest: production browser entry points reject an unfrozen or unrelated target before network
+ok 35 - production browser entry points reject an unfrozen or unrelated target before network
+  ---
+  duration_ms: 13.9993
+  type: 'test'
+  ...
+# Subtest: reviewer sentinel without examined candidates cannot unlock report publication
+ok 36 - reviewer sentinel without examined candidates cannot unlock report publication
+  ---
+  duration_ms: 12.1732
+  type: 'test'
+  ...
+# Subtest: usable partial render evidence completes collection with limitations while hard errors remain blocked
+ok 37 - usable partial render evidence completes collection with limitations while hard errors remain blocked
+  ---
+  duration_ms: 2.2614
+  type: 'test'
+  ...
+# Subtest: planner uses accepted findings, approved specifics, and labeled diagnostics
+ok 38 - planner uses accepted findings, approved specifics, and labeled diagnostics
+  ---
+  duration_ms: 7.4277
+  type: 'test'
+  ...
+# Subtest: planner resolves dependencies and rejects unknown or cyclic references
+ok 39 - planner resolves dependencies and rejects unknown or cyclic references
+  ---
+  duration_ms: 1.9395
+  type: 'test'
+  ...
+# Subtest: reports contain every required section, trace accepted issues, and exclude rejected issues from plans
+ok 40 - reports contain every required section, trace accepted issues, and exclude rejected issues from plans
+  ---
+  duration_ms: 141.748
+  type: 'test'
+  ...
+# Subtest: provided backlog cannot introduce tasks for unaccepted findings
+ok 41 - provided backlog cannot introduce tasks for unaccepted findings
+  ---
+  duration_ms: 7.5674
+  type: 'test'
+  ...
+# Subtest: direct smoke honors explicit URL boundary, robots, summary and mutation safety
+ok 42 - direct smoke honors explicit URL boundary, robots, summary and mutation safety
+  ---
+  duration_ms: 17076.7631
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects invalid explicit URL sets before collection
+ok 43 - direct smoke rejects invalid explicit URL sets before collection
+  ---
+  duration_ms: 5.8024
+  type: 'test'
+  ...
+# Subtest: direct smoke accepts one and three explicit URLs without sitemap or link expansion
+ok 44 - direct smoke accepts one and three explicit URLs without sitemap or link expansion
+  ---
+  duration_ms: 29012.5919
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects empty and four URL sets before robots or browser collection
+ok 45 - direct smoke rejects empty and four URL sets before robots or browser collection
+  ---
+  duration_ms: 3.0881
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks robots-disallowed and unavailable targets before collection
+ok 46 - direct smoke blocks robots-disallowed and unavailable targets before collection
+  ---
+  duration_ms: 11.4151
+  type: 'test'
+  ...
+# Subtest: direct smoke summary uses current-run evidence and preserves prior sentinel
+ok 47 - direct smoke summary uses current-run evidence and preserves prior sentinel
+  ---
+  duration_ms: 7876.8082
+  type: 'test'
+  ...
+# Subtest: direct smoke explicit robots allow is honored without expansion
+ok 48 - direct smoke explicit robots allow is honored without expansion
+  ---
+  duration_ms: 7474.098
+  type: 'test'
+  ...
+# Subtest: smoke manifest records an exact read-only explicit request contract
+ok 49 - smoke manifest records an exact read-only explicit request contract
+  ---
+  duration_ms: 22.5122
+  type: 'test'
+  ...
+# Subtest: direct smoke records no agent, review, report, or planner stage artifacts
+ok 50 - direct smoke records no agent, review, report, or planner stage artifacts
+  ---
+  duration_ms: 7631.3839
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks attempted telemetry before it reaches the fixture server
+ok 51 - direct smoke blocks attempted telemetry before it reaches the fixture server
+  ---
+  duration_ms: 7912.1994
+  type: 'test'
+  ...
+1..51
+# tests 51
+# suites 0
+# pass 51
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 79662.0865

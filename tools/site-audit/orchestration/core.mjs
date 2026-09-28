@@ -234,6 +234,7 @@ export function validateBacklog(tasks, accepted) {
 }
 
 const safetyKeys = {
+  cart: ['allow_cart_mutation', 'AUDIT_ALLOW_CART_MUTATION'],
   order: ['allow_real_order', 'AUDIT_ALLOW_REAL_ORDER'],
   payment: ['allow_payment', 'AUDIT_ALLOW_REAL_PAYMENT'],
   account: ['allow_account_creation', 'AUDIT_ALLOW_ACCOUNT_CREATION'],
@@ -253,6 +254,11 @@ function validateSafety(manifest) {
     if (/(?:allow|enable).*(?:order|payment|account|destruct|write|mutation)/i.test(key) && value === true) errors.push(`unsafe enabled flag: ${key}`);
   }
   for (const key of outcomeKeys) if (manifest?.safety_outcomes?.[key] !== 0) errors.push(`safety outcome ${key} must be zero`);
+  const transaction = manifest?.transaction_authorization;
+  if (transaction) {
+    if (transaction.mode !== 'disabled') errors.push('transaction authorization mode must remain disabled');
+    for (const key of ['allow_cart_mutation', 'allow_order', 'allow_payment', 'allow_account_creation', 'allow_destructive_action']) if (transaction[key] !== false) errors.push(`transaction authorization ${key} must be explicitly false`);
+  }
   if (manifest?.website_source_available !== undefined && manifest.website_source_available !== false) errors.push('website source availability is unsupported');
   for (const key of Object.keys(manifest || {})) if (forbiddenSourceKey.test(key)) errors.push(`unsupported source scope field: ${key}`);
   const routing = String(manifest?.routing_status ?? '').toLowerCase();
@@ -292,8 +298,8 @@ async function validateFinalArtifacts(runDir) {
   const root = await realpath(runDir).catch(() => null);
   if (!root) return [`final validation run directory does not exist: ${runDir}`];
   for (const relative of [
-    'reports/AUDIT_REPORT.md', 'reports/IMPROVEMENT_PLAN.md', 'reports/EXECUTIVE_PLAN.md',
-    'backlog/IMPLEMENTATION_BACKLOG.json', 'backlog/DEPENDENCIES.json'
+    'reports/AUDIT_REPORT.md', 'reports/IMPROVEMENT_PLAN.md', 'reports/TRANSFORMATION_PLAN.md', 'reports/EXECUTIVE_PLAN.md', 'reports/EXECUTIVE_AUDIT.md',
+    'backlog/IMPLEMENTATION_BACKLOG.json', 'backlog/DEPENDENCIES.json', 'review/coverage-matrix.json', 'review/product-coverage-matrix.json', 'review/article-coverage-matrix.json'
   ]) {
     const file = path.join(runDir, relative);
     const info = await stat(file).catch(() => null);
@@ -335,8 +341,8 @@ export async function validateConsistency({ runDir, pages, evidence, requirement
     if (!req || !reqIds.has(req)) errors.push(`checks[${index}] unknown requirement_id: ${req}`);
     if (req) checked.set(req, (checked.get(req) ?? 0) + 1);
     for (const id of asArray(check?.evidence_ids)) if (!ids.has(id)) errors.push(`checks[${index}] unknown evidence_id: ${id}`);
-    const status = String(check?.status ?? '').toLowerCase();
-    if (!status) errors.push(`checks[${index}] missing status`);
+    const status = String(check?.status ?? '').toUpperCase();
+    if (!['PASS','PARTIAL','FAIL','BLOCKED','UNKNOWN'].includes(status)) errors.push(`checks[${index}] invalid status: ${check?.status ?? '(missing)'}`);
     const subchecks = asArray(check?.subchecks ?? check?.checks);
     const originalClauses = asArray(requirementsById.get(req)?.clauses);
     if (originalClauses.length) {
@@ -350,7 +356,7 @@ export async function validateConsistency({ runDir, pages, evidence, requirement
       for (const clause of originalClauses) if (!seenClauses.has(clause.id)) errors.push(`checks[${index}] missing original clause: ${clause.id}`);
     }
     const blockedSubcheck = subchecks.some(subcheck => /^(?:blocked|manual|manual_review|needs_manual_review|unknown|unverified)$/i.test(String(subcheck?.status ?? subcheck)) || subcheck?.blocked === true || subcheck?.manual_review === true);
-    if (status === 'pass' || status === 'passed') {
+    if (status === 'PASS') {
       if (blockedSubcheck || subchecks.some(sub => !/^(?:pass|passed)$/i.test(String(sub?.status??''))) || check?.blocked === true || check?.manual_review === true || /^(?:blocked|manual|manual_review|needs_manual_review)$/i.test(String(check?.review_status ?? ''))) errors.push(`checks[${index}] PASS contains blocked or manual subcheck`);
       if (!asArray(check?.evidence_ids).length) errors.push(`checks[${index}] PASS has no evidence`);
     }
@@ -373,6 +379,15 @@ export async function validateConsistency({ runDir, pages, evidence, requirement
     else for (const finding of asArray(accepted)) {
       const d=decisions.find(x=>x.finding_id===finding.finding_id);
       if (d?.status!=='accepted'||d?.supported!==true||d?.reviewer_role!=='evidence_reviewer'||!d?.reviewer_id||!String(d?.reason||'').trim()||!asArray(d?.supported_facts).length||d?.observation_reviewed!==finding.observation||d?.page_reviewed!==finding.page||asArray(finding.source_requirement_ids).length!==asArray(d?.source_requirement_ids_reviewed).length||asArray(finding.source_requirement_ids).some(id=>!asArray(d?.source_requirement_ids_reviewed).includes(id))||asArray(finding.evidence_ids).some(id=>!asArray(d?.evidence_ids_reviewed).includes(id))) errors.push(`accepted finding lacks independent saved decision: ${finding.finding_id}`);
+    }
+    const coverage = await readFile(path.join(runDir||'', 'review/coverage-matrix.json'), 'utf8').then(JSON.parse).catch(() => null);
+    if (!coverage) errors.push('coverage matrix artifact missing');
+    else if (coverage?.gate?.status !== 'analysis_complete') errors.push('analysis_complete_with_coverage_gaps');
+    for (const [name, relative] of [['product','review/product-coverage-matrix.json'], ['article','review/article-coverage-matrix.json']]) {
+      const matrix = await readFile(path.join(runDir||'', relative), 'utf8').then(JSON.parse).catch(() => null);
+      if (!matrix) errors.push(`${name} coverage matrix artifact missing`);
+      else if (name === 'product' && Object.keys(matrix.products || {}).length !== 3) errors.push('missing product coverage');
+      else if (name === 'article' && matrix.coverage_gap) errors.push('missing article coverage where articles were sampled');
     }
   }
   if (finalValidation || checks?.final_validation === true || /^(complete|completed)$/i.test(String(manifest?.stage_status?.reports?.status ?? ''))) errors.push(...await validateFinalArtifacts(runDir));

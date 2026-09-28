@@ -1,0 +1,22 @@
+TAP version 13
+# [site-audit] Collecting 1/1: http://127.0.0.1:65196/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:65196/render-stabilization (19 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:65196/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:65196/render-stabilization (21 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:65196/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:65196/render-stabilization (21 evidence)
+# Subtest: render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+ok 1 - render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+  ---
+  duration_ms: 18553.487
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 19452.1193

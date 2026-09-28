@@ -9,7 +9,7 @@ import { safetyReason } from '../collectors/shared.mjs';
 import { startFixture } from '../fixtures/site.mjs';
 import { validateSchema } from '../orchestration/core.mjs';
 import { createServer } from 'node:http';
-import { boundedTimeout, launchCollector,installReadOnlyBrowserGuard } from '../collectors/browser.mjs';
+import { boundedTimeout, launchCollector,installReadOnlyBrowserGuard, scrollForRender } from '../collectors/browser.mjs';
 
 const readJson = async path => JSON.parse(await readFile(path, 'utf8'));
 
@@ -34,6 +34,8 @@ test('safety and page classification cover dangerous actions and named products'
   assert.match(safetyReason('https://example.test/cart/add?sku=1'), /mutating/);
   assert.match(safetyReason('https://example.test/checkout/place-order'), /mutating/);
   assert.match(safetyReason('https://example.test/contact', 'POST'), /unsafe method/);
+  assert.equal(safetyReason('https://example.test/blog/post/example-article'), null);
+  assert.equal(safetyReason('https://example.test/blog/post/how-to-read-this'), null);
   assert.equal(safetyReason('https://example.test/cart'), null);
   for (const slug of ['glucare-plus', 'vien-an-duong', 'dovital']) assert.equal(classifyPage(`https://example.test/${slug}`), 'product_detail');
   const rules = parseRobots('User-agent: *\nDisallow: /private\nAllow: /private/public\nCrawl-delay: 1');
@@ -134,9 +136,10 @@ test('render stabilization loads static assets, scrolls real lazy content, handl
   const stabilizationEvidence = result.evidence.find(item => item.type === 'render_stabilization');
   assert.ok(stabilizationEvidence);
   const state = await readJson(join(runDir, stabilizationEvidence.artifact));
-  assert.equal(result.summary.status, 'partial');
   assert.equal(result.pages[0].collection_status, 'partial');
   assert.equal(state.render_complete, false);
+  assert.ok(state.render_reason_codes.includes('render_partial_visible_asset_failure'));
+  assert.ok(state.resource_health.failed_resources >= 1);
   assert.equal(state.audit_induced_scroll, true);
   assert.equal(state.scroll.reached_bottom, true);
   assert.equal(state.scroll.height_increased, true);
@@ -145,18 +148,34 @@ test('render stabilization loads static assets, scrolls real lazy content, handl
   assert.ok(state.after_scroll.dynamic_height_markers >= 1, 'dynamic document growth did not run');
   assert.ok(state.after_scroll.stylesheets.some(sheet => sheet.href?.includes('/assets/delayed.css') && sheet.rule_count > 0));
   assert.ok(state.post_scroll_assets.images.complete >= 1, 'lazy image did not settle');
+  assert.equal(state.image_diagnostics.images_declared_at_start >= 3, true, 'predeclared lazy images must be inventoried before scrolling');
+  assert.ok(state.image_diagnostics.image_state_transitions.some(item => item.final.src?.endsWith('/assets/delayed-image.svg') && item.transitions.includes('pending_to_loaded')), 'predeclared lazy image transition was not captured');
+  assert.ok(state.scroll.samples.some(sample => sample.relevant_dom_mutation_count > 0), 'material observer reveal/dynamic-height mutations were not recorded');
+  assert.ok(state.scroll.samples.every(sample => Number.isFinite(sample.distance_to_bottom) && Number.isFinite(sample.budget_remaining_ms)), 'compact per-step render diagnostics are incomplete');
+  assert.ok(state.scroll.final_settle_reserve_ms > 0 && state.scroll.height_tolerance_px === 2, 'v3 bottom settlement contract missing');
+  assert.ok(Number.isFinite(state.scroll.final_position.remaining_pixels), 'final bottom position diagnostics missing');
+  assert.ok(state.scroll.final_stability.historical_material_mutations > 0, 'render history mutations missing');
+  assert.equal(state.scroll.final_stability.final_window_material_mutations, 0, 'historical scroll mutations leaked into final window');
   assert.ok(state.post_scroll_assets.fonts.failed >= 1, 'HTTP 200 invalid font was not recorded as a decode failure');
   assert.ok(state.post_scroll_assets.images.failed >= 2, '404 and HTTP 200 invalid images were not recorded');
   assert.ok(state.after_scroll.images.some(image => image.src?.endsWith('/assets/invalid-image.png') && image.failed));
   assert.ok(state.decode_failures.fonts >= 1 && state.decode_failures.images >= 2);
   assert.ok(state.failed_resources.some(item => item.url.endsWith('/assets/missing.png') && item.status === 404));
+  assert.ok(state.failed_visible_assets.some(item => item.url.endsWith('/assets/missing.png') && item.tag === 'img'), 'failed rendered image must have URL/type diagnostics');
   assert.equal(state.final_capture_after_stabilization, true);
+  assert.ok(state.scroll.samples.some(sample => sample.assets?.images.discovered_after_start >= 0));
   for (const type of ['initial_viewport_screenshot', 'initial_full_screenshot', 'stabilized_viewport_screenshot', 'stabilized_full_screenshot']) assert.ok(result.evidence.some(item => item.type === type));
   const finalShot = result.evidence.find(item => item.type === 'stabilized_full_screenshot');
   const initialShot = result.evidence.find(item => item.type === 'initial_full_screenshot');
+  assert.equal(initialShot.raw_fact.capture_phase, 'first_viewport');
+  assert.equal(finalShot.raw_fact.capture_phase, 'scroll_stabilized');
   assert.equal(finalShot.raw_fact.captured_after_stabilization, true);
   assert.equal(finalShot.raw_fact.stabilization_evidence_id, stabilizationEvidence.evidence_id);
   assert.notDeepEqual(await readFile(join(runDir, initialShot.artifact)), await readFile(join(runDir, finalShot.artifact)), 'stabilized fixture screenshot should reflect post-scroll rendering');
+  const perf = await readJson(join(runDir, result.evidence.find(item => item.type === 'lab_metrics').artifact));
+  assert.equal(perf.capture_phase, 'performance_clean_load');
+  assert.equal(perf.synthetic_scroll_before_measurement, false);
+  assert.equal(result.evidence.find(item => item.type === 'lab_metrics').raw_fact.synthetic_scroll_before_measurement, false);
   const requestsBeforeResume = fixture.requests.length;
   const resumedPartial = await collectSite({ target, runDir, config: {
     maxPages: 1, maxDepth: 0, requestDelayMs: 0, settleMs: 10,
@@ -215,6 +234,37 @@ test('render stabilization loads static assets, scrolls real lazy content, handl
   assert.equal(capped.summary.status, 'partial');
 });
 
+test('render v3.1 reaches long mobile bottom after reserve threshold and separates final stability from history', { timeout: 30_000 }, async () => {
+  const browser = await launchCollector();
+  try {
+    const context = await browser.newContext({ viewport: { width: 390, height: 300 } });
+    const page = await context.newPage();
+    await page.setContent(`<!doctype html><main><div style="height:6000px">long content</div><div id="bottom">bottom</div><script>const bottom=document.querySelector('#bottom');new IntersectionObserver(entries=>{if(entries[0].isIntersecting&&!window.done){window.done=true;const extra=document.createElement('div');extra.style.height='800px';extra.textContent='late reveal';document.body.append(extra)}}).observe(bottom)</script></main>`);
+    const scroll = await scrollForRender(page, { pauseMs: 25, maxIterations: 40, totalBudgetMs: 6_000, finalSettleReserveMs: 5_000, stepStabilityTimeoutMs: 250, stabilitySampleMs: 25, stabilityConsecutiveSamples: 1 });
+    assert.equal(scroll.reached_bottom, true);
+    assert.equal(scroll.final_position.remaining_pixels <= 2, true);
+    assert.equal(scroll.stop_reason, 'stable_bottom_passes');
+    assert.ok(scroll.samples.some(sample => sample.entered_minimum_dwell_progress_mode), 'reserve threshold did not switch to bounded progress mode');
+    assert.ok(scroll.final_stability.historical_material_mutations > 0);
+    assert.equal(scroll.final_stability.final_window_material_mutations, 0);
+    await context.close();
+  } finally { await browser.close(); }
+});
+
+test('render v3.1 retains unstable-dom evidence for a material final-window mutation', { timeout: 30_000 }, async () => {
+  const browser = await launchCollector();
+  try {
+    const context = await browser.newContext({ viewport: { width: 390, height: 300 } });
+    const page = await context.newPage();
+    await page.setContent(`<!doctype html><main><div style="height:1200px">content</div><p id="changing">0</p><script>let i=0;setInterval(()=>{const n=document.createElement('span');n.textContent=String(++i);document.querySelector('#changing').replaceChildren(n)},30)</script></main>`);
+    const scroll = await scrollForRender(page, { pauseMs: 100, maxIterations: 12, totalBudgetMs: 3_000, finalSettleReserveMs: 1_000, stepStabilityTimeoutMs: 150, stabilitySampleMs: 25, stabilityConsecutiveSamples: 1, bottomPassCount: 2 });
+    assert.ok(scroll.final_stability.final_window_material_mutations > 0);
+    assert.ok(scroll.final_stability.final_mutation_signatures.some(signature => signature.type === 'childList' && signature.target_tag), 'bounded final mutation signature missing target detail');
+    assert.ok(scroll.final_stability.final_sample_timeline.every(sample => Array.isArray(sample.reset_reasons) && typeof sample.material_mutation_delta === 'number'), 'stable reset diagnostics were not persisted');
+    await context.close();
+  } finally { await browser.close(); }
+});
+
 test('robots server failure blocks collection with explicit status and no page fetches', async t => {
   const fixture = await startFixture({ robotsStatus: 503 });
   const runDir = await mkdtemp(join(tmpdir(), 'site-audit-robots-'));
@@ -267,7 +317,11 @@ test('context guard blocks popup POST, unsafe redirect, WebSocket, and command q
   assert.ok(reasons.some(x => x === 'mutating GET query'));
   assert.ok(reasons.some(x => x.includes('Unsafe transactional endpoint') && x.includes('/checkout/confirm')));
   assert.ok(reasons.some(x => x === 'websocket blocked'));
-  assert.equal(result.summary.status, 'partial');
+  // Guard-blocked mutation attempts are safety outcomes, not render failures.
+  // The fixture's observable content and bounded render collection are complete.
+  assert.equal(result.summary.status, 'complete');
+  assert.equal(result.pages[0].collection_status, 'complete');
+  assert.equal(result.pages[0].browser.desktop.render_status, 'stabilized');
   const network = await readJson(join(runDir, result.evidence.find(x => x.type === 'network_log').artifact));
   assert.ok(network.filter(x => x.kind === 'blocked').length >= 4);
   const consoleEvents = await readJson(join(runDir, result.evidence.find(x => x.type === 'console_log').artifact));

@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: direct smoke honors explicit URL boundary, robots, summary and mutation safety
+ok 1 - direct smoke honors explicit URL boundary, robots, summary and mutation safety
+  ---
+  duration_ms: 16811.3309
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects invalid explicit URL sets before collection
+ok 2 - direct smoke rejects invalid explicit URL sets before collection
+  ---
+  duration_ms: 4.1188
+  type: 'test'
+  ...
+# Subtest: direct smoke accepts one and three explicit URLs without sitemap or link expansion
+ok 3 - direct smoke accepts one and three explicit URLs without sitemap or link expansion
+  ---
+  duration_ms: 33335.6662
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects empty and four URL sets before robots or browser collection
+ok 4 - direct smoke rejects empty and four URL sets before robots or browser collection
+  ---
+  duration_ms: 3.1967
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks robots-disallowed and unavailable targets before collection
+ok 5 - direct smoke blocks robots-disallowed and unavailable targets before collection
+  ---
+  duration_ms: 9.2318
+  type: 'test'
+  ...
+# Subtest: direct smoke summary uses current-run evidence and preserves prior sentinel
+ok 6 - direct smoke summary uses current-run evidence and preserves prior sentinel
+  ---
+  duration_ms: 8660.7581
+  type: 'test'
+  ...
+# Subtest: direct smoke explicit robots allow is honored without expansion
+ok 7 - direct smoke explicit robots allow is honored without expansion
+  ---
+  duration_ms: 8787.515
+  type: 'test'
+  ...
+# Subtest: smoke manifest records an exact read-only explicit request contract
+ok 8 - smoke manifest records an exact read-only explicit request contract
+  ---
+  duration_ms: 32.3081
+  type: 'test'
+  ...
+# Subtest: direct smoke records no agent, review, report, or planner stage artifacts
+ok 9 - direct smoke records no agent, review, report, or planner stage artifacts
+  ---
+  duration_ms: 8632.8845
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks attempted telemetry before it reaches the fixture server
+ok 10 - direct smoke blocks attempted telemetry before it reaches the fixture server
+  ---
+  duration_ms: 8804.7823
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 86017.1697

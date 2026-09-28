@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://addp.vn/",
+    "requested_url": "https://addp.vn/",
+    "page_type": "homepage",
+    "discovered_from": [
+      "explicit_smoke_request"
+    ],
+    "http_status": 200,
+    "canonical": null,
+    "indexability": null,
+    "importance": "critical",
+    "selection_method": "explicit_requested_urls",
+    "collection_status": "partial",
+    "browser": {
+      "desktop": {
+        "status": 200,
+        "final_url": "https://addp.vn/",
+        "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+        "lcp_ms": 22164,
+        "cls": 0.165148603477949,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-E3461AC4808842D8"
+      },
+      "mobile": {
+        "status": 200,
+        "final_url": "https://addp.vn/",
+        "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+        "lcp_ms": 21316,
+        "cls": 0.13622964506738106,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-593BA7163638B99D"
+      }
+    },
+    "render_collection_version": "render-stabilized-v2",
+    "final_url": "https://addp.vn/",
+    "collected_at": "2026-09-28T14:25:56.162Z"
+  },
+  {
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "requested_url": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "discovered_from": [
+      "explicit_smoke_request"
+    ],
+    "http_status": 200,
+    "canonical": null,
+    "indexability": null,
+    "importance": "critical",
+    "selection_method": "explicit_requested_urls",
+    "collection_status": "partial",
+    "browser": {
+      "desktop": {
+        "status": 200,
+        "final_url": "https://addp.vn/sua-hat-glucare-plus",
+        "title": "Sữa hạt Glucare",
+        "lcp_ms": 15880,
+        "cls": 0.004198428344726562,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-64D373C3AF06867B"
+      },
+      "mobile": {
+        "status": 200,
+        "final_url": "https://addp.vn/sua-hat-glucare-plus",
+        "title": "Sữa hạt Glucare",
+        "lcp_ms": 14256,
+        "cls": 0.05055899982059008,
+        "render_collection_version": "render-stabilized-v2",
+        "render_status": "stabilized_with_failures",
+        "render_stabilization_evidence_id": "EVD-EBDFC0DBD50D3635"
+      }
+    },
+    "render_collection_version": "render-stabilized-v2",
+    "final_url": "https://addp.vn/sua-hat-glucare-plus",
+    "collected_at": "2026-09-28T14:28:37.587Z"
+  }
+]

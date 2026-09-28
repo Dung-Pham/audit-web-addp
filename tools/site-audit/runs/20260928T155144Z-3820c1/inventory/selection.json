@@ -1,0 +1,10 @@
+{
+  "run_kind": "smoke",
+  "selection_method": "explicit_requested_urls",
+  "requested_urls": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ],
+  "discovery_expansion": false,
+  "robots_url": "https://addp.vn/robots.txt"
+}

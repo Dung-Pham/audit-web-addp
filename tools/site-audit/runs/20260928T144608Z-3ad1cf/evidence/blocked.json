@@ -1,0 +1,434 @@
+[
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9911963620842126:1790604044:k9bniZqhJyvDg4r73tLKEBk_UsQwf6hWx4OkDsmaZJc/a42389622837fcf8",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=99ejqr7s2qisa0qo71f2boi11f\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m  - ← 200 OK\u001b[22m\n\u001b[2m    - date: Mon, 28 Sep 2026 14:46:23 GMT\u001b[22m\n\u001b[2m    - content-type: image/png\u001b[22m\n\u001b[2m    - content-length: 1241092\u001b[22m\n\u001b[2m    - connection: keep-alive\u001b[22m\n\u001b[2m    - cache-control: public, max-age=604800\u001b[22m\n\u001b[2m    - expires: Mon, 05 Oct 2026 14:46:23 GMT\u001b[22m\n\u001b[2m    - etag: \"12f004-6aacea39-40c9988a;;;\"\u001b[22m\n\u001b[2m    - last-modified: Fri, 18 Sep 2026 07:37:29 GMT\u001b[22m\n\u001b[2m    - accept-ranges: bytes\u001b[22m\n\u001b[2m    - server: cloudflare\u001b[22m\n\u001b[2m    - x-turbo-charged-by: LiteSpeed\u001b[22m\n\u001b[2m    - cf-cache-status: MISS\u001b[22m\n\u001b[2m    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\u001b[22m\n\u001b[2m    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KJ81mxAW9PqysSNV9JKfG9SpVpgJ6aUdeF0WLJ%2FpgZMaye4rF2ZXHFi9QepLufYy0TNVglLduszLNtdTmOCHK88bDz%2B9uy38zhYgm0awLZGGxw8cFH3FBltw\"}]}\u001b[22m\n\u001b[2m    - cf-ray: a423898b3bfe50cc-KIX\u001b[22m\n\u001b[2m    - alt-svc: h3=\":443\"; ma=86400\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790606784558",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790606784559",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/pub/static/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=99ejqr7s2qisa0qo71f2boi11f\u001b[22m\n\u001b[2m    - origin: https://addp.vn\u001b[22m\n\u001b[2m    - referer: https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m  - ← 200 OK\u001b[22m\n\u001b[2m    - date: Mon, 28 Sep 2026 14:46:27 GMT\u001b[22m\n\u001b[2m    - content-type: font/woff2\u001b[22m\n\u001b[2m    - content-length: 76900\u001b[22m\n\u001b[2m    - connection: keep-alive\u001b[22m\n\u001b[2m    - cache-control: public, max-age=604800\u001b[22m\n\u001b[2m    - expires: Mon, 05 Oct 2026 14:46:27 GMT\u001b[22m\n\u001b[2m    - etag: \"12c64-6ab22cf3-2134f6b8;;;\"\u001b[22m\n\u001b[2m    - last-modified: Tue, 22 Sep 2026 07:23:31 GMT\u001b[22m\n\u001b[2m    - accept-ranges: bytes\u001b[22m\n\u001b[2m    - server: cloudflare\u001b[22m\n\u001b[2m    - x-turbo-charged-by: LiteSpeed\u001b[22m\n\u001b[2m    - cf-cache-status: MISS\u001b[22m\n\u001b[2m    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\u001b[22m\n\u001b[2m    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=x42Iti7NlIxjZwe%2BM9sS6Y%2BboSlClw4EUYgxcgdImh5uOg1vGwOZIoJPo6orfS22Kp5Ba9m94H2Z7myGGKFpNU6ZwLuXs9%2FFfz5pCaNlwt4kJh3ylH7M1157\"}]}\u001b[22m\n\u001b[2m    - cf-ray: a42389a39eb68323-KIX\u001b[22m\n\u001b[2m    - alt-svc: h3=\":443\"; ma=86400\u001b[22m\n",
+    "resource_type": "font",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9911963620842126:1790604044:k9bniZqhJyvDg4r73tLKEBk_UsQwf6hWx4OkDsmaZJc/a4238ab55c0f852c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790606838673",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790606838674",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=n58981ijjms41sikq7ohvei3u7; form_key=Gc3QRfHCJLQGAqD5\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m  - ← 200 OK\u001b[22m\n\u001b[2m    - date: Mon, 28 Sep 2026 14:47:27 GMT\u001b[22m\n\u001b[2m    - content-type: image/png\u001b[22m\n\u001b[2m    - content-length: 1618414\u001b[22m\n\u001b[2m    - connection: keep-alive\u001b[22m\n\u001b[2m    - cache-control: public, max-age=604800\u001b[22m\n\u001b[2m    - expires: Mon, 05 Oct 2026 12:54:54 GMT\u001b[22m\n\u001b[2m    - etag: \"18b1ee-6aacb5c4-40c99733;;;\"\u001b[22m\n\u001b[2m    - last-modified: Fri, 18 Sep 2026 03:53:40 GMT\u001b[22m\n\u001b[2m    - accept-ranges: bytes\u001b[22m\n\u001b[2m    - server: cloudflare\u001b[22m\n\u001b[2m    - x-turbo-charged-by: LiteSpeed\u001b[22m\n\u001b[2m    - age: 6752\u001b[22m\n\u001b[2m    - cf-cache-status: HIT\u001b[22m\n\u001b[2m    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\u001b[22m\n\u001b[2m    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sXniKzzNxLD0oCzgxK5OYRnVR1aAUaUq8SKVdy2SxX6JZJ0muXMF66jQxB4YN3aMqXHDUMicZf%2BZYgB0%2BzeQsm1pAZ3NxDSPeDClQ511TO8lx9g1CoupoA7b\"}]}\u001b[22m\n\u001b[2m    - cf-ray: a4238b1afb718378-KIX\u001b[22m\n\u001b[2m    - alt-svc: h3=\":443\"; ma=86400\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=n58981ijjms41sikq7ohvei3u7; form_key=Gc3QRfHCJLQGAqD5\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m  - ← 200 OK\u001b[22m\n\u001b[2m    - date: Mon, 28 Sep 2026 14:47:27 GMT\u001b[22m\n\u001b[2m    - content-type: image/png\u001b[22m\n\u001b[2m    - content-length: 1487476\u001b[22m\n\u001b[2m    - connection: keep-alive\u001b[22m\n\u001b[2m    - cache-control: public, max-age=604800\u001b[22m\n\u001b[2m    - expires: Mon, 05 Oct 2026 14:47:27 GMT\u001b[22m\n\u001b[2m    - etag: \"16b274-6aacb52d-40c99732;;;\"\u001b[22m\n\u001b[2m    - last-modified: Fri, 18 Sep 2026 03:51:09 GMT\u001b[22m\n\u001b[2m    - accept-ranges: bytes\u001b[22m\n\u001b[2m    - server: cloudflare\u001b[22m\n\u001b[2m    - x-turbo-charged-by: LiteSpeed\u001b[22m\n\u001b[2m    - cf-cache-status: MISS\u001b[22m\n\u001b[2m    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\u001b[22m\n\u001b[2m    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=LCa2lRozTvV9yL%2Fcl2eZ6qAJ9hwKMTEAlVAtWGV%2FP0kz4N%2F7EPnxGv4rLkMoP4FnSmkaSMAUqZgun5wkdJaOZUJwHA5RKCbhRJyfHtlOuLNsPIjGaOyEjpTN\"}]}\u001b[22m\n\u001b[2m    - cf-ray: a4238b1ad913d426-KIX\u001b[22m\n\u001b[2m    - alt-svc: h3=\":443\"; ma=86400\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9911963620842126:1790604044:k9bniZqhJyvDg4r73tLKEBk_UsQwf6hWx4OkDsmaZJc/a4238bfc28076023",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/wysiwyg/codazon/footer-payment.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/media/catalog/product/cache/2765542505660baab28ecd555e27366e/c/a/canximilk_2.png",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/media/catalog/product/cache/2765542505660baab28ecd555e27366e/c/a/canximilk_2.png\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "image",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - → GET https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - cookie: PHPSESSID=b0mtmdsr5e2v71q90b07o88nfc\u001b[22m\n\u001b[2m    - referer: https://addp.vn/sua-hat-glucare-plus\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9911963620842126:1790604044:k9bniZqhJyvDg4r73tLKEBk_UsQwf6hWx4OkDsmaZJc/a4238d638a1b62f7",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790606949031",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790606949032",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  }
+]

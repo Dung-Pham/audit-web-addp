@@ -1,0 +1,186 @@
+{
+  "run_kind": "smoke",
+  "requested_urls": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-hat-glucare-plus"
+  ],
+  "entries": [
+    {
+      "requested_url": "https://addp.vn/",
+      "final_url": "https://addp.vn/",
+      "url": "https://addp.vn/",
+      "viewport": "desktop",
+      "first_viewport": {
+        "captured": true,
+        "evidence_ids": [
+          "EVD-43FB9DEFD6EDE605"
+        ]
+      },
+      "performance_clean_load": {
+        "captured": true,
+        "lab": true,
+        "synthetic_scroll_before_measurement": false,
+        "evidence_ids": [
+          "EVD-85956D06B433ABCA"
+        ]
+      },
+      "scroll_stabilized": {
+        "captured": true,
+        "reached_bottom": true,
+        "scroll_iterations": 7,
+        "initial_height": 4971,
+        "final_height": 4971,
+        "height_increased": false,
+        "images_before": 20,
+        "images_after": 20,
+        "images_discovered_after_scroll": 0,
+        "loaded_images": 18,
+        "failed_images": 2,
+        "pending_images": 0,
+        "visible_asset_failures": 2,
+        "render_reason_codes": [
+          "render_complete"
+        ],
+        "budget_exhausted": false,
+        "evidence_ids": [
+          "EVD-E3461AC4808842D8",
+          "EVD-702877ACD4E72E55"
+        ]
+      },
+      "collection_status": "complete"
+    },
+    {
+      "requested_url": "https://addp.vn/",
+      "final_url": "https://addp.vn/",
+      "url": "https://addp.vn/",
+      "viewport": "mobile",
+      "first_viewport": {
+        "captured": true,
+        "evidence_ids": [
+          "EVD-9B3746A447795E5D"
+        ]
+      },
+      "performance_clean_load": {
+        "captured": true,
+        "lab": true,
+        "synthetic_scroll_before_measurement": false,
+        "evidence_ids": [
+          "EVD-3D15DCDB359887BF"
+        ]
+      },
+      "scroll_stabilized": {
+        "captured": true,
+        "reached_bottom": true,
+        "scroll_iterations": 10,
+        "initial_height": 5768,
+        "final_height": 5767,
+        "height_increased": false,
+        "images_before": 20,
+        "images_after": 20,
+        "images_discovered_after_scroll": 0,
+        "loaded_images": 18,
+        "failed_images": 2,
+        "pending_images": 0,
+        "visible_asset_failures": 2,
+        "render_reason_codes": [
+          "render_complete"
+        ],
+        "budget_exhausted": false,
+        "evidence_ids": [
+          "EVD-593BA7163638B99D",
+          "EVD-92E0841363C85BA1"
+        ]
+      },
+      "collection_status": "complete"
+    },
+    {
+      "requested_url": "https://addp.vn/sua-hat-glucare-plus",
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "desktop",
+      "first_viewport": {
+        "captured": true,
+        "evidence_ids": [
+          "EVD-FB24D9B8334093C4"
+        ]
+      },
+      "performance_clean_load": {
+        "captured": true,
+        "lab": true,
+        "synthetic_scroll_before_measurement": false,
+        "evidence_ids": [
+          "EVD-9F9FDDCFDF43F393"
+        ]
+      },
+      "scroll_stabilized": {
+        "captured": true,
+        "reached_bottom": true,
+        "scroll_iterations": 10,
+        "initial_height": 6934,
+        "final_height": 6934,
+        "height_increased": false,
+        "images_before": 26,
+        "images_after": 26,
+        "images_discovered_after_scroll": 0,
+        "loaded_images": 16,
+        "failed_images": 2,
+        "pending_images": 8,
+        "visible_asset_failures": 2,
+        "render_reason_codes": [
+          "render_complete"
+        ],
+        "budget_exhausted": false,
+        "evidence_ids": [
+          "EVD-64D373C3AF06867B",
+          "EVD-EA78205F3017C505"
+        ]
+      },
+      "collection_status": "partial"
+    },
+    {
+      "requested_url": "https://addp.vn/sua-hat-glucare-plus",
+      "final_url": "https://addp.vn/sua-hat-glucare-plus",
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "mobile",
+      "first_viewport": {
+        "captured": true,
+        "evidence_ids": [
+          "EVD-F65D8AFB77A88775"
+        ]
+      },
+      "performance_clean_load": {
+        "captured": true,
+        "lab": true,
+        "synthetic_scroll_before_measurement": false,
+        "evidence_ids": [
+          "EVD-1FE036CF43DBF534"
+        ]
+      },
+      "scroll_stabilized": {
+        "captured": true,
+        "reached_bottom": true,
+        "scroll_iterations": 17,
+        "initial_height": 10888,
+        "final_height": 10680,
+        "height_increased": false,
+        "images_before": 26,
+        "images_after": 44,
+        "images_discovered_after_scroll": 0,
+        "loaded_images": 29,
+        "failed_images": 2,
+        "pending_images": 13,
+        "visible_asset_failures": 2,
+        "render_reason_codes": [
+          "render_partial_budget_exhausted",
+          "render_partial_unstable_dom"
+        ],
+        "budget_exhausted": true,
+        "evidence_ids": [
+          "EVD-EBDFC0DBD50D3635",
+          "EVD-0581A36B72F4A783"
+        ]
+      },
+      "collection_status": "partial"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { access, copyFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { collectPage, launchCollector, RENDER_COLLECTION_VERSION } from './browser.mjs';
-import { discover, parseRobots } from './crawler.mjs';
+import { classifyPage, discover, parseRobots } from './crawler.mjs';
 import { atomicJson, assertReadOnly, evidenceFor, json, normalizeUrl } from './shared.mjs';
 
 /** Collect public website evidence without interacting with forms or commerce actions. */
@@ -113,4 +113,30 @@ export async function collectSite({ target, runDir, config = {}, discoveryOnly =
   const complete = pages.filter(p => p.collection_status === 'complete').length;
   const partial = pages.filter(p => p.collection_status === 'partial').length;
   return { pages, evidence: [...byId.values()], blocked: blocked(), summary: { mode: 'collect', status: pages.every(p => p.collection_status === 'complete') ? 'complete' : 'partial', complete_with_limitations: partial > 0 && complete + partial === pages.length, discovered: discovery.candidates?.length ?? 0, pages: pages.length, collected: complete, usable: complete + partial, partial, errors: pages.filter(p => p.collection_status === 'error').length, evidence: byId.size, blocked: blocked().length } };
+}
+
+/** Smoke-only collection: robots plus the caller's explicit URLs, never sitemap/link discovery. */
+export async function collectRequestedPages({ target, urls, runDir, config = {} }) {
+  const origin = new URL(target).origin;
+  if (!Array.isArray(urls) || !urls.length || urls.length > 3) throw new Error('Explicit smoke requires 1..3 URLs');
+  if (urls.some(url => new URL(url).origin !== origin)) throw new Error('Explicit smoke URLs must be same-origin');
+  for (const url of urls) assertReadOnly(url);
+  const robotsUrl = new URL('/robots.txt', origin).href;
+  const robotsResponse = await fetch(robotsUrl, { headers: { 'User-Agent': 'SiteAuditReadOnly/1.0' }, signal: AbortSignal.timeout(20_000) });
+  if (!robotsResponse.ok) throw new Error(`Robots unavailable: robots.txt status ${robotsResponse.status}`);
+  const robots = parseRobots(await robotsResponse.text());
+  if (urls.some(url => !robots.allows(url))) throw new Error('Robots disallow one or more requested smoke URLs');
+  const pages = urls.map(url => ({ url, requested_url: url, page_type: classifyPage(url), discovered_from: ['explicit_smoke_request'], http_status: null, canonical: null, indexability: null, importance: 'critical', selection_method: 'explicit_requested_urls' }));
+  const evidencePath = join(runDir, 'evidence', 'index.json'), blockedPath = join(runDir, 'evidence', 'blocked.json'), pagesPath = join(runDir, 'inventory', 'pages.json');
+  const byId = new Map((await json(evidencePath, [])).map(item => [item.evidence_id, item])); const blocked = [];
+  await atomicJson(join(runDir, 'inventory', 'selection.json'), { run_kind: 'smoke', selection_method: 'explicit_requested_urls', requested_urls: urls, discovery_expansion: false, robots_url: robotsUrl });
+  const browser = await launchCollector(config);
+  try { for (const page of pages) {
+    const result = await collectPage({ browser, pageInfo: page, runDir, target, config, robotsAllows: url => robots.allows(url) });
+    result.evidence.forEach(item => byId.set(item.evidence_id, item)); blocked.push(...result.blocked);
+    page.collection_status = Object.values(result.browserResults).every(item => !item.error && item.render_status === 'stabilized') ? 'complete' : 'partial'; page.browser = result.browserResults; page.render_collection_version = RENDER_COLLECTION_VERSION; page.http_status = result.raw.status; page.final_url = result.raw.final_url; page.collected_at = new Date().toISOString();
+    await atomicJson(evidencePath, [...byId.values()]); await atomicJson(blockedPath, blocked); await atomicJson(pagesPath, pages);
+  }} finally { await browser.close(); }
+  const complete = pages.filter(page => page.collection_status === 'complete').length;
+  return { pages, evidence: [...byId.values()], blocked, summary: { mode: 'explicit_urls_only', status: complete === pages.length ? 'complete' : 'partial', pages: pages.length, collected: complete, partial: pages.length - complete, usable: pages.length } };
 }

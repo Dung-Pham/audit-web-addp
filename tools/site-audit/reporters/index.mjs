@@ -181,7 +181,33 @@ function executiveReport(ctx) {
   return `${reportHeader('Executive Plan', manifest)}## Workstreams\n\n${workstreams.size ? bullets([...workstreams].map(([area, ids]) => `${safe(area)}: ${ids.join(', ')}.`)) : 'No workstreams established from accepted findings.'}\n\n## P0/P1 priorities\n\n${backlog.filter(t => ['P0','P1'].includes(t.priority)).map(taskSummary).join('\n') || 'No accepted P0/P1 task.'}\n\n## Dependency summary\n\n${backlog.some(t => t.dependencies.length) ? bullets(backlog.filter(t => t.dependencies.length).map(t => `${t.task_id} depends on ${t.dependencies.join(', ')}.`)) : 'No dependencies were recorded.'}\n\n## Task counts\n\n${backlog.length} tasks from ${accepted.length} accepted findings: ${['P0','P1','P2','P3'].map(p => `${p} ${backlog.filter(t => t.priority === p).length}`).join(', ')}.\n\n## Blocked/manual review\n\n${manualReview.length} manual-review items; ${blocked.length} blocked items. These did not create tasks.\n\n## Target outcomes\n\n${backlog.length ? bullets(backlog.map(t => `${t.task_id}: ${safe(t.target_state)}; verify with ${t.acceptance_criteria.length} acceptance criterion/criteria.`)) : 'No evidence-backed target outcomes established.'}\n`;
 }
 
-export async function generateReports({ runDir, manifest = {}, pages = [], evidence = [], requirements = [], checks = [], journeys = [], accepted = [], manualReview = [], blocked = [], diagnostics = [], backlog } = {}) {
+function executiveAuditReport(ctx) {
+  const productNames = ['glucare', 'vien-an-duong', 'dovital'];
+  const products = productNames.map(name => {
+    const pages = ctx.pages.filter(page => page.url.toLowerCase().includes(name));
+    const status = pages.length ? (pages.some(page => page.collection_status === 'complete') ? 'COVERED' : 'PARTIAL') : 'NOT_FOUND';
+    return [name, status, pages.map(page => page.url).join(', ') || 'No observed route'];
+  });
+  const strengths = ctx.journeys.flatMap(journey => uniq(journey.positive_signals));
+  return `${reportHeader('Executive Audit', ctx.manifest)}## Scope and coverage\n\n${bullets([`Collected inventory: ${ctx.pages.length} pages.`, `Accepted evidence-backed findings: ${ctx.accepted.length}.`, `Blocked/manual-review areas: ${ctx.blocked.length + ctx.manualReview.length}.`, 'Coverage statuses are not assertions of website quality; NOT_FOUND and BLOCKED remain validation gaps.'])}\n\n## Three-product status\n\n${markdownTable(['Product','Coverage','Observed routes'], products)}\n\n## Keep / protect\n\n${bullets(strengths.length ? strengths : ['No evidence-backed positive signals were recorded.'])}\n\n## Immediate priorities\n\n${ctx.backlog.filter(task => ['P0','P1'].includes(task.priority)).map(taskSummary).join('\n') || 'No accepted P0/P1 task.'}\n\n## Unknown / blocked validation\n\n${bullets([...ctx.blocked.map(item => item.reason || item.message || 'Blocked item'), ...ctx.manualReview.map(item => item.reason || item.title || 'Manual review item'), 'Checkout, payment, account and transaction confirmation require an authorized transaction environment and are not inferred from this audit.'])}\n`;
+}
+
+function transformationPlan(ctx) {
+  const checks = ctx.checks.filter(check => ['PARTIAL', 'FAIL', 'BLOCKED', 'UNKNOWN'].includes(String(check.status || check.result || '').toUpperCase()));
+  const items = checks.map((check, index) => ({
+    id: `TRANS-${String(index + 1).padStart(3, '0')}`,
+    requirement_id: check.requirement_id || check.id,
+    status: String(check.status || check.result || 'UNKNOWN').toUpperCase(),
+    objective: check.transformation_objective || 'Close a checklist or documented business-goal coverage gap without asserting an observed defect.',
+    evidence_ids: uniq(check.evidence_ids),
+    urls: uniq(check.affected_urls || check.urls),
+    rationale: check.observation || 'The requirement is not fully evidenced by this audit.'
+  }));
+  const body = items.length ? items.map(item => `### ${item.id}\n\n- **Traceability:** checklist requirement ${safe(item.requirement_id)}; status ${safe(item.status)}.\n- **Objective:** ${safe(item.objective)}\n- **Evidence / URLs:** ${item.evidence_ids.join(', ') || 'none'} / ${item.urls.join(', ') || 'not established'}.\n- **Rationale:** ${safe(item.rationale)}\n- **Boundary:** This is transformation work, not an accepted defect finding.`).join('\n\n') : 'No checklist/business-goal gaps were supplied for transformation planning.';
+  return `${reportHeader('Transformation Plan', ctx.manifest)}This planning product is separate from the remediation backlog. It contains checklist or business-goal gaps that may require future capability/content work even where an observed defect cannot be asserted.\n\n## Transformation items\n\n${body}\n`;
+}
+
+export async function generateReports({ runDir, manifest = {}, pages = [], evidence = [], requirements = [], checks = [], journeys = [], accepted = [], manualReview = [], blocked = [], diagnostics = [], backlog, coverage = {} } = {}) {
   if (!runDir) throw new TypeError('runDir is required');
   const approved = list(accepted).filter(f => f?.finding_id && ![f.status, f.review_status, f.review?.status].some(value => ['rejected', 'needs_manual_review', 'manual_review', 'blocked'].includes(value)) && (!f.review_status || f.review_status === 'accepted'));
   const tasks = backlog === undefined ? planFindings(approved, list(diagnostics)) : list(backlog);
@@ -189,7 +215,7 @@ export async function generateReports({ runDir, manifest = {}, pages = [], evide
   for (const task of tasks) {
     if (!task?.finding_ids?.length || task.finding_ids.some(id => !approvedIds.has(id))) throw new Error(`Backlog task ${task?.task_id || '(unknown)'} references a finding that is not accepted`);
   }
-  const ctx = { manifest, pages: list(pages), evidence, requirements: requirementRows(requirements), checks: coverageRows(checks), journeys: list(journeys), accepted: approved, manualReview: list(manualReview), blocked: list(blocked), diagnostics: list(diagnostics), backlog: tasks };
+  const ctx = { manifest, pages: list(pages), evidence, requirements: requirementRows(requirements), checks: coverageRows(checks), journeys: list(journeys), accepted: approved, manualReview: list(manualReview), blocked: list(blocked), diagnostics: list(diagnostics), backlog: tasks, coverage };
   const reportsDir = path.join(runDir, 'reports');
   const backlogDir = path.join(runDir, 'backlog');
   await Promise.all([mkdir(reportsDir, { recursive: true }), mkdir(backlogDir, { recursive: true })]);
@@ -198,6 +224,8 @@ export async function generateReports({ runDir, manifest = {}, pages = [], evide
     AUDIT_REPORT: path.join(reportsDir, 'AUDIT_REPORT.md'),
     IMPROVEMENT_PLAN: path.join(reportsDir, 'IMPROVEMENT_PLAN.md'),
     EXECUTIVE_PLAN: path.join(reportsDir, 'EXECUTIVE_PLAN.md'),
+    EXECUTIVE_AUDIT: path.join(reportsDir, 'EXECUTIVE_AUDIT.md'),
+    TRANSFORMATION_PLAN: path.join(reportsDir, 'TRANSFORMATION_PLAN.md'),
     IMPLEMENTATION_BACKLOG: path.join(backlogDir, 'IMPLEMENTATION_BACKLOG.json'),
     DEPENDENCIES: path.join(backlogDir, 'DEPENDENCIES.json')
   };
@@ -205,6 +233,8 @@ export async function generateReports({ runDir, manifest = {}, pages = [], evide
     writeFile(files.AUDIT_REPORT, auditReport(ctx), 'utf8'),
     writeFile(files.IMPROVEMENT_PLAN, improvementReport(ctx), 'utf8'),
     writeFile(files.EXECUTIVE_PLAN, executiveReport(ctx), 'utf8'),
+    writeFile(files.EXECUTIVE_AUDIT, executiveAuditReport(ctx), 'utf8'),
+    writeFile(files.TRANSFORMATION_PLAN, transformationPlan(ctx), 'utf8'),
     writeFile(files.IMPLEMENTATION_BACKLOG, `${serialize(ctx.backlog)}\n`, 'utf8'),
     writeFile(files.DEPENDENCIES, `${serialize(dependencies)}\n`, 'utf8')
   ]);

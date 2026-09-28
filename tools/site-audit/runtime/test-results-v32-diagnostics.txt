@@ -1,0 +1,100 @@
+TAP version 13
+# Subtest: redirect guard keeps source cookies and authorization away from a second local origin
+ok 1 - redirect guard keeps source cookies and authorization away from a second local origin
+  ---
+  duration_ms: 1334.1877
+  type: 'test'
+  ...
+# Subtest: safety and page classification cover dangerous actions and named products
+ok 2 - safety and page classification cover dangerous actions and named products
+  ---
+  duration_ms: 7.2576
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/6: http://127.0.0.1:51752/
+# [site-audit] 1/6 complete: http://127.0.0.1:51752/ (33 evidence)
+# [site-audit] Collecting 2/6: http://127.0.0.1:51752/category
+# [site-audit] 2/6 complete: http://127.0.0.1:51752/category (63 evidence)
+# [site-audit] Collecting 3/6: http://127.0.0.1:51752/news/article
+# [site-audit] 3/6 complete: http://127.0.0.1:51752/news/article (93 evidence)
+# [site-audit] Collecting 4/6: http://127.0.0.1:51752/product/glucare-plus
+# [site-audit] 4/6 complete: http://127.0.0.1:51752/product/glucare-plus (123 evidence)
+# [site-audit] Collecting 5/6: http://127.0.0.1:51752/contact
+# [site-audit] 5/6 complete: http://127.0.0.1:51752/contact (153 evidence)
+# [site-audit] Collecting 6/6: http://127.0.0.1:51752/product/dovital
+# [site-audit] 6/6 complete: http://127.0.0.1:51752/product/dovital (183 evidence)
+# Subtest: localhost discovery and Chrome collection are read-only, complete, and resumable
+ok 3 - localhost discovery and Chrome collection are read-only, complete, and resumable
+  ---
+  duration_ms: 50670.3315
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:61319/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:61319/render-stabilization (19 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:61319/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:61319/render-stabilization (21 evidence)
+# [site-audit] Collecting 1/1: http://127.0.0.1:61319/render-stabilization
+# [site-audit] 1/1 partial: http://127.0.0.1:61319/render-stabilization (21 evidence)
+# Subtest: render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+ok 4 - render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+  ---
+  duration_ms: 18805.6491
+  type: 'test'
+  ...
+# Subtest: render v3.1 reaches long mobile bottom after reserve threshold and separates final stability from history
+ok 5 - render v3.1 reaches long mobile bottom after reserve threshold and separates final stability from history
+  ---
+  duration_ms: 3388.2973
+  type: 'test'
+  ...
+# Subtest: render v3.1 retains unstable-dom evidence for a material final-window mutation
+ok 6 - render v3.1 retains unstable-dom evidence for a material final-window mutation
+  ---
+  duration_ms: 1907.699
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Robots unavailable: robots.txt status 503
+# Subtest: robots server failure blocks collection with explicit status and no page fetches
+ok 7 - robots server failure blocks collection with explicit status and no page fetches
+  ---
+  duration_ms: 21.0663
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:61847/browser-cross-origin
+# [site-audit] 1/1 complete: http://127.0.0.1:61847/browser-cross-origin (19 evidence)
+# Subtest: Chrome blocks script-initiated cross-origin navigation
+ok 8 - Chrome blocks script-initiated cross-origin navigation
+  ---
+  duration_ms: 4915.5346
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:54262/attack-browser
+# [site-audit] 1/1 complete: http://127.0.0.1:54262/attack-browser (19 evidence)
+# Subtest: context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+ok 9 - context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+  ---
+  duration_ms: 5450.3518
+  type: 'test'
+  ...
+# Subtest: direct collectSite API applies production gate before network or files
+ok 10 - direct collectSite API applies production gate before network or files
+  ---
+  duration_ms: 8.1549
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Disallowed by robots.txt; Mutating GET URL; Unsafe redirect blocked; Discovery selected zero pages
+# Subtest: raw discovery rejects an unsafe second redirect hop
+ok 11 - raw discovery rejects an unsafe second redirect hop
+  ---
+  duration_ms: 80.8722
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 87800.9611

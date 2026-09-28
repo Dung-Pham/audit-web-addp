@@ -1,0 +1,275 @@
+[
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.8347257916658471:1790611231:9Ug_1fcHaDAQzTkBRkeXV8Qd1yzTDqwqLOHEFF_m9j8/a424175f396e400b",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Error: Script error for \"Magento_GoogleGtag/js/google-analytics\"\nhttps://requirejs.org/docs/errors.html#scripterror\n    at makeError (https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js:173:17)\n    at HTMLScriptElement.onScriptError (https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js:1765:36)",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+      "line": 44,
+      "column": 24,
+      "lineNumber": 44,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Tax/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Msrp/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Captcha/js/view/checkout/loginCaptcha\" component. Due to \"Error: Script error for \"Magento_Captcha/js/view/checkout/loginCaptcha\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "[2026-09-28 23:23:26+07:00] [ERROR] Failed to load the \"Magento_Checkout/js/view/checkout/minicart/subtotal/totals\" component. Due to \"Error: Script error for \"Magento_Checkout/js/view/checkout/minicart/subtotal/totals\"\nhttps://requirejs.org/docs/errors.html#scripterror\"",
+    "location": {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "line": 33,
+      "column": 24,
+      "lineNumber": 33,
+      "columnNumber": 24
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790612598894",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790612598895",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+    "location": {
+      "url": "https://addp.vn/cdn-cgi/rum?",
+      "line": 0,
+      "column": 0,
+      "lineNumber": 0,
+      "columnNumber": 0
+    },
+    "page_url": "https://addp.vn/chinh-sach-dat-hang",
+    "audit_induced": false
+  }
+]
