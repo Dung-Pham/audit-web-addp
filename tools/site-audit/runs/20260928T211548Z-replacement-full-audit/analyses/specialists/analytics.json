@@ -1,0 +1,95 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "analytics",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "inputs": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json",
+      "evidence/analytics/*.json",
+      "checklist.normalized.json",
+      "analyses/personas/journeys.json"
+    ],
+    "coverage": "49 analytics evidence records across 25 unique URLs: 24 URLs have desktop and mobile records; https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan has desktop only. The run contains 25 usable inventory pages (16 complete, 9 partial). No other run was consulted."
+  },
+  "candidates": [
+    {
+      "finding_id": "analytics-public-signals-not-observed-sample",
+      "title": "No public GTM, GA4 request, or dataLayer signal was observed in the collected page sample",
+      "area": "analytics",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": ["REQ-014-01"],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed.",
+      "evidence_ids": [
+        "EVD-DBF33A19881A487E",
+        "EVD-04B228A36544C865",
+        "EVD-5E1FDAFD6E0F3BD0",
+        "EVD-2A0768485D1F0097",
+        "EVD-820A852713ADC090",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-0B566D85DC39FA02",
+        "EVD-AEA3DB2C2D2E0F53"
+      ],
+      "impact": "business",
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Review consent-aware public tag loading and approved analytics configuration, then validate event behavior through an authorized non-production test flow and analytics administration evidence.",
+      "unknowns": [
+        "Whether tags load only after consent or under conditions not reached in these bounded sessions.",
+        "Whether GTM, GA4, Meta Pixel, or Ads tags exist on uncollected URLs or in deferred configurations.",
+        "Whether any backend analytics receipt, attribution, or conversion event is recorded.",
+        "Thank-you-page behavior and successful-order event behavior were not inspected; journeys stopped before cart or checkout mutation."
+      ]
+    }
+  ],
+  "keep_protect": [],
+  "rubric": [
+    {
+      "item": "GTM / analytics library URLs and public identifiers",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "https://addp.vn/contact"],
+      "scope": "Evidence-supported pattern across the sampled analytics records: no GTM signal recorded (gtm=0). The included URLs are page instances; the evidence does not prove a sitewide absence.",
+      "evidence_ids": ["EVD-DBF33A19881A487E", "EVD-5E1FDAFD6E0F3BD0", "EVD-142BC3400E9FB9F7", "EVD-820A852713ADC090", "EVD-125F2A290282DAD5"]
+    },
+    {
+      "item": "GA4, Meta Pixel, and Ads request signals",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/contact"],
+      "scope": "Page-instance inspection of these bounded sessions. Telemetry requests were intentionally blocked because they would be induced by the audit browser; empty observed request lists are not proof that tags or telemetry are absent.",
+      "evidence_ids": ["EVD-DBF33A19881A487E", "EVD-5E1FDAFD6E0F3BD0", "EVD-125F2A290282DAD5"]
+    },
+    {
+      "item": "Inline configuration and dataLayer initialization",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html"],
+      "scope": "Page-instance observations report data_layer_present=false and no dataLayer event names in the sampled raw analytics artifacts. Static inline configuration beyond the fields collected is unknown.",
+      "evidence_ids": ["EVD-DBF33A19881A487E", "EVD-5E1FDAFD6E0F3BD0", "EVD-142BC3400E9FB9F7"]
+    },
+    {
+      "item": "Consent or banner signals affecting analytics loading",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/", "https://addp.vn/contact"],
+      "scope": "Page instance. The available analytics raw facts do not establish consent state or conditional tag loading.",
+      "evidence_ids": ["EVD-DBF33A19881A487E", "EVD-125F2A290282DAD5"]
+    },
+    {
+      "item": "Safely observed events, purchase tracking, and backend receipt",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Journey instances reached the homepage and product page, then stopped before cart/checkout mutation. No event was emitted; event completeness and backend receipt remain unknown.",
+      "evidence_ids": ["EVD-28869D62E349AE02-high_intent-0", "EVD-D117A7EAEA699CAA-high_intent-1", "EVD-4E9770DA004CDC44-mobile-0", "EVD-574F286DC706B28A-mobile-1"]
+    },
+    {
+      "item": "Requirement for conversion tags and successful-order event",
+      "status": "INFERENCE",
+      "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/contact"],
+      "scope": "Evidence-supported sample pattern with page-instance records: collected observations provide no affirmative public signal for REQ-014-01, while REQ-014-02 could not be validated without an authorized successful-order flow. This is not a finding that conversion tracking fails.",
+      "evidence_ids": ["EVD-DBF33A19881A487E", "EVD-5E1FDAFD6E0F3BD0", "EVD-142BC3400E9FB9F7", "EVD-125F2A290282DAD5", "EVD-28869D62E349AE02-high_intent-0", "EVD-D117A7EAEA699CAA-high_intent-1"]
+    }
+  ]
+}

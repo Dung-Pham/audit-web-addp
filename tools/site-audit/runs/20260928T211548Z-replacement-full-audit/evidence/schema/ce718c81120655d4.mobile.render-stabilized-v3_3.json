@@ -1,0 +1,34 @@
+[
+  {
+    "valid": true,
+    "data": {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "author": {
+        "@type": "Person",
+        "name": "admin admin",
+        "url": "https://addp.vn/blog/author/admin-admin"
+      },
+      "headline": "Đái tháo đường là bệnh gì? - Và những điều cần biết",
+      "description": "Đái tháo đường là bệnh gì? Đây là một câu hỏi quan trọng, bởi vì đái tháo đường là một tình trạng mạn tính phức tạp, ảnh hưởng đến hàng triệu người trên thế giới và nếu không được quản lý đúng cách, c",
+      "datePublished": "2025-08-07T00:00:00+00:00",
+      "dateModified": "2026-09-15T08:36:34+00:00",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://addp.vn/media/magefan_blog/b0063a1f-d541-456f-9b0e-6b4e9a7a6461.jpg",
+        "width": 720,
+        "height": 720
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Công ty TNHH Dược phẩm ADDP",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/logo.svg"
+        }
+      },
+      "mainEntityOfPage": "https://addp.vn/blog"
+    }
+  }
+]

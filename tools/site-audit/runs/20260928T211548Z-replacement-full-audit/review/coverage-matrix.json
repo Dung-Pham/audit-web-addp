@@ -1,0 +1,1134 @@
+{
+  "statuses": [
+    "COVERED",
+    "PARTIAL",
+    "NOT_FOUND",
+    "BLOCKED",
+    "UNKNOWN",
+    "OUT_OF_SCOPE"
+  ],
+  "homepage": {
+    "name": "homepage",
+    "status": "COVERED",
+    "urls": [
+      "https://addp.vn/"
+    ],
+    "evidence_ids": [
+      "EVD-80DB3C701FE061F9",
+      "EVD-88DD509F3586ACF5",
+      "EVD-43FB9DEFD6EDE605",
+      "EVD-49A5344C4B6C5FED",
+      "EVD-85956D06B433ABCA",
+      "EVD-E3461AC4808842D8",
+      "EVD-A606C27223349F8A",
+      "EVD-A81704E1324D31CC",
+      "EVD-32CB6452441EDF9E",
+      "EVD-AEE314AA3F7151E7",
+      "EVD-DBF33A19881A487E",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-702877ACD4E72E55",
+      "EVD-6E93B5B6099AB8DE",
+      "EVD-D180D4E34ABF95BC",
+      "EVD-60CBF75CE8FE2864",
+      "EVD-9B3746A447795E5D",
+      "EVD-90A6A817C6116577",
+      "EVD-3D15DCDB359887BF",
+      "EVD-593BA7163638B99D",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-AEED7CD9E819A9C7",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-2CA66D18158349D8",
+      "EVD-04B228A36544C865",
+      "EVD-4256DF417284230A",
+      "EVD-92E0841363C85BA1",
+      "EVD-3425B7ADB4DE40C6",
+      "EVD-0A4B53A36849E3DA",
+      "EVD-8C7E9CF272FB4245",
+      "EVD-571CE21693716D24-first_time-0",
+      "EVD-571CE21693716D24-first_time-0-SHOT",
+      "EVD-28869D62E349AE02-high_intent-0",
+      "EVD-28869D62E349AE02-high_intent-0-SHOT",
+      "EVD-4E9770DA004CDC44-mobile-0",
+      "EVD-4E9770DA004CDC44-mobile-0-SHOT",
+      "EVD-E953DA582A400457-research-0",
+      "EVD-E953DA582A400457-research-0-SHOT"
+    ],
+    "reason": "Collected public inventory/evidence exists."
+  },
+  "products": {
+    "glucare": {
+      "identity": "glucare",
+      "urls": [
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/sua-hat-glucare-plus"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-F71EC5745F2AF71B",
+            "EVD-42AE297DAC33A1B9"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C07AE1B67F5FAB1D",
+            "EVD-AEFBEE031D7647F4",
+            "EVD-689120860F2FACA2",
+            "EVD-AADDB45759F67004"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-117F092A6C957697",
+            "EVD-C12BB36F5D39F67E",
+            "EVD-D1249648026B4D96",
+            "EVD-1BA12AFB05B5BD13"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-117F092A6C957697",
+            "EVD-C12BB36F5D39F67E",
+            "EVD-D1249648026B4D96",
+            "EVD-1BA12AFB05B5BD13"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-01FF964BE2B7A2AA",
+            "EVD-B1630958C79BC01D",
+            "EVD-80257931D1966034",
+            "EVD-5DEB9224EB2D897C"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-8B081AA3A3844CBA",
+            "EVD-0581A36B72F4A783"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-641917A75B4A1104",
+            "EVD-2F1BD82D6F3C20D6",
+            "EVD-9F9FDDCFDF43F393",
+            "EVD-1FE036CF43DBF534"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    },
+    "vien_an_duong": {
+      "identity": "vien_an_duong",
+      "urls": [
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-8B09867D19F1496E"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-AD18B204CB25AAFE",
+            "EVD-8B52A19F88C406F7"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C4AE99238E385779",
+            "EVD-B7C8035A64CF2E79"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C4AE99238E385779",
+            "EVD-B7C8035A64CF2E79"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-02D7356CC02B574B",
+            "EVD-BDF90743647332F7"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-65661C6225D2AAFA"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-59FEA6B0424B92A9",
+            "EVD-72E1A5FAECEBA7B5"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    },
+    "dovital": {
+      "identity": "dovital",
+      "urls": [
+        "https://addp.vn/sui-dovital"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-1C46740F9999CF7B"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-5636E0D9D1AB2605",
+            "EVD-91A2524CB7C652D0"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-239333BC638CDEBA",
+            "EVD-30DDD40B25555E6E"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-239333BC638CDEBA",
+            "EVD-30DDD40B25555E6E"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-E32F848C405D32E0",
+            "EVD-EDDAD1FAFA69798C"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-A56C5E202BFD212A"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-CAD8504CF169E375",
+            "EVD-9EA71D28792733BF"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    }
+  },
+  "news": {
+    "listing": {
+      "name": "news_listing",
+      "status": "COVERED",
+      "urls": [
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong"
+      ],
+      "evidence_ids": [
+        "EVD-08F52276A2F3039C",
+        "EVD-0BCCF09E222917B1",
+        "EVD-70512BB331D17D68",
+        "EVD-DE6A91E054F80415",
+        "EVD-6FA8247E2A86C79A",
+        "EVD-22A72C4658743F46",
+        "EVD-BD78A039077C5231",
+        "EVD-193B911618A48573",
+        "EVD-A5A62E8017987EAC",
+        "EVD-B4D26A7C5573A5DF",
+        "EVD-F90BC40EAF6B6DCF",
+        "EVD-65674D7855E4F693",
+        "EVD-1D1316F928585A48",
+        "EVD-22E0DDE6D2609F17",
+        "EVD-45B3583AD1D43A79",
+        "EVD-56E8989382649663",
+        "EVD-45D40B9E081A566D",
+        "EVD-67C0F1FB5C6436C1",
+        "EVD-203B6173B6A72522",
+        "EVD-244CBDFEC25178D5",
+        "EVD-4E535E98956506AC",
+        "EVD-0E21303A3735BA32",
+        "EVD-6362D91F68007AC2",
+        "EVD-DE7D7ACBC351630E",
+        "EVD-AA83068AD42CC1D4",
+        "EVD-70BB53F1B279EAEE",
+        "EVD-E9F76FC405A54828",
+        "EVD-9C7D299C355C1D56",
+        "EVD-38A181FAB588ED46",
+        "EVD-F0AF488DF2881610"
+      ],
+      "reason": "Collected public inventory/evidence exists."
+    },
+    "article_detail": {
+      "name": "article_detail",
+      "status": "COVERED",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong"
+      ],
+      "evidence_ids": [
+        "EVD-29BE01E2DF43FC8F",
+        "EVD-AD2CB18B0ADA3AC2",
+        "EVD-758379B8B590DDED",
+        "EVD-2701FBD91666AB6E",
+        "EVD-140275788B638B2B",
+        "EVD-90BBF242E7AE8FDA",
+        "EVD-7AFC281EC7B96578",
+        "EVD-01E8B99B0727F6CF",
+        "EVD-2326A9C7428D947E",
+        "EVD-911EA4E0058AABE5",
+        "EVD-820A852713ADC090",
+        "EVD-10A64944D2AB6612",
+        "EVD-2773831F8B2D63A5",
+        "EVD-50B0FE12AAF27543",
+        "EVD-31973071CB32F790",
+        "EVD-2176331ECAEBADE8",
+        "EVD-6C09BEFD76A5FD6E",
+        "EVD-EEC171D5AA378854",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-805F8708C63FD494",
+        "EVD-1EAEDE4DD09C1FA5",
+        "EVD-892601A1DF5D0CF8",
+        "EVD-11EA381BDF07E9AE",
+        "EVD-D3B4D5EEFC67C74D",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-DDFFD3BFCCF0CDB6",
+        "EVD-D8E2996542CFE675",
+        "EVD-5656216FCA94BDAB",
+        "EVD-4F52EC47774FC054",
+        "EVD-3BAF668091392C62",
+        "EVD-8C596D4F7D8F3EBF",
+        "EVD-1EE8A8E7411A08A2",
+        "EVD-8DBD41575C3360A5",
+        "EVD-F156C68E325AA11F",
+        "EVD-1043761274B05EFF",
+        "EVD-DD416F421E0E9230",
+        "EVD-646013F783E7CBC1",
+        "EVD-0B2AF41DEADA909B",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-B577E9F1FEED6B97",
+        "EVD-B5EE0893C99259A0",
+        "EVD-8879AF0423D340C5",
+        "EVD-50BD6697FA02417E",
+        "EVD-9CDEA6BE9C461057",
+        "EVD-AE05C81A1CBCA40F",
+        "EVD-70283F9D50AFFA15",
+        "EVD-37ABEFC5D402D79E",
+        "EVD-477F88EE7874136D",
+        "EVD-381F4D853D891DF0",
+        "EVD-7097050AEB313C7B",
+        "EVD-9CD8698A5102BD6D",
+        "EVD-107C3EB13B5959BF",
+        "EVD-46D3A7BEA5924B9A",
+        "EVD-9DC141CE654D0485",
+        "EVD-D15C68F25BB6E500",
+        "EVD-388603E03AE1A9CC",
+        "EVD-1B9963DA06CD20D8",
+        "EVD-D1113D377B9C709B",
+        "EVD-02F9831787029E27",
+        "EVD-424AEEEFA87C1240",
+        "EVD-11CB9891813824E1",
+        "EVD-4FDC277E11D55DA4",
+        "EVD-47E9DA9118AF4862",
+        "EVD-86E44B1946B0A5A3",
+        "EVD-DE6EBC443A804CF6",
+        "EVD-15C0A915B7EE2968",
+        "EVD-3D87D8864C6A65DE",
+        "EVD-917BFE774CA2C681",
+        "EVD-0CC76FEDCFD90652",
+        "EVD-3557E2554F23D240",
+        "EVD-D1C32111E29254A2",
+        "EVD-8833000EC328B4B0",
+        "EVD-2DF29C0F3D3E9F4C",
+        "EVD-70EBC19BB80AAD34",
+        "EVD-1C5B700715239515",
+        "EVD-02BA6465F7F39ABB",
+        "EVD-F6665A52DB79CC27",
+        "EVD-6291B71BFB4AB532",
+        "EVD-DF46103AB78D9C38",
+        "EVD-4EE3C9A78390B998",
+        "EVD-C9484AFF52948923",
+        "EVD-93A338E8E139D7B5",
+        "EVD-8EA2B7FC7DAA354D",
+        "EVD-D20E130040FF2B24",
+        "EVD-91DF77E4547A0C14",
+        "EVD-7977C8A8C5219F63",
+        "EVD-D7567F1A853E8A6F",
+        "EVD-B3A43F6A2D57F40F",
+        "EVD-0212DADE17498923",
+        "EVD-2BC9674CDEBBC608",
+        "EVD-08F52276A2F3039C",
+        "EVD-0BCCF09E222917B1",
+        "EVD-70512BB331D17D68",
+        "EVD-DE6A91E054F80415",
+        "EVD-6FA8247E2A86C79A",
+        "EVD-22A72C4658743F46",
+        "EVD-BD78A039077C5231",
+        "EVD-193B911618A48573",
+        "EVD-A5A62E8017987EAC",
+        "EVD-B4D26A7C5573A5DF",
+        "EVD-F90BC40EAF6B6DCF",
+        "EVD-65674D7855E4F693",
+        "EVD-1D1316F928585A48",
+        "EVD-22E0DDE6D2609F17",
+        "EVD-45B3583AD1D43A79",
+        "EVD-56E8989382649663",
+        "EVD-45D40B9E081A566D",
+        "EVD-67C0F1FB5C6436C1",
+        "EVD-203B6173B6A72522",
+        "EVD-244CBDFEC25178D5",
+        "EVD-4E535E98956506AC",
+        "EVD-0E21303A3735BA32",
+        "EVD-6362D91F68007AC2",
+        "EVD-DE7D7ACBC351630E",
+        "EVD-AA83068AD42CC1D4",
+        "EVD-70BB53F1B279EAEE",
+        "EVD-E9F76FC405A54828",
+        "EVD-9C7D299C355C1D56",
+        "EVD-38A181FAB588ED46",
+        "EVD-F0AF488DF2881610"
+      ],
+      "reason": "Collected public inventory/evidence exists."
+    },
+    "representative_article_count": 4,
+    "target_minimum": 3,
+    "target_preferred": 5
+  },
+  "company_trust": {
+    "name": "company_trust",
+    "status": "COVERED",
+    "urls": [
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu"
+    ],
+    "evidence_ids": [
+      "EVD-EDC2C4DD0945DE30",
+      "EVD-8B9EE47483A9BC68",
+      "EVD-6FC9A4E437BF374C",
+      "EVD-5F3FFB24698329B2",
+      "EVD-241C395FC9AED203",
+      "EVD-252A3B6755C6ED3F",
+      "EVD-1123045C65722F6B",
+      "EVD-8847193527214305",
+      "EVD-FE109BA72DB61599",
+      "EVD-6A7EF572FC5741FA",
+      "EVD-CDE3A06097E63A87",
+      "EVD-B72E697CD491DD1E",
+      "EVD-788B7F14A0632C0C",
+      "EVD-8250C22774F78F02",
+      "EVD-4C4008744D60A23C",
+      "EVD-2E6DDF96FCBD063F",
+      "EVD-7397E5C8E2A3EE82",
+      "EVD-3CDA40C413DBCCCD",
+      "EVD-D16F5A715AC7BFE1",
+      "EVD-79D6739BCC1C19B5",
+      "EVD-FB8961F5DDFAE616",
+      "EVD-FEAE1B2C290B94CB",
+      "EVD-552FABD7BC82B289",
+      "EVD-CDABBEBCD9BB9AAD",
+      "EVD-AFA7DEEF2251457F",
+      "EVD-E094ECC37ACDBCF3",
+      "EVD-7120ED52DCBD9818",
+      "EVD-5AC2B3FC9161F185",
+      "EVD-B710EBF326AF51D4",
+      "EVD-80CCB4C7BE675D3E",
+      "EVD-F3C54C45BCE8336A-research-2",
+      "EVD-F3C54C45BCE8336A-research-2-SHOT",
+      "EVD-C8F53200EC6DF019",
+      "EVD-A1E200BE968158E2",
+      "EVD-974B331495760107",
+      "EVD-E5026A5F9D242513",
+      "EVD-7204E115807DEAA2",
+      "EVD-F7E75E7E397E8353",
+      "EVD-3673B7DBC483F700",
+      "EVD-505B29109F60B190",
+      "EVD-E23FE10369C0FB90",
+      "EVD-C8F52192938DAC68",
+      "EVD-9D3C94B91D40D6D2",
+      "EVD-0803E15A276B48C8",
+      "EVD-DBF6E1BA19ED57F4",
+      "EVD-4704CE7BBDE716CD",
+      "EVD-F2D2D19EC02F7A18",
+      "EVD-162CB06D90CEE2CE",
+      "EVD-52EEB5E6EBEC6062",
+      "EVD-7CAD357CCFE40CA3",
+      "EVD-4C2398DD8A7C253A",
+      "EVD-1913C4E944F68412",
+      "EVD-CDED377117DC73C6",
+      "EVD-F40DCB8B02E0C8FE",
+      "EVD-170E4AE7C03FAECA",
+      "EVD-424F9467C57BAF57",
+      "EVD-706689EC9E43F54A",
+      "EVD-C57803089B34DCC1",
+      "EVD-20E4F6B75F6D4F85",
+      "EVD-2AF4ECD12CFB3BF3",
+      "EVD-4142EC72F36019A6",
+      "EVD-5299F4FE449348B9",
+      "EVD-77C8093A1206F6D4",
+      "EVD-E6768CFC12E51725",
+      "EVD-3C55E74BB46A7D82",
+      "EVD-5AF83E6C2C1586FC",
+      "EVD-D457B98926263620",
+      "EVD-E12B0BD10A1C818F",
+      "EVD-0DFA6AF6C4E83E73",
+      "EVD-53E84251CAFE4203",
+      "EVD-4B526159EE6DE5AC",
+      "EVD-C3267FCCB0C107BE",
+      "EVD-680732E8D6EFA557",
+      "EVD-76BB8CA6FDA62D30",
+      "EVD-47E1AD54D1F93AD3",
+      "EVD-09A16F0772FCCA76",
+      "EVD-539F645182B8F686",
+      "EVD-DBD8287B0D021453",
+      "EVD-E7C4608C624741EE",
+      "EVD-1D169B2174FDA269",
+      "EVD-44BE424703CA5FE2",
+      "EVD-FD156C316972259C",
+      "EVD-7A5C61340ACA510D",
+      "EVD-CA829499836A8B5F",
+      "EVD-333353E5AC20DC74",
+      "EVD-BA3477C809CB3419",
+      "EVD-2BC0AB1BD93A198A",
+      "EVD-0581462E290EDEBD",
+      "EVD-563D26E4913D8518",
+      "EVD-8DC5D2A1323EB75D",
+      "EVD-67A2E23298A78E2B",
+      "EVD-AAE110F7EE39197E",
+      "EVD-5FE8C7DFE5FA5789",
+      "EVD-32A8C09E57279E76",
+      "EVD-E8D6EEB10A690526",
+      "EVD-9878CEBDB12D4A7D",
+      "EVD-D36216640F06E233",
+      "EVD-5844EC8EE161FBB5",
+      "EVD-CE8369B9DDC5BE91",
+      "EVD-FFE6703E52822430",
+      "EVD-7B03B8F99DBF45D7",
+      "EVD-BD47CFEBB35BB95F",
+      "EVD-FC669DB88E50A0C1",
+      "EVD-C99E2C6A78DD0470",
+      "EVD-9B5CE54A089DC7FD",
+      "EVD-CECFD5F25F68576E",
+      "EVD-F8A59667623BE5ED",
+      "EVD-070E1964DD1BBAB3",
+      "EVD-DAF2D35715871EC1",
+      "EVD-0C6420F3F5F6E4DF",
+      "EVD-1D357E27D12C0704",
+      "EVD-E0930204A9FB2002",
+      "EVD-BDB13CADC35739BE",
+      "EVD-B37D4FD432D090BC",
+      "EVD-BF2F0A463C072CF4",
+      "EVD-BC6F781012E438AD",
+      "EVD-84BC40F331C94448",
+      "EVD-13C7A1BCD9836960",
+      "EVD-1BCE1127FE6991C5",
+      "EVD-02A56067FC2FDB37",
+      "EVD-125F2A290282DAD5",
+      "EVD-B84A0ED47D353E21",
+      "EVD-2F79B9FA74F3CFB8",
+      "EVD-8FE19B21EB00B8DD",
+      "EVD-37241F7F5A0165D3",
+      "EVD-B9CDE2496C272A45",
+      "EVD-C6233C1FA3F3C852",
+      "EVD-000ABC9BA02E5691",
+      "EVD-1C116135AEE5BAB7",
+      "EVD-DA043BF78E7732B5",
+      "EVD-D5EB96A3D37FF1D3",
+      "EVD-992DAA5535C61123",
+      "EVD-D2348A9DCA7F467C",
+      "EVD-90FC7ACB93DA268D",
+      "EVD-BB71FEEDC0284D04",
+      "EVD-17F02F29A6E1B6B4",
+      "EVD-C7AD1BDA3A52082B",
+      "EVD-0DE7127BE908DB1C",
+      "EVD-C47D6FC3F3734C58",
+      "EVD-C4A9DBCBB7866DEE",
+      "EVD-1200698AEF54EF61",
+      "EVD-75BBB52127542EC3",
+      "EVD-972C27829B29CD1B",
+      "EVD-51B9BBAD2B0A121A",
+      "EVD-B912E0E9CCFD3BAD",
+      "EVD-C20ECA437F9B6C90",
+      "EVD-0683C26980504619",
+      "EVD-1F3469D65CD67492",
+      "EVD-CE1AE89E533DBFFC",
+      "EVD-6CD5E70AEA29076F",
+      "EVD-0B566D85DC39FA02",
+      "EVD-3799948B7804CC0D",
+      "EVD-15C51083829E2538",
+      "EVD-6C6DD193D20D9FB2",
+      "EVD-F75B45BE81D139FB",
+      "EVD-A3F8091724B6D2D0",
+      "EVD-78FE3DB6F32D0782",
+      "EVD-62ED96958EEBD745",
+      "EVD-3F0A6FD5DEC1A56B",
+      "EVD-91B19FF8E80C6C73",
+      "EVD-8FDD8896E0E20819",
+      "EVD-12766E80074DD58C",
+      "EVD-4E6681AC1DF8C520",
+      "EVD-07E1FB1ADA81B1B6",
+      "EVD-AEA3DB2C2D2E0F53",
+      "EVD-26BA666C7BDB43AE",
+      "EVD-088FF948A5499146",
+      "EVD-B8230F0B77B37EC3",
+      "EVD-82899057B2172A27",
+      "EVD-7ED98C4AF5707C82",
+      "EVD-5E169EB798A7CE3C-first_time-1",
+      "EVD-5E169EB798A7CE3C-first_time-1-SHOT",
+      "EVD-2D0A822DB858C794-research-1",
+      "EVD-2D0A822DB858C794-research-1-SHOT"
+    ],
+    "reason": "Collected public inventory/evidence exists."
+  },
+  "commerce": {
+    "product_cta_visibility": {
+      "status": "PARTIAL",
+      "evidence_ids": [
+        "EVD-AEE314AA3F7151E7",
+        "EVD-2CA66D18158349D8",
+        "EVD-048ED34D4760A669",
+        "EVD-93D10760E982FACA",
+        "EVD-BAEB862925DCDBD6",
+        "EVD-A48B7E534C94B7C3",
+        "EVD-B968E829D7DEA2D7",
+        "EVD-9B7514F9C1D9F906",
+        "EVD-911EA4E0058AABE5",
+        "EVD-D3B4D5EEFC67C74D",
+        "EVD-B577E9F1FEED6B97",
+        "EVD-9DC141CE654D0485",
+        "EVD-3557E2554F23D240",
+        "EVD-D20E130040FF2B24",
+        "EVD-6A7EF572FC5741FA",
+        "EVD-CDABBEBCD9BB9AAD",
+        "EVD-C8F52192938DAC68",
+        "EVD-424F9467C57BAF57",
+        "EVD-C3267FCCB0C107BE",
+        "EVD-BA3477C809CB3419",
+        "EVD-BD47CFEBB35BB95F",
+        "EVD-02A56067FC2FDB37",
+        "EVD-90FC7ACB93DA268D",
+        "EVD-6CD5E70AEA29076F",
+        "EVD-07E1FB1ADA81B1B6",
+        "EVD-2BBB547A1CCB0B8A",
+        "EVD-BDE27B7A77932BD7",
+        "EVD-B4D26A7C5573A5DF",
+        "EVD-DE7D7ACBC351630E",
+        "EVD-E1E719B77D605D10",
+        "EVD-36B33ED3C701BCB4",
+        "EVD-9129679255D8F64F",
+        "EVD-B42E75D4A1F556B6",
+        "EVD-1D64DB4C39A1F32E",
+        "EVD-0ADF8EC283D2EA91",
+        "EVD-D4848839568679A3",
+        "EVD-6868430DD28ABF1D",
+        "EVD-DF63C483FC434445",
+        "EVD-733F5C04719022AE",
+        "EVD-D1E80743D0B7BE05",
+        "EVD-D387041272D88A18",
+        "EVD-0A5CF5E3943D0810",
+        "EVD-AA0627307B3FD716",
+        "EVD-FED4DF8A1D775B34",
+        "EVD-25764F56D7C73932",
+        "EVD-1AA87E370CB9A9F0",
+        "EVD-EE2C8A616C1B66F0",
+        "EVD-2C2C5D3E8DCE6B2C",
+        "EVD-1EC733B51BBF2EA3"
+      ],
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+        "https://addp.vn/catalogsearch/advanced/",
+        "https://addp.vn/sua-dinh-duong.html",
+        "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+        "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/thiet-bi-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+      ],
+      "reason": "Controls collected; CTA semantic evaluation is evidence-dependent."
+    },
+    "guest_checkout_verification": {
+      "status": "BLOCKED",
+      "evidence_ids": [],
+      "urls": [],
+      "reason": "Production read-only mode does not verify guest checkout/payment/KiotViet."
+    }
+  },
+  "positive_signals": [
+    {
+      "title": "Observed journey positive signal",
+      "observation": "Homepage and company introduction were reached through one visible safe link click.",
+      "page": "https://addp.vn/",
+      "evidence_ids": [
+        "EVD-571CE21693716D24-first_time-0",
+        "EVD-571CE21693716D24-first_time-0-SHOT",
+        "EVD-5E169EB798A7CE3C-first_time-1",
+        "EVD-5E169EB798A7CE3C-first_time-1-SHOT"
+      ],
+      "why_preserve": "Observed during deterministic journey.",
+      "confidence": "observed"
+    },
+    {
+      "title": "Observed journey positive signal",
+      "observation": "Observed 2 page(s) and 1 verified visible click(s).",
+      "page": "https://addp.vn/",
+      "evidence_ids": [
+        "EVD-28869D62E349AE02-high_intent-0",
+        "EVD-28869D62E349AE02-high_intent-0-SHOT",
+        "EVD-D117A7EAEA699CAA-high_intent-1",
+        "EVD-D117A7EAEA699CAA-high_intent-1-SHOT"
+      ],
+      "why_preserve": "Observed during deterministic journey.",
+      "confidence": "observed"
+    },
+    {
+      "title": "Observed journey positive signal",
+      "observation": "Observed 2 page(s) and 1 verified visible click(s).",
+      "page": "https://addp.vn/",
+      "evidence_ids": [
+        "EVD-4E9770DA004CDC44-mobile-0",
+        "EVD-4E9770DA004CDC44-mobile-0-SHOT",
+        "EVD-574F286DC706B28A-mobile-1",
+        "EVD-574F286DC706B28A-mobile-1-SHOT"
+      ],
+      "why_preserve": "Observed during deterministic journey.",
+      "confidence": "observed"
+    },
+    {
+      "title": "Observed journey positive signal",
+      "observation": "Observed 3 page(s) and 2 verified visible click(s).",
+      "page": "https://addp.vn/",
+      "evidence_ids": [
+        "EVD-E953DA582A400457-research-0",
+        "EVD-E953DA582A400457-research-0-SHOT",
+        "EVD-2D0A822DB858C794-research-1",
+        "EVD-2D0A822DB858C794-research-1-SHOT",
+        "EVD-F3C54C45BCE8336A-research-2",
+        "EVD-F3C54C45BCE8336A-research-2-SHOT"
+      ],
+      "why_preserve": "Observed during deterministic journey.",
+      "confidence": "observed"
+    }
+  ],
+  "gate": {
+    "status": "analysis_complete",
+    "reasons": {
+      "usable_homepage": true,
+      "mapped_principal_products": 3,
+      "article_sampling_attempted": true,
+      "company_trust_attempted": true,
+      "commerce_visibility_attempted": true,
+      "uncovered_product_capabilities": [
+        "glucare.landing_route",
+        "glucare.offer",
+        "glucare.price",
+        "glucare.cta",
+        "glucare.benefits",
+        "glucare.ingredients",
+        "glucare.supporting_evidence",
+        "glucare.reviews",
+        "glucare.faq",
+        "glucare.purchase_route_visibility",
+        "vien_an_duong.landing_route",
+        "vien_an_duong.offer",
+        "vien_an_duong.price",
+        "vien_an_duong.cta",
+        "vien_an_duong.benefits",
+        "vien_an_duong.ingredients",
+        "vien_an_duong.supporting_evidence",
+        "vien_an_duong.reviews",
+        "vien_an_duong.faq",
+        "vien_an_duong.purchase_route_visibility",
+        "dovital.landing_route",
+        "dovital.offer",
+        "dovital.price",
+        "dovital.cta",
+        "dovital.benefits",
+        "dovital.ingredients",
+        "dovital.supporting_evidence",
+        "dovital.reviews",
+        "dovital.faq",
+        "dovital.purchase_route_visibility"
+      ]
+    }
+  }
+}

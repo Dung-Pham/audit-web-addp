@@ -1,0 +1,531 @@
+{
+  "statuses": [
+    "COVERED",
+    "PARTIAL",
+    "NOT_FOUND",
+    "BLOCKED",
+    "UNKNOWN",
+    "OUT_OF_SCOPE"
+  ],
+  "products": {
+    "glucare": {
+      "identity": "glucare",
+      "urls": [
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/sua-hat-glucare-plus"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-F71EC5745F2AF71B",
+            "EVD-42AE297DAC33A1B9"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C07AE1B67F5FAB1D",
+            "EVD-AEFBEE031D7647F4",
+            "EVD-689120860F2FACA2",
+            "EVD-AADDB45759F67004"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-117F092A6C957697",
+            "EVD-C12BB36F5D39F67E",
+            "EVD-D1249648026B4D96",
+            "EVD-1BA12AFB05B5BD13"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-117F092A6C957697",
+            "EVD-C12BB36F5D39F67E",
+            "EVD-D1249648026B4D96",
+            "EVD-1BA12AFB05B5BD13"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-01FF964BE2B7A2AA",
+            "EVD-B1630958C79BC01D",
+            "EVD-80257931D1966034",
+            "EVD-5DEB9224EB2D897C"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-8B081AA3A3844CBA",
+            "EVD-0581A36B72F4A783"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-641917A75B4A1104",
+            "EVD-2F1BD82D6F3C20D6",
+            "EVD-9F9FDDCFDF43F393",
+            "EVD-1FE036CF43DBF534"
+          ],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+            "https://addp.vn/sua-hat-glucare-plus"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    },
+    "vien_an_duong": {
+      "identity": "vien_an_duong",
+      "urls": [
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-8B09867D19F1496E"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-AD18B204CB25AAFE",
+            "EVD-8B52A19F88C406F7"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C4AE99238E385779",
+            "EVD-B7C8035A64CF2E79"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-C4AE99238E385779",
+            "EVD-B7C8035A64CF2E79"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-02D7356CC02B574B",
+            "EVD-BDF90743647332F7"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-65661C6225D2AAFA"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-59FEA6B0424B92A9",
+            "EVD-72E1A5FAECEBA7B5"
+          ],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    },
+    "dovital": {
+      "identity": "dovital",
+      "urls": [
+        "https://addp.vn/sui-dovital"
+      ],
+      "capabilities": {
+        "product_route": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-1C46740F9999CF7B"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Matched public inventory route(s)."
+        },
+        "landing_route": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Landing route is only covered when inventory classifies one."
+        },
+        "detail": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-5636E0D9D1AB2605",
+            "EVD-91A2524CB7C652D0"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Rendered public product route evidence."
+        },
+        "offer": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "price": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "cta": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "benefits": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "ingredients": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "supporting_evidence": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "reviews": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "faq": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        },
+        "meta": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-239333BC638CDEBA",
+            "EVD-30DDD40B25555E6E"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "canonical": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-239333BC638CDEBA",
+            "EVD-30DDD40B25555E6E"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed rendered_seo evidence."
+        },
+        "structured_data": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-E32F848C405D32E0",
+            "EVD-EDDAD1FAFA69798C"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed jsonld evidence."
+        },
+        "mobile": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-A56C5E202BFD212A"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Mobile stabilized screenshot exists."
+        },
+        "performance": {
+          "status": "COVERED",
+          "evidence_ids": [
+            "EVD-CAD8504CF169E375",
+            "EVD-9EA71D28792733BF"
+          ],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "Observed lab_metrics evidence."
+        },
+        "purchase_route_visibility": {
+          "status": "UNKNOWN",
+          "evidence_ids": [],
+          "urls": [
+            "https://addp.vn/sui-dovital"
+          ],
+          "reason": "No deterministic signal mapping for this capability yet."
+        }
+      }
+    }
+  }
+}

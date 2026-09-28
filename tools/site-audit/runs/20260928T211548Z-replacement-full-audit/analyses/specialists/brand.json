@@ -1,0 +1,192 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "brand",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "allowed_inputs_used": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json",
+      "evidence artifacts referenced by the current-run evidence index",
+      "checklist.normalized.json",
+      "analyses/personas/journeys.json"
+    ],
+    "sample_size": {
+      "usable_pages": 25,
+      "complete_pages": 16,
+      "partial_pages": 9,
+      "persona_journeys": 4,
+      "journeys_partial_or_interrupted": 4
+    },
+    "coverage_note": "Brand review is limited to the sampled public pages and artifacts in this run. Nine collected pages are partial and all four persona journeys are partial or interrupted; no site-wide consistency claim is made."
+  },
+  "candidates": [
+    {
+      "finding_id": "BRAND-20260928-001",
+      "title": "Company attribution and contact details differ within the Viên An Đường page",
+      "area": "brand and company/contact attribution",
+      "page": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative.",
+      "evidence_ids": [
+        "EVD-AD18B204CB25AAFE",
+        "EVD-927DDAF696B5D339"
+      ],
+      "impact": "user",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Have the business confirm the intended company attribution, address format, and primary contact channels, then align the product contact block and shared footer if they should represent the same entity and contact point.",
+      "unknowns": [
+        "Whether the two company-form labels refer to separate entities or one intended identity.",
+        "Whether the different address forms and telephone numbers are valid alternate contacts or stale page content.",
+        "No legal identity or authenticity conclusion is made from this public appearance."
+      ]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "The homepage title explicitly identifies ADDP as “Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP,” and the sampled About page states “Công ty TNHH dược phẩm ADDP (viết tắt là ADDP).” This provides a clear public-facing company name and abbreviation in these sampled locations.",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/gioi-thieu"
+      ],
+      "evidence_ids": [
+        "EVD-88DD509F3586ACF5",
+        "EVD-0683C26980504619"
+      ],
+      "scope": "page instances only"
+    },
+    {
+      "observation": "The shared header exposes the “Giới thiệu” route, and the recorded first-time and research journeys reached that route through a verified visible link click.",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/gioi-thieu"
+      ],
+      "evidence_ids": [
+        "EVD-571CE21693716D24-first_time-0",
+        "EVD-5E169EB798A7CE3C-first_time-1",
+        "EVD-E953DA582A400457-research-0",
+        "EVD-2D0A822DB858C794-research-1"
+      ],
+      "scope": "observed journey instances"
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Mission clarity",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "page instances; no evidence-supported site pattern",
+      "observation": "The homepage and sampled product pages identify ADDP and describe pharmaceutical, nutrition, or named-product offerings. The Viên An Đường title describes blood-sugar support; the Dovital landing content brands the offer as “ADDP Pharmacy.” These describe sampled page messaging only and do not validate product or health claims.",
+      "evidence_ids": [
+        "EVD-88DD509F3586ACF5",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339",
+        "EVD-5636E0D9D1AB2605"
+      ]
+    },
+    {
+      "item": "Identity and visual consistency",
+      "status": "INFERENCE",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "page instances; no pattern_key supplied, so no site pattern asserted",
+      "observation": "The sampled standard catalog pages use the ADDP company naming in their titles and shared footer, while the Dovital page title and campaign copy use “ADDP Pharmacy” and have distinct campaign messaging. This may be intentional product-campaign positioning; brand guidelines or an authoritative identity reference were not supplied, so consistency cannot be confirmed.",
+      "evidence_ids": [
+        "EVD-88DD509F3586ACF5",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339",
+        "EVD-CD4C67022008E5BB",
+        "EVD-5636E0D9D1AB2605"
+      ]
+    },
+    {
+      "item": "Company and contact attribution",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/contact",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instances; the inconsistency is supported on the Viên An Đường page only",
+      "observation": "Homepage and About page name Công ty TNHH Dược phẩm ADDP; the sampled contact page exposes a business registration number and a hotline; the Viên An Đường page has conflicting company-form labels and differing address and phone details between its product contact block and footer. These are observed public statements, not a determination of legal identity.",
+      "evidence_ids": [
+        "EVD-88DD509F3586ACF5",
+        "EVD-0683C26980504619",
+        "EVD-84BC40F331C94448",
+        "EVD-AD18B204CB25AAFE"
+      ]
+    },
+    {
+      "item": "Consistency of product and brand facts",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "sample only; cross-page product fact pattern not established",
+      "observation": "Public page titles and brand messaging were sampled, but the evidence set does not include an authoritative product catalog or brand fact source that would establish whether product descriptions and naming are consistent with approved facts. The displayed statements have not been medically or commercially validated.",
+      "evidence_ids": [
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339",
+        "EVD-CD4C67022008E5BB",
+        "EVD-C07AE1B67F5FAB1D",
+        "EVD-AD18B204CB25AAFE",
+        "EVD-5636E0D9D1AB2605"
+      ]
+    },
+    {
+      "item": "Visible trust signals",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/contact",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instances; no site-wide pattern asserted",
+      "observation": "The sampled About page presents a company description and registration information; the Contact page presents a business registration number, hotline, Zalo, and a Facebook link; product pages expose company/contact text. The Viên An Đường page-instance discrepancies above may make these signals harder to reconcile. Their accuracy and external validity are unknown.",
+      "evidence_ids": [
+        "EVD-0683C26980504619",
+        "EVD-84BC40F331C94448",
+        "EVD-C07AE1B67F5FAB1D",
+        "EVD-AD18B204CB25AAFE"
+      ]
+    },
+    {
+      "item": "Mission and identity coverage beyond sampled pages",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/contact",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "sample only; not a site-wide assessment",
+      "observation": "The run reports 25 usable pages, including 9 partial collections, and all four recorded persona journeys are partial or interrupted. Therefore the available evidence does not establish identity, visual consistency, contact attribution, or trust-signal coverage across the full site.",
+      "evidence_ids": [
+        "EVD-0683C26980504619",
+        "EVD-84BC40F331C94448",
+        "EVD-AD18B204CB25AAFE",
+        "EVD-5636E0D9D1AB2605"
+      ]
+    }
+  ]
+}

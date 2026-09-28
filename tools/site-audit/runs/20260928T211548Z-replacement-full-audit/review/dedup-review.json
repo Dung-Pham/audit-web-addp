@@ -1,0 +1,211 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "status": "complete",
+  "reviewer_id": "codex-dedup-reviewer-20260929",
+  "candidate_count": 19,
+  "accepted_findings_before": 15,
+  "accepted_findings_after": 14,
+  "duplicate_groups": [
+    {
+      "group_id": "accepted-sitemap-404-observation",
+      "finding_ids": [
+        "FND-TECHNICAL-SEO-SEO-001",
+        "FND-EXTERNAL-TECHNICAL-DIAGNOSTIC-technical-advertised-sitemap-returns-404"
+      ],
+      "origin_finding_ids": [
+        "SEO-001",
+        "technical-advertised-sitemap-returns-404"
+      ],
+      "decision": "merge_exact_duplicate",
+      "canonical_finding_id": "FND-TECHNICAL-SEO-SEO-001",
+      "rationale": "Both accepted observations concern the same collection-time HTTP 404 responses at /sitemap.xml and /pub/sitemap.xml, the robots.txt Sitemap directive naming /pub/sitemap.xml, REQ-015, and the identical three evidence IDs. The canonical checklist-mapped SEO finding already covers both endpoint URLs and retains the external diagnostic origin, its distinct original wording, severity, impact, uncertainty, recommendation, and independent evidence-review provenance in deduplication_trace.",
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "evidence_ids": [
+        "EVD-A57DC932D580B784",
+        "EVD-B093A16D09E3A37E",
+        "EVD-C51AC48D3DB98538"
+      ],
+      "affected_urls": [
+        "https://addp.vn/robots.txt",
+        "https://addp.vn/pub/sitemap.xml",
+        "https://addp.vn/sitemap.xml"
+      ],
+      "trace_location": "review/findings.accepted.json:FND-TECHNICAL-SEO-SEO-001.deduplication_trace"
+    }
+  ],
+  "merges_applied": [
+    {
+      "canonical_finding_id": "FND-TECHNICAL-SEO-SEO-001",
+      "retired_duplicate_finding_id": "FND-EXTERNAL-TECHNICAL-DIAGNOSTIC-technical-advertised-sitemap-returns-404",
+      "retained_origin_finding_ids": [
+        "SEO-001",
+        "technical-advertised-sitemap-returns-404"
+      ],
+      "preserved_source_requirement_ids": [
+        "REQ-015"
+      ],
+      "preserved_evidence_ids": [
+        "EVD-A57DC932D580B784",
+        "EVD-B093A16D09E3A37E",
+        "EVD-C51AC48D3DB98538"
+      ],
+      "preserved_urls": [
+        "https://addp.vn/robots.txt",
+        "https://addp.vn/pub/sitemap.xml",
+        "https://addp.vn/sitemap.xml"
+      ],
+      "preserved_review_provenance": "The canonical's evidence-review object is retained; the merged origin's accepted status, independent_evidence_review provenance, reviewer ID and role, reviewed URL, reviewed requirement/evidence IDs, support result, reason, and supported fact are retained in deduplication_trace."
+    }
+  ],
+  "pattern_findings": [
+    {
+      "pattern_key": "analytics-signals-not-observed-in-four-evidenced-page-instances",
+      "status": "OBSERVED",
+      "classification": "bounded_sample_pattern",
+      "related_finding_ids": [
+        "FND-ANALYTICS-analytics-public-signals-not-observed-sample"
+      ],
+      "source_requirement_ids": [
+        "REQ-014-01"
+      ],
+      "affected_urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/gioi-thieu"
+      ],
+      "evidence_ids": [
+        "EVD-DBF33A19881A487E",
+        "EVD-04B228A36544C865",
+        "EVD-5E1FDAFD6E0F3BD0",
+        "EVD-2A0768485D1F0097",
+        "EVD-820A852713ADC090",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-0B566D85DC39FA02",
+        "EVD-AEA3DB2C2D2E0F53"
+      ],
+      "evidence_supported_scope": "The evidence index maps these eight desktop/mobile tracking-signal records to the homepage, one product detail page, one article, and the company page; each records gtm=0, ga4_requests_blocked=0, and data_layer_present=false.",
+      "limits": "This pattern is bounded to these four URL instances and collected sessions. The listed evidence does not cover category, search, or policy URLs; telemetry was blocked by the collector, and the records do not establish implementation absence, backend receipts, or conversion behavior."
+    },
+    {
+      "pattern_key": "sampled-priority-product-pages-lack-distinct-meta-summaries",
+      "status": "OBSERVED",
+      "classification": "bounded_sample_pattern",
+      "related_finding_ids": [
+        "FND-TECHNICAL-SEO-SEO-003"
+      ],
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "affected_urls": [
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "evidence_ids": [
+        "EVD-CD4C67022008E5BB",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339"
+      ],
+      "evidence_supported_scope": "The accepted SEO observation reports a Default Description value on /sui-dovital and title-matching descriptions on the other two sampled priority product URLs.",
+      "limits": "Three sampled product URLs only; this does not establish sitewide prevalence or a shared implementation cause."
+    },
+    {
+      "pattern_key": "jsonld-collector-detected-no-jsonld-on-sampled-homepage-and-products",
+      "status": "OBSERVED",
+      "classification": "bounded_sample_pattern",
+      "related_finding_ids": [
+        "FND-GEO-AEO-GEO-AEO-001",
+        "FND-STRUCTURED-DATA-STRUCTURED-DATA-001"
+      ],
+      "source_requirement_ids": [
+        "REQ-010",
+        "REQ-010-01"
+      ],
+      "affected_urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ],
+      "evidence_supported_scope": "Structured-data extracts report valid=0 and invalid=0 for desktop and mobile captures of the homepage and three sampled product URLs. The separate Glucare raw HTML evidence records Product microdata on that page.",
+      "limits": "This describes JSON-LD collector results on these sampled page instances only, not absence of every structured-data syntax or sitewide coverage. GEO-AEO-001 and STRUCTURED-DATA-001 remain separate because they differ in page coverage, requirement scope, and associated positive/alternate-format context; this pattern key does not merge or broaden either accepted claim."
+    }
+  ],
+  "non_merged_overlaps": [
+    {
+      "group_id": "sitemap-robots-policy-overlap",
+      "finding_ids": [
+        "FND-TECHNICAL-SEO-SEO-001",
+        "FND-TECHNICAL-SEO-SEO-002"
+      ],
+      "candidate_origin_ids": [
+        "SEO-001",
+        "SEO-002"
+      ],
+      "rationale": "SEO-002 includes the shared unavailable-sitemap evidence but also reports the distinct robots.txt Disallow: /*? rule and absence of named AI crawler groups, maps to REQ-011 as well as REQ-015, and has a different crawl-policy scope. Retain it separately from the canonical sitemap finding."
+    },
+    {
+      "group_id": "sitemap-rejected-candidate-overlap",
+      "candidate_origin_ids": [
+        "GEO-AEO-004"
+      ],
+      "rationale": "This candidate repeats the sitemap endpoint observations but evidence-decisions.json marks it rejected as duplicative and it has no accepted FND. It is not merged into or used to upgrade the accepted finding; its rejected status remains unchanged."
+    },
+    {
+      "group_id": "homepage-performance-measurement-and-usability-interpretation",
+      "finding_ids": [
+        "FND-PERFORMANCE-PERF-001",
+        "FND-UX-UI-UXUI-001"
+      ],
+      "candidate_origin_ids": [
+        "PERF-001",
+        "UXUI-001"
+      ],
+      "shared_evidence_ids": [
+        "EVD-3D15DCDB359887BF"
+      ],
+      "rationale": "PERF-001 reports desktop and mobile LAB measurements; UXUI-001 interprets the same mobile measurement as a possible delay before the first viewport becomes useful. The measured property and the usability interpretation are distinct claim types. Retain both and do not count UXUI-001 as an independent performance sample."
+    },
+    {
+      "group_id": "sampled-product-jsonld-overlap",
+      "finding_ids": [
+        "FND-GEO-AEO-GEO-AEO-001",
+        "FND-STRUCTURED-DATA-STRUCTURED-DATA-001"
+      ],
+      "candidate_origin_ids": [
+        "GEO-AEO-001",
+        "STRUCTURED-DATA-001"
+      ],
+      "rationale": "The JSON-LD zero-detection claims overlap on the homepage and sampled product URLs, but STRUCTURED-DATA-001 covers a broader product URL set and REQ-010 plus REQ-010-01, while GEO-AEO-001 has the narrower REQ-010-01 scope and distinct article-page positive context. STRUCTURED-DATA-001 also explicitly records Product microdata in Glucare raw HTML. Keep both accepted findings and their original evidence/review records; do not infer absence of all structured data."
+    },
+    {
+      "group_id": "manual-review-candidates-remain-unaccepted",
+      "candidate_origin_ids": [
+        "GEO-AEO-002",
+        "HC-001",
+        "HC-002"
+      ],
+      "rationale": "Evidence decisions route these three candidates to needs_manual_review. They are not accepted observations and no deduplication action promotes them."
+    }
+  ],
+  "candidate_status_accounting": {
+    "accepted": 15,
+    "needs_manual_review": 3,
+    "rejected": 1,
+    "status_changes_by_dedup_review": 0
+  }
+}

@@ -1,0 +1,991 @@
+[
+  {
+    "task_id": "TASK-001",
+    "finding_ids": [
+      "FND-ANALYTICS-analytics-public-signals-not-observed-sample"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-ANALYTICS-analytics-public-signals-not-observed-sample",
+        "page": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-DBF33A19881A487E",
+          "EVD-04B228A36544C865",
+          "EVD-5E1FDAFD6E0F3BD0",
+          "EVD-2A0768485D1F0097",
+          "EVD-820A852713ADC090",
+          "EVD-DAC7815A6168F9B8",
+          "EVD-0B566D85DC39FA02",
+          "EVD-AEA3DB2C2D2E0F53"
+        ]
+      }
+    ],
+    "title": "Address: No public GTM, GA4 request, or dataLayer signal was observed in the collected page sample",
+    "objective": "Address accepted finding FND-ANALYTICS-analytics-public-signals-not-observed-sample: No public GTM, GA4 request, or dataLayer signal was observed in the collected page sample",
+    "current_problem": "The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed.",
+    "target_state": "The observed problem is addressed through: Review consent-aware public tag loading and approved analytics configuration, then validate event behavior through an authorized non-production test flow and analytics administration evidence.",
+    "recommended_changes": [
+      "Review consent-aware public tag loading and approved analytics configuration, then validate event behavior through an authorized non-production test flow and analytics administration evidence."
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-ANALYTICS-analytics-public-signals-not-observed-sample is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-ANALYTICS-analytics-public-signals-not-observed-sample is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-ANALYTICS-analytics-public-signals-not-observed-sample and compare with evidence EVD-DBF33A19881A487E, EVD-04B228A36544C865, EVD-5E1FDAFD6E0F3BD0, EVD-2A0768485D1F0097, EVD-820A852713ADC090, EVD-DAC7815A6168F9B8, EVD-0B566D85DC39FA02, EVD-AEA3DB2C2D2E0F53."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-ANALYTICS-analytics-public-signals-not-observed-sample."
+    ],
+    "risks": [
+      "Whether tags load only after consent or under conditions not reached in these bounded sessions.",
+      "Whether GTM, GA4, Meta Pixel, or Ads tags exist on uncollected URLs or in deferred configurations.",
+      "Whether any backend analytics receipt, attribution, or conversion event is recorded.",
+      "Thank-you-page behavior and successful-order event behavior were not inspected; journeys stopped before cart or checkout mutation.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-014-01"
+    ],
+    "evidence_ids": [
+      "EVD-DBF33A19881A487E",
+      "EVD-04B228A36544C865",
+      "EVD-5E1FDAFD6E0F3BD0",
+      "EVD-2A0768485D1F0097",
+      "EVD-820A852713ADC090",
+      "EVD-DAC7815A6168F9B8",
+      "EVD-0B566D85DC39FA02",
+      "EVD-AEA3DB2C2D2E0F53"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-002",
+    "finding_ids": [
+      "FND-BRAND-BRAND-20260928-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-BRAND-BRAND-20260928-001",
+        "page": "https://addp.vn/vien-an-duong-addp.html",
+        "evidence_ids": [
+          "EVD-AD18B204CB25AAFE",
+          "EVD-927DDAF696B5D339"
+        ]
+      }
+    ],
+    "title": "Address: Company attribution and contact details differ within the Viên An Đường page",
+    "objective": "Address accepted finding FND-BRAND-BRAND-20260928-001: Company attribution and contact details differ within the Viên An Đường page",
+    "current_problem": "The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative.",
+    "target_state": "The observed problem is addressed through: Have the business confirm the intended company attribution, address format, and primary contact channels, then align the product contact block and shared footer if they should represent the same entity and contact point.",
+    "recommended_changes": [
+      "Have the business confirm the intended company attribution, address format, and primary contact channels, then align the product contact block and shared footer if they should represent the same entity and contact point."
+    ],
+    "affected_urls": [
+      "https://addp.vn/vien-an-duong-addp.html"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-BRAND-BRAND-20260928-001 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-BRAND-BRAND-20260928-001 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-BRAND-BRAND-20260928-001 and compare with evidence EVD-AD18B204CB25AAFE, EVD-927DDAF696B5D339."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-BRAND-BRAND-20260928-001."
+    ],
+    "risks": [
+      "Whether the two company-form labels refer to separate entities or one intended identity.",
+      "Whether the different address forms and telephone numbers are valid alternate contacts or stale page content.",
+      "No legal identity or authenticity conclusion is made from this public appearance.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [],
+    "evidence_ids": [
+      "EVD-AD18B204CB25AAFE",
+      "EVD-927DDAF696B5D339"
+    ],
+    "source": "best_practice",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-003",
+    "finding_ids": [
+      "FND-CONTENT-CONTENT-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-CONTENT-CONTENT-001",
+        "page": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      }
+    ],
+    "title": "Address: Glucare Plus detail page exposes placeholder copy in product tabs",
+    "objective": "Address accepted finding FND-CONTENT-CONTENT-001: Glucare Plus detail page exposes placeholder copy in product tabs",
+    "current_problem": "The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes.",
+    "target_state": "The observed problem is addressed through: Replace the generic tab labels and placeholder text with verified, product-specific information, or remove the empty tabs. Have any health-related claims reviewed by an appropriately qualified expert before publication.",
+    "recommended_changes": [
+      "Replace the generic tab labels and placeholder text with verified, product-specific information, or remove the empty tabs. Have any health-related claims reviewed by an appropriately qualified expert before publication."
+    ],
+    "affected_urls": [
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-CONTENT-CONTENT-001 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-CONTENT-CONTENT-001 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-CONTENT-CONTENT-001 and compare with evidence EVD-C07AE1B67F5FAB1D."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-CONTENT-CONTENT-001."
+    ],
+    "risks": [
+      "Whether the tab content is identical on other product pages was not established by this evidence.",
+      "No product formulation, efficacy, or medical claims were independently validated.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "evidence_ids": [
+      "EVD-C07AE1B67F5FAB1D"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-004",
+    "finding_ids": [
+      "FND-CONVERSION-CONV-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-CONVERSION-CONV-001",
+        "page": "https://addp.vn/sua-hat-glucare-plus",
+        "evidence_ids": [
+          "EVD-DF63C483FC434445",
+          "EVD-EA78205F3017C505"
+        ]
+      }
+    ],
+    "title": "Address: A Glucare Plus product card shows a zero price beside a separate 9,000 ₫ trial offer",
+    "objective": "Make the product and trial prices unambiguous before shoppers act.",
+    "current_problem": "The captured visible text lists “1 Gói Sữa Hạt dinh dưỡng GLUCARE PLUS ...” at 9.000,00 ₫ and later lists “Sữa Hạt dinh dưỡng GLUCARE PLUS - Dùng được cho người tiểu đường” at 0,00 ₫ (repeated). The same page separately promotes a 9.000đ trial pack. These are displayed values on distinct entries; the evidence does not establish whether the 0.00 ₫ listing is intentional, a placeholder, or an error. This may leave shoppers uncertain about the price and offer attached to the product.",
+    "target_state": "Each distinct offer has a clear product name, payable price, and adjacent action label.",
+    "recommended_changes": [
+      "Review the displayed 0,00 ₫ Glucare Plus listing.",
+      "Distinguish the 9.000đ sample offer from the standard product offer."
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "implementation_area": [
+      "product offer content and visible product cards"
+    ],
+    "developer_investigation": [
+      "Confirm the intended price and offer terms for each Glucare Plus entry."
+    ],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "product offer content and visible product cards",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The page no longer presents an unexplained 0,00 ₫ amount for a purchasable Glucare Plus item.",
+      "The sample offer and standard product offer have distinct visible labels and prices."
+    ],
+    "automated_verification": [
+      "Inspect rendered product-card text and prices on the URL."
+    ],
+    "manual_verification": [
+      "Review desktop and mobile offer presentation and confirm the intended values with the business."
+    ],
+    "risks": [
+      "Changing a price without confirming the intended offer could misstate commercial terms."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-007-02"
+    ],
+    "evidence_ids": [
+      "EVD-DF63C483FC434445",
+      "EVD-EA78205F3017C505"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": [
+        "Confirm the intended price and offer terms for each Glucare Plus entry."
+      ]
+    }
+  },
+  {
+    "task_id": "TASK-005",
+    "finding_ids": [
+      "FND-GEO-AEO-GEO-AEO-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-GEO-AEO-GEO-AEO-001",
+        "page": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-32CB6452441EDF9E",
+          "EVD-02D7356CC02B574B",
+          "EVD-E32F848C405D32E0",
+          "EVD-2326A9C7428D947E",
+          "EVD-B8786FA90B6CDCB3",
+          "EVD-0CC76FEDCFD90652"
+        ]
+      }
+    ],
+    "title": "Address: Product structured data was not detected on sampled homepage and product pages",
+    "objective": "Address accepted finding FND-GEO-AEO-GEO-AEO-001: Product structured data was not detected on sampled homepage and product pages",
+    "current_problem": "The current-run structured-data collector reports valid: 0 and invalid: 0 at the homepage and the sampled product pages https://addp.vn/vien-an-duong-addp.html and https://addp.vn/sui-dovital. This is evidence that no JSON-LD was detected by that collector on these page instances; it does not establish the absence of every structured-data format or a sitewide condition. The same run detected valid BlogPosting JSON-LD on sampled article pages, so the result is page-type-specific in this sample.",
+    "target_state": "The observed problem is addressed through: Review public structured data against the stated Organization, Product, and FAQPage requirement for the corresponding page types; validate any proposed markup against visible page facts.",
+    "recommended_changes": [
+      "Review public structured data against the stated Organization, Product, and FAQPage requirement for the corresponding page types; validate any proposed markup against visible page facts."
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-GEO-AEO-GEO-AEO-001 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-GEO-AEO-GEO-AEO-001 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-GEO-AEO-GEO-AEO-001 and compare with evidence EVD-32CB6452441EDF9E, EVD-02D7356CC02B574B, EVD-E32F848C405D32E0, EVD-2326A9C7428D947E, EVD-B8786FA90B6CDCB3, EVD-0CC76FEDCFD90652."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-GEO-AEO-GEO-AEO-001."
+    ],
+    "risks": [
+      "Other structured-data syntaxes may exist outside the JSON-LD collector result.",
+      "Coverage is limited to sampled URLs; other homepage/product templates may differ.",
+      "No conclusion about AI-engine citation or visibility follows from this result.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-010-01"
+    ],
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-02D7356CC02B574B",
+      "EVD-E32F848C405D32E0",
+      "EVD-2326A9C7428D947E",
+      "EVD-B8786FA90B6CDCB3",
+      "EVD-0CC76FEDCFD90652"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-006",
+    "finding_ids": [
+      "FND-GEO-AEO-GEO-AEO-003"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-GEO-AEO-GEO-AEO-003",
+        "page": "https://addp.vn/robots.txt",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538"
+        ]
+      }
+    ],
+    "title": "Address: robots.txt is reachable, but AI crawler directives are not explicit in the captured rules",
+    "objective": "Address accepted finding FND-GEO-AEO-GEO-AEO-003: robots.txt is reachable, but AI crawler directives are not explicit in the captured rules",
+    "current_problem": "The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply.",
+    "target_state": "The observed problem is addressed through: Review intended access policy for each named crawler against the complete robots directives and verify public endpoint behavior for the relevant paths.",
+    "recommended_changes": [
+      "Review intended access policy for each named crawler against the complete robots directives and verify public endpoint behavior for the relevant paths."
+    ],
+    "affected_urls": [
+      "https://addp.vn/robots.txt"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-GEO-AEO-GEO-AEO-003 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-GEO-AEO-GEO-AEO-003 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-GEO-AEO-GEO-AEO-003 and compare with evidence EVD-C51AC48D3DB98538."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-GEO-AEO-GEO-AEO-003."
+    ],
+    "risks": [
+      "Crawler behavior and actual crawling are not evidenced.",
+      "No inference about AI-engine visibility or recommendation is supported.",
+      "Robots directives do not prove access through or restriction by other mechanisms.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-011-01"
+    ],
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-007",
+    "finding_ids": [
+      "FND-PERFORMANCE-PERF-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-PERFORMANCE-PERF-001",
+        "page": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-85956D06B433ABCA",
+          "EVD-3D15DCDB359887BF"
+        ]
+      }
+    ],
+    "title": "Address: Homepage LAB load metrics are substantially elevated on desktop and mobile",
+    "objective": "Address accepted finding FND-PERFORMANCE-PERF-001: Homepage LAB load metrics are substantially elevated on desktop and mobile",
+    "current_problem": "In clean-load LAB captures, desktop recorded LCP 17,700 ms, CLS 0.1651, and TTFB 5,911.5 ms; mobile recorded LCP 12,504 ms, CLS 0.1346, and TTFB 5,841.7 ms. Both captures state synthetic_scroll_before_measurement=false. These are single-run browser measurements under the recorded run conditions, not field experience. The measured LCP is above the checklist's stated 2.5-second target; no PageSpeed score was captured.",
+    "target_state": "The observed problem is addressed through: Repeat comparable clean-load measurements on desktop and mobile, inspect the recorded network and resource waterfall for the LCP element and response delays, and verify whether the elevated values persist before prioritizing optimization.",
+    "recommended_changes": [
+      "Repeat comparable clean-load measurements on desktop and mobile, inspect the recorded network and resource waterfall for the LCP element and response delays, and verify whether the elevated values persist before prioritizing optimization."
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P1",
+    "priority_rationale": "Priority derives from high severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-PERFORMANCE-PERF-001 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-PERFORMANCE-PERF-001 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-PERFORMANCE-PERF-001 and compare with evidence EVD-85956D06B433ABCA, EVD-3D15DCDB359887BF."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-PERFORMANCE-PERF-001."
+    ],
+    "risks": [
+      "Field LCP, CLS, and INP are unavailable; these LAB values do not establish visitor-level Core Web Vitals.",
+      "Lighthouse/PageSpeed scores and interaction data were not captured.",
+      "No cause is established by the summary metrics alone.",
+      "These are single captures; run-to-run variation is unknown.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "evidence_ids": [
+      "EVD-85956D06B433ABCA",
+      "EVD-3D15DCDB359887BF"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-008",
+    "finding_ids": [
+      "FND-PERFORMANCE-PERF-002"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-PERFORMANCE-PERF-002",
+        "page": "https://addp.vn/benh-ly",
+        "evidence_ids": [
+          "EVD-035E196C34BF6621",
+          "EVD-D2E949A54A61C783"
+        ]
+      }
+    ],
+    "title": "Address: Diabetes-condition page has high LAB LCP and CLS in both captured viewports",
+    "objective": "Address accepted finding FND-PERFORMANCE-PERF-002: Diabetes-condition page has high LAB LCP and CLS in both captured viewports",
+    "current_problem": "The desktop clean-load LAB capture recorded LCP 19,308 ms and CLS 0.6347; the mobile capture recorded LCP 22,128 ms and CLS 0.5932. Both state synthetic_scroll_before_measurement=false. The values are page-instance observations from this run and exceed the checklist's 2.5-second load target by a wide margin for LCP. They do not establish field performance or the source of the shifts.",
+    "target_state": "The observed problem is addressed through: Repeat clean-load captures under comparable desktop and mobile conditions, then inspect the LCP element and layout-shift sources in the corresponding trace before selecting an optimization.",
+    "recommended_changes": [
+      "Repeat clean-load captures under comparable desktop and mobile conditions, then inspect the LCP element and layout-shift sources in the corresponding trace before selecting an optimization."
+    ],
+    "affected_urls": [
+      "https://addp.vn/benh-ly"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P1",
+    "priority_rationale": "Priority derives from high severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-PERFORMANCE-PERF-002 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-PERFORMANCE-PERF-002 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-PERFORMANCE-PERF-002 and compare with evidence EVD-035E196C34BF6621, EVD-D2E949A54A61C783."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-PERFORMANCE-PERF-002."
+    ],
+    "risks": [
+      "Field metrics are unavailable; these values are LAB only.",
+      "No Lighthouse/PageSpeed score or interaction data is available.",
+      "The metric summary does not identify the LCP element, shift sources, or probable technical cause.",
+      "Repeatability and impact for other URLs are unknown.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "evidence_ids": [
+      "EVD-035E196C34BF6621",
+      "EVD-D2E949A54A61C783"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-009",
+    "finding_ids": [
+      "FND-PERFORMANCE-PERF-003"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-PERFORMANCE-PERF-003",
+        "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "evidence_ids": [
+          "EVD-140275788B638B2B",
+          "EVD-EEE8678F6CB7996C",
+          "EVD-1043761274B05EFF",
+          "EVD-381F4D853D891DF0"
+        ]
+      }
+    ],
+    "title": "Address: Sampled diabetes articles show long LAB LCP on desktop and mobile",
+    "objective": "Address accepted finding FND-PERFORMANCE-PERF-003: Sampled diabetes articles show long LAB LCP on desktop and mobile",
+    "current_problem": "Two individually captured article page instances have high LCP in clean-load LAB measurements: /blog/post/chuan-doan-benh-dai-thao-duong measured 13,432 ms desktop and 18,100 ms mobile; /blog/post/dai-thao-duong-do-viem-tuy measured 18,216 ms desktop and 18,408 ms mobile. All four captures state synthetic_scroll_before_measurement=false. This candidate records these URLs as separate page instances; similarity does not establish a template-wide pattern. The measured values exceed the checklist's 2.5-second target, while field experience is unknown.",
+    "target_state": "The observed problem is addressed through: Repeat measurements for each URL at the same desktop and mobile viewports, compare the LCP element and resource timing in each trace, and assess any shared cause only after direct evidence supports it.",
+    "recommended_changes": [
+      "Repeat measurements for each URL at the same desktop and mobile viewports, compare the LCP element and resource timing in each trace, and assess any shared cause only after direct evidence supports it."
+    ],
+    "affected_urls": [
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P1",
+    "priority_rationale": "Priority derives from high severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-PERFORMANCE-PERF-003 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-PERFORMANCE-PERF-003 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-PERFORMANCE-PERF-003 and compare with evidence EVD-140275788B638B2B, EVD-EEE8678F6CB7996C, EVD-1043761274B05EFF, EVD-381F4D853D891DF0."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-PERFORMANCE-PERF-003."
+    ],
+    "risks": [
+      "Field LCP, CLS, and INP are unavailable.",
+      "No Lighthouse/PageSpeed score or interaction data was captured.",
+      "The summary does not identify the LCP elements or causes.",
+      "Article page captures are not evidence of a shared implementation pattern.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "evidence_ids": [
+      "EVD-140275788B638B2B",
+      "EVD-EEE8678F6CB7996C",
+      "EVD-1043761274B05EFF",
+      "EVD-381F4D853D891DF0"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-010",
+    "finding_ids": [
+      "FND-TECHNICAL-SEO-SEO-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-TECHNICAL-SEO-SEO-001",
+        "page": "https://addp.vn/sitemap.xml and https://addp.vn/pub/sitemap.xml",
+        "evidence_ids": [
+          "EVD-A57DC932D580B784",
+          "EVD-B093A16D09E3A37E",
+          "EVD-C51AC48D3DB98538"
+        ]
+      }
+    ],
+    "title": "Address: The advertised sitemap endpoints return 404",
+    "objective": "Make the sitemap location advertised to crawlers resolve to a valid sitemap response.",
+    "current_problem": "Both /sitemap.xml and /pub/sitemap.xml returned HTTP 404 in this run. robots.txt advertises https://addp.vn/pub/sitemap.xml. This establishes failure at these sampled endpoints during collection; it does not establish whether a sitemap is available at another URL.",
+    "target_state": "The advertised sitemap URL returns a parseable sitemap with an appropriate successful status.",
+    "recommended_changes": [
+      "Verify the intended public sitemap URL.",
+      "Correct the sitemap endpoint or the robots.txt Sitemap directive."
+    ],
+    "affected_urls": [
+      "https://addp.vn/robots.txt",
+      "https://addp.vn/pub/sitemap.xml",
+      "https://addp.vn/sitemap.xml",
+      "https://addp.vn/sitemap.xml and https://addp.vn/pub/sitemap.xml"
+    ],
+    "implementation_area": [
+      "Public sitemap and robots configuration"
+    ],
+    "developer_investigation": [
+      "Determine the intended sitemap endpoint and confirm response status and XML content."
+    ],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Public sitemap and robots configuration",
+    "priority": "P1",
+    "priority_rationale": "Priority derives from high severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The sitemap URL advertised in robots.txt returns a valid sitemap response."
+    ],
+    "automated_verification": [
+      "GET advertised sitemap URL and validate status and XML."
+    ],
+    "manual_verification": [
+      "Inspect sitemap URL set for intended public URL coverage."
+    ],
+    "risks": [
+      "Changing sitemap location without checking existing crawler-facing configuration could leave stale discovery references."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "evidence_ids": [
+      "EVD-A57DC932D580B784",
+      "EVD-B093A16D09E3A37E",
+      "EVD-C51AC48D3DB98538"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [
+        "https://addp.vn/robots.txt returned HTTP 200 and its captured contents include 'Sitemap: https://addp.vn/pub/sitemap.xml'. Evidence: EVD-C51AC48D3DB98538.",
+        "https://addp.vn/pub/sitemap.xml returned HTTP 404. Evidence: EVD-B093A16D09E3A37E.",
+        "https://addp.vn/sitemap.xml returned HTTP 404. Evidence: EVD-A57DC932D580B784."
+      ],
+      "probable_technical_causes": [
+        "The advertised sitemap may not be published at the configured path, or the route may be misconfigured. This is a hypothesis, not a confirmed implementation cause."
+      ],
+      "developer_investigation": [
+        "Determine the intended sitemap endpoint and confirm response status and XML content."
+      ]
+    }
+  },
+  {
+    "task_id": "TASK-011",
+    "finding_ids": [
+      "FND-TECHNICAL-SEO-SEO-002"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-TECHNICAL-SEO-SEO-002",
+        "page": "https://addp.vn/robots.txt",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538",
+          "EVD-B093A16D09E3A37E"
+        ]
+      }
+    ],
+    "title": "Address: Robots policy uses a broad wildcard rule and advertises an unavailable sitemap",
+    "objective": "Keep crawl directives and sitemap discovery aligned with intended public URL access.",
+    "current_problem": "The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific.",
+    "target_state": "Robots directives permit intended crawlable URLs and point to a working sitemap.",
+    "recommended_changes": [
+      "Review query-string disallow scope against representative parameterized URLs.",
+      "Confirm AI crawler policy and document any agent-specific directives if needed."
+    ],
+    "affected_urls": [
+      "https://addp.vn/robots.txt",
+      "https://addp.vn/pub/sitemap.xml"
+    ],
+    "implementation_area": [
+      "Robots configuration"
+    ],
+    "developer_investigation": [
+      "Compare disallowed URL patterns with intended canonical and crawlable URL types."
+    ],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Robots configuration",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "Robots rules match the confirmed crawl policy and advertise a responding sitemap endpoint."
+    ],
+    "automated_verification": [
+      "Parse robots directives and check representative URLs against the intended policy."
+    ],
+    "manual_verification": [
+      "Review policy for Googlebot and requested AI crawler user agents."
+    ],
+    "risks": [
+      "Broad robots changes can expose or suppress URL classes unintentionally."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-011",
+      "REQ-015"
+    ],
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": [
+        "Compare disallowed URL patterns with intended canonical and crawlable URL types."
+      ]
+    }
+  },
+  {
+    "task_id": "TASK-012",
+    "finding_ids": [
+      "FND-TECHNICAL-SEO-SEO-003"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-TECHNICAL-SEO-SEO-003",
+        "page": "https://addp.vn/sui-dovital",
+        "evidence_ids": [
+          "EVD-CD4C67022008E5BB",
+          "EVD-325C6659444AD546",
+          "EVD-927DDAF696B5D339"
+        ]
+      }
+    ],
+    "title": "Address: Sampled product pages have missing or generic meta descriptions",
+    "objective": "Provide a distinct, accurate search-result summary for each sampled product page.",
+    "current_problem": "The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate.",
+    "target_state": "Each sampled product URL exposes a unique, descriptive meta description aligned with visible page content.",
+    "recommended_changes": [
+      "Replace the default description on /sui-dovital.",
+      "Review whether the descriptions on the two named product pages need expansion beyond the title."
+    ],
+    "affected_urls": [
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html"
+    ],
+    "implementation_area": [
+      "Product page metadata"
+    ],
+    "developer_investigation": [
+      "Check page-level metadata configuration for the sampled product records."
+    ],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Product page metadata",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "Each listed page returns a unique, non-default description that accurately summarizes its visible content."
+    ],
+    "automated_verification": [
+      "Extract meta descriptions for the three URLs and compare for default values and duplicates."
+    ],
+    "manual_verification": [
+      "Review descriptions for accuracy and usefulness as search-result summaries."
+    ],
+    "risks": [
+      "Descriptions must remain consistent with the visible product claims and page content."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "evidence_ids": [
+      "EVD-CD4C67022008E5BB",
+      "EVD-325C6659444AD546",
+      "EVD-927DDAF696B5D339"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": [
+        "Check page-level metadata configuration for the sampled product records."
+      ]
+    }
+  },
+  {
+    "task_id": "TASK-013",
+    "finding_ids": [
+      "FND-STRUCTURED-DATA-STRUCTURED-DATA-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-STRUCTURED-DATA-STRUCTURED-DATA-001",
+        "page": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-32CB6452441EDF9E",
+          "EVD-C16C9A26189A6C8E",
+          "EVD-01FF964BE2B7A2AA",
+          "EVD-B1630958C79BC01D",
+          "EVD-02D7356CC02B574B",
+          "EVD-BDF90743647332F7",
+          "EVD-E32F848C405D32E0",
+          "EVD-EDDAD1FAFA69798C",
+          "EVD-F71EC5745F2AF71B"
+        ]
+      }
+    ],
+    "title": "Address: Required JSON-LD types were not present in the homepage and three sampled product captures",
+    "objective": "Address accepted finding FND-STRUCTURED-DATA-STRUCTURED-DATA-001: Required JSON-LD types were not present in the homepage and three sampled product captures",
+    "current_problem": "The current-run structured-data extracts are empty arrays for the homepage and each of the three sampled product detail URLs on both desktop and mobile: valid=0 and invalid=0. The checklist calls for JSON-LD Organization, Product for three products, and FAQPage. This establishes that those requested JSON-LD types were not captured on these sampled pages; it does not establish absence across the full site. The raw HTML for the Glucare Plus URL contains Product microdata on the page root, so that sample does expose Product markup in a different format. No generator or implementation cause is inferred.",
+    "target_state": "The observed problem is addressed through: Review the intended structured-data requirement against the sampled output. If the checklist is still authoritative, provide the requested Organization, Product, and FAQPage JSON-LD where the corresponding visible content supports it, and verify every claim against visible page content. Preserve and validate existing Product microdata where appropriate.",
+    "recommended_changes": [
+      "Review the intended structured-data requirement against the sampled output. If the checklist is still authoritative, provide the requested Organization, Product, and FAQPage JSON-LD where the corresponding visible content supports it, and verify every claim against visible page content. Preserve and validate existing Product microdata where appropriate."
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "implementation_area": [],
+    "developer_investigation": [],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "Unassigned",
+    "priority": "P2",
+    "priority_rationale": "Priority derives from medium severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "The observable problem described by FND-STRUCTURED-DATA-STRUCTURED-DATA-001 is absent on the affected URL(s) under the recorded audit conditions.",
+      "Evidence for FND-STRUCTURED-DATA-STRUCTURED-DATA-001 is re-collected and reviewed against its linked requirement(s)."
+    ],
+    "automated_verification": [
+      "Repeat the applicable external collector check for FND-STRUCTURED-DATA-STRUCTURED-DATA-001 and compare with evidence EVD-32CB6452441EDF9E, EVD-C16C9A26189A6C8E, EVD-01FF964BE2B7A2AA, EVD-B1630958C79BC01D, EVD-02D7356CC02B574B, EVD-BDF90743647332F7, EVD-E32F848C405D32E0, EVD-EDDAD1FAFA69798C, EVD-F71EC5745F2AF71B."
+    ],
+    "manual_verification": [
+      "Inspect the affected page(s) in the recorded viewport(s) and confirm the acceptance criteria for FND-STRUCTURED-DATA-STRUCTURED-DATA-001."
+    ],
+    "risks": [
+      "Whether Organization or FAQPage markup exists on any uncollected URL is unknown.",
+      "Whether the three selected product pages represent all products intended by the checklist is unknown; the capture confirms only these three URLs.",
+      "The collector extract reports JSON-LD results; it does not establish complete microdata coverage on every sampled page.",
+      "Structured-data eligibility or search-result presentation was not tested.",
+      "The run reports nine of 25 pages as partial, and four inventory pages have no structured-data evidence record.",
+      "Effort is provisional until developer investigation.",
+      "Priority is inferred from finding severity; confirm business sequencing."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-010",
+      "REQ-010-01"
+    ],
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-01FF964BE2B7A2AA",
+      "EVD-B1630958C79BC01D",
+      "EVD-02D7356CC02B574B",
+      "EVD-BDF90743647332F7",
+      "EVD-E32F848C405D32E0",
+      "EVD-EDDAD1FAFA69798C",
+      "EVD-F71EC5745F2AF71B"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": []
+    }
+  },
+  {
+    "task_id": "TASK-014",
+    "finding_ids": [
+      "FND-UX-UI-UXUI-001"
+    ],
+    "finding_kind": "instance_finding",
+    "instances": [
+      {
+        "finding_id": "FND-UX-UI-UXUI-001",
+        "page": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-3D15DCDB359887BF",
+          "EVD-9B3746A447795E5D"
+        ]
+      }
+    ],
+    "title": "Address: Homepage mobile load remains slow in recorded laboratory capture",
+    "objective": "Reduce the measured homepage mobile load delay.",
+    "current_problem": "The run recorded mobile laboratory LCP of 12,504 ms and TTFB of 5,841.7 ms for the homepage. Interpretation: this load delay can postpone the point at which the first viewport becomes useful on this recorded mobile page instance. These are LAB measurements, not field data; no Lighthouse score or field metric is available. The viewport screenshot is collected separately and supports visual review only, not the timing claim.",
+    "target_state": "Mobile first viewport becomes useful sooner under the recorded audit conditions.",
+    "recommended_changes": [
+      "Investigate the first-viewport critical path and largest-contentful element."
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "implementation_area": [
+      "mobile first viewport and page loading"
+    ],
+    "developer_investigation": [
+      "Identify the resources contributing to the recorded LCP and TTFB."
+    ],
+    "dependencies": [],
+    "dependency_details": [],
+    "workstream": "mobile first viewport and page loading",
+    "priority": "P1",
+    "priority_rationale": "Priority derives from high severity/risk, affected public coverage, and implementation sequencing; no ROI value is asserted.",
+    "effort": "M",
+    "acceptance_criteria": [
+      "Comparable mobile LAB capture shows a materially lower LCP, with no visual regression in the initial viewport."
+    ],
+    "automated_verification": [
+      "Repeat the same mobile LAB capture."
+    ],
+    "manual_verification": [
+      "Review initial viewport screenshots at 390×844 under representative network conditions."
+    ],
+    "risks": [
+      "A measurement change alone may not reflect real user experience without field data."
+    ],
+    "status": "planned",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "evidence_ids": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-9B3746A447795E5D"
+    ],
+    "source": "checklist",
+    "diagnostic": {
+      "observed_external_facts": [],
+      "probable_technical_causes": [],
+      "developer_investigation": [
+        "Identify the resources contributing to the recorded LCP and TTFB."
+      ]
+    }
+  }
+]

@@ -1,0 +1,2253 @@
+[
+  {
+    "url": "https://addp.vn/customer/account/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuLw~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/create/",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "javascript:;",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "https://addp.vn/checkout/cart/",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "javascript:void(0)",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "javascipt:void(0)",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "https://addp.vn/catalog/product_compare/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2JlbmgtbHk~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2Jsb2cvY2F0ZWdvcnkvc3VjLWtob2UtdGlldS1kdW9uZw~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NhdGFsb2dzZWFyY2gvYWR2YW5jZWQvaW5kZXgv/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NoaW5oLXNhY2gtZGF0LWhhbmc~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NoaW5oLXNhY2gtZG9pLXRyYS12YS1ob2FuLXRpZW4~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NoaW5oLXNhY2gtdGhhbmgtdG9hbg~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NoaW5oLXNhY2gtdmFuLWNodXllbi12YS1naWFvLW5oYW4~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NvbnRhY3Q~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "tel: 0243 389 9889",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2NvbnRhY3Qv/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL2dpb2ktdGhpZXU~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1YS1kaW5oLWR1b25nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1YS1kaW5oLWR1b25nL3N1YS1uZ3VvaS1sb24uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1YS1kaW5oLWR1b25nL3N1YS10cmUtZW0uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1YS1oYXQtZ2x1Y2FyZS1wbHVz/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "tel:18006825",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1aS1kb3ZpdGFs/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "tel:19008989",
+    "reason": "Mutating GET URL"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RoaWV0LWJpLXktdGUuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RoaWV0LWJpLXktdGUvZHVuZy1jdS1zby1jdXUuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RoaWV0LWJpLXktdGUvZHVuZy1jdS10aGVvLWRvaS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RoaWV0LWJpLXktdGUvZHVuZy1jdS15LXRlLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RoaWV0LWJpLXktdGUva2hhdS10cmFuZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL2JvLW1hdC1iYW8tdmUtbWF0Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL2Nob25nLWxhby1ob2EuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL2NodWMtbmFuZy1nYW4uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL2dpYWktcnVvdS1jYWktcnVvdS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL2gtdHItdHJhby1kLWktY2gtdC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvY2FpLXRoaWVuLXRhbmctY3VvbmctY2h1Yy1uYW5nL3Rhbmctc3VjLWRlLWtoYW5nLW1pZW4tZGljaC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2NvLXh1b25nLWtob3AuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2hvLWhhcC1oby14b2FuZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2hvLXRyby1kaWV1LXRyaS1nb3V0Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2hvLXRyby1kaWV1LXRyaS10aWV1LWR1b25nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2hvLXRyby1kaWV1LXRyaS10cmkuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL2hvLXRyby1kaWV1LXRyaS10cnVuZy10aHUuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWRpZXUtdHJpL3RoYW4tdGllbi1saWV0LXR1eWVuLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWxhbS1kZXAuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWxhbS1kZXAvZGEuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWxhbS1kZXAvZ2lhbS1jYW4uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLWxhbS1kZXAvdG9jLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hL2RhLWRheS10YS10cmFuZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hL2RhaS10cmFuZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hL2toby10aWV1Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hL3Rhby1ib24uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvaG8tdHJvLXRpZXUtaG9hL3ZpLXNpbmgtcHJvYmlvdGljLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by9jYW4tYmFuZy1ub2ktdGlldC10by5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by9oby10cm8tbWFuLWtpbmguaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by9zaW5oLWx5LW5hbS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by9zaW5oLWx5LW51Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by92by1zaW5oLWhpLW0tbXUtbi1uYW0uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc2luaC1seS1ub2ktdGlldC10by92by1zaW5oLWhpZW0tbXVvbi1udS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc3VjLWtob2UtdGltLW1hY2guaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc3VjLWtob2UtdGltLW1hY2gvZ2lhbS1jaG9sZXN0ZXJvbC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc3VjLWtob2UtdGltLW1hY2gvaHV5ZXQtYXAuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvc3VjLWtob2UtdGltLW1hY2gvc3V5LWdpYW4tdGluaC1tYWNoLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby9iby1uYW8tY2FpLXRoaWVuLXRyaS1uaG8uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby9oby10cm8tZ2lhYy1uZ3Utbmdvbi5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby9ob2F0LWh1eWV0Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby9raWVtLXNvYXQtY2FuZy10aGFuZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdGhhbi1raW5oLW5hby90dWFuLWhvYW4tbWF1Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC9iLXN1bmctY2FueGktdml0YW1pbi1kLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC9iby1zdW5nLWtlbS1tYWdpZS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC9iby1zdW5nLXNhdC1heGl0LWZvbGljLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC9kYXUtY2Etb21lZ2EtMy1kaGEuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC92aXRhbWluLWMtY2FjLWxvYWkuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC92aXRhbWluLWUtY2FjLWxvYWkuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodWMtcGhhbS1jaHVjLW5hbmcvdml0YW1pbi1raG9hbmctY2hhdC92aXRhbWluLXRvbmctaG9wLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2NhYy1zYW4tcGhhbS10cmktbGlldS1raGFjLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2RpLXVuZy12YS1oZS1taWVuLWRpY2guaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2RpLXVuZy12YS1oZS1taWVuLWRpY2gvdGh1b2Mta2hhbmctaGlzdGFtaW4ta2hhbmctZGktdW5nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2RpLXVuZy12YS1oZS1taWVuLWRpY2gvdGh1b2MtdWMtY2hlLW1pZW4tZGljaC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2RpLXVuZy12YS1oZS1taWVuLWRpY2gvdmFjY2luLWtoYW5nLWh1eWV0LXRoYW5oLXRodW9jLW1pZW4tZGljaC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2R1bmctZGljaC10aWVtLXRpbmgtbWFjaC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL2NhYy10aHVvYy1raGFjLXRhYy1kb25nLWxlbi1oZS1jby14dW9uZy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL2toYW5nLXZpZW0tZGFuZy1tZW4uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL3RodW9jLWNob25nLXRoYXAta2hvcC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL3RodW9jLWdpYW4tY28uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL3RodW9jLXRyaS1yb2ktbG9hbi10aGFuLWtpbmgtY28uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWNvLXh1b25nL3RodW9jLXRyaS10YW5nLWFjaWQtdXJpYy1tYXUtYmVuaC1nb3V0Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWhvLWhhcC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWhvLWhhcC9jYWMtdGh1b2Mta2hhYy1jby10YWMtZHVuZy10cmVuLWhlLWhvLWhhcC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWhvLWhhcC90aHVvYy1jaG9uZy1zdW5nLWh1eWV0LW11aS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWhvLWhhcC90aHVvYy1oby1jYW0uaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLWhvLWhhcC90aHVvYy10cmktaGVuLWJlbmgtcGhvaS10YWMtbmdoZW4tbWFuLXRpbmguaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvY2FjLXRodW9jLWtoYWMtYW5oLWh1b25nLWRlbi1jaHV5ZW4taG9hLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvaG9ybW9uLXR1eWVuLWdpYXAuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvaW5zdWxpbi5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvdGh1b2MtYW5oLWh1b25nLWNodXllbi1ob2EteHVvbmcuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvdGh1b2MtY2hvbmctYmVvLXBoaS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvdGh1b2Mta2hhbmctZ2lhcC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLW5vaS10aWV0LXZhLWNodXllbi1ob2EvdGh1b2MtdHJpLWRhaS10aGFvLWR1b25nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL2toYWMtaGUtdGhvbmctdGhhbi1raW5oLXRydW5nLXVvbmcuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWNob25nLWNvLWdpYXQuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWNob25nLWxvYW4tdGhhbi5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWNob25nLXRyYW0tY2FtLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWdpYWktbG8tYXUuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWdpYW0tZGF1LW9waW9pZC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWdpYW0tZGF1Lmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWh1b25nLXRoYW4ta2luaC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLWtoYW5nLXZpZW0ta2hvbmctc3Rlcm9pZC5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLW5ndS10aHVvYy1hbi10aGFuLmh0bWw~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLXRyaS1iZW5oLXBhcmtpbnNvbi5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLXRyaS1iZW5oLXRob2FpLWhvYS10aGFuLWtpbmguaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLXRyaS1jaG9uZy1tYXQuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLXRyaS1kYXUtZG8tYmVuaC1seS10aGFuLWtpbmguaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRoYW4ta2luaC10cnVuZy11b25nL3RodW9jLXRyaS1kYXUtbnVhLWRhdS5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRpZXQtbmlldS12YS1zaW5oLWR1Yy5odG1s/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3RodW9jL2hlLXRpZXQtbmlldS12YS1zaW5oLWR1Yy9jYWMtdGh1b2MtdGlldS1uaWV1LXNpbmgtZHVjLWtoYWMuaHRtbA~~/",
+    "reason": "Disallowed by robots.txt"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425c683996ad9ca",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630258823",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630258824",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425c761d8b50884",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/rum?",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "telemetry blocked; audit-induced request",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "core safety policy: Unsafe transactional endpoint: https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630294300",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630294301",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_1&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/themelayoutpro/ajax/mainWidget/?main_opt_id=main-content-style54%7C%7Cwidget_2&store=107&currency=VND",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425c89a49385fea",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630344531",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/catalog/product/frontend_action_synchronize/",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630344532",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=messages&force_new_section_timestamp=true&_=1790630344533",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425c95f1f27fd3c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630375703",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/catalog/product/frontend_action_synchronize/",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=messages&force_new_section_timestamp=true&_=1790630375704",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630375705",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ca2a2e84d846",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630408211",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630408212",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=messages&force_new_section_timestamp=true&_=1790630408213",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425cae8fe26c9c6",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630438784",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=messages&force_new_section_timestamp=true&_=1790630438785",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630438786",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425cbb96cf4da4a",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630473865",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630473866",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ccbf1dd5f91c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630516202",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630516203",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://s7.addthis.com/js/300/addthis_widget.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: getaddrinfo ENOTFOUND s7.addthis.com\nCall log:\n\u001b[2m  - → GET https://s7.addthis.com/js/300/addthis_widget.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m    - authorization:\u001b[22m\n\u001b[2m    - proxy-authorization:\u001b[22m\n\u001b[2m    - cookie:\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425cde44a2ffdcb",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630560826",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630560827",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://s7.addthis.com/js/300/addthis_widget.js",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: getaddrinfo ENOTFOUND s7.addthis.com\nCall log:\n\u001b[2m  - → GET https://s7.addthis.com/js/300/addthis_widget.js\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n\u001b[2m    - authorization:\u001b[22m\n\u001b[2m    - proxy-authorization:\u001b[22m\n\u001b[2m    - cookie:\u001b[22m\n",
+    "resource_type": "script",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425cecf58475859",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630598312",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630598313",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425cfeebe61712c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630644333",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630644334",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d0df7a735888",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630683162",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630683163",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d205ee04fd21",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630730307",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630730308",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d3318f67712c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630778281",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630778282",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d4947e18a08d",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630835131",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630835132",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d5743b15f902",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630877215",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630877216",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d65c5acbd3c6",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630907544",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630907545",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d71229e840c1",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630937035",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630937036",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d7d86c6ac4af",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630968432",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630968433",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d8990978f8ca",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790630999892",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790630999893",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425d960bf34fd0c",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631031996",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631031997",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: Request context disposed.\nCall log:\n\u001b[2m  - → GET https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: */*\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - origin: https://addp.vn\u001b[22m\n\u001b[2m    - referer: https://addp.vn/\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: read ECONNRESET\nCall log:\n\u001b[2m  - → GET https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - upgrade-insecure-requests: 1\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "document",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+    "viewport": "mobile",
+    "reason": "Browser collection failed: page.goto: net::ERR_BLOCKED_BY_CLIENT at https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan\nCall log:\n\u001b[2m  - navigating to \"https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "audit_induced": false
+  },
+  {
+    "url": "https://maps.google.com/maps?q=6505%20boulevard%20Henri-Bourassa,%20Montr%C3%A9al,%20Quebec,%20H1G2V5&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "cross-origin navigation blocked",
+    "resource_type": "document",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425dad86f4af928",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631092745",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631092746",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://maps.google.com/maps?q=6505%20boulevard%20Henri-Bourassa,%20Montr%C3%A9al,%20Quebec,%20H1G2V5&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "cross-origin navigation blocked",
+    "resource_type": "document",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425dba90a83290d",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631127568",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631127569",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425dca3692efd6f",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631165435",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631165436",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425dd7cfbab5e3e",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631200900",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631200901",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425de417e5b6035",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631231921",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631231922",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425df21db436584",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631268701",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631268702",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e01d0f70b00b",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631307051",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631307052",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e0eaa9d8f8d2",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631340816",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631340817",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e2048f08f8f4",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631385469",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631385470",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e2db4c253f66",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631421961",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631421962",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e3ba884c7549",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631455560",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631455561",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631455562",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e496cd119b93",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631497112",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631497113",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631497114",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e5aadd234e24",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631534917",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631534918",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631534919",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e67cfb1f40b3",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631568329",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631568330",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631568331",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e74eed54fde0",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631602213",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631602214",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631602215",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e80b29705c30",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631632790",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631632791",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631632792",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425e8de78b0da4a",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631669027",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631669028",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ea20ae37f910",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631718864",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631718865",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425eb8c3c1dfdf4",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631775754",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631775755",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631775756",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ec5e2ff06d97",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631809420",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631809421",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631809422",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ed32ddbd93ba",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631843966",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631843967",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631843968",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425edf25ba4fdf9",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631874037",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631874038",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631874039",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425eeb84f81fd80",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631906148",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631906149",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631906150",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425ef94ae3bcde6",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631946935",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631946936",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631946937",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425f06a4eb144b1",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790631975136",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790631975137",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790631975138",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425f1274caac189",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790632005077",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790632005078",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790632005079",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425f1e8fe53fd18",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790632036302",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790632036303",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790632036304",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "desktop"
+  },
+  {
+    "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a425f2b97c89fe23",
+    "redirected_from": null,
+    "method": "POST",
+    "reason": "unsafe method POST",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=customer&_=1790632069646",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=recently_viewed_product&_=1790632069647",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "url": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790632069648",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "robots disallow",
+    "resource_type": "xhr",
+    "audit_induced": true,
+    "viewport": "mobile"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "valid": true,
+    "data": {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "author": {
+        "@type": "Person",
+        "name": "admin admin",
+        "url": "https://addp.vn/blog/author/admin-admin"
+      },
+      "headline": "Làm cách nào để chẩn đoán bệnh đái tháo đường?",
+      "description": "Việc chẩn đoán bệnh đái tháo đường sớm và chính xác là chìa khóa để quản lý hiệu quả căn bệnh mạn tính này, giúp ngăn ngừa hoặc làm chậm tiến triển của các biến chứng nguy hiểm, từ đó nâng cao chất lư",
+      "datePublished": "2025-08-28T00:00:00+00:00",
+      "dateModified": "2026-09-15T08:25:52+00:00",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://addp.vn/media/magefan_blog/18b9084a-fbbb-4dc4-acf9-ed5daf070eae.jpg",
+        "width": 720,
+        "height": 720
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Công ty TNHH Dược phẩm ADDP",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/logo.svg"
+        }
+      },
+      "mainEntityOfPage": "https://addp.vn/blog"
+    }
+  }
+]

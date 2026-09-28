@@ -1,0 +1,1250 @@
+[
+  {
+    "finding_id": "FND-ANALYTICS-analytics-public-signals-not-observed-sample",
+    "origin_finding_id": "analytics-public-signals-not-observed-sample",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-DBF33A19881A487E",
+        "EVD-04B228A36544C865",
+        "EVD-5E1FDAFD6E0F3BD0",
+        "EVD-2A0768485D1F0097",
+        "EVD-820A852713ADC090",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-0B566D85DC39FA02",
+        "EVD-AEA3DB2C2D2E0F53"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/gioi-thieu"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/analytics/e4e0c9a45799894e.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-DBF33A19881A487E"
+        },
+        {
+          "path": "evidence/analytics/e4e0c9a45799894e.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-04B228A36544C865"
+        },
+        {
+          "path": "evidence/analytics/7cfd44db842407aa.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-5E1FDAFD6E0F3BD0"
+        },
+        {
+          "path": "evidence/analytics/7cfd44db842407aa.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-2A0768485D1F0097"
+        },
+        {
+          "path": "evidence/analytics/71458af915c17754.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-820A852713ADC090"
+        },
+        {
+          "path": "evidence/analytics/71458af915c17754.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-DAC7815A6168F9B8"
+        },
+        {
+          "path": "evidence/analytics/d6027b0617e26ca1.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-0B566D85DC39FA02"
+        },
+        {
+          "path": "evidence/analytics/d6027b0617e26ca1.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-AEA3DB2C2D2E0F53"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-014-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Observed claim: The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed."
+    ],
+    "observation_reviewed": "The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed.",
+    "page_reviewed": "https://addp.vn/",
+    "source_requirement_ids_reviewed": [
+      "REQ-014"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-DBF33A19881A487E",
+      "EVD-04B228A36544C865",
+      "EVD-5E1FDAFD6E0F3BD0",
+      "EVD-2A0768485D1F0097",
+      "EVD-820A852713ADC090",
+      "EVD-DAC7815A6168F9B8",
+      "EVD-0B566D85DC39FA02",
+      "EVD-AEA3DB2C2D2E0F53"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "source_clause_ids_reviewed": [
+      "REQ-014-01"
+    ],
+    "supported_facts": [
+      "Observed claim: The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed."
+    ]
+  },
+  {
+    "finding_id": "FND-BRAND-BRAND-20260928-001",
+    "origin_finding_id": "BRAND-20260928-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-AD18B204CB25AAFE",
+        "EVD-927DDAF696B5D339"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/html/db93fc388a5ba278.desktop.render-stabilized-v3_3.rendered.html",
+          "exists": true,
+          "evidence_id": "EVD-AD18B204CB25AAFE"
+        },
+        {
+          "path": "evidence/seo/db93fc388a5ba278.render-stabilized-v3_3.raw.json",
+          "exists": true,
+          "evidence_id": "EVD-927DDAF696B5D339"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "No checklist requirement claimed; candidate is best_practice."
+    },
+    "factual_support": [
+      "Observed claim: The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative."
+    ],
+    "observation_reviewed": "The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative.",
+    "page_reviewed": "https://addp.vn/vien-an-duong-addp.html",
+    "source_requirement_ids_reviewed": [],
+    "evidence_ids_reviewed": [
+      "EVD-AD18B204CB25AAFE",
+      "EVD-927DDAF696B5D339"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Observed claim: The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative."
+    ]
+  },
+  {
+    "finding_id": "FND-CONTENT-CONTENT-001",
+    "origin_finding_id": "CONTENT-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C07AE1B67F5FAB1D"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/html/7cfd44db842407aa.desktop.render-stabilized-v3_3.rendered.html",
+          "exists": true,
+          "evidence_id": "EVD-C07AE1B67F5FAB1D"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-007"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Observed claim: The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes."
+    ],
+    "observation_reviewed": "The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes.",
+    "page_reviewed": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-C07AE1B67F5FAB1D"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Observed claim: The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes."
+    ]
+  },
+  {
+    "finding_id": "FND-CONVERSION-CONV-001",
+    "origin_finding_id": "CONV-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-DF63C483FC434445",
+        "EVD-EA78205F3017C505"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/sua-hat-glucare-plus"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/dom/ebd40bf592e2f9a7.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-DF63C483FC434445"
+        },
+        {
+          "path": "evidence/screenshots/ebd40bf592e2f9a7.desktop.render-stabilized-v3_3.stabilized.full.png",
+          "exists": true,
+          "evidence_id": "EVD-EA78205F3017C505"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-007-02"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Full-page screenshot visibly shows a Glucare Plus item at 9,000 ₫ and a distinct entry at 0 ₫, plus a separate paid sample offer; it does not establish whether zero is intentional."
+    ],
+    "observation_reviewed": "The captured visible text lists “1 Gói Sữa Hạt dinh dưỡng GLUCARE PLUS ...” at 9.000,00 ₫ and later lists “Sữa Hạt dinh dưỡng GLUCARE PLUS - Dùng được cho người tiểu đường” at 0,00 ₫ (repeated). The same page separately promotes a 9.000đ trial pack. These are displayed values on distinct entries; the evidence does not establish whether the 0.00 ₫ listing is intentional, a placeholder, or an error. This may leave shoppers uncertain about the price and offer attached to the product.",
+    "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-DF63C483FC434445",
+      "EVD-EA78205F3017C505"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "source_clause_ids_reviewed": [
+      "REQ-007-02"
+    ],
+    "supported_facts": [
+      "Full-page screenshot visibly shows a Glucare Plus item at 9,000 ₫ and a distinct entry at 0 ₫, plus a separate paid sample offer; it does not establish whether zero is intentional."
+    ]
+  },
+  {
+    "finding_id": "FND-EXTERNAL-TECHNICAL-DIAGNOSTIC-technical-advertised-sitemap-returns-404",
+    "origin_finding_id": "technical-advertised-sitemap-returns-404",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/robots.txt",
+        "https://addp.vn/pub/sitemap.xml",
+        "https://addp.vn/sitemap.xml"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/discovery/robots.txt",
+          "exists": true,
+          "evidence_id": "EVD-C51AC48D3DB98538"
+        },
+        {
+          "path": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+          "exists": true,
+          "evidence_id": "EVD-B093A16D09E3A37E"
+        },
+        {
+          "path": "evidence/discovery/sitemap-52618716ffbf735c.xml",
+          "exists": true,
+          "evidence_id": "EVD-A57DC932D580B784"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "robots.txt declares /pub/sitemap.xml and indexed HTTP records show /pub/sitemap.xml and /sitemap.xml returned 404 during collection."
+    ],
+    "observation_reviewed": "The captured public robots.txt names https://addp.vn/pub/sitemap.xml as its Sitemap URL. The run recorded HTTP 404 for that URL; it also recorded HTTP 404 for https://addp.vn/sitemap.xml. These are endpoint observations from this collection, not proof of persistent availability or search-engine impact.",
+    "page_reviewed": "https://addp.vn/pub/sitemap.xml",
+    "source_requirement_ids_reviewed": [
+      "REQ-015"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929"
+  },
+  {
+    "finding_id": "FND-GEO-AEO-GEO-AEO-001",
+    "origin_finding_id": "GEO-AEO-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-02D7356CC02B574B",
+        "EVD-E32F848C405D32E0",
+        "EVD-2326A9C7428D947E",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-0CC76FEDCFD90652"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/schema/e4e0c9a45799894e.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-32CB6452441EDF9E"
+        },
+        {
+          "path": "evidence/schema/db93fc388a5ba278.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-02D7356CC02B574B"
+        },
+        {
+          "path": "evidence/schema/9f397da04f62a067.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-E32F848C405D32E0"
+        },
+        {
+          "path": "evidence/schema/71458af915c17754.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-2326A9C7428D947E"
+        },
+        {
+          "path": "evidence/schema/83ea4ae04acfbe03.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-B8786FA90B6CDCB3"
+        },
+        {
+          "path": "evidence/schema/ce718c81120655d4.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-0CC76FEDCFD90652"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-010-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+    ],
+    "observation_reviewed": "The current-run structured-data collector reports valid: 0 and invalid: 0 at the homepage and the sampled product pages https://addp.vn/vien-an-duong-addp.html and https://addp.vn/sui-dovital. This is evidence that no JSON-LD was detected by that collector on these page instances; it does not establish the absence of every structured-data format or a sitewide condition. The same run detected valid BlogPosting JSON-LD on sampled article pages, so the result is page-type-specific in this sample.",
+    "page_reviewed": "https://addp.vn/",
+    "source_requirement_ids_reviewed": [
+      "REQ-010"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-02D7356CC02B574B",
+      "EVD-E32F848C405D32E0",
+      "EVD-2326A9C7428D947E",
+      "EVD-B8786FA90B6CDCB3",
+      "EVD-0CC76FEDCFD90652"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "source_clause_ids_reviewed": [
+      "REQ-010-01"
+    ],
+    "supported_facts": [
+      "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+    ]
+  },
+  {
+    "finding_id": "FND-GEO-AEO-GEO-AEO-002",
+    "origin_finding_id": "GEO-AEO-002",
+    "status": "needs_manual_review",
+    "supported": false,
+    "reason": "Evidence supports question-led headings, but requirement fulfillment and answer-length/editorial assessment need manual content review; do not infer failure from an unestablished FAQ block.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C4AE99238E385779",
+        "EVD-8B09867D19F1496E",
+        "EVD-927DDAF696B5D339",
+        "EVD-02D7356CC02B574B"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/seo/db93fc388a5ba278.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-C4AE99238E385779"
+        },
+        {
+          "path": "evidence/html/db93fc388a5ba278.render-stabilized-v3_3.raw.html",
+          "exists": true,
+          "evidence_id": "EVD-8B09867D19F1496E"
+        },
+        {
+          "path": "evidence/seo/db93fc388a5ba278.render-stabilized-v3_3.raw.json",
+          "exists": true,
+          "evidence_id": "EVD-927DDAF696B5D339"
+        },
+        {
+          "path": "evidence/schema/db93fc388a5ba278.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-02D7356CC02B574B"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-007-03",
+        "REQ-007-05"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+    ],
+    "observation_reviewed": "The extracted heading list includes direct questions about product effect, eligible users, and use instructions; extracted page text contains short answers, product ingredients, dosage instructions, and a warning that the supplement is not a medicine and does not replace treatment. The heading list has no FAQ/Hỏi đáp heading, and the evidence reviewed does not establish the specific FAQ block and 40–60-word direct-answer format described by REQ-007-05. The evidence supports a page-level opportunity, not a claim that FAQ content is absent everywhere.",
+    "page_reviewed": "https://addp.vn/vien-an-duong-addp.html",
+    "source_requirement_ids_reviewed": [
+      "REQ-007-03",
+      "REQ-007-05"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-C4AE99238E385779",
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339",
+      "EVD-02D7356CC02B574B"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929"
+  },
+  {
+    "finding_id": "FND-GEO-AEO-GEO-AEO-003",
+    "origin_finding_id": "GEO-AEO-003",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/robots.txt"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/discovery/robots.txt",
+          "exists": true,
+          "evidence_id": "EVD-C51AC48D3DB98538"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-011-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Observed claim: The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply."
+    ],
+    "observation_reviewed": "The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply.",
+    "page_reviewed": "https://addp.vn/robots.txt",
+    "source_requirement_ids_reviewed": [
+      "REQ-011"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-C51AC48D3DB98538"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "source_clause_ids_reviewed": [
+      "REQ-011-01"
+    ],
+    "supported_facts": [
+      "Observed claim: The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply."
+    ]
+  },
+  {
+    "finding_id": "FND-GEO-AEO-GEO-AEO-004",
+    "origin_finding_id": "GEO-AEO-004",
+    "status": "rejected",
+    "supported": false,
+    "reason": "Duplicates the same two 404 endpoints and robots sitemap directive already covered by the more directly checklist-mapped sitemap findings; adds no distinct actionable issue.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/robots.txt",
+        "https://addp.vn/pub/sitemap.xml",
+        "https://addp.vn/sitemap.xml"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/discovery/robots.txt",
+          "exists": true,
+          "evidence_id": "EVD-C51AC48D3DB98538"
+        },
+        {
+          "path": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+          "exists": true,
+          "evidence_id": "EVD-B093A16D09E3A37E"
+        },
+        {
+          "path": "evidence/discovery/sitemap-52618716ffbf735c.xml",
+          "exists": true,
+          "evidence_id": "EVD-A57DC932D580B784"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "No checklist requirement claimed; candidate is best_practice."
+    },
+    "factual_support": [
+      "Endpoint responses are supported, but the candidate duplicates the retained sitemap finding."
+    ],
+    "observation_reviewed": "The collected robots.txt names https://addp.vn/pub/sitemap.xml, and the run recorded HTTP 404 responses for that URL and https://addp.vn/sitemap.xml. These endpoint responses make the referenced sitemap unavailable at collection time; the audit did not establish whether another sitemap endpoint exists or whether the site's pages are otherwise discoverable.",
+    "page_reviewed": "https://addp.vn/robots.txt",
+    "source_requirement_ids_reviewed": [],
+    "evidence_ids_reviewed": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929"
+  },
+  {
+    "finding_id": "FND-HEALTH-CONTENT-HC-001",
+    "origin_finding_id": "HC-001",
+    "status": "needs_manual_review",
+    "supported": false,
+    "reason": "Raw capture supports presence of quoted health claims only; medical truth, substantiation, suitability, and regulatory status require qualified review.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-42AE297DAC33A1B9"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/sua-hat-glucare-plus"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/html/ebd40bf592e2f9a7.render-stabilized-v3_3.raw.html",
+          "exists": true,
+          "evidence_id": "EVD-42AE297DAC33A1B9"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+    ],
+    "observation_reviewed": "The collected product page uses the exact health-related wording “dùng được cho người tiểu đường muốn duy trì đường huyết ổn định”, “hỗ trợ kiểm soát đường huyết an toàn”, “Giải pháp dinh dưỡng lý tưởng cho người mắc bệnh đái tháo đường và tiền đái tháo đường”, and “kiểm soát đường huyết hiệu quả”. It also labels the product “DINH DƯỠNG Y KHOA ĐỘT PHÁ” and presents a sample-request form asking for the visitor’s current condition, with options including type 1/type 2 diabetes and prediabetes. These are observed public claims and form wording; this review does not determine their medical truth, substantiation, product classification, or regulatory status. Route the exact claims and their supporting basis for qualified human/regulatory review.",
+    "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids_reviewed": [
+      "REQ-009-01"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-42AE297DAC33A1B9"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929"
+  },
+  {
+    "finding_id": "FND-HEALTH-CONTENT-HC-002",
+    "origin_finding_id": "HC-002",
+    "status": "needs_manual_review",
+    "supported": false,
+    "reason": "Raw capture supports that diagnostic thresholds and advice occur in the article; accuracy, currency, sourcing, and attribution require qualified clinical/editorial review.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-29BE01E2DF43FC8F"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/html/71458af915c17754.render-stabilized-v3_3.raw.html",
+          "exists": true,
+          "evidence_id": "EVD-29BE01E2DF43FC8F"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+    ],
+    "observation_reviewed": "The collected article presents diagnostic criteria and thresholds, including fasting glucose, HbA1c and OGTT, and discusses consequences of delayed diagnosis. The available page capture establishes that these statements occur in the article, but this analysis does not validate their medical accuracy. Refer the exact article content to a qualified clinical reviewer and check that the published article visibly identifies its author/editor/medical reviewer and its supporting sources.",
+    "page_reviewed": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+    "source_requirement_ids_reviewed": [
+      "REQ-009-01"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-29BE01E2DF43FC8F"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929"
+  },
+  {
+    "finding_id": "FND-PERFORMANCE-PERF-001",
+    "origin_finding_id": "PERF-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/lighthouse/e4e0c9a45799894e.desktop.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-85956D06B433ABCA"
+        },
+        {
+          "path": "evidence/lighthouse/e4e0c9a45799894e.mobile.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-3D15DCDB359887BF"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ],
+    "observation_reviewed": "In clean-load LAB captures, desktop recorded LCP 17,700 ms, CLS 0.1651, and TTFB 5,911.5 ms; mobile recorded LCP 12,504 ms, CLS 0.1346, and TTFB 5,841.7 ms. Both captures state synthetic_scroll_before_measurement=false. These are single-run browser measurements under the recorded run conditions, not field experience. The measured LCP is above the checklist's stated 2.5-second target; no PageSpeed score was captured.",
+    "page_reviewed": "https://addp.vn/",
+    "source_requirement_ids_reviewed": [
+      "REQ-013"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-85956D06B433ABCA",
+      "EVD-3D15DCDB359887BF"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ]
+  },
+  {
+    "finding_id": "FND-PERFORMANCE-PERF-002",
+    "origin_finding_id": "PERF-002",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/benh-ly"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/lighthouse/65e3d78cc6db4646.desktop.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-035E196C34BF6621"
+        },
+        {
+          "path": "evidence/lighthouse/65e3d78cc6db4646.mobile.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-D2E949A54A61C783"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ],
+    "observation_reviewed": "The desktop clean-load LAB capture recorded LCP 19,308 ms and CLS 0.6347; the mobile capture recorded LCP 22,128 ms and CLS 0.5932. Both state synthetic_scroll_before_measurement=false. The values are page-instance observations from this run and exceed the checklist's 2.5-second load target by a wide margin for LCP. They do not establish field performance or the source of the shifts.",
+    "page_reviewed": "https://addp.vn/benh-ly",
+    "source_requirement_ids_reviewed": [
+      "REQ-013"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-035E196C34BF6621",
+      "EVD-D2E949A54A61C783"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ]
+  },
+  {
+    "finding_id": "FND-PERFORMANCE-PERF-003",
+    "origin_finding_id": "PERF-003",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/lighthouse/71458af915c17754.desktop.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-140275788B638B2B"
+        },
+        {
+          "path": "evidence/lighthouse/71458af915c17754.mobile.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-EEE8678F6CB7996C"
+        },
+        {
+          "path": "evidence/lighthouse/83ea4ae04acfbe03.desktop.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-1043761274B05EFF"
+        },
+        {
+          "path": "evidence/lighthouse/83ea4ae04acfbe03.mobile.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-381F4D853D891DF0"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ],
+    "observation_reviewed": "Two individually captured article page instances have high LCP in clean-load LAB measurements: /blog/post/chuan-doan-benh-dai-thao-duong measured 13,432 ms desktop and 18,100 ms mobile; /blog/post/dai-thao-duong-do-viem-tuy measured 18,216 ms desktop and 18,408 ms mobile. All four captures state synthetic_scroll_before_measurement=false. This candidate records these URLs as separate page instances; similarity does not establish a template-wide pattern. The measured values exceed the checklist's 2.5-second target, while field experience is unknown.",
+    "page_reviewed": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+    "source_requirement_ids_reviewed": [
+      "REQ-013"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-140275788B638B2B",
+      "EVD-EEE8678F6CB7996C",
+      "EVD-1043761274B05EFF",
+      "EVD-381F4D853D891DF0"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ]
+  },
+  {
+    "finding_id": "FND-TECHNICAL-SEO-SEO-001",
+    "origin_finding_id": "SEO-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-A57DC932D580B784",
+        "EVD-B093A16D09E3A37E",
+        "EVD-C51AC48D3DB98538"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/sitemap.xml",
+        "https://addp.vn/pub/sitemap.xml",
+        "https://addp.vn/robots.txt"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/discovery/sitemap-52618716ffbf735c.xml",
+          "exists": true,
+          "evidence_id": "EVD-A57DC932D580B784"
+        },
+        {
+          "path": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+          "exists": true,
+          "evidence_id": "EVD-B093A16D09E3A37E"
+        },
+        {
+          "path": "evidence/discovery/robots.txt",
+          "exists": true,
+          "evidence_id": "EVD-C51AC48D3DB98538"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "robots.txt declares /pub/sitemap.xml and indexed HTTP records show /pub/sitemap.xml and /sitemap.xml returned 404 during collection."
+    ],
+    "observation_reviewed": "Both /sitemap.xml and /pub/sitemap.xml returned HTTP 404 in this run. robots.txt advertises https://addp.vn/pub/sitemap.xml. This establishes failure at these sampled endpoints during collection; it does not establish whether a sitemap is available at another URL.",
+    "page_reviewed": "https://addp.vn/sitemap.xml and https://addp.vn/pub/sitemap.xml",
+    "source_requirement_ids_reviewed": [
+      "REQ-015"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-A57DC932D580B784",
+      "EVD-B093A16D09E3A37E",
+      "EVD-C51AC48D3DB98538"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "robots.txt declares /pub/sitemap.xml and indexed HTTP records show /pub/sitemap.xml and /sitemap.xml returned 404 during collection."
+    ]
+  },
+  {
+    "finding_id": "FND-TECHNICAL-SEO-SEO-002",
+    "origin_finding_id": "SEO-002",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/robots.txt",
+        "https://addp.vn/pub/sitemap.xml"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/discovery/robots.txt",
+          "exists": true,
+          "evidence_id": "EVD-C51AC48D3DB98538"
+        },
+        {
+          "path": "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+          "exists": true,
+          "evidence_id": "EVD-B093A16D09E3A37E"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-011",
+        "REQ-015"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Observed claim: The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific."
+    ],
+    "observation_reviewed": "The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific.",
+    "page_reviewed": "https://addp.vn/robots.txt",
+    "source_requirement_ids_reviewed": [
+      "REQ-011",
+      "REQ-015"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Observed claim: The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific."
+    ]
+  },
+  {
+    "finding_id": "FND-TECHNICAL-SEO-SEO-003",
+    "origin_finding_id": "SEO-003",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-CD4C67022008E5BB",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/seo/9f397da04f62a067.render-stabilized-v3_3.raw.json",
+          "exists": true,
+          "evidence_id": "EVD-CD4C67022008E5BB"
+        },
+        {
+          "path": "evidence/seo/7cfd44db842407aa.render-stabilized-v3_3.raw.json",
+          "exists": true,
+          "evidence_id": "EVD-325C6659444AD546"
+        },
+        {
+          "path": "evidence/seo/db93fc388a5ba278.render-stabilized-v3_3.raw.json",
+          "exists": true,
+          "evidence_id": "EVD-927DDAF696B5D339"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Observed claim: The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate."
+    ],
+    "observation_reviewed": "The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate.",
+    "page_reviewed": "https://addp.vn/sui-dovital",
+    "source_requirement_ids_reviewed": [
+      "REQ-015"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-CD4C67022008E5BB",
+      "EVD-325C6659444AD546",
+      "EVD-927DDAF696B5D339"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Observed claim: The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate."
+    ]
+  },
+  {
+    "finding_id": "FND-STRUCTURED-DATA-STRUCTURED-DATA-001",
+    "origin_finding_id": "STRUCTURED-DATA-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/schema/e4e0c9a45799894e.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-32CB6452441EDF9E"
+        },
+        {
+          "path": "evidence/schema/e4e0c9a45799894e.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-C16C9A26189A6C8E"
+        },
+        {
+          "path": "evidence/schema/7cfd44db842407aa.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-01FF964BE2B7A2AA"
+        },
+        {
+          "path": "evidence/schema/7cfd44db842407aa.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-B1630958C79BC01D"
+        },
+        {
+          "path": "evidence/schema/db93fc388a5ba278.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-02D7356CC02B574B"
+        },
+        {
+          "path": "evidence/schema/db93fc388a5ba278.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-BDF90743647332F7"
+        },
+        {
+          "path": "evidence/schema/9f397da04f62a067.desktop.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-E32F848C405D32E0"
+        },
+        {
+          "path": "evidence/schema/9f397da04f62a067.mobile.render-stabilized-v3_3.json",
+          "exists": true,
+          "evidence_id": "EVD-EDDAD1FAFA69798C"
+        },
+        {
+          "path": "evidence/html/7cfd44db842407aa.render-stabilized-v3_3.raw.html",
+          "exists": true,
+          "evidence_id": "EVD-F71EC5745F2AF71B"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-010",
+        "REQ-010-01"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+    ],
+    "observation_reviewed": "The current-run structured-data extracts are empty arrays for the homepage and each of the three sampled product detail URLs on both desktop and mobile: valid=0 and invalid=0. The checklist calls for JSON-LD Organization, Product for three products, and FAQPage. This establishes that those requested JSON-LD types were not captured on these sampled pages; it does not establish absence across the full site. The raw HTML for the Glucare Plus URL contains Product microdata on the page root, so that sample does expose Product markup in a different format. No generator or implementation cause is inferred.",
+    "page_reviewed": "https://addp.vn/",
+    "source_requirement_ids_reviewed": [
+      "REQ-010"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-01FF964BE2B7A2AA",
+      "EVD-B1630958C79BC01D",
+      "EVD-02D7356CC02B574B",
+      "EVD-BDF90743647332F7",
+      "EVD-E32F848C405D32E0",
+      "EVD-EDDAD1FAFA69798C",
+      "EVD-F71EC5745F2AF71B"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "source_clause_ids_reviewed": [
+      "REQ-010-01"
+    ],
+    "supported_facts": [
+      "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+    ]
+  },
+  {
+    "finding_id": "FND-UX-UI-UXUI-001",
+    "origin_finding_id": "UXUI-001",
+    "status": "accepted",
+    "supported": true,
+    "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+    "evidence_validation": {
+      "evidence_ids_reviewed": [
+        "EVD-3D15DCDB359887BF",
+        "EVD-9B3746A447795E5D"
+      ],
+      "missing_evidence_ids": [],
+      "all_resolve": true,
+      "artifact_urls": [
+        "https://addp.vn/"
+      ],
+      "assessment": "Every cited ID resolves to a record; artifacts/raw facts reviewed for relevance.",
+      "artifacts": [
+        {
+          "path": "evidence/lighthouse/e4e0c9a45799894e.mobile.render-stabilized-v3_3.lab.json",
+          "exists": true,
+          "evidence_id": "EVD-3D15DCDB359887BF"
+        },
+        {
+          "path": "evidence/screenshots/e4e0c9a45799894e.mobile.render-stabilized-v3_3.initial.viewport.png",
+          "exists": true,
+          "evidence_id": "EVD-9B3746A447795E5D"
+        }
+      ],
+      "all_artifacts_exist": true
+    },
+    "requirement_validation": {
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "invalid_requirement_ids": [],
+      "valid": true,
+      "assessment": "Requirement IDs resolve to the normalized requirement/clause list."
+    },
+    "factual_support": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ],
+    "observation_reviewed": "The run recorded mobile laboratory LCP of 12,504 ms and TTFB of 5,841.7 ms for the homepage. Interpretation: this load delay can postpone the point at which the first viewport becomes useful on this recorded mobile page instance. These are LAB measurements, not field data; no Lighthouse score or field metric is available. The viewport screenshot is collected separately and supports visual review only, not the timing claim.",
+    "page_reviewed": "https://addp.vn/",
+    "source_requirement_ids_reviewed": [
+      "REQ-013"
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-9B3746A447795E5D"
+    ],
+    "reviewer_role": "evidence_reviewer",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "supported_facts": [
+      "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+    ]
+  }
+]

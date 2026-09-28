@@ -1,0 +1,156 @@
+{
+  "selection_method": "mandatory_coverage_then_representative",
+  "max_pages": 25,
+  "selected": [
+    {
+      "url": "https://addp.vn/",
+      "page_type": "homepage",
+      "selection_reason": "mandatory_homepage",
+      "normalized_route": "https://addp.vn/"
+    },
+    {
+      "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "page_type": "product_detail",
+      "selection_reason": "mandatory_product_glucare",
+      "normalized_route": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"
+    },
+    {
+      "url": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "selection_reason": "mandatory_product_vien_an_duong",
+      "normalized_route": "https://addp.vn/vien-an-duong-addp.html"
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "page_type": "product_detail",
+      "selection_reason": "mandatory_product_dovital",
+      "normalized_route": "https://addp.vn/sui-dovital"
+    },
+    {
+      "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "selection_reason": "mandatory_article_sample",
+      "normalized_route": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"
+    },
+    {
+      "url": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "page_type": "article",
+      "selection_reason": "mandatory_article_sample",
+      "normalized_route": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy"
+    },
+    {
+      "url": "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "page_type": "article",
+      "selection_reason": "mandatory_article_sample",
+      "normalized_route": "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "page_type": "policy",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/chinh-sach-dat-hang"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "page_type": "policy",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "page_type": "policy",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/chinh-sach-thanh-toan"
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "page_type": "policy",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan"
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "page_type": "contact",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/contact"
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "page_type": "company/about",
+      "selection_reason": "mandatory_policy",
+      "normalized_route": "https://addp.vn/gioi-thieu"
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/benh-ly"
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "page_type": "category",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/blog/category/suc-khoe-tieu-duong"
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/catalogsearch/advanced"
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/sua-dinh-duong.html"
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html"
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/sua-dinh-duong/sua-tre-em.html"
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/sua-hat-glucare-plus"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/thiet-bi-y-te.html"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html"
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "page_type": "other",
+      "selection_reason": "representative_priority",
+      "normalized_route": "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    }
+  ]
+}

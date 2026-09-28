@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: all contract schemas accept their required shapes and reject malformed data
+ok 1 - all contract schemas accept their required shapes and reject malformed data
+  ---
+  duration_ms: 8.7254
+  type: 'test'
+  ...
+# Subtest: evidence validates IDs, artifact existence and containment including symlinks
+ok 2 - evidence validates IDs, artifact existence and containment including symlinks
+  ---
+  duration_ms: 21.9134
+  type: 'test'
+  ...
+# Subtest: review rejects unsupported references, routes subjective claims and persists reasons
+ok 3 - review rejects unsupported references, routes subjective claims and persists reasons
+  ---
+  duration_ms: 44.8518
+  type: 'test'
+  ...
+# Subtest: review cannot accept missing or invalid artifact-backed evidence
+ok 4 - review cannot accept missing or invalid artifact-backed evidence
+  ---
+  duration_ms: 14.0565
+  type: 'test'
+  ...
+# Subtest: deduplication retains origins, evidence, requirements and affected URLs
+ok 5 - deduplication retains origins, evidence, requirements and affected URLs
+  ---
+  duration_ms: 1.008
+  type: 'test'
+  ...
+# Subtest: contradictions stay unresolved and both claims require manual review
+ok 6 - contradictions stay unresolved and both claims require manual review
+  ---
+  duration_ms: 0.7109
+  type: 'test'
+  ...
+# Subtest: backlog enforces accepted traceability and acyclic, existing dependencies
+ok 7 - backlog enforces accepted traceability and acyclic, existing dependencies
+  ---
+  duration_ms: 1.3592
+  type: 'test'
+  ...
+# Subtest: request guard permits read-only navigation and blocks mutation even with permissive config
+ok 8 - request guard permits read-only navigation and blocks mutation even with permissive config
+  ---
+  duration_ms: 4.9561
+  type: 'test'
+  ...
+# Subtest: run creation is exclusive, resume preserves state, and stage writes remain valid
+ok 9 - run creation is exclusive, resume preserves state, and stage writes remain valid
+  ---
+  duration_ms: 19.4567
+  type: 'test'
+  ...
+# Subtest: regression classifies fixed, improved, unchanged, regressed and new
+ok 10 - regression classifies fixed, improved, unchanged, regressed and new
+  ---
+  duration_ms: 0.8856
+  type: 'test'
+  ...
+# Subtest: final consistency catches broken cross-artifact references
+ok 11 - final consistency catches broken cross-artifact references
+  ---
+  duration_ms: 9.1612
+  type: 'test'
+  ...
+# Subtest: final consistency requires each requirement exactly once and forbids false PASS
+ok 12 - final consistency requires each requirement exactly once and forbids false PASS
+  ---
+  duration_ms: 33.2281
+  type: 'test'
+  ...
+# Subtest: final consistency requires every accepted finding in backlog
+ok 13 - final consistency requires every accepted finding in backlog
+  ---
+  duration_ms: 11.5568
+  type: 'test'
+  ...
+# Subtest: final consistency requires explicit read-only flags and zero outcomes
+ok 14 - final consistency requires explicit read-only flags and zero outcomes
+  ---
+  duration_ms: 18.5026
+  type: 'test'
+  ...
+# Subtest: final consistency rejects unsupported model and source claims
+ok 15 - final consistency rejects unsupported model and source claims
+  ---
+  duration_ms: 29.2108
+  type: 'test'
+  ...
+# Subtest: final consistency validates external diagnostic semantics
+ok 16 - final consistency validates external diagnostic semantics
+  ---
+  duration_ms: 17.1817
+  type: 'test'
+  ...
+# Subtest: final validation requires populated report, plan and dependency artifacts
+ok 17 - final validation requires populated report, plan and dependency artifacts
+  ---
+  duration_ms: 100.2193
+  type: 'test'
+  ...
+# Subtest: mandatory reservations keep all canonical products, article details, and explicit reasons inside 25 slots
+ok 18 - mandatory reservations keep all canonical products, article details, and explicit reasons inside 25 slots
+  ---
+  duration_ms: 34.7915
+  type: 'test'
+  ...
+# Subtest: article content routes are safe while method, query, cart, checkout, and account mutations remain blocked
+ok 19 - article content routes are safe while method, query, cart, checkout, and account mutations remain blocked
+  ---
+  duration_ms: 7.9788
+  type: 'test'
+  ...
+# Subtest: pre-analysis coverage gate rejects selector omission and passes usable mandatory coverage
+ok 20 - pre-analysis coverage gate rejects selector omission and passes usable mandatory coverage
+  ---
+  duration_ms: 2.7772
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 800.7837

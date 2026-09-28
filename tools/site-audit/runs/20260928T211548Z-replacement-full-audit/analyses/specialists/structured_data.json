@@ -1,0 +1,160 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "structured_data",
+  "role": "structured_data",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "sources": [
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/manifest.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/inventory/pages.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/evidence/index.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/checklist.normalized.json",
+      "captured artifacts referenced by the current-run evidence index"
+    ],
+    "coverage_note": "Structured-data evidence was reviewed for 24 page and viewport records covering 21 unique URLs in the 25-page inventory. It includes the homepage, three selected product detail pages, three selected article details, plus category, policy, contact, company/about, search, and other sampled pages. There are no structured-data records for four inventory pages, and nine of 25 pages are partial overall. Findings are limited to sampled public captures."
+  },
+  "candidates": [
+    {
+      "finding_id": "STRUCTURED-DATA-001",
+      "title": "Required JSON-LD types were not present in the homepage and three sampled product captures",
+      "area": "structured data",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-010",
+        "REQ-010-01"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The current-run structured-data extracts are empty arrays for the homepage and each of the three sampled product detail URLs on both desktop and mobile: valid=0 and invalid=0. The checklist calls for JSON-LD Organization, Product for three products, and FAQPage. This establishes that those requested JSON-LD types were not captured on these sampled pages; it does not establish absence across the full site. The raw HTML for the Glucare Plus URL contains Product microdata on the page root, so that sample does expose Product markup in a different format. No generator or implementation cause is inferred.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ],
+      "impact": "seo",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review the intended structured-data requirement against the sampled output. If the checklist is still authoritative, provide the requested Organization, Product, and FAQPage JSON-LD where the corresponding visible content supports it, and verify every claim against visible page content. Preserve and validate existing Product microdata where appropriate.",
+      "unknowns": [
+        "Whether Organization or FAQPage markup exists on any uncollected URL is unknown.",
+        "Whether the three selected product pages represent all products intended by the checklist is unknown; the capture confirms only these three URLs.",
+        "The collector extract reports JSON-LD results; it does not establish complete microdata coverage on every sampled page.",
+        "Structured-data eligibility or search-result presentation was not tested.",
+        "The run reports nine of 25 pages as partial, and four inventory pages have no structured-data evidence record."
+      ]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "Each of the three sampled article pages exposes a valid BlogPosting JSON-LD item on desktop and mobile. Preserve the article structured-data presence when updating those page instances, subject to keeping the fields aligned with visible content.",
+      "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "scope": "page instance",
+      "evidence_ids": [
+        "EVD-2326A9C7428D947E",
+        "EVD-11EA381BDF07E9AE"
+      ]
+    },
+    {
+      "observation": "The sampled article pages “Đái tháo đường do viêm tụy mạn có đặc điểm gì? có nguy hiểm không?” and “Đái tháo đường là bệnh gì? - Và những điều cần biết” also expose valid BlogPosting JSON-LD on both captured viewports. Preserve this observed article markup on these page instances.",
+      "url": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "scope": "page instance",
+      "evidence_ids": [
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-46D3A7BEA5924B9A",
+        "EVD-0CC76FEDCFD90652",
+        "EVD-8EA2B7FC7DAA354D"
+      ]
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Checklist requirement for Organization, Product for three products, and FAQPage JSON-LD",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "page instance for each listed URL; no site-wide pattern asserted",
+      "assessment": "The structured-data collector produced empty JSON-LD arrays on the homepage and all three sampled product detail pages on desktop and mobile. The Glucare Plus raw HTML separately contains Product microdata. The evidence therefore supports a sampled JSON-LD gap against REQ-010, but does not support a claim that all product structured markup is absent or that the entire site lacks these types.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ]
+    },
+    {
+      "item": "Article JSON-LD presence and sampled structured-data validity",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page instance for each listed URL; no site-wide pattern asserted",
+      "assessment": "Each captured desktop and mobile structured-data artifact contains one valid BlogPosting item and no invalid item. The observed headlines and publisher name are present in the extracted markup. Full field-by-field comparison with all visible article content is not established by the structured-data summary alone.",
+      "evidence_ids": [
+        "EVD-2326A9C7428D947E",
+        "EVD-11EA381BDF07E9AE",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-46D3A7BEA5924B9A",
+        "EVD-0CC76FEDCFD90652",
+        "EVD-8EA2B7FC7DAA354D"
+      ]
+    },
+    {
+      "item": "Breadcrumb structured data on sampled pages",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page instance for each listed URL",
+      "assessment": "The captured structured-data summaries establish empty JSON-LD extracts on the homepage and product samples and BlogPosting items on article samples, but do not establish whether breadcrumb microdata or another non-JSON-LD representation is present consistently across these URLs.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-02D7356CC02B574B",
+        "EVD-E32F848C405D32E0",
+        "EVD-2326A9C7428D947E",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-0CC76FEDCFD90652"
+      ]
+    },
+    {
+      "item": "Structured-data coverage across the full site inventory",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/"
+      ],
+      "scope": "site pattern not established; only sampled URL coverage is available",
+      "assessment": "Structured-data evidence covers 21 unique URLs from the 25-page inventory, with no records for four inventory pages. The run records partial collection for nine of 25 pages. No site-wide presence or absence pattern can be concluded from these samples.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-2326A9C7428D947E"
+      ]
+    }
+  ]
+}

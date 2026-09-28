@@ -1,0 +1,764 @@
+{
+  "statuses": [
+    "PRESENT",
+    "ABSENT_IN_CAPTURE",
+    "UNKNOWN",
+    "NOT_APPLICABLE",
+    "BLOCKED"
+  ],
+  "coverage_gap": null,
+  "articles": [
+    {
+      "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "title": {
+        "status": "PRESENT",
+        "value": "Làm cách nào để chẩn đoán bệnh đái tháo đường?",
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "topic": {
+        "status": "PRESENT",
+        "value": "Làm cách nào để chẩn đoán bệnh đái tháo đường?",
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "summary_or_lead": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "author": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "author_credentials": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "author_profile_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "publication_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "update_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "editor_or_reviewer": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "organization_entity_attribution": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "citations_or_references": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "authoritative_outbound_references": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "medical_or_research_support": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "related_product_or_commercial_linkage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "canonical": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "meta": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "internal_links": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "answerability": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "citation_readiness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "question_headings": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "concise_answer_blocks": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "structured_data": {
+        "status": "PRESENT",
+        "evidence_ids": [
+          "EVD-2326A9C7428D947E",
+          "EVD-11EA381BDF07E9AE"
+        ]
+      },
+      "health_claim_presence": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      },
+      "supporting_source_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-01E8B99B0727F6CF",
+          "EVD-892601A1DF5D0CF8"
+        ]
+      }
+    },
+    {
+      "url": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "title": {
+        "status": "PRESENT",
+        "value": "Đái tháo đường do viêm tụy mạn có đặc điểm gì? có nguy hiểm không?",
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "topic": {
+        "status": "PRESENT",
+        "value": "Đái tháo đường do viêm tụy mạn có đặc điểm gì? có nguy hiểm không?",
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "summary_or_lead": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "author": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "author_credentials": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "author_profile_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "publication_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "update_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "editor_or_reviewer": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "organization_entity_attribution": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "citations_or_references": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "authoritative_outbound_references": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "medical_or_research_support": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "related_product_or_commercial_linkage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "canonical": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "meta": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "internal_links": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "answerability": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "citation_readiness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "question_headings": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "concise_answer_blocks": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "structured_data": {
+        "status": "PRESENT",
+        "evidence_ids": [
+          "EVD-B8786FA90B6CDCB3",
+          "EVD-46D3A7BEA5924B9A"
+        ]
+      },
+      "health_claim_presence": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      },
+      "supporting_source_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-0B2AF41DEADA909B",
+          "EVD-107C3EB13B5959BF"
+        ]
+      }
+    },
+    {
+      "url": "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "title": {
+        "status": "PRESENT",
+        "value": "Đái tháo đường là bệnh gì? - Và những điều cần biết",
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "topic": {
+        "status": "PRESENT",
+        "value": "Đái tháo đường là bệnh gì? - Và những điều cần biết",
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "summary_or_lead": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "author": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "author_credentials": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "author_profile_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "publication_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "update_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "editor_or_reviewer": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "organization_entity_attribution": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "citations_or_references": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "authoritative_outbound_references": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "medical_or_research_support": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "related_product_or_commercial_linkage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "canonical": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "meta": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "internal_links": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "answerability": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "citation_readiness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "question_headings": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "concise_answer_blocks": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "structured_data": {
+        "status": "PRESENT",
+        "evidence_ids": [
+          "EVD-0CC76FEDCFD90652",
+          "EVD-8EA2B7FC7DAA354D"
+        ]
+      },
+      "health_claim_presence": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      },
+      "supporting_source_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-917BFE774CA2C681",
+          "EVD-93A338E8E139D7B5"
+        ]
+      }
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "title": {
+        "status": "PRESENT",
+        "value": "Sức khỏe Tiểu đường",
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "topic": {
+        "status": "PRESENT",
+        "value": "Sức khỏe Tiểu đường",
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "summary_or_lead": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "author": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "author_credentials": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "author_profile_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "publication_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "update_date": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "editor_or_reviewer": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "organization_entity_attribution": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "citations_or_references": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "authoritative_outbound_references": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "medical_or_research_support": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "related_product_or_commercial_linkage": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "canonical": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "meta": {
+        "status": "ABSENT_IN_CAPTURE",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "internal_links": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": []
+      },
+      "answerability": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "citation_readiness": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "question_headings": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "concise_answer_blocks": {
+        "status": "UNKNOWN",
+        "value": [],
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "structured_data": {
+        "status": "PRESENT",
+        "evidence_ids": [
+          "EVD-A5A62E8017987EAC",
+          "EVD-6362D91F68007AC2"
+        ]
+      },
+      "health_claim_presence": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      "supporting_source_route": {
+        "status": "UNKNOWN",
+        "value": null,
+        "evidence_ids": [
+          "EVD-193B911618A48573",
+          "EVD-0E21303A3735BA32"
+        ]
+      }
+    }
+  ]
+}

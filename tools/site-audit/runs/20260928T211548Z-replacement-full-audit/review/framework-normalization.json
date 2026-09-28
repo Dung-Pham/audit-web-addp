@@ -1,0 +1,57 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "purpose": "Run-output compatibility normalization only; no framework or evidence changes.",
+  "requirement_id_mapping": "Checklist clause IDs are preserved in source_clause_ids(_reviewed); validator-facing source_requirement_ids(_reviewed) use normalized parent IDs.",
+  "changes": [
+    {
+      "file": "review/findings.accepted.json",
+      "finding_id": "FND-ANALYTICS-analytics-public-signals-not-observed-sample",
+      "clauses": [
+        "REQ-014-01"
+      ],
+      "parents": [
+        "REQ-014"
+      ]
+    },
+    {
+      "file": "review/findings.accepted.json",
+      "finding_id": "FND-CONVERSION-CONV-001",
+      "clauses": [
+        "REQ-007-02"
+      ],
+      "parents": [
+        "REQ-007"
+      ]
+    },
+    {
+      "file": "review/findings.accepted.json",
+      "finding_id": "FND-GEO-AEO-GEO-AEO-001",
+      "clauses": [
+        "REQ-010-01"
+      ],
+      "parents": [
+        "REQ-010"
+      ]
+    },
+    {
+      "file": "review/findings.accepted.json",
+      "finding_id": "FND-GEO-AEO-GEO-AEO-003",
+      "clauses": [
+        "REQ-011-01"
+      ],
+      "parents": [
+        "REQ-011"
+      ]
+    },
+    {
+      "file": "review/findings.accepted.json",
+      "finding_id": "FND-STRUCTURED-DATA-STRUCTURED-DATA-001",
+      "clauses": [
+        "REQ-010-01"
+      ],
+      "parents": [
+        "REQ-010"
+      ]
+    }
+  ]
+}

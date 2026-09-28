@@ -13,7 +13,11 @@ test('mandatory reservations keep all canonical products, article details, and e
   candidates.push(product('glucare', 10), product('vien-an-duong-addp-combo-mua-2-tang-2', 98), product('vien-an-duong-addp', 2), product('dovital', 3));
   candidates.push(candidate('https://fixture.test/contact', 'contact', 90), candidate('https://fixture.test/contact/', 'contact', 89), candidate('https://fixture.test/gioi-thieu', 'company/about', 88), candidate('https://fixture.test/gioi-thieu/', 'company/about', 87));
   for (const slug of ['one', 'two', 'three', 'four']) candidates.push(candidate(`https://fixture.test/blog/post/${slug}`, 'article', 20));
-  const result = selectCandidates(candidates, { maxPages: 25 });
+  const result = selectCandidates(candidates, { maxPages: 25, mandatoryCoverage: { canonicalProducts: [
+    { id: 'glucare', aliases: ['glucare'] },
+    { id: 'vien_an_duong', aliases: ['vien-an-duong'], canonical_paths: ['vien-an-duong-addp'] },
+    { id: 'dovital', aliases: ['dovital'] }
+  ], articleDetailMinimum: 3 } });
   const selected = result.selected.map(page => page.url);
   assert.equal(result.selected.length <= 25, true);
   for (const slug of ['glucare', 'vien-an-duong-addp', 'dovital']) assert.ok(selected.some(url => url.endsWith(`/${slug}`)));

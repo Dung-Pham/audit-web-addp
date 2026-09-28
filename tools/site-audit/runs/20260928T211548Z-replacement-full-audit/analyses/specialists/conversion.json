@@ -1,0 +1,112 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "role": "conversion",
+  "requested_model": "gpt-5.6-sol",
+  "effective_model": "unverified",
+  "findings": [
+    {
+      "finding_id": "CONV-001",
+      "title": "A Glucare Plus product card shows a zero price beside a separate 9,000 ₫ trial offer",
+      "area": "offer_clarity",
+      "page": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "source_requirement_ids": ["REQ-007-02"],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The captured visible text lists “1 Gói Sữa Hạt dinh dưỡng GLUCARE PLUS ...” at 9.000,00 ₫ and later lists “Sữa Hạt dinh dưỡng GLUCARE PLUS - Dùng được cho người tiểu đường” at 0,00 ₫ (repeated). The same page separately promotes a 9.000đ trial pack. These are displayed values on distinct entries; the evidence does not establish whether the 0.00 ₫ listing is intentional, a placeholder, or an error. This may leave shoppers uncertain about the price and offer attached to the product.",
+      "evidence_ids": ["EVD-DF63C483FC434445", "EVD-EA78205F3017C505"],
+      "impact": "business",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Clarify which Glucare Plus item is the paid product and which is the trial offer; show an actionable accurate price for each entry and make offer terms clear beside its CTA.",
+      "unknowns": ["Whether 0,00 ₫ is an intentional promotion or placeholder.", "Whether clicking either product-card action changes quantity, adds an item, or opens another step; no such action was performed."],
+      "planning": {
+        "objective": "Make the product and trial prices unambiguous before shoppers act.",
+        "target_state": "Each distinct offer has a clear product name, payable price, and adjacent action label.",
+        "recommended_changes": ["Review the displayed 0,00 ₫ Glucare Plus listing.", "Distinguish the 9.000đ sample offer from the standard product offer."],
+        "affected_urls": ["https://addp.vn/sua-hat-glucare-plus"],
+        "implementation_area": "product offer content and visible product cards",
+        "developer_investigation": ["Confirm the intended price and offer terms for each Glucare Plus entry."],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": ["The page no longer presents an unexplained 0,00 ₫ amount for a purchasable Glucare Plus item.", "The sample offer and standard product offer have distinct visible labels and prices."],
+        "automated_verification": ["Inspect rendered product-card text and prices on the URL."],
+        "manual_verification": ["Review desktop and mobile offer presentation and confirm the intended values with the business."],
+        "risks": ["Changing a price without confirming the intended offer could misstate commercial terms."]
+      }
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Product discovery",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instances: high-intent and mobile journeys each verified a visible homepage link labeled with GLUCARE PLUS and reached the product detail page.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"]
+    },
+    {
+      "item": "CTA paths",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance: rendered DOM exposes repeated “Đặt mua ngay” links to the page's #dat-hang anchor and a “Nhận tư vấn dược sĩ” telephone link. The anchor destination was not activated during the journeys.",
+      "evidence_ids": ["EVD-DF63C483FC434445", "EVD-733F5C04719022AE", "EVD-EA78205F3017C505"]
+    },
+    {
+      "item": "Offers",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance: the rendered page shows a 9.000đ per-pack trial offer and a separate product listing at 0,00 ₫; intent behind the zero value is unknown.",
+      "evidence_ids": ["EVD-DF63C483FC434445", "EVD-EA78205F3017C505"]
+    },
+    {
+      "item": "Objections and decision support",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance: visible copy presents ingredients, lactose/Isomalt points, intended audiences, usage instructions, and a pharmacist-consultation link. Their effectiveness at resolving shoppers' objections is not measured.",
+      "evidence_ids": ["EVD-DF63C483FC434445", "EVD-EA78205F3017C505"]
+    },
+    {
+      "item": "Trust cues",
+      "status": "INFERENCE",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance: page copy includes phrases such as “Bảo Chứng Chất Lượng ADDP” and “Công thức y khoa ADDP”; the captured text alone does not verify supporting certificates, testimonials, or the substantiation of these claims.",
+      "evidence_ids": ["EVD-DF63C483FC434445", "EVD-EA78205F3017C505"]
+    },
+    {
+      "item": "Landing flow",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance: the observed URL is classified product_detail. It contains long-form promotional sections and repeated calls to action, but no separate product_landing page was directly visited in the recorded journeys.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-DF63C483FC434445"]
+    },
+    {
+      "item": "Cart route",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Page instance and journey stopping point: high-intent and mobile journeys report no visible safe matching cart route from the observed UI; navigation to cart was not substituted or attempted beyond the read-only boundary.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"]
+    },
+    {
+      "item": "Checkout form and visible checkout friction",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "Journey stopping point: neither cart nor checkout was reached. Checkout field count, guest checkout, payment methods, and completion friction remain unknown. Safe stop: product page and its visible controls, before any cart or checkout mutation.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "Preserve the verified homepage-to-Glucare discovery path and the product page's repeated on-page purchase CTA and pharmacist contact route while improving offer clarity.",
+      "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"],
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1", "EVD-DF63C483FC434445", "EVD-733F5C04719022AE"]
+    }
+  ],
+  "explicit_unknowns": [
+    "Effective model is unverified.",
+    "No cart or checkout transition was completed; checkout requirements REQ-016-01 and REQ-017-01 cannot be assessed from this run's journeys.",
+    "The displayed 0,00 ₫ value's intended meaning is unknown.",
+    "No conversion outcome, abandonment rate, or causal business impact was measured.",
+    "No reviewer-provided pattern_key was supplied; observations are page instances, not asserted sitewide patterns."
+  ]
+}

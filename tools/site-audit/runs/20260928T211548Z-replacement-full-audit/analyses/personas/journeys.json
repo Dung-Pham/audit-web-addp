@@ -1,0 +1,317 @@
+[
+  {
+    "persona": "first_time",
+    "goal": "Understand ADDP, find company information and a principal product route.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-571CE21693716D24-first_time-0",
+          "EVD-571CE21693716D24-first_time-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Click visible link",
+        "url": "https://addp.vn/gioi-thieu",
+        "href": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu",
+        "verified": true,
+        "evidence_ids": [
+          "EVD-5E169EB798A7CE3C-first_time-1",
+          "EVD-5E169EB798A7CE3C-first_time-1-SHOT"
+        ]
+      }
+    ],
+    "clicks": 1,
+    "clicks_verified": 1,
+    "actual_verified_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu",
+        "result_url": "https://addp.vn/gioi-thieu"
+      }
+    ],
+    "assisted_direct_inspections": [],
+    "attempted_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu",
+        "recovery_attempt": true
+      }
+    ],
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/gioi-thieu"
+    ],
+    "blockers": [
+      "Journey runner recovery attempt ended after one verified visible click with Playwright error: route.abort: Route is already handled."
+    ],
+    "confusion_points": [],
+    "positive_signals": [
+      "Homepage and company introduction were reached through one visible safe link click."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-571CE21693716D24-first_time-0",
+      "EVD-571CE21693716D24-first_time-0-SHOT",
+      "EVD-5E169EB798A7CE3C-first_time-1",
+      "EVD-5E169EB798A7CE3C-first_time-1-SHOT"
+    ],
+    "interruption_status": "JOURNEY_EXECUTION_INTERRUPTED",
+    "last_completed_checkpoint": "Company introduction page snapshot after verified click."
+  },
+  {
+    "persona": "high_intent",
+    "goal": "Find a named product and inspect safe purchase path, stopping before cart/order mutation.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-28869D62E349AE02-high_intent-0",
+          "EVD-28869D62E349AE02-high_intent-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Click visible link",
+        "url": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "verified": true,
+        "evidence_ids": [
+          "EVD-D117A7EAEA699CAA-high_intent-1",
+          "EVD-D117A7EAEA699CAA-high_intent-1-SHOT"
+        ]
+      }
+    ],
+    "clicks": 1,
+    "clicks_verified": 1,
+    "actual_verified_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá",
+        "result_url": "https://addp.vn/sua-hat-glucare-plus"
+      }
+    ],
+    "assisted_direct_inspections": [],
+    "attempted_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá"
+      },
+      {
+        "kind": "commerce_path_inspection",
+        "status": "stopped_before_mutation",
+        "reason": "read-only boundary; no cart or checkout action performed"
+      },
+      {
+        "kind": "commerce_path_inspection",
+        "status": "stopped_before_mutation",
+        "reason": "read-only boundary; no cart or checkout action performed"
+      }
+    ],
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "blockers": [
+      "No visible safe route was found for goal checkout\\/cart|gio-hang|\\/cart\\/?$; direct inventory navigation was not substituted.",
+      "No visible safe route was found for goal checkout|thanh-toan; direct inventory navigation was not substituted.",
+      "Cart and checkout mutations were not attempted; exact safe stopping point is product page / visible cart entry only."
+    ],
+    "confusion_points": [
+      "unreachable_from_observed_ui: no visible safe matching link for checkout\\/cart|gio-hang|\\/cart\\/?$",
+      "unreachable_from_observed_ui: no visible safe matching link for checkout|thanh-toan"
+    ],
+    "positive_signals": [
+      "Observed 2 page(s) and 1 verified visible click(s)."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-28869D62E349AE02-high_intent-0",
+      "EVD-28869D62E349AE02-high_intent-0-SHOT",
+      "EVD-D117A7EAEA699CAA-high_intent-1",
+      "EVD-D117A7EAEA699CAA-high_intent-1-SHOT"
+    ],
+    "method": "One bounded recovery pass; only safe visible same-origin links count as verified clicks. No commerce or form mutation."
+  },
+  {
+    "persona": "mobile",
+    "goal": "Use mobile navigation to inspect product and visible commerce controls without mutation.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-4E9770DA004CDC44-mobile-0",
+          "EVD-4E9770DA004CDC44-mobile-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Click visible link",
+        "url": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "verified": true,
+        "evidence_ids": [
+          "EVD-574F286DC706B28A-mobile-1",
+          "EVD-574F286DC706B28A-mobile-1-SHOT"
+        ]
+      }
+    ],
+    "clicks": 1,
+    "clicks_verified": 1,
+    "actual_verified_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá",
+        "result_url": "https://addp.vn/sua-hat-glucare-plus"
+      }
+    ],
+    "assisted_direct_inspections": [],
+    "attempted_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá"
+      },
+      {
+        "kind": "commerce_path_inspection",
+        "status": "stopped_before_mutation",
+        "reason": "read-only boundary; no cart or checkout action performed"
+      }
+    ],
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "blockers": [
+      "No visible safe route was found for goal gio-hang|checkout\\/cart|\\/cart\\/?$; direct inventory navigation was not substituted."
+    ],
+    "confusion_points": [
+      "unreachable_from_observed_ui: no visible safe matching link for gio-hang|checkout\\/cart|\\/cart\\/?$"
+    ],
+    "positive_signals": [
+      "Observed 2 page(s) and 1 verified visible click(s)."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-4E9770DA004CDC44-mobile-0",
+      "EVD-4E9770DA004CDC44-mobile-0-SHOT",
+      "EVD-574F286DC706B28A-mobile-1",
+      "EVD-574F286DC706B28A-mobile-1-SHOT"
+    ],
+    "method": "One bounded recovery pass; only safe visible same-origin links count as verified clicks. No commerce or form mutation."
+  },
+  {
+    "persona": "research",
+    "goal": "Inspect product information, company attribution, and policy routes through visible links.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-E953DA582A400457-research-0",
+          "EVD-E953DA582A400457-research-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Click visible link",
+        "url": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu",
+        "href": "https://addp.vn/gioi-thieu",
+        "verified": true,
+        "evidence_ids": [
+          "EVD-2D0A822DB858C794-research-1",
+          "EVD-2D0A822DB858C794-research-1-SHOT"
+        ]
+      },
+      {
+        "step": 3,
+        "action": "Click visible link",
+        "url": "https://addp.vn/chinh-sach-dat-hang",
+        "label": "Chính sách đặt hàng",
+        "href": "https://addp.vn/chinh-sach-dat-hang",
+        "verified": true,
+        "evidence_ids": [
+          "EVD-F3C54C45BCE8336A-research-2",
+          "EVD-F3C54C45BCE8336A-research-2-SHOT"
+        ]
+      }
+    ],
+    "clicks": 2,
+    "clicks_verified": 2,
+    "actual_verified_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu",
+        "result_url": "https://addp.vn/gioi-thieu"
+      },
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/chinh-sach-dat-hang",
+        "label": "Chính sách đặt hàng",
+        "result_url": "https://addp.vn/chinh-sach-dat-hang"
+      }
+    ],
+    "assisted_direct_inspections": [],
+    "attempted_interactions": [
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá"
+      },
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/gioi-thieu",
+        "label": "Giới thiệu"
+      },
+      {
+        "kind": "visible_link_click",
+        "href": "https://addp.vn/chinh-sach-dat-hang",
+        "label": "Chính sách đặt hàng"
+      }
+    ],
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/chinh-sach-dat-hang"
+    ],
+    "blockers": [
+      "Visible link click failed: page.evaluate: TypeError: Cannot read properties of null (reading 'scrollWidth')"
+    ],
+    "confusion_points": [],
+    "positive_signals": [
+      "Observed 3 page(s) and 2 verified visible click(s)."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-E953DA582A400457-research-0",
+      "EVD-E953DA582A400457-research-0-SHOT",
+      "EVD-2D0A822DB858C794-research-1",
+      "EVD-2D0A822DB858C794-research-1-SHOT",
+      "EVD-F3C54C45BCE8336A-research-2",
+      "EVD-F3C54C45BCE8336A-research-2-SHOT"
+    ],
+    "method": "One bounded recovery pass; only safe visible same-origin links count as verified clicks. No commerce or form mutation."
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "action": "Click visible link",
+  "label": "GLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá",
+  "href": "https://addp.vn/sua-hat-glucare-plus",
+  "verified": true,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "state": {
+    "url": "https://addp.vn/sua-hat-glucare-plus",
+    "title": "Sữa hạt Glucare",
+    "text": "The store will not work correctly when cookies are disabled.\nMy Account\nĐăng nhập\nSo sánh\nTạo tài khoản\nChuyển đến nội dung\nToggle Nav \nGiới thiệu\nThuốc\nThực phẩm chức năng sale\nSữa Dinh Dưỡng\nThiết bị Y tế\nBệnh lý\nSức khỏe Tiểu đường\nLiên hệ\nSearch\nHello, sign in Your account\nYour Cart\nSearch\nSearch\nTìm kiếm nâng cao\nSearch\nMenu\nTài khoản\nCài đặt\n Vietnam\nEnglish\nTrang chủ\nSữa hạt Glucare",
+    "headings": [],
+    "links": [
+      {
+        "index": 0,
+        "href": "https://addp.vn/customer/account/",
+        "text": "My Account",
+        "visible": true
+      },
+      {
+        "index": 1,
+        "href": "https://addp.vn/customer/account/login/referer/aHR0cHM6Ly9hZGRwLnZuL3N1YS1oYXQtZ2x1Y2FyZS1wbHVz/",
+        "text": "Đăng nhập",
+        "visible": true
+      },
+      {
+        "index": 2,
+        "href": "https://addp.vn/customer/account/create/",
+        "text": "Tạo tài khoản",
+        "visible": true
+      },
+      {
+        "index": 3,
+        "href": "https://addp.vn/sua-hat-glucare-plus#contentarea",
+        "text": "Chuyển đến nội dung",
+        "visible": true
+      },
+      {
+        "index": 4,
+        "href": "https://addp.vn/",
+        "text": "",
+        "visible": false
+      },
+      {
+        "index": 5,
+        "href": "https://addp.vn/gioi-thieu",
+        "text": "Giới thiệu",
+        "visible": true
+      },
+      {
+        "index": 6,
+        "href": "https://addp.vn/thuoc.html",
+        "text": "Thuốc",
+        "visible": true
+      },
+      {
+        "index": 7,
+        "href": "https://addp.vn/thuc-pham-chuc-nang.html",
+        "text": "Thực phẩm chức năng",
+        "visible": true
+      },
+      {
+        "index": 8,
+        "href": "https://addp.vn/sua-dinh-duong.html",
+        "text": "Sữa Dinh Dưỡng",
+        "visible": true
+      },
+      {
+        "index": 9,
+        "href": "https://addp.vn/thiet-bi-y-te.html",
+        "text": "Thiết bị Y tế",
+        "visible": true
+      },
+      {
+        "index": 10,
+        "href": "https://addp.vn/benh-ly",
+        "text": "Bệnh lý",
+        "visible": true
+      },
+      {
+        "index": 11,
+        "href": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+        "text": "Sức khỏe Tiểu đường",
+        "visible": true
+      },
+      {
+        "index": 12,
+        "href": "https://addp.vn/contact",
+        "text": "Liên hệ",
+        "visible": true
+      },
+      {
+        "index": 13,
+        "href": "javascript:;",
+        "text": "Hello, sign in Your account",
+        "visible": true
+      },
+      {
+        "index": 14,
+        "href": "https://addp.vn/checkout/cart/",
+        "text": "Your Cart",
+        "visible": true
+      },
+      {
+        "index": 15,
+        "href": "javascript:void(0)",
+        "text": "Search",
+        "visible": true
+      },
+      {
+        "index": 16,
+        "href": "https://addp.vn/catalogsearch/advanced/",
+        "text": "Tìm kiếm nâng cao",
+        "visible": true
+      },
+      {
+        "index": 17,
+        "href": "https://addp.vn/sua-hat-glucare-plus#store.menu",
+        "text": "Menu",
+        "visible": true
+      },
+      {
+        "index": 18,
+        "href": "https://addp.vn/sua-hat-glucare-plus#store.links",
+        "text": "Tài khoản",
+        "visible": true
+      },
+      {
+        "index": 19,
+        "href": "https://addp.vn/sua-hat-glucare-plus#store.settings",
+        "text": "Cài đặt",
+        "visible": true
+      },
+      {
+        "index": 20,
+        "href": "javascipt:void(0)",
+        "text": "Vietnam",
+        "visible": true
+      },
+      {
+        "index": 21,
+        "href": "https://addp.vn/sua-hat-glucare-plus#",
+        "text": "English",
+        "visible": true
+      },
+      {
+        "index": 22,
+        "href": "https://addp.vn/",
+        "text": "Trang chủ",
+        "visible": true
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Search",
+        "visible": true
+      },
+      {
+        "text": "",
+        "visible": true
+      },
+      {
+        "text": "Search",
+        "visible": true
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://addp.vn/catalogsearch/result/",
+        "method": "get"
+      }
+    ],
+    "dimensions": {
+      "width": 1440,
+      "scroll_width": 1440
+    }
+  },
+  "network_guard": [
+    {
+      "persona": "high_intent",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+      "method": "GET",
+      "reason": "mutating GET endpoint",
+      "audit_induced": true
+    },
+    {
+      "persona": "high_intent",
+      "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.7377482357075908:1790629237:Rpi1zd9xki71azLoMpImsJWDVDk5fCk6qv-y0nBEUw4/a42605b7eabb1195",
+      "method": "POST",
+      "reason": "unsafe method POST",
+      "audit_induced": true
+    }
+  ]
+}

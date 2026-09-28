@@ -1,0 +1,132 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "status": "complete",
+  "reviewer_id": "codex-independent-contradictions-reviewer",
+  "scope": "All 19 candidates in review/candidate-findings.json, compared only with artifacts inside this run. This file records claim relationships and scope limits; it does not rewrite or remove candidate findings or evidence.",
+  "groups": [
+    {
+      "group_id": "sitemap-404-overlap",
+      "candidate_finding_ids": ["technical-advertised-sitemap-returns-404", "SEO-001", "SEO-002", "GEO-AEO-004"],
+      "comparison": "The findings overlap on the same sitemap observation; none contradicts the others. The first, SEO-001, and GEO-AEO-004 all cite EVD-C51AC48D3DB98538, EVD-B093A16D09E3A37E, and EVD-A57DC932D580B784. SEO-002 cites the robots and advertised endpoint records while also making a distinct observation about the wildcard query-string rule.",
+      "direct_evidence": [
+        {"evidence_id": "EVD-C51AC48D3DB98538", "url": "https://addp.vn/robots.txt", "viewport": null, "observed_at": "2026-09-28T21:15:51.267Z", "fact": "HTTP 200; captured robots.txt artifact advertises https://addp.vn/pub/sitemap.xml."},
+        {"evidence_id": "EVD-B093A16D09E3A37E", "url": "https://addp.vn/pub/sitemap.xml", "viewport": null, "observed_at": "2026-09-28T21:15:53.781Z", "fact": "HTTP 404."},
+        {"evidence_id": "EVD-A57DC932D580B784", "url": "https://addp.vn/sitemap.xml", "viewport": null, "observed_at": "2026-09-28T21:15:55.183Z", "fact": "HTTP 404."}
+      ],
+      "conditions": "Same run collection, endpoint URLs, and minute-long collection window. These are endpoint responses at collection time; response-body byte counts do not prove either body is a valid sitemap. Availability at other URLs and persistent behavior were not tested.",
+      "resolution": "Treat as one corroborated current-run observation with distinct framing: technical-advertised-sitemap-returns-404 and GEO-AEO-004 focus on the declared/unavailable sitemap; SEO-001 covers both probed endpoints; SEO-002 additionally covers robots query-string policy. Preserve separate findings where their scope and remediation framing differ, but do not count the shared 404 evidence as independent confirmations.",
+      "status": "resolved_overlap"
+    },
+    {
+      "group_id": "homepage-performance-ux-overlap",
+      "candidate_finding_ids": ["PERF-001", "UXUI-001"],
+      "comparison": "No opposing claims. UXUI-001 reuses the exact homepage mobile LAB capture cited by PERF-001 and interprets its load delay as postponing first-viewport usefulness. PERF-001 also includes a distinct desktop capture and reports measured metrics without attributing a source.",
+      "direct_evidence": [
+        {"evidence_id": "EVD-3D15DCDB359887BF", "url": "https://addp.vn/", "viewport": "mobile", "observed_at": "2026-09-28T21:18:31.258Z", "fact": "Clean-load LAB: LCP 12,504 ms; CLS 0.134645; TTFB 5,841.7 ms; no synthetic scroll; field data and Lighthouse scores unavailable."},
+        {"evidence_id": "EVD-85956D06B433ABCA", "url": "https://addp.vn/", "viewport": "desktop", "observed_at": "2026-09-28T21:17:46.545Z", "fact": "Clean-load LAB: LCP 17,700 ms; CLS 0.165149; TTFB 5,911.5 ms; no synthetic scroll; field data and Lighthouse scores unavailable."},
+        {"evidence_id": "EVD-9B3746A447795E5D", "url": "https://addp.vn/", "viewport": "mobile 390x844 screenshot", "observed_at": "2026-09-28T21:18:30.911Z", "fact": "Initial viewport screenshot collected separately; it is visual evidence, not timing evidence."}
+      ],
+      "conditions": "The mobile UX implication and mobile performance values refer to the same page and viewport, with captures about 0.35 seconds apart. The screenshot is a different evidence type and does not measure delay. LAB is not field experience.",
+      "resolution": "Retain PERF-001 as the direct measurement finding and UXUI-001 as a clearly labeled user-impact interpretation of the same mobile measurement. Avoid counting UXUI-001 as a separate performance sample or treating the screenshot as timing confirmation. No source-level cause or field impact is resolved.",
+      "status": "resolved_scope_overlap"
+    },
+    {
+      "group_id": "product-structured-data-geo-overlap",
+      "candidate_finding_ids": ["GEO-AEO-001", "STRUCTURED-DATA-001"],
+      "comparison": "The candidates substantially overlap on zero detected JSON-LD on homepage and sampled product page instances. GEO-AEO-001 names homepage, Viên An Đường, and Dovital and separately notes article BlogPosting results; STRUCTURED-DATA-001 covers homepage and all three sampled product URLs across desktop/mobile and the requested JSON-LD types. They do not fully contradict: STRUCTURED-DATA-001 explicitly notes Product microdata on the Glucare raw HTML, while GEO-AEO-001 limits its negative claim to JSON-LD and explicitly does not assert absence of every structured-data syntax.",
+      "direct_evidence": [
+        {"evidence_id": "EVD-32CB6452441EDF9E", "url": "https://addp.vn/", "viewport": "desktop", "observed_at": "2026-09-28T21:17:55.146Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-C16C9A26189A6C8E", "url": "https://addp.vn/", "viewport": "mobile", "observed_at": "2026-09-28T21:18:43.804Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-01FF964BE2B7A2AA", "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "viewport": "desktop", "observed_at": "2026-09-28T21:19:17.259Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-B1630958C79BC01D", "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "viewport": "mobile", "observed_at": "2026-09-28T21:19:48.694Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-02D7356CC02B574B", "url": "https://addp.vn/vien-an-duong-addp.html", "viewport": "desktop", "observed_at": "2026-09-28T21:20:20.186Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-BDF90743647332F7", "url": "https://addp.vn/vien-an-duong-addp.html", "viewport": "mobile", "observed_at": "2026-09-28T21:20:52.466Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-E32F848C405D32E0", "url": "https://addp.vn/sui-dovital", "viewport": "desktop", "observed_at": "2026-09-28T21:21:35.119Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-EDDAD1FAFA69798C", "url": "https://addp.vn/sui-dovital", "viewport": "mobile", "observed_at": "2026-09-28T21:22:25.177Z", "fact": "JSON-LD collector valid=0, invalid=0."},
+        {"evidence_id": "EVD-F71EC5745F2AF71B", "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "viewport": null, "observed_at": "2026-09-28T21:18:52.172Z", "fact": "Raw HTML returned HTTP 200; captured body has Product itemtype/itemscope on #html-body, supporting Product microdata on this page instance. This does not establish that the collector validated it or that all expected properties/types are present."}
+      ],
+      "conditions": "JSON-LD records are split by viewport and sampled URL. The Glucare raw HTML capture occurred between its desktop and mobile JSON-LD captures. Negative JSON-LD results are collector-format-specific; raw HTML confirms another Product syntax only for this URL. GEO-AEO-001's sampled set is narrower than STRUCTURED-DATA-001. Neither proves sitewide absence. Article BlogPosting JSON-LD is a different page type and does not conflict with homepage/product observations.",
+      "resolution": "Resolve the apparent disagreement by stating the property precisely: no JSON-LD was detected on the listed homepage/product page instances in the captured desktop/mobile records; Product microdata is present in the captured Glucare raw HTML. Keep both findings as overlapping candidate formulations, with structured-data coverage broader and format caveats explicit. Other microdata and FAQPage coverage remain unknown where not directly evidenced.",
+      "status": "resolved_with_format_and_coverage_conditions"
+    },
+    {
+      "group_id": "analytics-public-absence-wording",
+      "candidate_finding_ids": ["analytics-public-signals-not-observed-sample"],
+      "comparison": "No second candidate directly asserts the opposite. The main contradiction risk is overreading this candidate's title as implementation-wide absence. Its observation correctly narrows the statement to public signals not observed in bounded collected sessions.",
+      "direct_evidence": [
+        {"evidence_id": "EVD-DBF33A19881A487E", "url": "https://addp.vn/", "viewport": "desktop", "observed_at": "2026-09-28T21:17:55.276Z", "fact": "gtm=0, ga4_requests_blocked=0, data_layer_present=false."},
+        {"evidence_id": "EVD-04B228A36544C865", "url": "https://addp.vn/", "viewport": "mobile", "observed_at": "2026-09-28T21:18:43.937Z", "fact": "gtm=0, ga4_requests_blocked=0, data_layer_present=false."},
+        {"evidence_id": "EVD-5E1FDAFD6E0F3BD0", "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "viewport": "desktop", "observed_at": "2026-09-28T21:19:17.429Z", "fact": "Same zero/false tracking-signal values; artifact states telemetry requests were blocked because audit browser would induce them."},
+        {"evidence_id": "EVD-2A0768485D1F0097", "url": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "viewport": "mobile", "observed_at": "2026-09-28T21:19:48.865Z", "fact": "Same zero/false tracking-signal values."},
+        {"evidence_id": "EVD-820A852713ADC090", "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "viewport": "desktop", "observed_at": "2026-09-28T21:22:59.119Z", "fact": "Same zero/false tracking-signal values."},
+        {"evidence_id": "EVD-DAC7815A6168F9B8", "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "viewport": "mobile", "observed_at": "2026-09-28T21:23:43.969Z", "fact": "Same zero/false tracking-signal values."},
+        {"evidence_id": "EVD-0B566D85DC39FA02", "url": "https://addp.vn/gioi-thieu", "viewport": "desktop", "observed_at": "2026-09-28T21:32:59.893Z", "fact": "Same zero/false tracking-signal values."},
+        {"evidence_id": "EVD-AEA3DB2C2D2E0F53", "url": "https://addp.vn/gioi-thieu", "viewport": "mobile", "observed_at": "2026-09-28T21:33:36.326Z", "fact": "Same zero/false tracking-signal values."}
+      ],
+      "conditions": "The evidence covers only these cited URL/viewport instances. The analytics artifact explicitly blocks telemetry requests; zero blocked requests is not proof that no implementation exists. Consent-dependent loading, deferred tags, uncollected URLs, backend receipts, and successful-order tracking were not established. Other analytics specialist evidence remains current-run-only and is not treated as proof outside its stated coverage.",
+      "resolution": "Accept only the bounded formulation: the collector did not observe the specified GTM/GA4/dataLayer signals in the cited sessions. Treat implementation presence, consent behavior, events, attribution, backend receipt, and conversion coverage as UNKNOWN or BLOCKED, not absent. The candidate observation already contains this limitation; retain it and do not elevate its title into a sitewide conclusion.",
+      "status": "resolved_wording_scope"
+    },
+    {
+      "group_id": "same-url-viewport-property-audit",
+      "candidate_finding_ids": ["analytics-public-signals-not-observed-sample", "GEO-AEO-001", "GEO-AEO-002", "GEO-AEO-003", "GEO-AEO-004", "PERF-001", "PERF-002", "PERF-003", "SEO-001", "SEO-002", "STRUCTURED-DATA-001", "UXUI-001", "technical-advertised-sitemap-returns-404"],
+      "comparison": "Compared claims by URL, viewport, collection time, and measured property. No direct opposite values were found for the same property under matching conditions. The main same-instance overlaps are the homepage mobile LAB metrics (PERF-001/UXUI-001), sitemap statuses (four findings), and homepage/product JSON-LD results (GEO-AEO-001/STRUCTURED-DATA-001). Other apparent differences are distinct properties, formats, or page instances.",
+      "direct_evidence": [
+        {"evidence_id": "EVD-3D15DCDB359887BF", "url": "https://addp.vn/", "viewport": "mobile", "observed_at": "2026-09-28T21:18:31.258Z", "fact": "One LAB record with LCP/CLS/TTFB."},
+        {"evidence_id": "EVD-9B3746A447795E5D", "url": "https://addp.vn/", "viewport": "mobile screenshot 390x844", "observed_at": "2026-09-28T21:18:30.911Z", "fact": "Visual first-viewport record, not the same property as performance metrics."},
+        {"evidence_id": "EVD-32CB6452441EDF9E", "url": "https://addp.vn/", "viewport": "desktop", "observed_at": "2026-09-28T21:17:55.146Z", "fact": "JSON-LD count property; viewport-specific record."},
+        {"evidence_id": "EVD-C16C9A26189A6C8E", "url": "https://addp.vn/", "viewport": "mobile", "observed_at": "2026-09-28T21:18:43.804Z", "fact": "JSON-LD count property; viewport-specific record."},
+        {"evidence_id": "EVD-035E196C34BF6621", "url": "https://addp.vn/benh-ly", "viewport": "desktop", "observed_at": "2026-09-28T21:33:59.179Z", "fact": "LAB LCP 19,308 ms and CLS 0.634696."},
+        {"evidence_id": "EVD-D2E949A54A61C783", "url": "https://addp.vn/benh-ly", "viewport": "mobile", "observed_at": "2026-09-28T21:34:35.876Z", "fact": "LAB LCP 22,128 ms and CLS 0.593162."},
+        {"evidence_id": "EVD-140275788B638B2B", "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "viewport": "desktop", "observed_at": "2026-09-28T21:22:48.612Z", "fact": "LAB LCP 13,432 ms."},
+        {"evidence_id": "EVD-EEE8678F6CB7996C", "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "viewport": "mobile", "observed_at": "2026-09-28T21:23:25.242Z", "fact": "LAB LCP 18,100 ms."},
+        {"evidence_id": "EVD-1043761274B05EFF", "url": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "viewport": "desktop", "observed_at": "2026-09-28T21:24:11.961Z", "fact": "LAB LCP 18,216 ms."},
+        {"evidence_id": "EVD-381F4D853D891DF0", "url": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "viewport": "mobile", "observed_at": "2026-09-28T21:24:50.079Z", "fact": "LAB LCP 18,408 ms."}
+      ],
+      "conditions": "Different viewport records are not contradictory merely because values differ. JSON-LD counts, screenshots, LAB metrics, robots text, analytics signal collection, and raw HTML are distinct properties. Article and product URLs are distinct page instances. All captures are from the same run but have non-identical timestamps and collector conditions.",
+      "resolution": "No conflict requiring a winning claim was identified among the compared properties. Preserve viewport and URL distinctions in any downstream synthesis. For shared templates or sitewide prevalence, route to manual review because the protocol requires explicit evidence-backed pattern support and no reviewer pattern_key is available here.",
+      "status": "no_direct_contradiction_manual_pattern_routing"
+    },
+    {
+      "group_id": "remaining-candidate-pairs-and-independent-claims",
+      "candidate_finding_ids": ["BRAND-20260928-001", "CONTENT-001", "CONV-001", "GEO-AEO-002", "GEO-AEO-003", "HC-001", "HC-002", "SEO-003"],
+      "comparison": "Reviewed the remaining candidate claims for direct same-URL, same-viewport, same-time, same-property opposition. Their observations concern different properties (page attribution/contact details, product-tab copy, distinct product-card prices, FAQ heading and answer structure, robots directives, health-claim editorial review, and meta descriptions) or make qualified editorial judgments; no candidate supplies an opposing direct observation for those same properties.",
+      "direct_evidence": [
+        {"evidence_ids": ["EVD-AD18B204CB25AAFE", "EVD-927DDAF696B5D339"], "url": "https://addp.vn/vien-an-duong-addp.html", "viewport": "rendered desktop plus raw metadata", "fact": "Evidence cited for visible contact/copyright differences and page metadata; no second candidate claims these values are identical."},
+        {"evidence_ids": ["EVD-C4AE99238E385779", "EVD-8B09867D19F1496E", "EVD-02D7356CC02B574B"], "url": "https://addp.vn/vien-an-duong-addp.html", "viewport": "rendered desktop/raw HTTP/structured-data desktop", "fact": "Question-led headings and page content coexist with zero detected JSON-LD; headings/content presence is not a contradiction of the JSON-LD collector result."},
+        {"evidence_id": "EVD-C51AC48D3DB98538", "url": "https://addp.vn/robots.txt", "viewport": null, "fact": "One wildcard user-agent group and captured directives; absence of named crawler groups does not establish crawler access outcome."}
+      ],
+      "conditions": "Candidate evidence lists are not fully repeated here; all referenced IDs are in the current run's evidence index. Some candidate subjects, especially visible prices, placeholder copy, article claims, and product claims, are independent of the overlapping groups above. Review is limited to what those current-run artifacts directly establish.",
+      "resolution": "No direct contradiction identified. Keep editorial/business correctness questions unresolved where they require authoritative business, clinical, or policy judgment. Do not convert absence of an FAQ heading or named robots user-agent group into proof that no useful Q&A content or crawler access exists.",
+      "status": "no_direct_contradiction_manual_judgment_where_needed"
+    }
+  ],
+  "manual_routing": [
+    {
+      "topic": "Analytics implementation and successful-order measurement",
+      "reason": "Telemetry was explicitly blocked in collector artifacts; consent state, deferred loading, backend receipts, and successful-order behavior are not established by public observations.",
+      "route": "Manual confirmation using authorized analytics administration evidence or an approved non-production conversion flow."
+    },
+    {
+      "topic": "Sitemap persistence and intended canonical endpoint",
+      "reason": "The run records two HTTP 404 responses at collection time but does not test other candidate endpoints, persistence, or crawler processing.",
+      "route": "Manual operational confirmation of intended public sitemap URL and a later status/content check."
+    },
+    {
+      "topic": "Structured-data completeness beyond captured JSON-LD and Glucare Product microdata",
+      "reason": "Collector records establish JSON-LD counts for sampled page/viewport instances; only the Glucare raw HTML directly supports Product microdata. Completeness, validity, and Organization/FAQPage coverage across other syntax or pages are not established.",
+      "route": "Manual markup review if acceptance depends on full syntax coverage, required properties, or page/template coverage."
+    },
+    {
+      "topic": "Cross-page/template patterns and field-user impact",
+      "reason": "The candidate evidence is page-instance or LAB evidence; no pattern_key or field-data source establishes template-wide behavior or real-user impact.",
+      "route": "Manual review with explicit pattern definition and suitable repeated or field evidence before making broader claims."
+    },
+    {
+      "topic": "Company identity/contact, offer intent, and health-content correctness",
+      "reason": "Public captures show differing details or claims, but this run cannot identify authoritative company records, intended price semantics, or medical truth.",
+      "route": "Manual confirmation by the responsible business or qualified clinical reviewer; preserve the visible observations as evidence in the meantime."
+    }
+  ],
+  "coverage_note": "All 19 candidate IDs were inventoried. Explicit comparison groups address the requested overlaps and potentially broad absence wording; no candidate was changed, deleted, or accepted/rejected by specialist authority. Claims requiring external truth, field data, or sitewide generalization remain unresolved/manual as indicated."
+}

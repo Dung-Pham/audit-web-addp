@@ -1,0 +1,104 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "role": "external-technical-diagnostic",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "inputs": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json",
+      "current-run public technical evidence referenced by evidence/index.json",
+      "checklist.normalized.json"
+    ],
+    "scope_note": "One-pass, read-only analysis of this run's disk artifacts only. Website source, backend, administration, field analytics, and prior runs were not used."
+  },
+  "candidates": [
+    {
+      "finding_id": "technical-advertised-sitemap-returns-404",
+      "title": "robots.txt advertises a sitemap URL that returned HTTP 404",
+      "area": "technical SEO",
+      "page": "https://addp.vn/pub/sitemap.xml",
+      "page_type": "sitewide",
+      "source_requirement_ids": ["REQ-015"],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The captured public robots.txt names https://addp.vn/pub/sitemap.xml as its Sitemap URL. The run recorded HTTP 404 for that URL; it also recorded HTTP 404 for https://addp.vn/sitemap.xml. These are endpoint observations from this collection, not proof of persistent availability or search-engine impact.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-B093A16D09E3A37E", "EVD-A57DC932D580B784"],
+      "impact": "seo",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Check the publicly advertised sitemap location and publish a valid sitemap there, or update the robots.txt Sitemap directive to the intended reachable URL.",
+      "unknowns": [
+        "Whether the 404 response was transient or persists beyond the run's collection time.",
+        "Whether a valid sitemap is available at another untested URL or through a sitemap index.",
+        "Whether search engines currently know or have processed another sitemap location.",
+        "Whether the sitemap response body is an application error page or another custom 404 response; only status and byte count were recorded in the indexed fact."
+      ],
+      "observed_problem": "robots.txt advertises https://addp.vn/pub/sitemap.xml, and that URL returned HTTP 404 in this run. The alternate tested URL https://addp.vn/sitemap.xml also returned HTTP 404.",
+      "confirmed_external_facts": [
+        "https://addp.vn/robots.txt returned HTTP 200 and its captured contents include 'Sitemap: https://addp.vn/pub/sitemap.xml'. Evidence: EVD-C51AC48D3DB98538.",
+        "https://addp.vn/pub/sitemap.xml returned HTTP 404. Evidence: EVD-B093A16D09E3A37E.",
+        "https://addp.vn/sitemap.xml returned HTTP 404. Evidence: EVD-A57DC932D580B784."
+      ],
+      "probable_technical_causes": [
+        "The advertised sitemap may not be published at the configured path, or the route may be misconfigured. This is a hypothesis, not a confirmed implementation cause."
+      ],
+      "developer_investigation": [
+        "Verify the intended public sitemap endpoint and its response status and XML content from an external client.",
+        "Check that the robots.txt Sitemap directive points to the verified endpoint."
+      ],
+      "implementation_area": "Server response"
+    }
+  ],
+  "keep_protect": [],
+  "rubric": [
+    {
+      "item": "Advertised XML sitemap endpoint (REQ-015)",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/robots.txt", "https://addp.vn/pub/sitemap.xml", "https://addp.vn/sitemap.xml"],
+      "scope": "Page instances/endpoints only: the robots.txt directive and two recorded HTTP responses are evidenced. This is not a sitewide behavior pattern claim.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-B093A16D09E3A37E", "EVD-A57DC932D580B784"]
+    },
+    {
+      "item": "robots.txt accessibility and directives (REQ-011, REQ-015)",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/robots.txt"],
+      "scope": "Single public-file instance. HTTP 200 and captured wildcard disallow directives are observed; crawler-specific interpretation and actual bot access were not tested.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538"]
+    },
+    {
+      "item": "Access rules for ChatGPT-User, PerplexityBot, and Google-Extended (REQ-011)",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/robots.txt"],
+      "scope": "The file instance was captured, but this run did not verify how each named crawler interprets the wildcard rules or attempt crawler-specific access.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538"]
+    },
+    {
+      "item": "Server-rendered content versus JavaScript-dependent content (REQ-012)",
+      "status": "UNKNOWN",
+      "urls": [],
+      "scope": "No page-by-page raw and rendered content comparison is asserted in this diagnostic; the available evidence reviewed here does not establish complete SSR behavior across required content fields."
+    },
+    {
+      "item": "HTTPS certificate and transport behavior (REQ-015)",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/", "https://addp.vn/robots.txt"],
+      "scope": "HTTPS URLs were collected, but this run's cited facts do not establish certificate validity, renewal, or transport security configuration."
+    },
+    {
+      "item": "Status of untested technical endpoints and server configuration",
+      "status": "UNKNOWN",
+      "urls": [],
+      "scope": "No conclusion about untested routes, server internals, cache/CDN configuration, or persistence beyond collection time. No reviewer-provided pattern_key was available to support a broader pattern claim."
+    }
+  ],
+  "coverage": {
+    "explicit_unknowns": [
+      "Effective model identity is unverified in the run manifest.",
+      "No source or backend access was available.",
+      "HTTP response headers beyond the indexed facts, CDN behavior, and server-side route configuration were not established for the sitemap endpoints.",
+      "The run recorded 25 usable pages, 16 complete and 9 partial; endpoint observations remain bounded to the recorded collection."
+    ]
+  }
+}

@@ -12,6 +12,14 @@
   "allowRealPayment": false,
   "allowAccountCreation": false,
   "maxPages": 25,
+  "mandatoryCoverage": {
+    "canonicalProducts": [
+      { "id": "glucare", "aliases": ["glucare"] },
+      { "id": "vien_an_duong", "aliases": ["vien-an-duong"], "canonical_paths": ["vien-an-duong-addp.html"] },
+      { "id": "dovital", "aliases": ["dovital"] }
+    ],
+    "articleDetailMinimum": 3
+  },
   "maxDepth": 3,
   "requestDelayMs": 700,
   "initialRenderTimeoutMs": 8000,

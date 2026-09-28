@@ -1,0 +1,280 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "role": "performance",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "sources": [
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/manifest.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/inventory/pages.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/evidence/index.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/checklist.normalized.json",
+      "captured LAB artifacts referenced by the current-run evidence index"
+    ],
+    "coverage_note": "The current-run evidence index contains 49 LAB metric records across 25 URLs. The sampled homepage, three product-detail URLs, three article-detail URLs, and additional category, policy, and other routes were reviewed. Metrics are available for some page and viewport combinations, not documented field data. No claim is made about unmeasured pages or a shared site pattern."
+  },
+  "candidates": [
+    {
+      "finding_id": "PERF-001",
+      "title": "Homepage LAB load metrics are substantially elevated on desktop and mobile",
+      "area": "performance",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "In clean-load LAB captures, desktop recorded LCP 17,700 ms, CLS 0.1651, and TTFB 5,911.5 ms; mobile recorded LCP 12,504 ms, CLS 0.1346, and TTFB 5,841.7 ms. Both captures state synthetic_scroll_before_measurement=false. These are single-run browser measurements under the recorded run conditions, not field experience. The measured LCP is above the checklist's stated 2.5-second target; no PageSpeed score was captured.",
+      "evidence_ids": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat comparable clean-load measurements on desktop and mobile, inspect the recorded network and resource waterfall for the LCP element and response delays, and verify whether the elevated values persist before prioritizing optimization.",
+      "unknowns": [
+        "Field LCP, CLS, and INP are unavailable; these LAB values do not establish visitor-level Core Web Vitals.",
+        "Lighthouse/PageSpeed scores and interaction data were not captured.",
+        "No cause is established by the summary metrics alone.",
+        "These are single captures; run-to-run variation is unknown."
+      ]
+    },
+    {
+      "finding_id": "PERF-002",
+      "title": "Diabetes-condition page has high LAB LCP and CLS in both captured viewports",
+      "area": "performance",
+      "page": "https://addp.vn/benh-ly",
+      "page_type": "other",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The desktop clean-load LAB capture recorded LCP 19,308 ms and CLS 0.6347; the mobile capture recorded LCP 22,128 ms and CLS 0.5932. Both state synthetic_scroll_before_measurement=false. The values are page-instance observations from this run and exceed the checklist's 2.5-second load target by a wide margin for LCP. They do not establish field performance or the source of the shifts.",
+      "evidence_ids": [
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat clean-load captures under comparable desktop and mobile conditions, then inspect the LCP element and layout-shift sources in the corresponding trace before selecting an optimization.",
+      "unknowns": [
+        "Field metrics are unavailable; these values are LAB only.",
+        "No Lighthouse/PageSpeed score or interaction data is available.",
+        "The metric summary does not identify the LCP element, shift sources, or probable technical cause.",
+        "Repeatability and impact for other URLs are unknown."
+      ]
+    },
+    {
+      "finding_id": "PERF-003",
+      "title": "Sampled diabetes articles show long LAB LCP on desktop and mobile",
+      "area": "performance",
+      "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "Two individually captured article page instances have high LCP in clean-load LAB measurements: /blog/post/chuan-doan-benh-dai-thao-duong measured 13,432 ms desktop and 18,100 ms mobile; /blog/post/dai-thao-duong-do-viem-tuy measured 18,216 ms desktop and 18,408 ms mobile. All four captures state synthetic_scroll_before_measurement=false. This candidate records these URLs as separate page instances; similarity does not establish a template-wide pattern. The measured values exceed the checklist's 2.5-second target, while field experience is unknown.",
+      "evidence_ids": [
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat measurements for each URL at the same desktop and mobile viewports, compare the LCP element and resource timing in each trace, and assess any shared cause only after direct evidence supports it.",
+      "unknowns": [
+        "Field LCP, CLS, and INP are unavailable.",
+        "No Lighthouse/PageSpeed score or interaction data was captured.",
+        "The summary does not identify the LCP elements or causes.",
+        "Article page captures are not evidence of a shared implementation pattern."
+      ]
+    }
+  ],
+  "keep_protect": [],
+  "rubric": [
+    {
+      "item": "REQ-013 mobile load threshold and PageSpeed score",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instance for each listed URL; no site-wide pattern asserted",
+      "assessment": "The listed URLs have mobile LAB metric records in the current-run index. Captured mobile LCP values range from 11,448 ms to 22,128 ms in these instances, exceeding the checklist's stated 2.5-second target. PageSpeed/Lighthouse scores are unavailable, and no documented FIELD source is present. Other mobile-present URLs in the metric index are not enumerated here; the finding is limited to recorded LAB observations and does not establish field-user experience.",
+      "evidence_ids": [
+        "EVD-3D15DCDB359887BF",
+        "EVD-2F1BD82D6F3C20D6",
+        "EVD-D2E949A54A61C783",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-381F4D853D891DF0",
+        "EVD-DF46103AB78D9C38",
+        "EVD-D16F5A715AC7BFE1",
+        "EVD-4C2398DD8A7C253A",
+        "EVD-44BE424703CA5FE2",
+        "EVD-1C116135AEE5BAB7",
+        "EVD-3F0A6FD5DEC1A56B",
+        "EVD-9EA71D28792733BF",
+        "EVD-72E1A5FAECEBA7B5"
+      ]
+    },
+    {
+      "item": "Recorded clean-load measurement condition: synthetic scrolling before measurement",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instance for each listed URL and captured viewport",
+      "assessment": "The LAB metric records reviewed for these instances explicitly state synthetic_scroll_before_measurement=false. This confirms the recorded pre-measurement condition only; it does not mean the separate render-stabilization collector avoided scrolling.",
+      "evidence_ids": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF",
+        "EVD-641917A75B4A1104",
+        "EVD-2F1BD82D6F3C20D6",
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783",
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0",
+        "EVD-DE6EBC443A804CF6",
+        "EVD-DF46103AB78D9C38",
+        "EVD-241C395FC9AED203",
+        "EVD-D16F5A715AC7BFE1",
+        "EVD-7204E115807DEAA2",
+        "EVD-4C2398DD8A7C253A",
+        "EVD-D457B98926263620",
+        "EVD-44BE424703CA5FE2",
+        "EVD-BF2F0A463C072CF4",
+        "EVD-1C116135AEE5BAB7",
+        "EVD-B912E0E9CCFD3BAD",
+        "EVD-3F0A6FD5DEC1A56B",
+        "EVD-CAD8504CF169E375",
+        "EVD-9EA71D28792733BF",
+        "EVD-59FEA6B0424B92A9",
+        "EVD-72E1A5FAECEBA7B5"
+      ]
+    },
+    {
+      "item": "Field Core Web Vitals and visitor experience",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instance for each listed URL; no FIELD source or site-wide pattern evidenced",
+      "assessment": "Every cited metric record states field_available=false. INP is null in the LAB records, and LAB/Lighthouse score availability is false. There is no documented field-data source in the current-run evidence.",
+      "evidence_ids": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF",
+        "EVD-641917A75B4A1104",
+        "EVD-2F1BD82D6F3C20D6",
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783",
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0",
+        "EVD-DE6EBC443A804CF6",
+        "EVD-DF46103AB78D9C38",
+        "EVD-241C395FC9AED203",
+        "EVD-D16F5A715AC7BFE1",
+        "EVD-7204E115807DEAA2",
+        "EVD-4C2398DD8A7C253A",
+        "EVD-D457B98926263620",
+        "EVD-44BE424703CA5FE2",
+        "EVD-BF2F0A463C072CF4",
+        "EVD-1C116135AEE5BAB7",
+        "EVD-B912E0E9CCFD3BAD",
+        "EVD-3F0A6FD5DEC1A56B",
+        "EVD-CAD8504CF169E375",
+        "EVD-9EA71D28792733BF",
+        "EVD-59FEA6B0424B92A9",
+        "EVD-72E1A5FAECEBA7B5"
+      ]
+    },
+    {
+      "item": "Request count, transfer size, and resource-waterfall causes",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instance; not assessed as a site pattern",
+      "assessment": "Although network-log artifacts exist, the indexed summary records event counts rather than a verified request count, transfer total, or analyzed waterfall. Those resource-level causes cannot be established from the LAB metric summaries cited here."
+    },
+    {
+      "item": "Rendering stability and scroll-induced layout shifts",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/contact",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/vien-an-duong-addp.html"
+      ],
+      "scope": "page instance; separate from performance LAB candidates",
+      "assessment": "This performance review uses clean-load LAB summaries only. Separate render-stabilization artifacts include post-load scrolling and are not used to infer LAB CLS or to create a render-stabilization finding here. No causal relationship between those collector results and the LAB metric values is established."
+    }
+  ]
+}

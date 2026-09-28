@@ -1,0 +1,87 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "ux-ui",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "inputs": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json",
+      "evidence/render/*",
+      "evidence/screenshots/*",
+      "evidence/html/*rendered.html",
+      "analyses/personas/journeys.json",
+      "checklist.normalized.json"
+    ],
+    "scope_note": "Single-pass review of the named run only. No browsing or recollection."
+  },
+  "candidates": [
+    {
+      "finding_id": "UXUI-001",
+      "title": "Homepage mobile load remains slow in recorded laboratory capture",
+      "area": "first viewport / responsive mobile ergonomics",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": ["REQ-013"],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The run recorded mobile laboratory LCP of 12,504 ms and TTFB of 5,841.7 ms for the homepage. Interpretation: this load delay can postpone the point at which the first viewport becomes useful on this recorded mobile page instance. These are LAB measurements, not field data; no Lighthouse score or field metric is available. The viewport screenshot is collected separately and supports visual review only, not the timing claim.",
+      "evidence_ids": ["EVD-3D15DCDB359887BF", "EVD-9B3746A447795E5D"],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Review mobile first-viewport loading and the resources that determine LCP/TTFB; remeasure with the same LAB method after any change.",
+      "unknowns": ["No field performance data is available.", "A single recorded capture does not establish the experience for all devices, networks, or visits.", "This UX observation does not establish a source-level cause."],
+      "planning": {
+        "objective": "Reduce the measured homepage mobile load delay.",
+        "target_state": "Mobile first viewport becomes useful sooner under the recorded audit conditions.",
+        "recommended_changes": ["Investigate the first-viewport critical path and largest-contentful element."],
+        "affected_urls": ["https://addp.vn/"],
+        "implementation_area": "mobile first viewport and page loading",
+        "developer_investigation": ["Identify the resources contributing to the recorded LCP and TTFB."],
+        "dependencies": [],
+        "priority": "high",
+        "effort": "unknown",
+        "acceptance_criteria": ["Comparable mobile LAB capture shows a materially lower LCP, with no visual regression in the initial viewport."],
+        "automated_verification": ["Repeat the same mobile LAB capture."],
+        "manual_verification": ["Review initial viewport screenshots at 390×844 under representative network conditions."],
+        "risks": ["A measurement change alone may not reflect real user experience without field data."]
+      }
+    }
+  ],
+  "keep_protect": [
+    {
+      "title": "A homepage product card exposes a named product route",
+      "url": "https://addp.vn/",
+      "observation": "The recorded journey shows the visible homepage card labeled “GLUCARE PLUS / Sữa hạt dinh dưỡng / Khám phá” and verifies navigation to the named product route. The same route was reached in desktop and mobile persona captures.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-D117A7EAEA699CAA-high_intent-1-SHOT", "EVD-574F286DC706B28A-mobile-1", "EVD-574F286DC706B28A-mobile-1-SHOT"]
+    },
+    {
+      "title": "Company and ordering-policy routes are reachable from visible links",
+      "url": "https://addp.vn/",
+      "observation": "The research persona verified visible-link navigation from the homepage to the company introduction and then to the ordering policy page.",
+      "evidence_ids": ["EVD-2D0A822DB858C794-research-1", "EVD-2D0A822DB858C794-research-1-SHOT", "EVD-F3C54C45BCE8336A-research-2", "EVD-F3C54C45BCE8336A-research-2-SHOT"]
+    }
+  ],
+  "rubric": [
+    {"item": "First viewport and visual hierarchy", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "Screenshots are present, but this pass did not establish a defensible visual hierarchy issue from screenshot comparison."},
+    {"item": "Typography and readability", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "No supported readability finding established in this pass."},
+    {"item": "Spacing and layout", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "Desktop and mobile render records exist; no reliable layout defect was established."},
+    {"item": "Navigation", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/gioi-thieu", "https://addp.vn/chinh-sach-dat-hang"], "scope": "page instances", "note": "Persona evidence verifies visible links to company information and ordering policy. Journeys are partial and do not establish sitewide navigation completeness."},
+    {"item": "CTA prominence", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "A visible “Khám phá” link is verified; no claim about purchase CTA prominence is supported."},
+    {"item": "Product discovery", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "Desktop and mobile journeys each verify the homepage Glucare product card route. This is page-instance evidence, not a sitewide pattern."},
+    {"item": "Responsive/mobile ergonomics", "status": "INFERENCE", "urls": ["https://addp.vn/"], "scope": "page instance", "note": "Homepage mobile LAB LCP is 12,504 ms; this suggests delayed usefulness under the recorded test conditions. It does not establish field performance or a layout overflow defect."},
+    {"item": "Slow/reveal behavior", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "Stabilization records include loading/reveal activity, but do not by themselves establish harmful user-facing reveal behavior."},
+    {"item": "Visible broken assets", "status": "OBSERVED", "urls": ["https://addp.vn/"], "scope": "page instance", "note": "Desktop homepage stabilization reports two image decode failures but zero visible failed images. No visible broken asset is evidenced; failed offscreen or otherwise non-visible image decoding is not treated as visible breakage."},
+    {"item": "Observable accessibility", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"], "scope": "page instances", "note": "This specialist pass does not establish an accessibility defect from the available reviewed evidence."},
+    {"item": "Trust presentation", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/gioi-thieu", "https://addp.vn/chinh-sach-dat-hang"], "scope": "page instances", "note": "Routes are reachable, but trust presentation quality is not concluded."},
+    {"item": "Cognitive load", "status": "UNKNOWN", "urls": ["https://addp.vn/"], "scope": "page instance", "note": "No defensible cognitive-load assessment concluded from this single pass."},
+    {"item": "Homepage-to-landing-to-PDP continuity", "status": "BLOCKED", "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"], "scope": "page instances", "note": "Homepage-to-/sua-hat-glucare-plus navigation is verified; the persona journey is partial and ends before cart/checkout, and the separately collected PDP URL is not verified as the next visible step. Full continuity cannot be established."}
+  ],
+  "coverage": {
+    "status": "PARTIAL",
+    "note": "Review limited to the named run. Collection includes 25 usable pages: 16 complete and 9 partial. Persona journeys are partial; commerce actions were intentionally stopped before mutation. No pattern_key was supplied, so all observations are page-instance scoped.",
+    "not_assessed": ["Broad category-page usability across the full inventory", "Uncollected or partial page states", "Checkout interaction beyond the safe read-only stopping point", "Field performance", "Sitewide pattern claims"]
+  }
+}

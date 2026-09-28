@@ -1,0 +1,12 @@
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+route.abort: Route is already handled!
+    at block (D:\PhpstormProjects\addp-analys\tools\site-audit\collectors\browser.mjs:59:19)
+    at D:\PhpstormProjects\addp-analys\tools\site-audit\collectors\browser.mjs:92:13 {
+  log: [],
+  name: 'Error'
+}
+
+Node.js v22.17.0

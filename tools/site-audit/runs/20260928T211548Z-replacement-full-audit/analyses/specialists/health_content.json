@@ -1,0 +1,161 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "health_content",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "inputs": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json and referenced evidence artifacts",
+      "checklist.normalized.json",
+      "analyses/personas/journeys.json"
+    ],
+    "scope_note": "Review limited to collected artifacts in this run. Coverage is partial; no external medical-truth or regulatory validation was performed."
+  },
+  "candidates": [
+    {
+      "finding_id": "HC-001",
+      "title": "Glucare Plus diabetes and blood-glucose claims need qualified review",
+      "area": "health_content",
+      "page": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "source_requirement_ids": ["REQ-009-01"],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected product page uses the exact health-related wording “dùng được cho người tiểu đường muốn duy trì đường huyết ổn định”, “hỗ trợ kiểm soát đường huyết an toàn”, “Giải pháp dinh dưỡng lý tưởng cho người mắc bệnh đái tháo đường và tiền đái tháo đường”, and “kiểm soát đường huyết hiệu quả”. It also labels the product “DINH DƯỠNG Y KHOA ĐỘT PHÁ” and presents a sample-request form asking for the visitor’s current condition, with options including type 1/type 2 diabetes and prediabetes. These are observed public claims and form wording; this review does not determine their medical truth, substantiation, product classification, or regulatory status. Route the exact claims and their supporting basis for qualified human/regulatory review.",
+      "evidence_ids": ["EVD-42AE297DAC33A1B9"],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Have a qualified health professional and appropriate regulatory reviewer assess each quoted claim, its supporting evidence, intended audience, and context; revise or qualify wording based on that review. Ensure any health-related lead flow has suitable privacy and consent treatment, which was not assessed here.",
+      "unknowns": [
+        "No external source or product dossier in the allowed artifacts substantiates or refutes efficacy, safety, glycemic effects, or suitability for people with diabetes.",
+        "No regulatory determination or product classification was available.",
+        "This is a page-instance finding for the collected Glucare Plus URL, not an evidence-supported site pattern.",
+        "The artifact captures raw page HTML; the wording is present in the captured product-page content, but full viewport-by-viewport visibility was not independently assessed in this specialist review."
+      ]
+    },
+    {
+      "finding_id": "HC-002",
+      "title": "Diabetes article claims and medical guidance need source and editorial review",
+      "area": "health_content",
+      "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "source_requirement_ids": ["REQ-009-01"],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected article presents diagnostic criteria and thresholds, including fasting glucose, HbA1c and OGTT, and discusses consequences of delayed diagnosis. The available page capture establishes that these statements occur in the article, but this analysis does not validate their medical accuracy. Refer the exact article content to a qualified clinical reviewer and check that the published article visibly identifies its author/editor/medical reviewer and its supporting sources.",
+      "evidence_ids": ["EVD-29BE01E2DF43FC8F"],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Request qualified clinical review of diagnostic thresholds, risks and recommendations; preserve a transparent evidence trail and visible, verifiable authorship or medical review attribution where applicable.",
+      "unknowns": [
+        "Medical truth, currency, and completeness of the diagnostic advice were not externally assessed.",
+        "This raw HTML evidence ID proves collection of the article page, but does not itself establish whether all visible-text sections or attribution blocks were complete in the rendered experience.",
+        "No sitewide pattern is asserted; this finding concerns this article page instance only."
+      ]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "The collected Glucare Plus content includes a named ingredient/serving preparation section and specific preparation steps (four level scoops with approximately 200 ml warm water at 50–55°C). Preserve clear preparation information if the product page is revised, subject to normal product-label consistency review.",
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "scope": "page_instance",
+      "evidence_ids": ["EVD-42AE297DAC33A1B9"]
+    },
+    {
+      "observation": "Three diabetes-topic article pages were collected in the run, providing identifiable editorial URLs for follow-up review: diagnosis, diabetes associated with chronic pancreatitis, and a general explainer on diabetes.",
+      "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "scope": "collected_page_set_only",
+      "evidence_ids": ["EVD-29BE01E2DF43FC8F", "EVD-8C596D4F7D8F3EBF", "EVD-11CB9891813824E1"]
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Public benefit, disease or medical implications, absolute-safety wording, and product claims",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "Product and disease-related wording is present in the collected page artifacts; medical truth and regulatory status remain unverified. Pattern claims are not made. The diabetes article pages contain medical information and should receive qualified review; this does not imply that a specific statement is false."
+    },
+    {
+      "item": "Visible sources or research support for medical claims",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "This pass did not establish a complete rendered-page inventory of citations or research references; absence of a verified citation signal is not treated as proof that sources are absent."
+    },
+    {
+      "item": "Author, editor, or medical reviewer attribution",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "The collected evidence reviewed here does not support a reliable determination of visible, verifiable author/editor/reviewer attribution across these full pages. No credentials are inferred."
+    },
+    {
+      "item": "Publication or update dates",
+      "status": "INFERENCE",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "The extracted raw page text includes dates August 28, 2025; August 28, 2025; and August 07, 2025 respectively. These appear to be article dates, but whether they represent publication or a later review/update date is not established by the inspected artifact."
+    },
+    {
+      "item": "Company and contact identity relevant to health-content accountability",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/", "https://addp.vn/gioi-thieu", "https://addp.vn/contact"],
+      "scope": "page_instance",
+      "note": "The supplied recorded journeys reached the homepage and company introduction, and inventory includes a contact route. This health-content pass did not verify the details or their relationship to the reviewed medical claims."
+    },
+    {
+      "item": "Observable health or medical disclaimers",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "The permitted evidence reviewed does not support a full-page determination of disclaimer presence or absence."
+    },
+    {
+      "item": "Article-format requirement: E-E-A-T, question headings, 40–60 word direct answers, tables or bullets, and attribution review (REQ-009)",
+      "status": "BLOCKED",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page_instance",
+      "note": "The normalized checklist describes the requirement but is not proof of a defect. This health review did not complete a full structured rendered-content and attribution assessment for each article; no sitewide pattern is claimed."
+    },
+    {
+      "item": "Coverage of all health-related site content and whether observed issues are a site pattern",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/"],
+      "scope": "evidence_supported_pattern_not_established",
+      "note": "Run manifest records partial collection and selected only a subset of discovered article detail pages. Similar wording across pages is not treated as a site pattern because no reviewer-provided pattern_key is available and full coverage is incomplete."
+    }
+  ]
+}

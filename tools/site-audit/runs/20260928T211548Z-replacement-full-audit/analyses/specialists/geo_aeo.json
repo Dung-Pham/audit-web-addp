@@ -1,0 +1,129 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "role": "geo_aeo",
+  "requested_model": "gpt-5.6-sol",
+  "effective_model": "unverified",
+  "status": "complete_with_limitations",
+  "summary": "Current-run evidence shows extractable product facts and question-form headings on sampled pages, no detected JSON-LD on sampled homepage/product/about pages, valid BlogPosting JSON-LD on sampled article pages, and robots/sitemap signals with limited crawler-rule coverage. AI-engine visibility is unknown.",
+  "candidates": [
+    {
+      "finding_id": "GEO-AEO-001",
+      "title": "Product structured data was not detected on sampled homepage and product pages",
+      "area": "structured data / entity and product identity",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": ["REQ-010-01"],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The current-run structured-data collector reports valid: 0 and invalid: 0 at the homepage and the sampled product pages https://addp.vn/vien-an-duong-addp.html and https://addp.vn/sui-dovital. This is evidence that no JSON-LD was detected by that collector on these page instances; it does not establish the absence of every structured-data format or a sitewide condition. The same run detected valid BlogPosting JSON-LD on sampled article pages, so the result is page-type-specific in this sample.",
+      "evidence_ids": ["EVD-32CB6452441EDF9E", "EVD-02D7356CC02B574B", "EVD-E32F848C405D32E0", "EVD-2326A9C7428D947E", "EVD-B8786FA90B6CDCB3", "EVD-0CC76FEDCFD90652"],
+      "impact": ["seo", "technical"],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review public structured data against the stated Organization, Product, and FAQPage requirement for the corresponding page types; validate any proposed markup against visible page facts.",
+      "unknowns": ["Other structured-data syntaxes may exist outside the JSON-LD collector result.", "Coverage is limited to sampled URLs; other homepage/product templates may differ.", "No conclusion about AI-engine citation or visibility follows from this result."],
+      "rubric": [
+        {"item": "Organization/Product/FAQ structured data", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital"], "scope": "page instance", "detail": "Zero valid and zero invalid JSON-LD records in the collector output for these sampled pages. Checklist reference REQ-010-01."},
+        {"item": "Article structured data", "status": "OBSERVED", "urls": ["https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"], "scope": "page instance", "detail": "The evidence artifacts contain valid BlogPosting entities with headline, author, publisher, and publication/modification dates."}
+      ]
+    },
+    {
+      "finding_id": "GEO-AEO-002",
+      "title": "Product page provides question-led, extractable information but no dedicated FAQ heading is evidenced",
+      "area": "answer structure / concise extractable answers",
+      "page": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": ["REQ-007-03", "REQ-007-05"],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The extracted heading list includes direct questions about product effect, eligible users, and use instructions; extracted page text contains short answers, product ingredients, dosage instructions, and a warning that the supplement is not a medicine and does not replace treatment. The heading list has no FAQ/Hỏi đáp heading, and the evidence reviewed does not establish the specific FAQ block and 40–60-word direct-answer format described by REQ-007-05. The evidence supports a page-level opportunity, not a claim that FAQ content is absent everywhere.",
+      "evidence_ids": ["EVD-C4AE99238E385779", "EVD-8B09867D19F1496E", "EVD-927DDAF696B5D339", "EVD-02D7356CC02B574B"],
+      "impact": ["user", "seo"],
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Retain the clear question-led sections and assess adding a clearly labeled FAQ with concise, directly responsive answers, grounded in approved product information and medical review where needed.",
+      "unknowns": ["A full editorial assessment of all body content, answer lengths, references, and medical accuracy is outside this evidence-based finding.", "No assessment of the other product detail pages' FAQ usefulness is implied."],
+      "rubric": [
+        {"item": "Question-answer structure and concise answers", "status": "OBSERVED", "urls": ["https://addp.vn/vien-an-duong-addp.html"], "scope": "page instance", "detail": "Question-form H2s and short answer text are present in the captured extraction."},
+        {"item": "Dedicated FAQ and 40–60-word answer criterion", "status": "UNKNOWN", "urls": ["https://addp.vn/vien-an-duong-addp.html"], "scope": "page instance", "detail": "No dedicated FAQ heading is present in the extracted heading list; complete component and word-count coverage was not established."}
+      ]
+    },
+    {
+      "finding_id": "GEO-AEO-003",
+      "title": "robots.txt is reachable, but AI crawler directives are not explicit in the captured rules",
+      "area": "crawler access",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": ["REQ-011-01"],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538"],
+      "impact": ["seo", "technical"],
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Review intended access policy for each named crawler against the complete robots directives and verify public endpoint behavior for the relevant paths.",
+      "unknowns": ["Crawler behavior and actual crawling are not evidenced.", "No inference about AI-engine visibility or recommendation is supported.", "Robots directives do not prove access through or restriction by other mechanisms."],
+      "rubric": [
+        {"item": "AI crawler access rules", "status": "OBSERVED", "urls": ["https://addp.vn/robots.txt"], "scope": "page instance", "detail": "Endpoint content was collected; the captured directives do not explicitly name the three crawlers listed in REQ-011-01."},
+        {"item": "AI-engine visibility", "status": "UNKNOWN", "urls": ["https://addp.vn/"], "scope": "page instance", "detail": "No direct evidence of AI-engine visibility, citation, or recommendation was collected."}
+      ]
+    },
+    {
+      "finding_id": "GEO-AEO-004",
+      "title": "The sitemap URLs declared or probed in this run returned 404",
+      "area": "discovery and crawler support",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": [],
+      "source": "best_practice",
+      "finding_type": "deterministic",
+      "observation": "The collected robots.txt names https://addp.vn/pub/sitemap.xml, and the run recorded HTTP 404 responses for that URL and https://addp.vn/sitemap.xml. These endpoint responses make the referenced sitemap unavailable at collection time; the audit did not establish whether another sitemap endpoint exists or whether the site's pages are otherwise discoverable.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-B093A16D09E3A37E", "EVD-A57DC932D580B784"],
+      "impact": ["seo", "technical"],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Check the configured sitemap location and publish a reachable sitemap there if that declaration is intended to be authoritative.",
+      "unknowns": ["No crawl/indexing outcome was measured.", "No claim is made that no other sitemap exists."],
+      "rubric": [
+        {"item": "Declared and probed sitemap availability", "status": "OBSERVED", "urls": ["https://addp.vn/pub/sitemap.xml", "https://addp.vn/sitemap.xml"], "scope": "page instance", "detail": "Both endpoints returned 404 in the current run."}
+      ]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "The sampled Viên An Đường page organizes information under direct question headings and includes short answers, ingredients/use details, and a plain-language supplement disclaimer.",
+      "urls": ["https://addp.vn/vien-an-duong-addp.html"],
+      "evidence_ids": ["EVD-C4AE99238E385779", "EVD-8B09867D19F1496E"],
+      "scope": "page instance"
+    },
+    {
+      "observation": "The sampled diabetes articles expose valid BlogPosting JSON-LD with article headline, author, dates, and ADDP publisher identity.",
+      "urls": ["https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"],
+      "evidence_ids": ["EVD-2326A9C7428D947E", "EVD-B8786FA90B6CDCB3", "EVD-0CC76FEDCFD90652"],
+      "scope": "page instance"
+    }
+  ],
+  "rubric": [
+    {"item": "Entity and company identity", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"], "scope": "page instance", "detail": "Homepage title identifies ADDP as Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP; article JSON-LD publisher is Công ty TNHH Dược phẩm ADDP."},
+    {"item": "Question-answer structure and extractable answers", "status": "OBSERVED", "urls": ["https://addp.vn/vien-an-duong-addp.html"], "scope": "page instance", "detail": "Question headings and concise answers appear in the extraction."},
+    {"item": "FAQ usefulness and FAQ structured data", "status": "UNKNOWN", "urls": ["https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/"], "scope": "page instance", "detail": "A useful dedicated FAQ block is not established by captured headings; no JSON-LD was detected on sampled product/homepage pages."},
+    {"item": "Semantic headings", "status": "OBSERVED", "urls": ["https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital"], "scope": "page instance", "detail": "The captured heading hierarchies include question-form headings on Viên An Đường and descriptive section headings on the Dovital landing page."},
+    {"item": "Definitions, comparisons, explanations, sourceability, research support, and citation-ready passages", "status": "UNKNOWN", "urls": ["https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"], "scope": "page instance", "detail": "The run captures selected headings and metadata but does not provide a complete expert assessment of source quality, supporting references, fact consistency, or citation suitability."},
+    {"item": "Author and entity trust signals", "status": "OBSERVED", "urls": ["https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"], "scope": "page instance", "detail": "Article JSON-LD supplies a named author field, ADDP publisher, and publication/modification dates; author name is rendered as admin admin in the sampled markup."},
+    {"item": "Fact consistency and research support", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/vien-an-duong-addp.html"], "scope": "page instance", "detail": "No exhaustive cross-page fact comparison or independent validation was performed."},
+    {"item": "Crawler access", "status": "OBSERVED", "urls": ["https://addp.vn/robots.txt", "https://addp.vn/pub/sitemap.xml", "https://addp.vn/sitemap.xml"], "scope": "page instance", "detail": "robots.txt was reachable (200); both collected sitemap URLs returned 404. Named crawler behavior is not established."},
+    {"item": "Structured data as one component", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong"], "scope": "page instance", "detail": "No JSON-LD detected on sampled homepage/product pages; valid BlogPosting JSON-LD detected on sampled article pages."},
+    {"item": "AI-engine visibility", "status": "UNKNOWN", "urls": ["https://addp.vn/"], "scope": "page instance", "detail": "No direct evidence in current-run artifacts; no visibility score or citation behavior inferred."}
+  ],
+  "coverage_and_limits": {
+    "run_collection_status": "partial",
+    "collected_pages": 16,
+    "usable_pages": 25,
+    "partial_pages": 9,
+    "discovered_pages": 277,
+    "effective_model": "unverified",
+    "scope_note": "Current-run public/external artifacts only. Findings are limited to named page instances unless a reviewer-provided pattern_key supports a pattern; no pattern_key was provided or used.",
+    "explicit_unknowns": ["AI-engine visibility and citation behavior", "Private crawler treatment and actual crawl outcomes", "Sitewide generalization beyond collected page instances", "Independent medical truth or credential validation", "Complete sourceability/research-reference review", "Alternative sitemap endpoint availability"]
+  }
+}

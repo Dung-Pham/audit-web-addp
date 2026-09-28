@@ -1,0 +1,106 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "commerce-checkout",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "source_scope": [
+      "manifest.json",
+      "inventory/pages.json",
+      "evidence/index.json and referenced current-run public page captures",
+      "checklist.normalized.json",
+      "analyses/personas/journeys.json"
+    ],
+    "notes": [
+      "Read-only review of this run only. No browsing, recollection, cart mutation, form submission, account creation, or order attempt.",
+      "Collection is partial: 25 usable pages, 16 complete and 9 partial; persona journeys are partial. Findings are limited to directly captured evidence."
+    ]
+  },
+  "candidates": [],
+  "keep_protect": [
+    {
+      "observation": "The collected Glucare product detail exposes a unit price of 9,000 VND, a quantity control initially set to 1, an add-to-cart control, and a Buy Now control. The product form is present in the captured public page; its submission was not performed.",
+      "urls": ["https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"],
+      "evidence_ids": ["EVD-F71EC5745F2AF71B", "EVD-048ED34D4760A669"],
+      "scope": "page instance"
+    },
+    {
+      "observation": "The high-intent and mobile journeys each reach the Glucare landing page through a verified visible homepage link. Both stop before any cart or checkout mutation.",
+      "urls": ["https://addp.vn/", "https://addp.vn/sua-hat-glucare-plus"],
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"],
+      "scope": "page instances in two recorded journeys"
+    },
+    {
+      "observation": "A public order-policy route is linked and reached from the research journey.",
+      "urls": ["https://addp.vn/chinh-sach-dat-hang"],
+      "evidence_ids": ["EVD-F3C54C45BCE8336A-research-2", "EVD-EDC2C4DD0945DE30"],
+      "scope": "page instance"
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Product price, offers, purchase options, quantity, and product-page CTA",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html"],
+      "scope": "page instance",
+      "observation": "The captured product detail shows 9.000,00 ₫ (VND), a quantity input with value 1 and maxAllowed 1, plus Add to Cart and Buy Now submit controls. The evidence does not establish a discounted offer or its business validity.",
+      "evidence_ids": ["EVD-F71EC5745F2AF71B", "EVD-048ED34D4760A669"]
+    },
+    {
+      "item": "Visible route from product to cart",
+      "status": "OBSERVED",
+      "urls": ["https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/sua-hat-glucare-plus"],
+      "scope": "page instances and recorded journeys; no site-pattern claim",
+      "observation": "The product detail capture contains cart-add and Buy Now submit controls. Recorded high-intent and mobile journeys reached /sua-hat-glucare-plus and report no visible safe matching cart route; the journeys intentionally stopped before interacting with purchase controls. No cart was opened or populated.",
+      "evidence_ids": ["EVD-F71EC5745F2AF71B", "EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"]
+    },
+    {
+      "item": "Checkout form simplicity and guest checkout (REQ-016 / REQ-016-01)",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/checkout/cart/", "https://addp.vn/checkout/"],
+      "scope": "journey-level reachability limitation; no checkout page instance captured",
+      "observation": "The high-intent journey could not find a visible safe cart or checkout route from its observed UI, and the mobile journey could not find a visible cart route. The journeys were partial and stopped before mutation, so checkout fields and whether account creation is required remain unobserved. Checklist requirement text is not proof of failure.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"],
+      "source_requirement_ids": ["REQ-016"]
+    },
+    {
+      "item": "Visible payment options, order confirmation, and KiotViet handoff (REQ-017 / REQ-017-01)",
+      "status": "BLOCKED",
+      "urls": ["https://addp.vn/checkout/", "https://addp.vn/chinh-sach-dat-hang"],
+      "scope": "checkout page instance not captured; order-policy page is a separate captured instance",
+      "observation": "No checkout page or success state was reached. The order-policy route was reached, but available captured evidence does not establish COD, bank transfer, an order confirmation, or KiotViet integration. Payment execution, order completion, and downstream handoff are unknown.",
+      "evidence_ids": ["EVD-F3C54C45BCE8336A-research-2", "EVD-EDC2C4DD0945DE30", "EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"],
+      "source_requirement_ids": ["REQ-017"]
+    },
+    {
+      "item": "Shipping and delivery information",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan", "https://addp.vn/checkout/"],
+      "scope": "no captured shipping-policy or checkout page instance in the permitted inspected evidence",
+      "observation": "The inventory/discovery shows a shipping-policy route, but the recorded journeys and inspected evidence do not establish its terms, shipping charges, delivery timing, or checkout shipping choices.",
+      "evidence_ids": ["EVD-F3C54C45BCE8336A-research-2"]
+    },
+    {
+      "item": "Cart totals, stock validation, payment processing, fulfillment, and completed checkout",
+      "status": "UNKNOWN",
+      "urls": ["https://addp.vn/checkout/cart/", "https://addp.vn/checkout/"],
+      "scope": "no cart or checkout page instance captured; transaction was not attempted",
+      "observation": "No cart mutation or transaction occurred. Captures cannot establish cart calculations, stock synchronization, payment processing, fulfillment, or successful checkout.",
+      "evidence_ids": ["EVD-D117A7EAEA699CAA-high_intent-1", "EVD-574F286DC706B28A-mobile-1"]
+    }
+  ],
+  "coverage": {
+    "safe_stopping_point": "Glucare landing page via recorded visible navigation; separate captured Glucare catalog detail exposes cart/buy controls but no control was activated.",
+    "safety_blockers": [
+      "Run safety settings disable cart mutation, orders, payments, and account creation.",
+      "Persona journeys explicitly stopped before cart or checkout mutation.",
+      "High-intent/mobile journeys did not observe a safe visible cart/checkout path from their reached landing page."
+    ],
+    "unknowns": [
+      "No checkout form inspection or guest order validation.",
+      "No actual payment methods, confirmation, or KiotViet handoff verified.",
+      "No shipping terms or delivery estimate verified.",
+      "No inventory sync, payment, fulfillment, or completed-order facts available."
+    ]
+  }
+}

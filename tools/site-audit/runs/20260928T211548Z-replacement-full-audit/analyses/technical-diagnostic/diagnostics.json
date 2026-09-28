@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "FND-TECHNICAL-SEO-SEO-001",
+    "observed_problem": "robots.txt advertises https://addp.vn/pub/sitemap.xml, and that URL returned HTTP 404 in this run. The alternate tested URL https://addp.vn/sitemap.xml also returned HTTP 404.",
+    "confirmed_external_facts": [
+      "https://addp.vn/robots.txt returned HTTP 200 and its captured contents include 'Sitemap: https://addp.vn/pub/sitemap.xml'. Evidence: EVD-C51AC48D3DB98538.",
+      "https://addp.vn/pub/sitemap.xml returned HTTP 404. Evidence: EVD-B093A16D09E3A37E.",
+      "https://addp.vn/sitemap.xml returned HTTP 404. Evidence: EVD-A57DC932D580B784."
+    ],
+    "probable_technical_causes": [
+      "The advertised sitemap may be missing from the configured path, or the route may be misconfigured; this remains a hypothesis."
+    ],
+    "developer_investigation": [
+      "Verify the intended public sitemap endpoint and its response status and XML content from an external client.",
+      "Check that the robots.txt Sitemap directive points to the verified endpoint."
+    ],
+    "implementation_area": [
+      "Server response"
+    ],
+    "confidence": 0.85,
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ]
+  }
+]

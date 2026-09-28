@@ -1,0 +1,163 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "specialist": "content",
+  "provenance": {
+    "requested_model": "gpt-5.6-sol",
+    "effective_model": "unverified",
+    "sources": [
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/manifest.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/inventory/pages.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/evidence/index.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/checklist.normalized.json",
+      "tools/site-audit/runs/20260928T211548Z-replacement-full-audit/analyses/personas/journeys.json",
+      "captured artifacts referenced by the current-run evidence index"
+    ],
+    "coverage_note": "Reviewed captured homepage, three product detail URLs, the sampled product/category routes, and three article samples. Collection marked nine of 25 pages partial; all three selected article detail pages and the diabetes article category are partial. Persona journeys are partial or interrupted and cover only limited visible paths. Findings and rubric assessments are limited to evidence available in this run."
+  },
+  "candidates": [
+    {
+      "finding_id": "CONTENT-001",
+      "title": "Glucare Plus detail page exposes placeholder copy in product tabs",
+      "area": "product content",
+      "page": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-007"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes.",
+      "evidence_ids": [
+        "EVD-C07AE1B67F5FAB1D"
+      ],
+      "impact": "user",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Replace the generic tab labels and placeholder text with verified, product-specific information, or remove the empty tabs. Have any health-related claims reviewed by an appropriately qualified expert before publication.",
+      "unknowns": [
+        "Whether the tab content is identical on other product pages was not established by this evidence.",
+        "No product formulation, efficacy, or medical claims were independently validated."
+      ]
+    }
+  ],
+  "keep_protect": [
+    {
+      "observation": "The homepage presents the heading “Minh Bạch & Tận Tâm” and a short introduction to ADDP product lines, with a visible route labeled “Khám Phá Các Dòng Sản Phẩm ADDP.” Preserve this concise brand and product-discovery entry point when revising homepage copy.",
+      "url": "https://addp.vn/",
+      "scope": "page instance",
+      "evidence_ids": [
+        "EVD-A606C27223349F8A"
+      ]
+    },
+    {
+      "observation": "The homepage journey recorded successful visible navigation from the homepage to the company introduction page, supporting the presence of a usable company-information route in that observed desktop session.",
+      "url": "https://addp.vn/",
+      "scope": "page instance and recorded journey",
+      "evidence_ids": [
+        "EVD-571CE21693716D24-first_time-0",
+        "EVD-5E169EB798A7CE3C-first_time-1"
+      ]
+    }
+  ],
+  "rubric": [
+    {
+      "item": "Homepage clarity, answer coverage, structure, and CTA content",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/"
+      ],
+      "scope": "page instance",
+      "assessment": "The captured homepage has a concise brand statement, introduces product lines, and exposes a product-discovery route. This is a limited first-page content observation; it does not establish that all checklist homepage sections or information needs are covered.",
+      "evidence_ids": [
+        "EVD-A606C27223349F8A"
+      ]
+    },
+    {
+      "item": "Product detail clarity, benefits, ingredients, support information, and calls to action",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "page instance for each listed URL; no site-wide pattern asserted",
+      "assessment": "The Glucare Plus detail page contains generic placeholder tab labels and Lorem ipsum copy (candidate CONTENT-001). The Viên An Đường title presents a benefit claim, and the Dovital landing-style detail includes a purchase CTA and product-line copy. The captures do not establish the accuracy or completeness of product benefits, ingredients, or support information; no medical truth assessment is made.",
+      "evidence_ids": [
+        "EVD-C07AE1B67F5FAB1D",
+        "EVD-AD18B204CB25AAFE",
+        "EVD-5636E0D9D1AB2605"
+      ]
+    },
+    {
+      "item": "Product landing page content and checklist fit",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/sui-dovital"
+      ],
+      "scope": "page instance",
+      "assessment": "Inventory classifies these captured routes as product_detail, not product_landing. The recorded journey reaches the Glucare route but is partial, and no dedicated product_landing page instance is identified in the selected inventory. The requested three-tier landing-page structure therefore cannot be assessed as a landing-page rubric from these artifacts.",
+      "evidence_ids": [
+        "EVD-689120860F2FACA2",
+        "EVD-5636E0D9D1AB2605",
+        "EVD-D117A7EAEA699CAA-high_intent-1"
+      ]
+    },
+    {
+      "item": "Article titles and captured article answer structure",
+      "status": "OBSERVED",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page instance for each listed URL",
+      "assessment": "Captured page titles are respectively “Làm cách nào để chẩn đoán bệnh đái tháo đường?”, “Đái tháo đường do viêm tụy mạn có đặc điểm gì? có nguy hiểm không?”, and “Đái tháo đường là bệnh gì? - Và những điều cần biết”. Rendered SEO artifacts report 14, 7, and 36 headings respectively. These counts/titles do not establish that article answers are complete, accurate, or well-structured for readers; all three selected article detail captures are marked partial.",
+      "evidence_ids": [
+        "EVD-AD2CB18B0ADA3AC2",
+        "EVD-01E8B99B0727F6CF",
+        "EVD-1EE8A8E7411A08A2",
+        "EVD-0B2AF41DEADA909B",
+        "EVD-4FDC277E11D55DA4",
+        "EVD-917BFE774CA2C681"
+      ]
+    },
+    {
+      "item": "Article author and credentials, publication/update dates, references and authoritative outbound links, reviewer/entity attribution, internal links, canonical/meta/structured data, commercial linkage, and answer/citation readiness",
+      "status": "BLOCKED",
+      "urls": [
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page instance for each listed URL; no site-wide pattern asserted",
+      "assessment": "Article captures are partial, so the full visible article body and its attribution, date, references, outbound links, internal links, and commercial relationships cannot be reliably audited end to end. Raw SEO artifacts expose canonical URLs and titles; JSON-LD evidence reports one valid item and zero invalid items per sampled page, but the available summary does not identify the item type or demonstrate article-level citation readiness. Treat author/credentials, reviewer/entity attribution, publication/update dates, authoritative references, article-to-product linkage, and completeness of metadata as unknown rather than absent.",
+      "evidence_ids": [
+        "EVD-29BE01E2DF43FC8F",
+        "EVD-7AFC281EC7B96578",
+        "EVD-2326A9C7428D947E",
+        "EVD-8C596D4F7D8F3EBF",
+        "EVD-646013F783E7CBC1",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-11CB9891813824E1",
+        "EVD-3D87D8864C6A65DE",
+        "EVD-0CC76FEDCFD90652"
+      ]
+    },
+    {
+      "item": "Consistency of content across sampled product and article page types",
+      "status": "UNKNOWN",
+      "urls": [
+        "https://addp.vn/",
+        "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+        "https://addp.vn/vien-an-duong-addp.html",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+        "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+        "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+      ],
+      "scope": "page instances only; pattern not established",
+      "assessment": "The evidence supports one placeholder-copy finding on the Glucare Plus detail page. Other sampled page evidence does not establish the same issue across a shared template, and partial article coverage prevents a reliable site-pattern conclusion. No reviewer-provided pattern_key is present in the cited inputs."
+    }
+  ]
+}

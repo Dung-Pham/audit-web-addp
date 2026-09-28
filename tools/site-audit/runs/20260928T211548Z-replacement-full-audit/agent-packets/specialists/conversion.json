@@ -1,0 +1,15 @@
+{
+  "role": "conversion",
+  "stage": "specialists",
+  "runDir": "D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\runs\\20260928T211548Z-replacement-full-audit",
+  "allowed_inputs": [
+    "inventory/pages.json",
+    "evidence/index.json",
+    "checklist.normalized.json"
+  ],
+  "forbidden_inputs": [
+    "other specialists conclusions"
+  ],
+  "output": "analyses/specialists/conversion.json",
+  "instructions": "Use raw evidence only. Submit candidate findings with evidence IDs, source requirement references, observation vs inference, limitations and status. Do not claim source-level causes. No production side effects. No invented journey clicks or measurements."
+}

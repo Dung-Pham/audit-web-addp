@@ -1,0 +1,12 @@
+{
+  "20260928T161550Z-full-audit": {
+    "status": "PRE_ANALYSIS_COVERAGE_FAILED",
+    "disposition": "immutable_regression_evidence_not_final_audit",
+    "reason_codes": [
+      "CURRENT_RUN_PRE_ANALYSIS_COVERAGE_GAP",
+      "MANDATORY_PRODUCT_SELECTION_GAP",
+      "ARTICLE_SELECTION_GAP"
+    ],
+    "rule": "Do not resume agent, review, planner, or report stages from this run. Do not alter its artifacts or inject URLs into its selection."
+  }
+}

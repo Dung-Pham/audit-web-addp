@@ -82,36 +82,52 @@ function matchesFilter(url, filters = []) {
   });
 }
 
-const canonicalProducts = [
-  { id: 'glucare', match: /glucare/i },
-  { id: 'vien_an_duong', match: /vien[\s_-]?an[\s_-]?duong/i },
-  { id: 'dovital', match: /dovital/i }
-];
 const routeKey = candidate => {
   const raw = candidate.canonical || candidate.final_url || candidate.url;
   const url = new URL(raw); url.hash = ''; url.search = ''; url.pathname = url.pathname.replace(/\/+$/, '') || '/';
   return url.href;
 };
 const candidateText = candidate => decodeURIComponent(`${candidate.url} ${candidate.canonical || ''}`).toLowerCase();
-const isArticleDetail = candidate => candidate.page_type === 'article' && /\/(?:blog|news|tin-tuc|kien-thuc)\/[^/]+/i.test(new URL(candidate.url).pathname);
+const isArticleDetail = candidate => candidate.page_type === 'article' && /\/blog\/post\/[^/]+/i.test(new URL(candidate.url).pathname);
 const preference = candidate => /(?:combo|mua-\d|tang-\d|khuyen-mai|promotion)/i.test(candidate.url) ? 1 : 0;
+const productMatch = (candidate, product) => (product.aliases || []).some(alias => candidateText(candidate).includes(alias.toLowerCase()));
+const productRank = (candidate, product) => {
+  const pathname = new URL(candidate.url).pathname.replace(/^\//, '').toLowerCase();
+  const canonical = (product.canonical_paths || []).some(value => pathname === String(value).toLowerCase()) ? 0 : 1;
+  return [canonical, preference(candidate), candidate.url];
+};
 
 /** Deterministic bounded selection: coverage reservations first, ranking second. */
-export function selectCandidates(successful, { maxPages = 25, representativeSampling = true } = {}) {
-  const sorted = [...successful].sort((a, b) => b.priority - a.priority || a.depth - b.depth || a.url.localeCompare(b.url));
+export function selectCandidates(candidates, { maxPages = 25, representativeSampling = true, mandatoryCoverage = null } = {}) {
+  // Discovery has already applied same-origin, robots and read-only checks.
+  // A not-yet-fetched candidate can fill a mandatory reservation, which then
+  // causes bounded collection to fetch it. Representative sampling remains
+  // limited to confirmed HTML responses so a failed target cannot be silently
+  // replaced with arbitrary, un-fetched sitemap URLs.
+  const reservable = candidates.filter(candidate => !candidate.error && (!candidate.http_status || (candidate.http_status >= 200 && candidate.http_status < 400 && /html/i.test(candidate.content_type || 'text/html'))));
+  const confirmed = reservable.filter(candidate => candidate.http_status >= 200 && candidate.http_status < 400 && /html/i.test(candidate.content_type || ''));
+  const rank = (a, b) => b.priority - a.priority || a.depth - b.depth || a.url.localeCompare(b.url);
+  const sorted = [...confirmed].sort(rank);
+  const mandatory = [...reservable].sort(rank);
   const selected = [], reasons = new Map(), seenRoutes = new Set();
+  if (!confirmed.length) return { selected, reasons, route_keys: [] };
   const add = (candidate, reason) => {
     if (!candidate || selected.length >= maxPages || seenRoutes.has(routeKey(candidate))) return false;
     selected.push(candidate); reasons.set(candidate.url, reason); seenRoutes.add(routeKey(candidate)); return true;
   };
+  // Homepage is mandatory only when discovery confirmed an HTML homepage.
+  // Unlike configured product identities it is not a safe reservation target
+  // inferred from an un-fetched sitemap entry.
   add(sorted.find(c => c.page_type === 'homepage'), 'mandatory_homepage');
-  for (const product of canonicalProducts) {
-    const match = sorted.filter(c => c.page_type === 'product_detail' && product.match.test(candidateText(c))).sort((a, b) => preference(a) - preference(b) || a.url.localeCompare(b.url));
+  for (const product of mandatoryCoverage?.canonicalProducts || []) {
+    const match = mandatory.filter(c => c.page_type === 'product_detail' && productMatch(c, product)).sort((a, b) => productRank(a, product).join('|').localeCompare(productRank(b, product).join('|')));
     add(match[0], `mandatory_product_${product.id}`);
   }
   // Reserve a compact, diverse evidence sample before generic pages take the cap.
-  for (const candidate of sorted.filter(isArticleDetail).slice(0, 3)) add(candidate, 'mandatory_article_sample');
-  for (const candidate of sorted.filter(c => ['company/about', 'contact', 'policy'].includes(c.page_type))) add(candidate, 'mandatory_policy');
+  if (mandatoryCoverage) {
+    for (const candidate of mandatory.filter(isArticleDetail).slice(0, Math.max(1, Math.min(3, Number(mandatoryCoverage.articleDetailMinimum ?? 3))))) add(candidate, 'mandatory_article_sample');
+    for (const candidate of mandatory.filter(c => ['company/about', 'contact', 'policy'].includes(c.page_type))) add(candidate, 'mandatory_policy');
+  }
   if (representativeSampling) {
     const types = new Set(selected.map(c => c.page_type));
     for (const candidate of sorted) if (!types.has(candidate.page_type) && add(candidate, 'representative_priority')) types.add(candidate.page_type);
@@ -279,8 +295,7 @@ export async function discover({ target, runDir, config = {} }) {
     } catch (error) { candidate.error = error.message; blocked.push({ url: candidate.url, reason: error.message }); }
     if (fetched % 5 === 0) await atomicJson(discoveryPath, { target: root, complete: false, robots: { url: robotsUrl, status: robotsStatus, text: robotsText, artifact: robotsArtifact, rules: robots.rules, crawlDelayMs: robots.crawlDelayMs }, sitemap, blocked, candidates: [...candidates.values()], fetched, config: { maxPages, maxDepth, key: configKey } });
   }
-  const successful = [...candidates.values()].filter(c => c.http_status >= 200 && c.http_status < 400 && /html/i.test(c.content_type ?? ''));
-  const selection = selectCandidates(successful, { maxPages, representativeSampling: config.representativeSampling !== false });
+  const selection = selectCandidates([...candidates.values()], { maxPages, representativeSampling: config.representativeSampling !== false, mandatoryCoverage: config.mandatoryCoverage });
   const selected = selection.selected;
   const priorPages = await json(pagesPath, []);
   const priorByUrl = new Map(priorPages.map(p => [p.url, p]));

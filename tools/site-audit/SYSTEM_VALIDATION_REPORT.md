@@ -2,7 +2,7 @@
 
 Status: READY_WITH_LIMITATIONS
 
-Revalidated 2026-09-28T16:11:21.578Z by deterministic local fixture tests only. The complete TAP suite passed 55/55; see `runtime/test-results-phase2b-final.txt`. This freeze covers render-stabilized-v3.3 semantics, read-only mutation guards, Phase 2B coverage/final-consistency gates, evidence-only remediation planning, separate transformation planning, and bounded smoke CLI input isolation.
+Revalidated 2026-09-28T21:12:11.158Z by deterministic local fixture tests only. The complete TAP suite passed 58/58; see `runtime/test-results-selection-fix-full.txt`. This freeze covers render-stabilized-v3.3 semantics, read-only mutation guards, Phase 2B coverage/final-consistency gates, evidence-only remediation planning, separate transformation planning, and bounded smoke CLI input isolation.
 
 | Gate | Result | Evidence |
 | --- | --- | --- |

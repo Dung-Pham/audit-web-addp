@@ -1,0 +1,9 @@
+{
+  "gtm_script_urls": [],
+  "ga4_request_urls": [],
+  "meta_pixel_request_urls": [],
+  "ads_request_urls": [],
+  "data_layer_present": false,
+  "data_layer_event_names": [],
+  "limitation": "Telemetry was blocked because these requests would be induced by the audit browser"
+}

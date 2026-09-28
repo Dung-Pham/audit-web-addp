@@ -1,0 +1,34 @@
+[
+  {
+    "valid": true,
+    "data": {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "@id": "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "author": {
+        "@type": "Person",
+        "name": "admin admin",
+        "url": "https://addp.vn/blog/author/admin-admin"
+      },
+      "headline": "Đái tháo đường do viêm tụy mạn có đặc điểm gì? có nguy hiểm không?",
+      "description": "Đái tháo đường do nguyên nhân viêm tụy mạn (còn gọi là đái tháo đường type 3c) là một dạng bệnh lý phức tạp, đặc trưng bởi sự suy giảm chức năng của tụy do viêm mạn tính, dẫn đến rối loạn chuyển hóa đ",
+      "datePublished": "2025-08-28T00:00:00+00:00",
+      "dateModified": "2026-09-15T08:29:38+00:00",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://addp.vn/media/magefan_blog/75a6e4da-b320-422f-aab9-04875279852f.jpg",
+        "width": 720,
+        "height": 720
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Công ty TNHH Dược phẩm ADDP",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/logo.svg"
+        }
+      },
+      "mainEntityOfPage": "https://addp.vn/blog"
+    }
+  }
+]

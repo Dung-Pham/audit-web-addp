@@ -1,0 +1,692 @@
+[
+  {
+    "requirement_id": "REQ-001",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "verification_methods": [
+      "visual review",
+      "computed colors"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-001-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-001-02",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-001-03",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-002",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "computed typography at mobile viewport"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-002-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-003",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "verification_methods": [
+      "named-product image inspection",
+      "visual review"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-003-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-003-02",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-004",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "verification_methods": [
+      "first viewport visual review"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-004-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-005",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "CTA size/style inspection"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-005-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-006",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "verification_methods": [
+      "mission/product links/social proof content review"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-006-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-006-02",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-006-03",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-007",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [
+      "EVD-C07AE1B67F5FAB1D"
+    ],
+    "affected_urls": [
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "verification_methods": [
+      "PDP table/bullet/FAQ/review/offer inspection"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-007-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-02",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-03",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-04",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-05",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": [
+          "EVD-C07AE1B67F5FAB1D"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-008",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [],
+    "verification_methods": [
+      "three-tier landing review for each named product"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-008-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-008-02",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-008-03",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-009",
+    "status": "PARTIAL",
+    "observation": "Captured product health claims and article content are present in the run artifacts, but E-E-A-T, medical accuracy, sourcing, and the required editorial structure need qualified review; no factual failure is inferred.",
+    "evidence_ids": [
+      "EVD-42AE297DAC33A1B9",
+      "EVD-29BE01E2DF43FC8F"
+    ],
+    "affected_urls": [
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+    ],
+    "verification_methods": [
+      "question headings/40-60 word answers/table/bullet/attribution review"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-009-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-29BE01E2DF43FC8F"
+        ]
+      },
+      {
+        "clause_id": "REQ-009-02",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-29BE01E2DF43FC8F"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-010",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-01FF964BE2B7A2AA",
+      "EVD-B1630958C79BC01D",
+      "EVD-02D7356CC02B574B",
+      "EVD-BDF90743647332F7",
+      "EVD-E32F848C405D32E0",
+      "EVD-EDDAD1FAFA69798C",
+      "EVD-F71EC5745F2AF71B"
+    ],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "verification_methods": [
+      "parse JSON-LD",
+      "compare structured data with visible content"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-010-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-32CB6452441EDF9E",
+          "EVD-C16C9A26189A6C8E",
+          "EVD-01FF964BE2B7A2AA",
+          "EVD-B1630958C79BC01D",
+          "EVD-02D7356CC02B574B",
+          "EVD-BDF90743647332F7",
+          "EVD-E32F848C405D32E0",
+          "EVD-EDDAD1FAFA69798C",
+          "EVD-F71EC5745F2AF71B"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-011",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E"
+    ],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "robots user-agent rule analysis"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-011-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538",
+          "EVD-B093A16D09E3A37E"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-012",
+    "status": "UNKNOWN",
+    "observation": "Insufficient run evidence to determine whether the requirement is met; partial capture is not evidence of failure.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "compare raw server HTML and rendered content"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-012-01",
+        "status": "UNKNOWN",
+        "observation": "Evidence does not establish this clause across its scope; non-observation is not treated as failure.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-013",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [
+      "EVD-85956D06B433ABCA",
+      "EVD-3D15DCDB359887BF",
+      "EVD-035E196C34BF6621",
+      "EVD-D2E949A54A61C783",
+      "EVD-140275788B638B2B",
+      "EVD-EEE8678F6CB7996C",
+      "EVD-1043761274B05EFF",
+      "EVD-381F4D853D891DF0",
+      "EVD-9B3746A447795E5D"
+    ],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "mobile LAB measurement",
+      "PSI if available",
+      "overflow/image inspection"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-013-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-85956D06B433ABCA",
+          "EVD-3D15DCDB359887BF",
+          "EVD-035E196C34BF6621",
+          "EVD-D2E949A54A61C783",
+          "EVD-140275788B638B2B",
+          "EVD-EEE8678F6CB7996C",
+          "EVD-1043761274B05EFF",
+          "EVD-381F4D853D891DF0",
+          "EVD-9B3746A447795E5D"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-014",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "public script/network/dataLayer inspection",
+      "manual successful-order event check"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-014-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": []
+      },
+      {
+        "clause_id": "REQ-014-02",
+        "status": "BLOCKED",
+        "observation": "Recorded journeys stopped before cart/checkout or success verification; no transaction was performed.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-015",
+    "status": "PARTIAL",
+    "observation": "Evidence supports only the listed observations; remaining methods/scope are unverified.",
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784",
+      "EVD-CD4C67022008E5BB",
+      "EVD-325C6659444AD546",
+      "EVD-927DDAF696B5D339"
+    ],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "https://addp.vn/chinh-sach-thanh-toan",
+      "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "https://addp.vn/contact",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/benh-ly",
+      "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "https://addp.vn/catalogsearch/advanced/",
+      "https://addp.vn/sua-dinh-duong.html",
+      "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/thiet-bi-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "https://addp.vn/thiet-bi-y-te/khau-trang.html"
+    ],
+    "verification_methods": [
+      "HTTPS request",
+      "robots/sitemap parse",
+      "public title/meta extraction",
+      "manual backend configurability check"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-015-01",
+        "status": "PARTIAL",
+        "observation": "Evidence gives partial coverage only; unresolved methods and scope are not inferred.",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538",
+          "EVD-B093A16D09E3A37E",
+          "EVD-A57DC932D580B784",
+          "EVD-CD4C67022008E5BB",
+          "EVD-325C6659444AD546",
+          "EVD-927DDAF696B5D339"
+        ]
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-016",
+    "status": "BLOCKED",
+    "observation": "Checkout or success state was not reached safely in recorded partial journeys; no failure is inferred.",
+    "evidence_ids": [],
+    "affected_urls": [],
+    "verification_methods": [
+      "read-only checkout form inspection",
+      "manual guest order validation"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-016-01",
+        "status": "BLOCKED",
+        "observation": "Recorded journeys stopped before cart/checkout or success verification; no transaction was performed.",
+        "evidence_ids": []
+      }
+    ]
+  },
+  {
+    "requirement_id": "REQ-017",
+    "status": "BLOCKED",
+    "observation": "Checkout or success state was not reached safely in recorded partial journeys; no failure is inferred.",
+    "evidence_ids": [],
+    "affected_urls": [],
+    "verification_methods": [
+      "read-only visible payment options",
+      "manual success/KiotViet integration test"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-017-01",
+        "status": "BLOCKED",
+        "observation": "Recorded journeys stopped before cart/checkout or success verification; no transaction was performed.",
+        "evidence_ids": []
+      }
+    ]
+  }
+]

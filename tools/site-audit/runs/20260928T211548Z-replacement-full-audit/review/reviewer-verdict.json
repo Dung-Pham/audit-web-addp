@@ -1,0 +1,280 @@
+{
+  "status": "complete",
+  "reviewer_id": "codex-evidence-reviewer-20260929",
+  "reviewed_candidates": 19,
+  "method": "Candidate-by-candidate validation against this run evidence index/artifacts, normalized requirements, page inventory, and recorded journeys.",
+  "accepted": 15,
+  "rejected": 1,
+  "needs_manual_review": 3,
+  "blocked": 0,
+  "candidate_reviews": [
+    {
+      "finding_id": "FND-ANALYTICS-analytics-public-signals-not-observed-sample",
+      "origin_finding_id": "analytics-public-signals-not-observed-sample",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-DBF33A19881A487E",
+        "EVD-04B228A36544C865",
+        "EVD-5E1FDAFD6E0F3BD0",
+        "EVD-2A0768485D1F0097",
+        "EVD-820A852713ADC090",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-0B566D85DC39FA02",
+        "EVD-AEA3DB2C2D2E0F53"
+      ]
+    },
+    {
+      "finding_id": "FND-BRAND-BRAND-20260928-001",
+      "origin_finding_id": "BRAND-20260928-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-AD18B204CB25AAFE",
+        "EVD-927DDAF696B5D339"
+      ]
+    },
+    {
+      "finding_id": "FND-CONTENT-CONTENT-001",
+      "origin_finding_id": "CONTENT-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C07AE1B67F5FAB1D"
+      ]
+    },
+    {
+      "finding_id": "FND-CONVERSION-CONV-001",
+      "origin_finding_id": "CONV-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Full-page screenshot visibly shows a Glucare Plus item at 9,000 ₫ and a distinct entry at 0 ₫, plus a separate paid sample offer; it does not establish whether zero is intentional."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-DF63C483FC434445",
+        "EVD-EA78205F3017C505"
+      ]
+    },
+    {
+      "finding_id": "FND-EXTERNAL-TECHNICAL-DIAGNOSTIC-technical-advertised-sitemap-returns-404",
+      "origin_finding_id": "technical-advertised-sitemap-returns-404",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "robots.txt declares /pub/sitemap.xml and indexed HTTP records show /pub/sitemap.xml and /sitemap.xml returned 404 during collection."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ]
+    },
+    {
+      "finding_id": "FND-GEO-AEO-GEO-AEO-001",
+      "origin_finding_id": "GEO-AEO-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-02D7356CC02B574B",
+        "EVD-E32F848C405D32E0",
+        "EVD-2326A9C7428D947E",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-0CC76FEDCFD90652"
+      ]
+    },
+    {
+      "finding_id": "FND-GEO-AEO-GEO-AEO-002",
+      "origin_finding_id": "GEO-AEO-002",
+      "status": "needs_manual_review",
+      "reason": "Evidence supports question-led headings, but requirement fulfillment and answer-length/editorial assessment need manual content review; do not infer failure from an unestablished FAQ block.",
+      "supported_facts": [
+        "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C4AE99238E385779",
+        "EVD-8B09867D19F1496E",
+        "EVD-927DDAF696B5D339",
+        "EVD-02D7356CC02B574B"
+      ]
+    },
+    {
+      "finding_id": "FND-GEO-AEO-GEO-AEO-003",
+      "origin_finding_id": "GEO-AEO-003",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538"
+      ]
+    },
+    {
+      "finding_id": "FND-GEO-AEO-GEO-AEO-004",
+      "origin_finding_id": "GEO-AEO-004",
+      "status": "rejected",
+      "reason": "Duplicates the same two 404 endpoints and robots sitemap directive already covered by the more directly checklist-mapped sitemap findings; adds no distinct actionable issue.",
+      "supported_facts": [
+        "Endpoint responses are supported, but the candidate duplicates the retained sitemap finding."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ]
+    },
+    {
+      "finding_id": "FND-HEALTH-CONTENT-HC-001",
+      "origin_finding_id": "HC-001",
+      "status": "needs_manual_review",
+      "reason": "Raw capture supports presence of quoted health claims only; medical truth, substantiation, suitability, and regulatory status require qualified review.",
+      "supported_facts": [
+        "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-42AE297DAC33A1B9"
+      ]
+    },
+    {
+      "finding_id": "FND-HEALTH-CONTENT-HC-002",
+      "origin_finding_id": "HC-002",
+      "status": "needs_manual_review",
+      "reason": "Raw capture supports that diagnostic thresholds and advice occur in the article; accuracy, currency, sourcing, and attribution require qualified clinical/editorial review.",
+      "supported_facts": [
+        "Evidence establishes public wording only and does not establish medical truth or regulatory conclusions."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-29BE01E2DF43FC8F"
+      ]
+    },
+    {
+      "finding_id": "FND-PERFORMANCE-PERF-001",
+      "origin_finding_id": "PERF-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF"
+      ]
+    },
+    {
+      "finding_id": "FND-PERFORMANCE-PERF-002",
+      "origin_finding_id": "PERF-002",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783"
+      ]
+    },
+    {
+      "finding_id": "FND-PERFORMANCE-PERF-003",
+      "origin_finding_id": "PERF-003",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0"
+      ]
+    },
+    {
+      "finding_id": "FND-TECHNICAL-SEO-SEO-001",
+      "origin_finding_id": "SEO-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "robots.txt declares /pub/sitemap.xml and indexed HTTP records show /pub/sitemap.xml and /sitemap.xml returned 404 during collection."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-A57DC932D580B784",
+        "EVD-B093A16D09E3A37E",
+        "EVD-C51AC48D3DB98538"
+      ]
+    },
+    {
+      "finding_id": "FND-TECHNICAL-SEO-SEO-002",
+      "origin_finding_id": "SEO-002",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E"
+      ]
+    },
+    {
+      "finding_id": "FND-TECHNICAL-SEO-SEO-003",
+      "origin_finding_id": "SEO-003",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Observed claim: The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-CD4C67022008E5BB",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339"
+      ]
+    },
+    {
+      "finding_id": "FND-STRUCTURED-DATA-STRUCTURED-DATA-001",
+      "origin_finding_id": "STRUCTURED-DATA-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited JSON-LD records show valid=0/invalid=0 only for sampled page instances; other formats and uncollected URLs remain unknown."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ]
+    },
+    {
+      "finding_id": "FND-UX-UI-UXUI-001",
+      "origin_finding_id": "UXUI-001",
+      "status": "accepted",
+      "reason": "Cited run-local evidence records and artifacts support the observation at its stated URL and scope; unknowns limit broader inference.",
+      "supported_facts": [
+        "Cited LAB records contain the reported metric values; field metrics and PSI scores are unavailable."
+      ],
+      "evidence_ids_reviewed": [
+        "EVD-3D15DCDB359887BF",
+        "EVD-9B3746A447795E5D"
+      ]
+    }
+  ]
+}

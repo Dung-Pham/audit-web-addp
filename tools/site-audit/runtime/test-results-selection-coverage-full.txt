@@ -1,0 +1,444 @@
+TAP version 13
+# Subtest: all 17 business rows and original cell texts preserved, unique stable IDs
+ok 1 - all 17 business rows and original cell texts preserved, unique stable IDs
+  ---
+  duration_ms: 6.4666
+  type: 'test'
+  ...
+# Subtest: all source cells extracted including strategic objectives and headings
+ok 2 - all source cells extracted including strategic objectives and headings
+  ---
+  duration_ms: 1.9442
+  type: 'test'
+  ...
+# Subtest: normalization rejects silent requirement mutation
+ok 3 - normalization rejects silent requirement mutation
+  ---
+  duration_ms: 1.3552
+  type: 'test'
+  ...
+# Subtest: normalization rejects a newly appended unmapped source cell
+ok 4 - normalization rejects a newly appended unmapped source cell
+  ---
+  duration_ms: 0.7255
+  type: 'test'
+  ...
+# Subtest: redirect guard keeps source cookies and authorization away from a second local origin
+ok 5 - redirect guard keeps source cookies and authorization away from a second local origin
+  ---
+  duration_ms: 6069.8271
+  type: 'test'
+  ...
+# Subtest: safety and page classification cover dangerous actions and named products
+ok 6 - safety and page classification cover dangerous actions and named products
+  ---
+  duration_ms: 21.3452
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/6: http://127.0.0.1:58659/
+# [site-audit] 1/6 complete: http://127.0.0.1:58659/ (33 evidence)
+# [site-audit] Collecting 2/6: http://127.0.0.1:58659/product/glucare-plus
+# [site-audit] 2/6 complete: http://127.0.0.1:58659/product/glucare-plus (63 evidence)
+# [site-audit] Collecting 3/6: http://127.0.0.1:58659/product/vien-an-duong
+# [site-audit] 3/6 complete: http://127.0.0.1:58659/product/vien-an-duong (93 evidence)
+# [site-audit] Collecting 4/6: http://127.0.0.1:58659/product/dovital
+# [site-audit] 4/6 complete: http://127.0.0.1:58659/product/dovital (123 evidence)
+# [site-audit] Collecting 5/6: http://127.0.0.1:58659/contact
+# [site-audit] 5/6 complete: http://127.0.0.1:58659/contact (153 evidence)
+# [site-audit] Collecting 6/6: http://127.0.0.1:58659/category
+# [site-audit] 6/6 complete: http://127.0.0.1:58659/category (183 evidence)
+# Subtest: localhost discovery and Chrome collection are read-only, complete, and resumable
+ok 7 - localhost discovery and Chrome collection are read-only, complete, and resumable
+  ---
+  duration_ms: 52015.4646
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:53951/
+# [site-audit] 1/1 complete: http://127.0.0.1:53951/ (19 evidence)
+# Subtest: render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+not ok 8 - render stabilization loads static assets, scrolls real lazy content, handles failures, and captures afterward
+  ---
+  duration_ms: 3802.6552
+  type: 'test'
+  location: 'D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\tests\\collectors.test.mjs:116:1'
+  failureType: 'testCodeFailure'
+  error: '/assets/delayed.css was not loaded'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/PhpstormProjects/addp-analys/tools/site-audit/tests/collectors.test.mjs:134:188)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: render v3.1 reaches long mobile bottom after reserve threshold and separates final stability from history
+ok 9 - render v3.1 reaches long mobile bottom after reserve threshold and separates final stability from history
+  ---
+  duration_ms: 3639.1912
+  type: 'test'
+  ...
+# Subtest: render v3.1 retains unstable-dom evidence for a material final-window mutation
+ok 10 - render v3.1 retains unstable-dom evidence for a material final-window mutation
+  ---
+  duration_ms: 1901.2737
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Robots unavailable: robots.txt status 503
+# Subtest: robots server failure blocks collection with explicit status and no page fetches
+ok 11 - robots server failure blocks collection with explicit status and no page fetches
+  ---
+  duration_ms: 25.0809
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:60367/
+# [site-audit] 1/1 complete: http://127.0.0.1:60367/ (19 evidence)
+# Subtest: Chrome blocks script-initiated cross-origin navigation
+not ok 12 - Chrome blocks script-initiated cross-origin navigation
+  ---
+  duration_ms: 4906.9796
+  type: 'test'
+  location: 'D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\tests\\collectors.test.mjs:283:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(result.blocked.some(x => x.reason === 'cross-origin navigation blocked' && x.audit_induced))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/PhpstormProjects/addp-analys/tools/site-audit/tests/collectors.test.mjs:292:10)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:55737/
+# [site-audit] 1/1 complete: http://127.0.0.1:55737/ (19 evidence)
+# Subtest: context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+not ok 13 - context guard blocks popup POST, unsafe redirect, WebSocket, and command query while allowing safe GET
+  ---
+  duration_ms: 5589.2128
+  type: 'test'
+  location: 'D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\tests\\collectors.test.mjs:297:1'
+  failureType: 'testCodeFailure'
+  error: 'popup fixture must execute'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///D:/PhpstormProjects/addp-analys/tools/site-audit/tests/collectors.test.mjs:307:10)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: direct collectSite API applies production gate before network or files
+ok 14 - direct collectSite API applies production gate before network or files
+  ---
+  duration_ms: 17.8698
+  type: 'test'
+  ...
+# Subtest: raw discovery rejects an unsafe second redirect hop
+not ok 15 - raw discovery rejects an unsafe second redirect hop
+  ---
+  duration_ms: 80.8742
+  type: 'test'
+  location: 'D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\tests\\collectors.test.mjs:340:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///D:/PhpstormProjects/addp-analys/tools/site-audit/tests/collectors.test.mjs:349:10)
+    async Test.run (node:internal/test_runner/test:1054:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: all contract schemas accept their required shapes and reject malformed data
+ok 16 - all contract schemas accept their required shapes and reject malformed data
+  ---
+  duration_ms: 15.1382
+  type: 'test'
+  ...
+# Subtest: evidence validates IDs, artifact existence and containment including symlinks
+ok 17 - evidence validates IDs, artifact existence and containment including symlinks
+  ---
+  duration_ms: 40.5876
+  type: 'test'
+  ...
+# Subtest: review rejects unsupported references, routes subjective claims and persists reasons
+ok 18 - review rejects unsupported references, routes subjective claims and persists reasons
+  ---
+  duration_ms: 799.4287
+  type: 'test'
+  ...
+# Subtest: review cannot accept missing or invalid artifact-backed evidence
+ok 19 - review cannot accept missing or invalid artifact-backed evidence
+  ---
+  duration_ms: 34.705
+  type: 'test'
+  ...
+# Subtest: deduplication retains origins, evidence, requirements and affected URLs
+ok 20 - deduplication retains origins, evidence, requirements and affected URLs
+  ---
+  duration_ms: 2.4435
+  type: 'test'
+  ...
+# Subtest: contradictions stay unresolved and both claims require manual review
+ok 21 - contradictions stay unresolved and both claims require manual review
+  ---
+  duration_ms: 2.0931
+  type: 'test'
+  ...
+# Subtest: backlog enforces accepted traceability and acyclic, existing dependencies
+ok 22 - backlog enforces accepted traceability and acyclic, existing dependencies
+  ---
+  duration_ms: 2.9883
+  type: 'test'
+  ...
+# Subtest: request guard permits read-only navigation and blocks mutation even with permissive config
+ok 23 - request guard permits read-only navigation and blocks mutation even with permissive config
+  ---
+  duration_ms: 7.2264
+  type: 'test'
+  ...
+# Subtest: run creation is exclusive, resume preserves state, and stage writes remain valid
+ok 24 - run creation is exclusive, resume preserves state, and stage writes remain valid
+  ---
+  duration_ms: 30.1331
+  type: 'test'
+  ...
+# Subtest: regression classifies fixed, improved, unchanged, regressed and new
+ok 25 - regression classifies fixed, improved, unchanged, regressed and new
+  ---
+  duration_ms: 1.5778
+  type: 'test'
+  ...
+# Subtest: final consistency catches broken cross-artifact references
+ok 26 - final consistency catches broken cross-artifact references
+  ---
+  duration_ms: 52.3826
+  type: 'test'
+  ...
+# Subtest: final consistency requires each requirement exactly once and forbids false PASS
+ok 27 - final consistency requires each requirement exactly once and forbids false PASS
+  ---
+  duration_ms: 81.3853
+  type: 'test'
+  ...
+# Subtest: final consistency requires every accepted finding in backlog
+ok 28 - final consistency requires every accepted finding in backlog
+  ---
+  duration_ms: 56.8769
+  type: 'test'
+  ...
+# Subtest: final consistency requires explicit read-only flags and zero outcomes
+ok 29 - final consistency requires explicit read-only flags and zero outcomes
+  ---
+  duration_ms: 84.724
+  type: 'test'
+  ...
+# Subtest: final consistency rejects unsupported model and source claims
+ok 30 - final consistency rejects unsupported model and source claims
+  ---
+  duration_ms: 169.8354
+  type: 'test'
+  ...
+# Subtest: final consistency validates external diagnostic semantics
+ok 31 - final consistency validates external diagnostic semantics
+  ---
+  duration_ms: 35.0638
+  type: 'test'
+  ...
+# Subtest: final validation requires populated report, plan and dependency artifacts
+ok 32 - final validation requires populated report, plan and dependency artifacts
+  ---
+  duration_ms: 234.6348
+  type: 'test'
+  ...
+# [site-audit] Collecting 1/1: http://127.0.0.1:57991/
+# [site-audit] 1/1 complete: http://127.0.0.1:57991/ (32 evidence)
+# Subtest: offline browser evidence -> reviewed finding -> planner -> complete report artifacts -> resume
+ok 33 - offline browser evidence -> reviewed finding -> planner -> complete report artifacts -> resume
+  ---
+  duration_ms: 13103.8032
+  type: 'test'
+  ...
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: four actual browser journeys preserve click evidence without order/form side effects
+ok 34 - four actual browser journeys preserve click evidence without order/form side effects
+  ---
+  duration_ms: 11355.2223
+  type: 'test'
+  ...
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+ok 35 - persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+  ---
+  duration_ms: 9000.8279
+  type: 'test'
+  ...
+# [site-audit] Discovery blocked: Robots unavailable: robots.txt status 503
+# Subtest: robots failure leaves immutable run blocked, without an audited page or phase-complete claim
+ok 36 - robots failure leaves immutable run blocked, without an audited page or phase-complete claim
+  ---
+  duration_ms: 196.8217
+  type: 'test'
+  ...
+# Subtest: production browser entry points reject an unfrozen or unrelated target before network
+ok 37 - production browser entry points reject an unfrozen or unrelated target before network
+  ---
+  duration_ms: 35.8523
+  type: 'test'
+  ...
+# Subtest: reviewer sentinel without examined candidates cannot unlock report publication
+ok 38 - reviewer sentinel without examined candidates cannot unlock report publication
+  ---
+  duration_ms: 45.0524
+  type: 'test'
+  ...
+# Subtest: usable partial render evidence completes collection with limitations while hard errors remain blocked
+ok 39 - usable partial render evidence completes collection with limitations while hard errors remain blocked
+  ---
+  duration_ms: 3.0927
+  type: 'test'
+  ...
+# Subtest: Phase 2B product matrix retains every canonical product and never promotes absent evidence to PASS
+ok 40 - Phase 2B product matrix retains every canonical product and never promotes absent evidence to PASS
+  ---
+  duration_ms: 10.4169
+  type: 'test'
+  ...
+# Subtest: Phase 2B remediation tasks preserve deterministic priority rationale and dependency metadata
+ok 41 - Phase 2B remediation tasks preserve deterministic priority rationale and dependency metadata
+  ---
+  duration_ms: 3.3829
+  type: 'test'
+  ...
+# Subtest: planner uses accepted findings, approved specifics, and labeled diagnostics
+ok 42 - planner uses accepted findings, approved specifics, and labeled diagnostics
+  ---
+  duration_ms: 27.7937
+  type: 'test'
+  ...
+# Subtest: planner resolves dependencies and rejects unknown or cyclic references
+ok 43 - planner resolves dependencies and rejects unknown or cyclic references
+  ---
+  duration_ms: 3.1713
+  type: 'test'
+  ...
+# Subtest: reports contain every required section, trace accepted issues, and exclude rejected issues from plans
+ok 44 - reports contain every required section, trace accepted issues, and exclude rejected issues from plans
+  ---
+  duration_ms: 209.6327
+  type: 'test'
+  ...
+# Subtest: provided backlog cannot introduce tasks for unaccepted findings
+ok 45 - provided backlog cannot introduce tasks for unaccepted findings
+  ---
+  duration_ms: 67.2582
+  type: 'test'
+  ...
+# Subtest: mandatory reservations keep all canonical products, article details, and explicit reasons inside 25 slots
+ok 46 - mandatory reservations keep all canonical products, article details, and explicit reasons inside 25 slots
+  ---
+  duration_ms: 40.4579
+  type: 'test'
+  ...
+# Subtest: article content routes are safe while method, query, cart, checkout, and account mutations remain blocked
+ok 47 - article content routes are safe while method, query, cart, checkout, and account mutations remain blocked
+  ---
+  duration_ms: 9.1239
+  type: 'test'
+  ...
+# Subtest: pre-analysis coverage gate rejects selector omission and passes usable mandatory coverage
+ok 48 - pre-analysis coverage gate rejects selector omission and passes usable mandatory coverage
+  ---
+  duration_ms: 2.5742
+  type: 'test'
+  ...
+# Subtest: direct smoke honors explicit URL boundary, robots, summary and mutation safety
+ok 49 - direct smoke honors explicit URL boundary, robots, summary and mutation safety
+  ---
+  duration_ms: 20808.6891
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects invalid explicit URL sets before collection
+ok 50 - direct smoke rejects invalid explicit URL sets before collection
+  ---
+  duration_ms: 4.8651
+  type: 'test'
+  ...
+# Subtest: direct smoke accepts one and three explicit URLs without sitemap or link expansion
+ok 51 - direct smoke accepts one and three explicit URLs without sitemap or link expansion
+  ---
+  duration_ms: 33792.5666
+  type: 'test'
+  ...
+# Subtest: direct smoke rejects empty and four URL sets before robots or browser collection
+ok 52 - direct smoke rejects empty and four URL sets before robots or browser collection
+  ---
+  duration_ms: 2.9499
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks robots-disallowed and unavailable targets before collection
+ok 53 - direct smoke blocks robots-disallowed and unavailable targets before collection
+  ---
+  duration_ms: 10.8838
+  type: 'test'
+  ...
+# Subtest: direct smoke summary uses current-run evidence and preserves prior sentinel
+ok 54 - direct smoke summary uses current-run evidence and preserves prior sentinel
+  ---
+  duration_ms: 9003.187
+  type: 'test'
+  ...
+# Subtest: direct smoke explicit robots allow is honored without expansion
+ok 55 - direct smoke explicit robots allow is honored without expansion
+  ---
+  duration_ms: 9125.2703
+  type: 'test'
+  ...
+# Subtest: smoke manifest records an exact read-only explicit request contract
+ok 56 - smoke manifest records an exact read-only explicit request contract
+  ---
+  duration_ms: 27.2221
+  type: 'test'
+  ...
+# Subtest: direct smoke records no agent, review, report, or planner stage artifacts
+ok 57 - direct smoke records no agent, review, report, or planner stage artifacts
+  ---
+  duration_ms: 9143.1358
+  type: 'test'
+  ...
+# Subtest: direct smoke blocks attempted telemetry before it reaches the fixture server
+ok 58 - direct smoke blocks attempted telemetry before it reaches the fixture server
+  ---
+  duration_ms: 9029.9426
+  type: 'test'
+  ...
+1..58
+# tests 58
+# suites 0
+# pass 54
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 94727.0079

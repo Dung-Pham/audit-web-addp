@@ -1,0 +1,158 @@
+[
+  {
+    "candidate": {
+      "finding_id": "FND-GEO-AEO-GEO-AEO-002",
+      "title": "Product page provides question-led, extractable information but no dedicated FAQ heading is evidenced",
+      "area": "answer structure / concise extractable answers",
+      "page": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-007-03",
+        "REQ-007-05"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The extracted heading list includes direct questions about product effect, eligible users, and use instructions; extracted page text contains short answers, product ingredients, dosage instructions, and a warning that the supplement is not a medicine and does not replace treatment. The heading list has no FAQ/Hỏi đáp heading, and the evidence reviewed does not establish the specific FAQ block and 40–60-word direct-answer format described by REQ-007-05. The evidence supports a page-level opportunity, not a claim that FAQ content is absent everywhere.",
+      "evidence_ids": [
+        "EVD-C4AE99238E385779",
+        "EVD-8B09867D19F1496E",
+        "EVD-927DDAF696B5D339",
+        "EVD-02D7356CC02B574B"
+      ],
+      "impact": {
+        "user": "Potential user impact from the observed page instance.",
+        "technical": null,
+        "seo": "Potential search impact; search-engine outcomes were not measured.",
+        "business": null
+      },
+      "severity": "medium",
+      "confidence": 0.75,
+      "suggested_direction": "Retain the clear question-led sections and assess adding a clearly labeled FAQ with concise, directly responsive answers, grounded in approved product information and medical review where needed.",
+      "unknowns": [
+        "A full editorial assessment of all body content, answer lengths, references, and medical accuracy is outside this evidence-based finding.",
+        "No assessment of the other product detail pages' FAQ usefulness is implied."
+      ],
+      "rubric": [
+        {
+          "item": "Question-answer structure and concise answers",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "scope": "page instance",
+          "detail": "Question-form H2s and short answer text are present in the captured extraction."
+        },
+        {
+          "item": "Dedicated FAQ and 40–60-word answer criterion",
+          "status": "UNKNOWN",
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "scope": "page instance",
+          "detail": "No dedicated FAQ heading is present in the extracted heading list; complete component and word-count coverage was not established."
+        }
+      ],
+      "origin_specialist": "geo_aeo",
+      "origin_artifact": "analyses\\specialists\\geo_aeo.json",
+      "origin_finding_id": "GEO-AEO-002",
+      "origin_confidence": "medium",
+      "origin_impact": [
+        "user",
+        "seo"
+      ]
+    },
+    "reason": "Evidence supports question-led headings, but requirement fulfillment and answer-length/editorial assessment need manual content review; do not infer failure from an unestablished FAQ block.",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "evidence_ids_reviewed": [
+      "EVD-C4AE99238E385779",
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339",
+      "EVD-02D7356CC02B574B"
+    ]
+  },
+  {
+    "candidate": {
+      "finding_id": "FND-HEALTH-CONTENT-HC-001",
+      "title": "Glucare Plus diabetes and blood-glucose claims need qualified review",
+      "area": "health_content",
+      "page": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected product page uses the exact health-related wording “dùng được cho người tiểu đường muốn duy trì đường huyết ổn định”, “hỗ trợ kiểm soát đường huyết an toàn”, “Giải pháp dinh dưỡng lý tưởng cho người mắc bệnh đái tháo đường và tiền đái tháo đường”, and “kiểm soát đường huyết hiệu quả”. It also labels the product “DINH DƯỠNG Y KHOA ĐỘT PHÁ” and presents a sample-request form asking for the visitor’s current condition, with options including type 1/type 2 diabetes and prediabetes. These are observed public claims and form wording; this review does not determine their medical truth, substantiation, product classification, or regulatory status. Route the exact claims and their supporting basis for qualified human/regulatory review.",
+      "evidence_ids": [
+        "EVD-42AE297DAC33A1B9"
+      ],
+      "impact": {
+        "user": "Potential user impact from the observed page instance.",
+        "technical": null,
+        "seo": null,
+        "business": null
+      },
+      "severity": "high",
+      "confidence": 0.9,
+      "suggested_direction": "Have a qualified health professional and appropriate regulatory reviewer assess each quoted claim, its supporting evidence, intended audience, and context; revise or qualify wording based on that review. Ensure any health-related lead flow has suitable privacy and consent treatment, which was not assessed here.",
+      "unknowns": [
+        "No external source or product dossier in the allowed artifacts substantiates or refutes efficacy, safety, glycemic effects, or suitability for people with diabetes.",
+        "No regulatory determination or product classification was available.",
+        "This is a page-instance finding for the collected Glucare Plus URL, not an evidence-supported site pattern.",
+        "The artifact captures raw page HTML; the wording is present in the captured product-page content, but full viewport-by-viewport visibility was not independently assessed in this specialist review."
+      ],
+      "origin_specialist": "health_content",
+      "origin_artifact": "analyses\\specialists\\health_content.json",
+      "origin_finding_id": "HC-001",
+      "origin_confidence": "high",
+      "origin_impact": "user"
+    },
+    "reason": "Raw capture supports presence of quoted health claims only; medical truth, substantiation, suitability, and regulatory status require qualified review.",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "evidence_ids_reviewed": [
+      "EVD-42AE297DAC33A1B9"
+    ]
+  },
+  {
+    "candidate": {
+      "finding_id": "FND-HEALTH-CONTENT-HC-002",
+      "title": "Diabetes article claims and medical guidance need source and editorial review",
+      "area": "health_content",
+      "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected article presents diagnostic criteria and thresholds, including fasting glucose, HbA1c and OGTT, and discusses consequences of delayed diagnosis. The available page capture establishes that these statements occur in the article, but this analysis does not validate their medical accuracy. Refer the exact article content to a qualified clinical reviewer and check that the published article visibly identifies its author/editor/medical reviewer and its supporting sources.",
+      "evidence_ids": [
+        "EVD-29BE01E2DF43FC8F"
+      ],
+      "impact": {
+        "user": "Potential user impact from the observed page instance.",
+        "technical": null,
+        "seo": null,
+        "business": null
+      },
+      "severity": "high",
+      "confidence": 0.9,
+      "suggested_direction": "Request qualified clinical review of diagnostic thresholds, risks and recommendations; preserve a transparent evidence trail and visible, verifiable authorship or medical review attribution where applicable.",
+      "unknowns": [
+        "Medical truth, currency, and completeness of the diagnostic advice were not externally assessed.",
+        "This raw HTML evidence ID proves collection of the article page, but does not itself establish whether all visible-text sections or attribution blocks were complete in the rendered experience.",
+        "No sitewide pattern is asserted; this finding concerns this article page instance only."
+      ],
+      "origin_specialist": "health_content",
+      "origin_artifact": "analyses\\specialists\\health_content.json",
+      "origin_finding_id": "HC-002",
+      "origin_confidence": "high",
+      "origin_impact": "user"
+    },
+    "reason": "Raw capture supports that diagnostic thresholds and advice occur in the article; accuracy, currency, sourcing, and attribution require qualified clinical/editorial review.",
+    "reviewer_id": "codex-evidence-reviewer-20260929",
+    "evidence_ids_reviewed": [
+      "EVD-29BE01E2DF43FC8F"
+    ]
+  }
+]

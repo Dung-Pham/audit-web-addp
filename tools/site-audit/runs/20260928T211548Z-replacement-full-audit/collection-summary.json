@@ -1,0 +1,14 @@
+{
+  "mode": "collect",
+  "status": "partial",
+  "complete_with_limitations": true,
+  "discovered": 277,
+  "pages": 25,
+  "collected": 16,
+  "usable": 25,
+  "partial": 9,
+  "errors": 0,
+  "evidence": 741,
+  "blocked": 321,
+  "complete": 16
+}

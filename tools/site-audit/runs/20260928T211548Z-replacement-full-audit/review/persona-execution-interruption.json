@@ -1,0 +1,13 @@
+{
+  "status": "JOURNEY_EXECUTION_INTERRUPTED",
+  "persona": "first_time",
+  "last_completed_checkpoint": "homepage snapshot before any verified visible-link click",
+  "last_artifact": "evidence/journeys/first_time-0.json",
+  "last_artifact_timestamp": "2026-09-28T21:50:17.046Z",
+  "screenshot_artifact": "evidence/journeys/first_time-0.png",
+  "screenshot_timestamp": "2026-09-28T21:50:21.762Z",
+  "interruption_reason": "Journey runner process remained alive without writing a new checkpoint, screenshot, or journeys.json for more than five minutes.",
+  "terminated_process_id": 7300,
+  "terminated_at": "2026-09-28T21:56:29Z",
+  "recovery_policy": "One recovery attempt for first_time; remaining personas receive their first execution attempt. Existing checkpoint and screenshot were preserved as first_time-0.interrupted.json and first_time-0.interrupted.png before recovery."
+}

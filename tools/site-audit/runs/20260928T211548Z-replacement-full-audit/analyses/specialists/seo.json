@@ -1,0 +1,142 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "role": "technical-seo",
+  "requested_model": "gpt-5.6-sol",
+  "effective_model": "unverified",
+  "scope": {
+    "basis": "Current-run public/discovery evidence and normalized requirements only.",
+    "sampled_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/sui-dovital",
+      "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+      "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+    ],
+    "coverage_note": "Discovery and inventory contain 25 URLs, including partial collections; SEO page-level observations below are restricted to the URLs and artifacts explicitly cited. No Google Search Console, index coverage, ranking, or field performance evidence was available."
+  },
+  "findings": [
+    {
+      "finding_id": "SEO-001",
+      "title": "The advertised sitemap endpoints return 404",
+      "area": "crawl and discovery",
+      "page": "https://addp.vn/sitemap.xml and https://addp.vn/pub/sitemap.xml",
+      "page_type": "sitewide",
+      "source_requirement_ids": ["REQ-015"],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "Both /sitemap.xml and /pub/sitemap.xml returned HTTP 404 in this run. robots.txt advertises https://addp.vn/pub/sitemap.xml. This establishes failure at these sampled endpoints during collection; it does not establish whether a sitemap is available at another URL.",
+      "evidence_ids": ["EVD-A57DC932D580B784", "EVD-B093A16D09E3A37E", "EVD-C51AC48D3DB98538"],
+      "impact": ["seo", "technical"],
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Investigate the published sitemap location and its HTTP response; update the robots.txt Sitemap directive if the canonical sitemap endpoint differs.",
+      "unknowns": ["Whether another sitemap URL is valid.", "Whether crawlers have an alternate discovery source or cached sitemap.", "Actual search-engine discovery or indexing impact."],
+      "planning": {
+        "objective": "Make the sitemap location advertised to crawlers resolve to a valid sitemap response.",
+        "target_state": "The advertised sitemap URL returns a parseable sitemap with an appropriate successful status.",
+        "recommended_changes": ["Verify the intended public sitemap URL.", "Correct the sitemap endpoint or the robots.txt Sitemap directive."],
+        "affected_urls": ["https://addp.vn/robots.txt", "https://addp.vn/pub/sitemap.xml", "https://addp.vn/sitemap.xml"],
+        "implementation_area": "Public sitemap and robots configuration",
+        "developer_investigation": ["Determine the intended sitemap endpoint and confirm response status and XML content."],
+        "dependencies": [],
+        "priority": "high",
+        "effort": "small",
+        "acceptance_criteria": ["The sitemap URL advertised in robots.txt returns a valid sitemap response."],
+        "automated_verification": ["GET advertised sitemap URL and validate status and XML."],
+        "manual_verification": ["Inspect sitemap URL set for intended public URL coverage."],
+        "risks": ["Changing sitemap location without checking existing crawler-facing configuration could leave stale discovery references."]
+      }
+    },
+    {
+      "finding_id": "SEO-002",
+      "title": "Robots policy uses a broad wildcard rule and advertises an unavailable sitemap",
+      "area": "robots and crawl access",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": ["REQ-011", "REQ-015"],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific.",
+      "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-B093A16D09E3A37E"],
+      "impact": ["seo", "technical"],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review whether query-string URLs that should be crawled are covered by /*?, and align the advertised sitemap URL with an endpoint that responds successfully. Confirm intended AI crawler policy explicitly before adding or changing user-agent directives.",
+      "unknowns": ["Which parameterized URLs are intended to be discoverable.", "Whether the site intends to allow all named AI crawlers; absence of dedicated groups alone does not establish a block under the wildcard rule.", "Actual crawler behavior and indexed URL effects."],
+      "planning": {
+        "objective": "Keep crawl directives and sitemap discovery aligned with intended public URL access.",
+        "target_state": "Robots directives permit intended crawlable URLs and point to a working sitemap.",
+        "recommended_changes": ["Review query-string disallow scope against representative parameterized URLs.", "Confirm AI crawler policy and document any agent-specific directives if needed."],
+        "affected_urls": ["https://addp.vn/robots.txt", "https://addp.vn/pub/sitemap.xml"],
+        "implementation_area": "Robots configuration",
+        "developer_investigation": ["Compare disallowed URL patterns with intended canonical and crawlable URL types."],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": ["Robots rules match the confirmed crawl policy and advertise a responding sitemap endpoint."],
+        "automated_verification": ["Parse robots directives and check representative URLs against the intended policy."],
+        "manual_verification": ["Review policy for Googlebot and requested AI crawler user agents."],
+        "risks": ["Broad robots changes can expose or suppress URL classes unintentionally."]
+      }
+    },
+    {
+      "finding_id": "SEO-003",
+      "title": "Sampled product pages have missing or generic meta descriptions",
+      "area": "metadata",
+      "page": "https://addp.vn/sui-dovital",
+      "page_type": "product_detail",
+      "source_requirement_ids": ["REQ-015"],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate.",
+      "evidence_ids": ["EVD-CD4C67022008E5BB", "EVD-325C6659444AD546", "EVD-927DDAF696B5D339"],
+      "impact": ["seo", "user", "business"],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Write a product-specific meta description for each sampled detail page, replacing the default value and avoiding simple title duplication.",
+      "unknowns": ["Whether search engines currently display these descriptions or rewrite them.", "Metadata quality and uniqueness on uncollected product URLs."],
+      "planning": {
+        "objective": "Provide a distinct, accurate search-result summary for each sampled product page.",
+        "target_state": "Each sampled product URL exposes a unique, descriptive meta description aligned with visible page content.",
+        "recommended_changes": ["Replace the default description on /sui-dovital.", "Review whether the descriptions on the two named product pages need expansion beyond the title."],
+        "affected_urls": ["https://addp.vn/sui-dovital", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html"],
+        "implementation_area": "Product page metadata",
+        "developer_investigation": ["Check page-level metadata configuration for the sampled product records."],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": ["Each listed page returns a unique, non-default description that accurately summarizes its visible content."],
+        "automated_verification": ["Extract meta descriptions for the three URLs and compare for default values and duplicates."],
+        "manual_verification": ["Review descriptions for accuracy and usefulness as search-result summaries."],
+        "risks": ["Descriptions must remain consistent with the visible product claims and page content."]
+      }
+    }
+  ],
+  "rubric": [
+    {"item": "Observed HTTP status and redirects", "status": "OBSERVED", "urls": ["https://addp.vn/robots.txt", "https://addp.vn/sitemap.xml", "https://addp.vn/pub/sitemap.xml", "https://addp.vn/"], "scope": "Sitewide endpoints plus homepage page instance", "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-A57DC932D580B784", "EVD-B093A16D09E3A37E", "EVD-80DB3C701FE061F9"]},
+    {"item": "Title, meta description, canonical, and robots metadata", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital", "https://addp.vn/contact", "https://addp.vn/catalogsearch/advanced/"], "scope": "Page instances only; metadata observations are sampled and do not establish sitewide coverage", "evidence_ids": ["EVD-88DD509F3586ACF5", "EVD-325C6659444AD546", "EVD-927DDAF696B5D339", "EVD-CD4C67022008E5BB", "EVD-E0930204A9FB2002", "EVD-0592342C83370139"]},
+    {"item": "Headings and rendered internal link signals", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital"], "scope": "Sampled page instances; no sitewide pattern asserted", "evidence_ids": ["EVD-A81704E1324D31CC", "EVD-117F092A6C957697", "EVD-C4AE99238E385779", "EVD-239333BC638CDEBA"]},
+    {"item": "Robots directives, sitemap discovery, and AI user-agent policy", "status": "OBSERVED", "urls": ["https://addp.vn/robots.txt", "https://addp.vn/pub/sitemap.xml", "https://addp.vn/sitemap.xml"], "scope": "Sitewide public endpoint observations; crawler effects and AI access intent unknown", "evidence_ids": ["EVD-C51AC48D3DB98538", "EVD-B093A16D09E3A37E", "EVD-A57DC932D580B784"]},
+    {"item": "JSON-LD / structured data on sampled homepage and product pages", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital"], "scope": "Page instances; collector reports valid=0 and invalid=0, interpreted as no detected JSON-LD in those captures; not all structured-data formats", "evidence_ids": ["EVD-32CB6452441EDF9E", "EVD-01FF964BE2B7A2AA", "EVD-02D7356CC02B574B", "EVD-E32F848C405D32E0"]},
+    {"item": "JSON-LD on sampled articles", "status": "OBSERVED", "urls": ["https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong", "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy", "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"], "scope": "Three page instances; each capture reports one valid and zero invalid items; no sitewide coverage claim", "evidence_ids": ["EVD-2326A9C7428D947E", "EVD-B8786FA90B6CDCB3", "EVD-0CC76FEDCFD90652"]},
+    {"item": "Server HTML versus rendered content / SSR", "status": "UNKNOWN", "urls": ["https://addp.vn/", "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html", "https://addp.vn/vien-an-duong-addp.html", "https://addp.vn/sui-dovital"], "scope": "Page instances; artifact pair comparison sufficient to inspect selected pages only, and cannot establish server rendering for all text, prices, or descriptions sitewide", "evidence_ids": ["EVD-80DB3C701FE061F9", "EVD-A606C27223349F8A", "EVD-F71EC5745F2AF71B", "EVD-8B09867D19F1496E", "EVD-1C46740F9999CF7B"]},
+    {"item": "Search-engine indexing, Search Console status, and rankings", "status": "UNKNOWN", "urls": ["https://addp.vn/"], "scope": "Sitewide outcome; no direct evidence available", "evidence_ids": []},
+    {"item": "Broken linked resources and link target response health", "status": "UNKNOWN", "urls": ["https://addp.vn/"], "scope": "Link count and failed resource counts do not establish broken internal link targets; comprehensive target-response audit unavailable", "evidence_ids": ["EVD-A81704E1324D31CC", "EVD-E3461AC4808842D8"]},
+    {"item": "Mobile render and metadata signals relevant to indexability", "status": "OBSERVED", "urls": ["https://addp.vn/", "https://addp.vn/sui-dovital"], "scope": "Mobile captures for these page instances only; not a mobile indexability verdict", "evidence_ids": ["EVD-AEED7CD9E819A9C7", "EVD-30DDD40B25555E6E", "EVD-0B1AEB9BA55C2F0C"]},
+    {"item": "Canonical completeness on sampled partial pages", "status": "BLOCKED", "urls": ["https://addp.vn/contact", "https://addp.vn/catalogsearch/advanced/"], "scope": "Page instances; observed extracted canonical is null, but partial collection prevents interpreting this as confirmed missing source metadata", "evidence_ids": ["EVD-E0930204A9FB2002", "EVD-0592342C83370139"]}
+  ],
+  "strengths": [
+    {"status": "KEEP / PROTECT", "observation": "The homepage exposes a self-referencing canonical and INDEX,FOLLOW robots metadata in the raw capture.", "url": "https://addp.vn/", "scope": "Page instance", "evidence_ids": ["EVD-88DD509F3586ACF5"]},
+    {"status": "KEEP / PROTECT", "observation": "The three sampled article pages each expose a canonical matching the requested URL and each collected article structured-data capture reports one valid item and zero invalid items.", "url": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong; https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy; https://addp.vn/blog/post/dai-thao-duong-la-benh-gi", "scope": "Three page instances", "evidence_ids": ["EVD-AD2CB18B0ADA3AC2", "EVD-1EE8A8E7411A08A2", "EVD-4FDC277E11D55DA4", "EVD-2326A9C7428D947E", "EVD-B8786FA90B6CDCB3", "EVD-0CC76FEDCFD90652"]}
+  ],
+  "unknowns": [
+    "Actual Google or other search-engine indexing, rankings, traffic, and Search Console data were not present in current-run artifacts.",
+    "Field Core Web Vitals and field performance are unavailable; collected Lighthouse-style metrics are LAB and not treated as FIELD.",
+    "Sitemap availability at paths other than the two tested endpoints is unknown.",
+    "Comprehensive broken internal-link target status is unknown; observed failed resource signals are not equivalent to broken links.",
+    "The collector's structured-data count does not establish support or absence of every non-JSON-LD structured-data format."
+  ]
+}
+

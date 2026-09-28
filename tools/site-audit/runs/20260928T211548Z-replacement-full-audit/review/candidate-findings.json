@@ -1,0 +1,829 @@
+{
+  "run_id": "20260928T211548Z-replacement-full-audit",
+  "status": "review_queue",
+  "candidate_count": 19,
+  "candidates": [
+    {
+      "finding_id": "analytics-public-signals-not-observed-sample",
+      "title": "No public GTM, GA4 request, or dataLayer signal was observed in the collected page sample",
+      "area": "analytics",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-014-01"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The analytics collector reported gtm=0, ga4_requests_blocked=0, and data_layer_present=false on the homepage in desktop and mobile sessions. The same values recur in the sampled product, category, article, company, search, and policy pages. This is a bounded public-signal observation only; it does not establish that the implementation is absent sitewide. The raw artifact states telemetry was blocked because those requests would be induced by the audit browser. No event was emitted or conversion flow completed.",
+      "evidence_ids": [
+        "EVD-DBF33A19881A487E",
+        "EVD-04B228A36544C865",
+        "EVD-5E1FDAFD6E0F3BD0",
+        "EVD-2A0768485D1F0097",
+        "EVD-820A852713ADC090",
+        "EVD-DAC7815A6168F9B8",
+        "EVD-0B566D85DC39FA02",
+        "EVD-AEA3DB2C2D2E0F53"
+      ],
+      "impact": "business",
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Review consent-aware public tag loading and approved analytics configuration, then validate event behavior through an authorized non-production test flow and analytics administration evidence.",
+      "unknowns": [
+        "Whether tags load only after consent or under conditions not reached in these bounded sessions.",
+        "Whether GTM, GA4, Meta Pixel, or Ads tags exist on uncollected URLs or in deferred configurations.",
+        "Whether any backend analytics receipt, attribution, or conversion event is recorded.",
+        "Thank-you-page behavior and successful-order event behavior were not inspected; journeys stopped before cart or checkout mutation."
+      ],
+      "origin_specialist": "analytics",
+      "origin_artifact": "analyses\\specialists\\analytics.json"
+    },
+    {
+      "finding_id": "BRAND-20260928-001",
+      "title": "Company attribution and contact details differ within the Viên An Đường page",
+      "area": "brand and company/contact attribution",
+      "page": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The rendered product contact block says “Facebook: Công ty Cổ phần Dược phẩm ADDP” and gives “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội” and hotline “0243 389 9889.” The same page footer attributes copyright to “Công ty TNHH Dược phẩm ADDP” and lists “Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội” and “0904 637 007.” These public page elements present different company-form labels and contact details; the evidence does not establish which details are intended to be authoritative.",
+      "evidence_ids": [
+        "EVD-AD18B204CB25AAFE",
+        "EVD-927DDAF696B5D339"
+      ],
+      "impact": "user",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Have the business confirm the intended company attribution, address format, and primary contact channels, then align the product contact block and shared footer if they should represent the same entity and contact point.",
+      "unknowns": [
+        "Whether the two company-form labels refer to separate entities or one intended identity.",
+        "Whether the different address forms and telephone numbers are valid alternate contacts or stale page content.",
+        "No legal identity or authenticity conclusion is made from this public appearance."
+      ],
+      "origin_specialist": "brand",
+      "origin_artifact": "analyses\\specialists\\brand.json"
+    },
+    {
+      "finding_id": "CONTENT-001",
+      "title": "Glucare Plus detail page exposes placeholder copy in product tabs",
+      "area": "product content",
+      "page": "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-007"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The captured rendered product page includes two tabs labeled “Custom Tab 1” and “Custom Tab 2”; the associated tab content contains generic English Lorem ipsum placeholder text. This is directly visible copy on this product detail page. It interrupts the product information flow and does not answer product-specific benefit, ingredient, usage, or support questions. The latter impact is an assessment of the visible copy, not a claim about product facts or health outcomes.",
+      "evidence_ids": [
+        "EVD-C07AE1B67F5FAB1D"
+      ],
+      "impact": "user",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Replace the generic tab labels and placeholder text with verified, product-specific information, or remove the empty tabs. Have any health-related claims reviewed by an appropriately qualified expert before publication.",
+      "unknowns": [
+        "Whether the tab content is identical on other product pages was not established by this evidence.",
+        "No product formulation, efficacy, or medical claims were independently validated."
+      ],
+      "origin_specialist": "content",
+      "origin_artifact": "analyses\\specialists\\content.json"
+    },
+    {
+      "finding_id": "CONV-001",
+      "title": "A Glucare Plus product card shows a zero price beside a separate 9,000 ₫ trial offer",
+      "area": "offer_clarity",
+      "page": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-007-02"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The captured visible text lists “1 Gói Sữa Hạt dinh dưỡng GLUCARE PLUS ...” at 9.000,00 ₫ and later lists “Sữa Hạt dinh dưỡng GLUCARE PLUS - Dùng được cho người tiểu đường” at 0,00 ₫ (repeated). The same page separately promotes a 9.000đ trial pack. These are displayed values on distinct entries; the evidence does not establish whether the 0.00 ₫ listing is intentional, a placeholder, or an error. This may leave shoppers uncertain about the price and offer attached to the product.",
+      "evidence_ids": [
+        "EVD-DF63C483FC434445",
+        "EVD-EA78205F3017C505"
+      ],
+      "impact": "business",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Clarify which Glucare Plus item is the paid product and which is the trial offer; show an actionable accurate price for each entry and make offer terms clear beside its CTA.",
+      "unknowns": [
+        "Whether 0,00 ₫ is an intentional promotion or placeholder.",
+        "Whether clicking either product-card action changes quantity, adds an item, or opens another step; no such action was performed."
+      ],
+      "planning": {
+        "objective": "Make the product and trial prices unambiguous before shoppers act.",
+        "target_state": "Each distinct offer has a clear product name, payable price, and adjacent action label.",
+        "recommended_changes": [
+          "Review the displayed 0,00 ₫ Glucare Plus listing.",
+          "Distinguish the 9.000đ sample offer from the standard product offer."
+        ],
+        "affected_urls": [
+          "https://addp.vn/sua-hat-glucare-plus"
+        ],
+        "implementation_area": "product offer content and visible product cards",
+        "developer_investigation": [
+          "Confirm the intended price and offer terms for each Glucare Plus entry."
+        ],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": [
+          "The page no longer presents an unexplained 0,00 ₫ amount for a purchasable Glucare Plus item.",
+          "The sample offer and standard product offer have distinct visible labels and prices."
+        ],
+        "automated_verification": [
+          "Inspect rendered product-card text and prices on the URL."
+        ],
+        "manual_verification": [
+          "Review desktop and mobile offer presentation and confirm the intended values with the business."
+        ],
+        "risks": [
+          "Changing a price without confirming the intended offer could misstate commercial terms."
+        ]
+      },
+      "origin_specialist": "conversion",
+      "origin_artifact": "analyses\\specialists\\conversion.json"
+    },
+    {
+      "finding_id": "technical-advertised-sitemap-returns-404",
+      "title": "robots.txt advertises a sitemap URL that returned HTTP 404",
+      "area": "technical SEO",
+      "page": "https://addp.vn/pub/sitemap.xml",
+      "page_type": "sitewide",
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The captured public robots.txt names https://addp.vn/pub/sitemap.xml as its Sitemap URL. The run recorded HTTP 404 for that URL; it also recorded HTTP 404 for https://addp.vn/sitemap.xml. These are endpoint observations from this collection, not proof of persistent availability or search-engine impact.",
+      "evidence_ids": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ],
+      "impact": "seo",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Check the publicly advertised sitemap location and publish a valid sitemap there, or update the robots.txt Sitemap directive to the intended reachable URL.",
+      "unknowns": [
+        "Whether the 404 response was transient or persists beyond the run's collection time.",
+        "Whether a valid sitemap is available at another untested URL or through a sitemap index.",
+        "Whether search engines currently know or have processed another sitemap location.",
+        "Whether the sitemap response body is an application error page or another custom 404 response; only status and byte count were recorded in the indexed fact."
+      ],
+      "observed_problem": "robots.txt advertises https://addp.vn/pub/sitemap.xml, and that URL returned HTTP 404 in this run. The alternate tested URL https://addp.vn/sitemap.xml also returned HTTP 404.",
+      "confirmed_external_facts": [
+        "https://addp.vn/robots.txt returned HTTP 200 and its captured contents include 'Sitemap: https://addp.vn/pub/sitemap.xml'. Evidence: EVD-C51AC48D3DB98538.",
+        "https://addp.vn/pub/sitemap.xml returned HTTP 404. Evidence: EVD-B093A16D09E3A37E.",
+        "https://addp.vn/sitemap.xml returned HTTP 404. Evidence: EVD-A57DC932D580B784."
+      ],
+      "probable_technical_causes": [
+        "The advertised sitemap may not be published at the configured path, or the route may be misconfigured. This is a hypothesis, not a confirmed implementation cause."
+      ],
+      "developer_investigation": [
+        "Verify the intended public sitemap endpoint and its response status and XML content from an external client.",
+        "Check that the robots.txt Sitemap directive points to the verified endpoint."
+      ],
+      "implementation_area": "Server response",
+      "origin_specialist": "external-technical-diagnostic",
+      "origin_artifact": "analyses\\specialists\\external_technical.json"
+    },
+    {
+      "finding_id": "GEO-AEO-001",
+      "title": "Product structured data was not detected on sampled homepage and product pages",
+      "area": "structured data / entity and product identity",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-010-01"
+      ],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The current-run structured-data collector reports valid: 0 and invalid: 0 at the homepage and the sampled product pages https://addp.vn/vien-an-duong-addp.html and https://addp.vn/sui-dovital. This is evidence that no JSON-LD was detected by that collector on these page instances; it does not establish the absence of every structured-data format or a sitewide condition. The same run detected valid BlogPosting JSON-LD on sampled article pages, so the result is page-type-specific in this sample.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-02D7356CC02B574B",
+        "EVD-E32F848C405D32E0",
+        "EVD-2326A9C7428D947E",
+        "EVD-B8786FA90B6CDCB3",
+        "EVD-0CC76FEDCFD90652"
+      ],
+      "impact": [
+        "seo",
+        "technical"
+      ],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review public structured data against the stated Organization, Product, and FAQPage requirement for the corresponding page types; validate any proposed markup against visible page facts.",
+      "unknowns": [
+        "Other structured-data syntaxes may exist outside the JSON-LD collector result.",
+        "Coverage is limited to sampled URLs; other homepage/product templates may differ.",
+        "No conclusion about AI-engine citation or visibility follows from this result."
+      ],
+      "rubric": [
+        {
+          "item": "Organization/Product/FAQ structured data",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/",
+            "https://addp.vn/vien-an-duong-addp.html",
+            "https://addp.vn/sui-dovital"
+          ],
+          "scope": "page instance",
+          "detail": "Zero valid and zero invalid JSON-LD records in the collector output for these sampled pages. Checklist reference REQ-010-01."
+        },
+        {
+          "item": "Article structured data",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+            "https://addp.vn/blog/post/dai-thao-duong-do-viem-tuy",
+            "https://addp.vn/blog/post/dai-thao-duong-la-benh-gi"
+          ],
+          "scope": "page instance",
+          "detail": "The evidence artifacts contain valid BlogPosting entities with headline, author, publisher, and publication/modification dates."
+        }
+      ],
+      "origin_specialist": "geo_aeo",
+      "origin_artifact": "analyses\\specialists\\geo_aeo.json"
+    },
+    {
+      "finding_id": "GEO-AEO-002",
+      "title": "Product page provides question-led, extractable information but no dedicated FAQ heading is evidenced",
+      "area": "answer structure / concise extractable answers",
+      "page": "https://addp.vn/vien-an-duong-addp.html",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-007-03",
+        "REQ-007-05"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The extracted heading list includes direct questions about product effect, eligible users, and use instructions; extracted page text contains short answers, product ingredients, dosage instructions, and a warning that the supplement is not a medicine and does not replace treatment. The heading list has no FAQ/Hỏi đáp heading, and the evidence reviewed does not establish the specific FAQ block and 40–60-word direct-answer format described by REQ-007-05. The evidence supports a page-level opportunity, not a claim that FAQ content is absent everywhere.",
+      "evidence_ids": [
+        "EVD-C4AE99238E385779",
+        "EVD-8B09867D19F1496E",
+        "EVD-927DDAF696B5D339",
+        "EVD-02D7356CC02B574B"
+      ],
+      "impact": [
+        "user",
+        "seo"
+      ],
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Retain the clear question-led sections and assess adding a clearly labeled FAQ with concise, directly responsive answers, grounded in approved product information and medical review where needed.",
+      "unknowns": [
+        "A full editorial assessment of all body content, answer lengths, references, and medical accuracy is outside this evidence-based finding.",
+        "No assessment of the other product detail pages' FAQ usefulness is implied."
+      ],
+      "rubric": [
+        {
+          "item": "Question-answer structure and concise answers",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "scope": "page instance",
+          "detail": "Question-form H2s and short answer text are present in the captured extraction."
+        },
+        {
+          "item": "Dedicated FAQ and 40–60-word answer criterion",
+          "status": "UNKNOWN",
+          "urls": [
+            "https://addp.vn/vien-an-duong-addp.html"
+          ],
+          "scope": "page instance",
+          "detail": "No dedicated FAQ heading is present in the extracted heading list; complete component and word-count coverage was not established."
+        }
+      ],
+      "origin_specialist": "geo_aeo",
+      "origin_artifact": "analyses\\specialists\\geo_aeo.json"
+    },
+    {
+      "finding_id": "GEO-AEO-003",
+      "title": "robots.txt is reachable, but AI crawler directives are not explicit in the captured rules",
+      "area": "crawler access",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": [
+        "REQ-011-01"
+      ],
+      "source": "checklist",
+      "finding_type": "content_review",
+      "observation": "The robots.txt endpoint returned HTTP 200. Its captured content contains a general User-agent: * section and multiple Disallow rules, but no explicit named rules for ChatGPT-User, PerplexityBot, or Google-Extended. The captured document alone does not establish how each crawler interprets the wildcard rules or whether other access controls apply.",
+      "evidence_ids": [
+        "EVD-C51AC48D3DB98538"
+      ],
+      "impact": [
+        "seo",
+        "technical"
+      ],
+      "severity": "medium",
+      "confidence": "medium",
+      "suggested_direction": "Review intended access policy for each named crawler against the complete robots directives and verify public endpoint behavior for the relevant paths.",
+      "unknowns": [
+        "Crawler behavior and actual crawling are not evidenced.",
+        "No inference about AI-engine visibility or recommendation is supported.",
+        "Robots directives do not prove access through or restriction by other mechanisms."
+      ],
+      "rubric": [
+        {
+          "item": "AI crawler access rules",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/robots.txt"
+          ],
+          "scope": "page instance",
+          "detail": "Endpoint content was collected; the captured directives do not explicitly name the three crawlers listed in REQ-011-01."
+        },
+        {
+          "item": "AI-engine visibility",
+          "status": "UNKNOWN",
+          "urls": [
+            "https://addp.vn/"
+          ],
+          "scope": "page instance",
+          "detail": "No direct evidence of AI-engine visibility, citation, or recommendation was collected."
+        }
+      ],
+      "origin_specialist": "geo_aeo",
+      "origin_artifact": "analyses\\specialists\\geo_aeo.json"
+    },
+    {
+      "finding_id": "GEO-AEO-004",
+      "title": "The sitemap URLs declared or probed in this run returned 404",
+      "area": "discovery and crawler support",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": [],
+      "source": "best_practice",
+      "finding_type": "deterministic",
+      "observation": "The collected robots.txt names https://addp.vn/pub/sitemap.xml, and the run recorded HTTP 404 responses for that URL and https://addp.vn/sitemap.xml. These endpoint responses make the referenced sitemap unavailable at collection time; the audit did not establish whether another sitemap endpoint exists or whether the site's pages are otherwise discoverable.",
+      "evidence_ids": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784"
+      ],
+      "impact": [
+        "seo",
+        "technical"
+      ],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Check the configured sitemap location and publish a reachable sitemap there if that declaration is intended to be authoritative.",
+      "unknowns": [
+        "No crawl/indexing outcome was measured.",
+        "No claim is made that no other sitemap exists."
+      ],
+      "rubric": [
+        {
+          "item": "Declared and probed sitemap availability",
+          "status": "OBSERVED",
+          "urls": [
+            "https://addp.vn/pub/sitemap.xml",
+            "https://addp.vn/sitemap.xml"
+          ],
+          "scope": "page instance",
+          "detail": "Both endpoints returned 404 in the current run."
+        }
+      ],
+      "origin_specialist": "geo_aeo",
+      "origin_artifact": "analyses\\specialists\\geo_aeo.json"
+    },
+    {
+      "finding_id": "HC-001",
+      "title": "Glucare Plus diabetes and blood-glucose claims need qualified review",
+      "area": "health_content",
+      "page": "https://addp.vn/sua-hat-glucare-plus",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected product page uses the exact health-related wording “dùng được cho người tiểu đường muốn duy trì đường huyết ổn định”, “hỗ trợ kiểm soát đường huyết an toàn”, “Giải pháp dinh dưỡng lý tưởng cho người mắc bệnh đái tháo đường và tiền đái tháo đường”, and “kiểm soát đường huyết hiệu quả”. It also labels the product “DINH DƯỠNG Y KHOA ĐỘT PHÁ” and presents a sample-request form asking for the visitor’s current condition, with options including type 1/type 2 diabetes and prediabetes. These are observed public claims and form wording; this review does not determine their medical truth, substantiation, product classification, or regulatory status. Route the exact claims and their supporting basis for qualified human/regulatory review.",
+      "evidence_ids": [
+        "EVD-42AE297DAC33A1B9"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Have a qualified health professional and appropriate regulatory reviewer assess each quoted claim, its supporting evidence, intended audience, and context; revise or qualify wording based on that review. Ensure any health-related lead flow has suitable privacy and consent treatment, which was not assessed here.",
+      "unknowns": [
+        "No external source or product dossier in the allowed artifacts substantiates or refutes efficacy, safety, glycemic effects, or suitability for people with diabetes.",
+        "No regulatory determination or product classification was available.",
+        "This is a page-instance finding for the collected Glucare Plus URL, not an evidence-supported site pattern.",
+        "The artifact captures raw page HTML; the wording is present in the captured product-page content, but full viewport-by-viewport visibility was not independently assessed in this specialist review."
+      ],
+      "origin_specialist": "health_content",
+      "origin_artifact": "analyses\\specialists\\health_content.json"
+    },
+    {
+      "finding_id": "HC-002",
+      "title": "Diabetes article claims and medical guidance need source and editorial review",
+      "area": "health_content",
+      "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "source_requirement_ids": [
+        "REQ-009-01"
+      ],
+      "source": "best_practice",
+      "finding_type": "content_review",
+      "observation": "The collected article presents diagnostic criteria and thresholds, including fasting glucose, HbA1c and OGTT, and discusses consequences of delayed diagnosis. The available page capture establishes that these statements occur in the article, but this analysis does not validate their medical accuracy. Refer the exact article content to a qualified clinical reviewer and check that the published article visibly identifies its author/editor/medical reviewer and its supporting sources.",
+      "evidence_ids": [
+        "EVD-29BE01E2DF43FC8F"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Request qualified clinical review of diagnostic thresholds, risks and recommendations; preserve a transparent evidence trail and visible, verifiable authorship or medical review attribution where applicable.",
+      "unknowns": [
+        "Medical truth, currency, and completeness of the diagnostic advice were not externally assessed.",
+        "This raw HTML evidence ID proves collection of the article page, but does not itself establish whether all visible-text sections or attribution blocks were complete in the rendered experience.",
+        "No sitewide pattern is asserted; this finding concerns this article page instance only."
+      ],
+      "origin_specialist": "health_content",
+      "origin_artifact": "analyses\\specialists\\health_content.json"
+    },
+    {
+      "finding_id": "PERF-001",
+      "title": "Homepage LAB load metrics are substantially elevated on desktop and mobile",
+      "area": "performance",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "In clean-load LAB captures, desktop recorded LCP 17,700 ms, CLS 0.1651, and TTFB 5,911.5 ms; mobile recorded LCP 12,504 ms, CLS 0.1346, and TTFB 5,841.7 ms. Both captures state synthetic_scroll_before_measurement=false. These are single-run browser measurements under the recorded run conditions, not field experience. The measured LCP is above the checklist's stated 2.5-second target; no PageSpeed score was captured.",
+      "evidence_ids": [
+        "EVD-85956D06B433ABCA",
+        "EVD-3D15DCDB359887BF"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat comparable clean-load measurements on desktop and mobile, inspect the recorded network and resource waterfall for the LCP element and response delays, and verify whether the elevated values persist before prioritizing optimization.",
+      "unknowns": [
+        "Field LCP, CLS, and INP are unavailable; these LAB values do not establish visitor-level Core Web Vitals.",
+        "Lighthouse/PageSpeed scores and interaction data were not captured.",
+        "No cause is established by the summary metrics alone.",
+        "These are single captures; run-to-run variation is unknown."
+      ],
+      "origin_specialist": "performance",
+      "origin_artifact": "analyses\\specialists\\performance.json"
+    },
+    {
+      "finding_id": "PERF-002",
+      "title": "Diabetes-condition page has high LAB LCP and CLS in both captured viewports",
+      "area": "performance",
+      "page": "https://addp.vn/benh-ly",
+      "page_type": "other",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The desktop clean-load LAB capture recorded LCP 19,308 ms and CLS 0.6347; the mobile capture recorded LCP 22,128 ms and CLS 0.5932. Both state synthetic_scroll_before_measurement=false. The values are page-instance observations from this run and exceed the checklist's 2.5-second load target by a wide margin for LCP. They do not establish field performance or the source of the shifts.",
+      "evidence_ids": [
+        "EVD-035E196C34BF6621",
+        "EVD-D2E949A54A61C783"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat clean-load captures under comparable desktop and mobile conditions, then inspect the LCP element and layout-shift sources in the corresponding trace before selecting an optimization.",
+      "unknowns": [
+        "Field metrics are unavailable; these values are LAB only.",
+        "No Lighthouse/PageSpeed score or interaction data is available.",
+        "The metric summary does not identify the LCP element, shift sources, or probable technical cause.",
+        "Repeatability and impact for other URLs are unknown."
+      ],
+      "origin_specialist": "performance",
+      "origin_artifact": "analyses\\specialists\\performance.json"
+    },
+    {
+      "finding_id": "PERF-003",
+      "title": "Sampled diabetes articles show long LAB LCP on desktop and mobile",
+      "area": "performance",
+      "page": "https://addp.vn/blog/post/chuan-doan-benh-dai-thao-duong",
+      "page_type": "article",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "Two individually captured article page instances have high LCP in clean-load LAB measurements: /blog/post/chuan-doan-benh-dai-thao-duong measured 13,432 ms desktop and 18,100 ms mobile; /blog/post/dai-thao-duong-do-viem-tuy measured 18,216 ms desktop and 18,408 ms mobile. All four captures state synthetic_scroll_before_measurement=false. This candidate records these URLs as separate page instances; similarity does not establish a template-wide pattern. The measured values exceed the checklist's 2.5-second target, while field experience is unknown.",
+      "evidence_ids": [
+        "EVD-140275788B638B2B",
+        "EVD-EEE8678F6CB7996C",
+        "EVD-1043761274B05EFF",
+        "EVD-381F4D853D891DF0"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Repeat measurements for each URL at the same desktop and mobile viewports, compare the LCP element and resource timing in each trace, and assess any shared cause only after direct evidence supports it.",
+      "unknowns": [
+        "Field LCP, CLS, and INP are unavailable.",
+        "No Lighthouse/PageSpeed score or interaction data was captured.",
+        "The summary does not identify the LCP elements or causes.",
+        "Article page captures are not evidence of a shared implementation pattern."
+      ],
+      "origin_specialist": "performance",
+      "origin_artifact": "analyses\\specialists\\performance.json"
+    },
+    {
+      "finding_id": "SEO-001",
+      "title": "The advertised sitemap endpoints return 404",
+      "area": "crawl and discovery",
+      "page": "https://addp.vn/sitemap.xml and https://addp.vn/pub/sitemap.xml",
+      "page_type": "sitewide",
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "Both /sitemap.xml and /pub/sitemap.xml returned HTTP 404 in this run. robots.txt advertises https://addp.vn/pub/sitemap.xml. This establishes failure at these sampled endpoints during collection; it does not establish whether a sitemap is available at another URL.",
+      "evidence_ids": [
+        "EVD-A57DC932D580B784",
+        "EVD-B093A16D09E3A37E",
+        "EVD-C51AC48D3DB98538"
+      ],
+      "impact": [
+        "seo",
+        "technical"
+      ],
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Investigate the published sitemap location and its HTTP response; update the robots.txt Sitemap directive if the canonical sitemap endpoint differs.",
+      "unknowns": [
+        "Whether another sitemap URL is valid.",
+        "Whether crawlers have an alternate discovery source or cached sitemap.",
+        "Actual search-engine discovery or indexing impact."
+      ],
+      "planning": {
+        "objective": "Make the sitemap location advertised to crawlers resolve to a valid sitemap response.",
+        "target_state": "The advertised sitemap URL returns a parseable sitemap with an appropriate successful status.",
+        "recommended_changes": [
+          "Verify the intended public sitemap URL.",
+          "Correct the sitemap endpoint or the robots.txt Sitemap directive."
+        ],
+        "affected_urls": [
+          "https://addp.vn/robots.txt",
+          "https://addp.vn/pub/sitemap.xml",
+          "https://addp.vn/sitemap.xml"
+        ],
+        "implementation_area": "Public sitemap and robots configuration",
+        "developer_investigation": [
+          "Determine the intended sitemap endpoint and confirm response status and XML content."
+        ],
+        "dependencies": [],
+        "priority": "high",
+        "effort": "small",
+        "acceptance_criteria": [
+          "The sitemap URL advertised in robots.txt returns a valid sitemap response."
+        ],
+        "automated_verification": [
+          "GET advertised sitemap URL and validate status and XML."
+        ],
+        "manual_verification": [
+          "Inspect sitemap URL set for intended public URL coverage."
+        ],
+        "risks": [
+          "Changing sitemap location without checking existing crawler-facing configuration could leave stale discovery references."
+        ]
+      },
+      "origin_specialist": "technical-seo",
+      "origin_artifact": "analyses\\specialists\\seo.json"
+    },
+    {
+      "finding_id": "SEO-002",
+      "title": "Robots policy uses a broad wildcard rule and advertises an unavailable sitemap",
+      "area": "robots and crawl access",
+      "page": "https://addp.vn/robots.txt",
+      "page_type": "sitewide",
+      "source_requirement_ids": [
+        "REQ-011",
+        "REQ-015"
+      ],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The collected robots.txt contains a single User-agent: * group with Disallow: /*? and lists the /pub/sitemap.xml endpoint, which returned 404 in this run. No named AI user-agent groups appear in the collected file. The wildcard query-string disallow may restrict crawl access to parameterized URLs; actual effect is URL/rule specific.",
+      "evidence_ids": [
+        "EVD-C51AC48D3DB98538",
+        "EVD-B093A16D09E3A37E"
+      ],
+      "impact": [
+        "seo",
+        "technical"
+      ],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review whether query-string URLs that should be crawled are covered by /*?, and align the advertised sitemap URL with an endpoint that responds successfully. Confirm intended AI crawler policy explicitly before adding or changing user-agent directives.",
+      "unknowns": [
+        "Which parameterized URLs are intended to be discoverable.",
+        "Whether the site intends to allow all named AI crawlers; absence of dedicated groups alone does not establish a block under the wildcard rule.",
+        "Actual crawler behavior and indexed URL effects."
+      ],
+      "planning": {
+        "objective": "Keep crawl directives and sitemap discovery aligned with intended public URL access.",
+        "target_state": "Robots directives permit intended crawlable URLs and point to a working sitemap.",
+        "recommended_changes": [
+          "Review query-string disallow scope against representative parameterized URLs.",
+          "Confirm AI crawler policy and document any agent-specific directives if needed."
+        ],
+        "affected_urls": [
+          "https://addp.vn/robots.txt",
+          "https://addp.vn/pub/sitemap.xml"
+        ],
+        "implementation_area": "Robots configuration",
+        "developer_investigation": [
+          "Compare disallowed URL patterns with intended canonical and crawlable URL types."
+        ],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": [
+          "Robots rules match the confirmed crawl policy and advertise a responding sitemap endpoint."
+        ],
+        "automated_verification": [
+          "Parse robots directives and check representative URLs against the intended policy."
+        ],
+        "manual_verification": [
+          "Review policy for Googlebot and requested AI crawler user agents."
+        ],
+        "risks": [
+          "Broad robots changes can expose or suppress URL classes unintentionally."
+        ]
+      },
+      "origin_specialist": "technical-seo",
+      "origin_artifact": "analyses\\specialists\\seo.json"
+    },
+    {
+      "finding_id": "SEO-003",
+      "title": "Sampled product pages have missing or generic meta descriptions",
+      "area": "metadata",
+      "page": "https://addp.vn/sui-dovital",
+      "page_type": "product_detail",
+      "source_requirement_ids": [
+        "REQ-015"
+      ],
+      "source": "checklist",
+      "finding_type": "deterministic",
+      "observation": "The raw SEO extraction for /sui-dovital reports meta_description as ‘Default Description’. The other two sampled priority product detail pages have descriptions matching their product title rather than a distinct summary: /1goi-sua-hat-dinh-duong-glucare-plus.html and /vien-an-duong-addp.html. These are three sampled product URLs, not a sitewide prevalence estimate.",
+      "evidence_ids": [
+        "EVD-CD4C67022008E5BB",
+        "EVD-325C6659444AD546",
+        "EVD-927DDAF696B5D339"
+      ],
+      "impact": [
+        "seo",
+        "user",
+        "business"
+      ],
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Write a product-specific meta description for each sampled detail page, replacing the default value and avoiding simple title duplication.",
+      "unknowns": [
+        "Whether search engines currently display these descriptions or rewrite them.",
+        "Metadata quality and uniqueness on uncollected product URLs."
+      ],
+      "planning": {
+        "objective": "Provide a distinct, accurate search-result summary for each sampled product page.",
+        "target_state": "Each sampled product URL exposes a unique, descriptive meta description aligned with visible page content.",
+        "recommended_changes": [
+          "Replace the default description on /sui-dovital.",
+          "Review whether the descriptions on the two named product pages need expansion beyond the title."
+        ],
+        "affected_urls": [
+          "https://addp.vn/sui-dovital",
+          "https://addp.vn/1goi-sua-hat-dinh-duong-glucare-plus.html",
+          "https://addp.vn/vien-an-duong-addp.html"
+        ],
+        "implementation_area": "Product page metadata",
+        "developer_investigation": [
+          "Check page-level metadata configuration for the sampled product records."
+        ],
+        "dependencies": [],
+        "priority": "medium",
+        "effort": "small",
+        "acceptance_criteria": [
+          "Each listed page returns a unique, non-default description that accurately summarizes its visible content."
+        ],
+        "automated_verification": [
+          "Extract meta descriptions for the three URLs and compare for default values and duplicates."
+        ],
+        "manual_verification": [
+          "Review descriptions for accuracy and usefulness as search-result summaries."
+        ],
+        "risks": [
+          "Descriptions must remain consistent with the visible product claims and page content."
+        ]
+      },
+      "origin_specialist": "technical-seo",
+      "origin_artifact": "analyses\\specialists\\seo.json"
+    },
+    {
+      "finding_id": "STRUCTURED-DATA-001",
+      "title": "Required JSON-LD types were not present in the homepage and three sampled product captures",
+      "area": "structured data",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-010",
+        "REQ-010-01"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The current-run structured-data extracts are empty arrays for the homepage and each of the three sampled product detail URLs on both desktop and mobile: valid=0 and invalid=0. The checklist calls for JSON-LD Organization, Product for three products, and FAQPage. This establishes that those requested JSON-LD types were not captured on these sampled pages; it does not establish absence across the full site. The raw HTML for the Glucare Plus URL contains Product microdata on the page root, so that sample does expose Product markup in a different format. No generator or implementation cause is inferred.",
+      "evidence_ids": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-01FF964BE2B7A2AA",
+        "EVD-B1630958C79BC01D",
+        "EVD-02D7356CC02B574B",
+        "EVD-BDF90743647332F7",
+        "EVD-E32F848C405D32E0",
+        "EVD-EDDAD1FAFA69798C",
+        "EVD-F71EC5745F2AF71B"
+      ],
+      "impact": "seo",
+      "severity": "medium",
+      "confidence": "high",
+      "suggested_direction": "Review the intended structured-data requirement against the sampled output. If the checklist is still authoritative, provide the requested Organization, Product, and FAQPage JSON-LD where the corresponding visible content supports it, and verify every claim against visible page content. Preserve and validate existing Product microdata where appropriate.",
+      "unknowns": [
+        "Whether Organization or FAQPage markup exists on any uncollected URL is unknown.",
+        "Whether the three selected product pages represent all products intended by the checklist is unknown; the capture confirms only these three URLs.",
+        "The collector extract reports JSON-LD results; it does not establish complete microdata coverage on every sampled page.",
+        "Structured-data eligibility or search-result presentation was not tested.",
+        "The run reports nine of 25 pages as partial, and four inventory pages have no structured-data evidence record."
+      ],
+      "origin_specialist": "structured_data",
+      "origin_artifact": "analyses\\specialists\\structured_data.json"
+    },
+    {
+      "finding_id": "UXUI-001",
+      "title": "Homepage mobile load remains slow in recorded laboratory capture",
+      "area": "first viewport / responsive mobile ergonomics",
+      "page": "https://addp.vn/",
+      "page_type": "homepage",
+      "source_requirement_ids": [
+        "REQ-013"
+      ],
+      "source": "checklist",
+      "finding_type": "measured",
+      "observation": "The run recorded mobile laboratory LCP of 12,504 ms and TTFB of 5,841.7 ms for the homepage. Interpretation: this load delay can postpone the point at which the first viewport becomes useful on this recorded mobile page instance. These are LAB measurements, not field data; no Lighthouse score or field metric is available. The viewport screenshot is collected separately and supports visual review only, not the timing claim.",
+      "evidence_ids": [
+        "EVD-3D15DCDB359887BF",
+        "EVD-9B3746A447795E5D"
+      ],
+      "impact": "user",
+      "severity": "high",
+      "confidence": "high",
+      "suggested_direction": "Review mobile first-viewport loading and the resources that determine LCP/TTFB; remeasure with the same LAB method after any change.",
+      "unknowns": [
+        "No field performance data is available.",
+        "A single recorded capture does not establish the experience for all devices, networks, or visits.",
+        "This UX observation does not establish a source-level cause."
+      ],
+      "planning": {
+        "objective": "Reduce the measured homepage mobile load delay.",
+        "target_state": "Mobile first viewport becomes useful sooner under the recorded audit conditions.",
+        "recommended_changes": [
+          "Investigate the first-viewport critical path and largest-contentful element."
+        ],
+        "affected_urls": [
+          "https://addp.vn/"
+        ],
+        "implementation_area": "mobile first viewport and page loading",
+        "developer_investigation": [
+          "Identify the resources contributing to the recorded LCP and TTFB."
+        ],
+        "dependencies": [],
+        "priority": "high",
+        "effort": "unknown",
+        "acceptance_criteria": [
+          "Comparable mobile LAB capture shows a materially lower LCP, with no visual regression in the initial viewport."
+        ],
+        "automated_verification": [
+          "Repeat the same mobile LAB capture."
+        ],
+        "manual_verification": [
+          "Review initial viewport screenshots at 390×844 under representative network conditions."
+        ],
+        "risks": [
+          "A measurement change alone may not reflect real user experience without field data."
+        ]
+      },
+      "origin_specialist": "ux-ui",
+      "origin_artifact": "analyses\\specialists\\ux_ui.json"
+    }
+  ]
+}

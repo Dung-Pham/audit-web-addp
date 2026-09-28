@@ -1,0 +1,20 @@
+[
+  {
+    "kind": "blocked",
+    "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+    "redirected_from": null,
+    "method": "GET",
+    "reason": "request guard failure: route.fetch: read ECONNRESET\nCall log:\n\u001b[2m  - → GET https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan\u001b[22m\n\u001b[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36\u001b[22m\n\u001b[2m    - accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\u001b[22m\n\u001b[2m    - accept-encoding: gzip,deflate,br\u001b[22m\n\u001b[2m    - upgrade-insecure-requests: 1\u001b[22m\n\u001b[2m    - sec-ch-ua: \"Google Chrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"\u001b[22m\n\u001b[2m    - sec-ch-ua-mobile: ?0\u001b[22m\n\u001b[2m    - sec-ch-ua-platform: \"Windows\"\u001b[22m\n",
+    "resource_type": "document",
+    "audit_induced": true,
+    "viewport": "mobile"
+  },
+  {
+    "kind": "requestfailed",
+    "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+    "method": "GET",
+    "resource_type": "document",
+    "failure": "net::ERR_BLOCKED_BY_CLIENT",
+    "audit_induced": true
+  }
+]

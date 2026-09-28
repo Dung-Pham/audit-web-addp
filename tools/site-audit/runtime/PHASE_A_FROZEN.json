@@ -1,13 +1,13 @@
 {
-  "frozen_at": "2026-09-28T16:11:21.578Z",
+  "frozen_at": "2026-09-28T21:12:11.158Z",
   "status": "READY_WITH_LIMITATIONS",
-  "framework_hash": "2b2ecdafba8d254bcd8b62e25b1054df80f477c43f93ae547a64db5770e4b19b",
+  "framework_hash": "84f8fe2689cd3c1cf40ea39fc950f1df8da9d7708b19432296f8e53c5575bcf5",
   "checklist_hash": "71a39e82b8ab8ea0c66d0eefb3538a39dbac8f277057c522fa1c92cb36b7054f",
   "validation_report": "SYSTEM_VALIDATION_REPORT.md",
-  "test_results": "runtime/test-results-phase2b-final.txt",
+  "test_results": "runtime/test-results-selection-fix-full.txt",
   "architecture_review": null,
-  "tests_passed": 55,
+  "tests_passed": 58,
   "tests_failed": 0,
   "revalidation_reason": "Phase 2B deterministic local validation passed: evidence-disciplined rubrics, coverage artifacts and gates, separated remediation/transformation planning, dependency rationale, and read-only safety remain frozen. No full production audit was run.",
-  "previous_framework_hash": "db3e2d8d4446f6a131163837fecdc75d06c2dcbe4eb87f8557c4dbee1a26cd78"
+  "previous_framework_hash": "2b2ecdafba8d254bcd8b62e25b1054df80f477c43f93ae547a64db5770e4b19b"
 }
