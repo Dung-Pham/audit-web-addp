@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "reviewer_id": "codex-independent-final-review-20260928",
+  "reviewed_candidates": 20,
+  "method": "Two-stage independent review: artifact-level evidence assessment followed by supplemental post-scroll visual impact review.",
+  "independence_limit": "Supplemental review explicitly scoped to findings materially informed by visual render evidence.",
+  "external_independent_reviewer": true,
+  "accepted": 11,
+  "rejected": 3,
+  "manual_review": 6,
+  "blocked": 0,
+  "requested_model": "GPT-5.6 Sol / High",
+  "runtime_model_verified": false,
+  "review_artifacts": [
+    "review/independent-final-review.json",
+    "review/independent-render-impact-review.json"
+  ]
+}

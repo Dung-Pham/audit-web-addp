@@ -1,0 +1,373 @@
+[
+  {
+    "requirement_id": "REQ-001",
+    "original_text": "- Màu chủ đạo (Primary - 60%): Sử dụng chuẩn xác sắc Xanh dương đậm (Navy / Royal Blue) từ logo chữ ADDP Pharmacy cho các thanh Header, tiêu đề chính (H1, H2), và logo nhận diện. \n\n\n- Màu nền trợ sáng (Background - 30%): Dùng nền trắng tinh hoặc xám sáng nhạt (#F8F9FA) để tạo không gian sạch sẽ, không bị lóa mắt.\n\n\n- Màu điểm nhấn (Accent/CTA - 10%): Dùng tông Cam ấm hoặc Đỏ đô cho các nút bấm chuyển đổi để kích thích hành vi mua sắm.",
+    "source_location": "Trang tính1!C6",
+    "verification_methods": [
+      "visual review",
+      "computed colors"
+    ],
+    "agents": [
+      "brand",
+      "ux"
+    ],
+    "evidence_required": [
+      "screenshots",
+      "rendered DOM"
+    ],
+    "report_section": "brand",
+    "clause_ids": [
+      "REQ-001-01",
+      "REQ-001-02",
+      "REQ-001-03"
+    ]
+  },
+  {
+    "requirement_id": "REQ-002",
+    "original_text": "- Dùng font không chân hiện đại (Inter, Roboto). Cỡ chữ tiêu đề tối thiểu 28-32px trên mobile, văn bản thân bài tối thiểu 16px. Khoảng cách dòng thoáng (1.5 - 1.6), giúp khách hàng trung cao tuổi đọc không bị mỏi mắt.",
+    "source_location": "Trang tính1!C7",
+    "verification_methods": [
+      "computed typography at mobile viewport"
+    ],
+    "agents": [
+      "ux",
+      "persona_mobile"
+    ],
+    "evidence_required": [
+      "DOM styles",
+      "mobile screenshot"
+    ],
+    "report_section": "ux",
+    "clause_ids": [
+      "REQ-002-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-003",
+    "original_text": "- 3 sản phẩm chủ lực (Glucare Plus, Viên An Đường, Dovital) phải có hình ảnh chụp studio sắc nét (hoặc 3D render cao cấp), thấy rõ bao bì, tem nhãn.\n\n\n- Có hình ảnh con người thực tế, biểu cảm an tâm ( người cao tuổi tươi cười) để củng cố thông điệp \"Chăm sóc từ giá trị thiện lành\".",
+    "source_location": "Trang tính1!C8",
+    "verification_methods": [
+      "named-product image inspection",
+      "visual review"
+    ],
+    "agents": [
+      "brand",
+      "content"
+    ],
+    "evidence_required": [
+      "screenshots",
+      "image dimensions"
+    ],
+    "report_section": "brand",
+    "clause_ids": [
+      "REQ-003-01",
+      "REQ-003-02"
+    ]
+  },
+  {
+    "requirement_id": "REQ-004",
+    "original_text": "- Ngay khi mở web (chưa cuộn chuột), màn hình đầu tiên phải hội tụ đủ: Slogan/Thông điệp cốt lõi + Hình ảnh sản phẩm chủ lực + Nút kêu gọi hành động (CTA) to rõ ràng.",
+    "source_location": "Trang tính1!C9",
+    "verification_methods": [
+      "first viewport visual review"
+    ],
+    "agents": [
+      "ux",
+      "conversion"
+    ],
+    "evidence_required": [
+      "viewport screenshot",
+      "visible CTA bounding boxes"
+    ],
+    "report_section": "ux",
+    "clause_ids": [
+      "REQ-004-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-005",
+    "original_text": "- Nút \"Mua ngay\", \"Đặt tư vấn\" phải có hình khối bo tròn, kích thước lớn dễ bấm bằng ngón cái trên mobile, màu sắc tương phản mạnh so với tổng thể web.",
+    "source_location": "Trang tính1!C10",
+    "verification_methods": [
+      "CTA size/style inspection"
+    ],
+    "agents": [
+      "ux",
+      "conversion"
+    ],
+    "evidence_required": [
+      "mobile screenshot",
+      "computed styles"
+    ],
+    "report_section": "ux",
+    "clause_ids": [
+      "REQ-005-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-006",
+    "original_text": "- Nêu bật sứ mệnh thương hiệu ADDP.\n\n\n- Trưng bày trực quan 3 dòng sản phẩm chủ lực kèm nút dẫn thẳng vào Landing Page.\n\n\n- Đưa khu vực \"Bằng chứng xã hội\" (feedback khách hàng cũ, chứng nhận an toàn) lên vị trí dễ thấy.",
+    "source_location": "Trang tính1!C12",
+    "verification_methods": [
+      "mission/product links/social proof content review"
+    ],
+    "agents": [
+      "brand",
+      "content",
+      "conversion"
+    ],
+    "evidence_required": [
+      "rendered text",
+      "links",
+      "screenshots"
+    ],
+    "report_section": "brand",
+    "clause_ids": [
+      "REQ-006-01",
+      "REQ-006-02",
+      "REQ-006-03"
+    ]
+  },
+  {
+    "requirement_id": "REQ-007",
+    "original_text": "\n\n- Trang chi tiết sản phẩm (PDP):\n\n+ Khu vực 1: Tên sản phẩm, giá bán, nút \"Mua ngay\" và hình ảnh.\n\n+ Khu vực 2: Tóm tắt thông tin sản phẩm: Thành phần, công dụng, đối tượng sử dụng trình bày dưới dạng bảng thông số (Tables) và danh sách gạch đầu dòng rõ ràng.\n+ Khu vực 3: Nội dung chi tiết sản phẩm + đánh giá\n\n+ Khu vực 4: Khung FAQ (Hỏi đáp nhanh) về sản phẩm (VD: \"Viên An Đường có dùng chung với thuốc Tây được không?\") trả lời trực diện ngay 40-60 từ đầu.\n\n",
+    "source_location": "Trang tính1!C13",
+    "verification_methods": [
+      "PDP table/bullet/FAQ/review/offer inspection"
+    ],
+    "agents": [
+      "content",
+      "geo_aeo",
+      "checkout"
+    ],
+    "evidence_required": [
+      "rendered DOM",
+      "raw HTML",
+      "screenshots"
+    ],
+    "report_section": "content",
+    "clause_ids": [
+      "REQ-007-01",
+      "REQ-007-02",
+      "REQ-007-03",
+      "REQ-007-04",
+      "REQ-007-05"
+    ]
+  },
+  {
+    "requirement_id": "REQ-008",
+    "original_text": "- Tầng 1 (Cho người mua ngay): Giải pháp giải quyết vấn đề + Giá ưu đãi + Nút \"Đặt hàng ngay\" siêu tốc ở trên cùng.\n\n\n- Tầng 2 (Cho người tìm hiểu): Cơ chế tác động, thành phần dược liệu, chứng nhận kiểm định minh bạch.\n\n\n- Tầng 3 (Cho người tham khảo/đắn đo): Bằng chứng xã hội (feedback, video thực tế), khối FAQ (Hỏi đáp) xử lý từ chối và nút chốt đơn cuối trang.",
+    "source_location": "Trang tính1!C14",
+    "verification_methods": [
+      "three-tier landing review for each named product"
+    ],
+    "agents": [
+      "conversion",
+      "content"
+    ],
+    "evidence_required": [
+      "landing DOM",
+      "screenshots",
+      "public navigation"
+    ],
+    "report_section": "conversion",
+    "clause_ids": [
+      "REQ-008-01",
+      "REQ-008-02",
+      "REQ-008-03"
+    ]
+  },
+  {
+    "requirement_id": "REQ-009",
+    "original_text": "- Bài viết được định dạng chuẩn E-E-A-T.\n\n\n- Tiêu chuẩn cấu trúc nội dung: Thẻ H2/H3 đặt dưới dạng câu hỏi người dùng hay thắc mắc (VD: \"Cách nhận biết sớm biến chứng tiểu đường tuýp 2\"). Ngay dưới tiêu đề phải có đoạn tóm tắt trực diện từ 40-60 từ. Nội dung tiếp theo phải sử dụng bảng biểu so sánh hoặc liệt kê ý chính (Bullet points).",
+    "source_location": "Trang tính1!C15",
+    "verification_methods": [
+      "question headings/40-60 word answers/table/bullet/attribution review"
+    ],
+    "agents": [
+      "content",
+      "health_content",
+      "geo_aeo"
+    ],
+    "evidence_required": [
+      "raw HTML",
+      "visible text"
+    ],
+    "report_section": "content",
+    "clause_ids": [
+      "REQ-009-01",
+      "REQ-009-02"
+    ]
+  },
+  {
+    "requirement_id": "REQ-010",
+    "original_text": "- Lập trình viên bắt buộc nhúng mã JSON-LD chuẩn cho: Organization (thực thể doanh nghiệp tại Hà Nội), Product (cho 3 sản phẩm), và FAQPage.",
+    "source_location": "Trang tính1!C17",
+    "verification_methods": [
+      "parse JSON-LD",
+      "compare structured data with visible content"
+    ],
+    "agents": [
+      "structured_data",
+      "geo_aeo"
+    ],
+    "evidence_required": [
+      "JSON-LD",
+      "raw HTML",
+      "rendered text"
+    ],
+    "report_section": "structured_data",
+    "clause_ids": [
+      "REQ-010-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-011",
+    "original_text": "- Cấu hình file robots.txt tuyệt đối không chặn các con bot AI (ChatGPT-User, PerplexityBot, Google-Extended). Cho phép đọc thì thương hiệu mới được AI gợi ý.",
+    "source_location": "Trang tính1!C18",
+    "verification_methods": [
+      "robots user-agent rule analysis"
+    ],
+    "agents": [
+      "seo",
+      "geo_aeo"
+    ],
+    "evidence_required": [
+      "robots.txt"
+    ],
+    "report_section": "seo",
+    "clause_ids": [
+      "REQ-011-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-012",
+    "original_text": "- Toàn bộ nội dung chữ, giá, mô tả phải được render trực tiếp từ Server (HTML tĩnh) ngay khi tải trang, không dùng JavaScript thuần tải ngầm.",
+    "source_location": "Trang tính1!C19",
+    "verification_methods": [
+      "compare raw server HTML and rendered content"
+    ],
+    "agents": [
+      "seo",
+      "geo_aeo"
+    ],
+    "evidence_required": [
+      "raw HTML",
+      "rendered DOM"
+    ],
+    "report_section": "seo",
+    "clause_ids": [
+      "REQ-012-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-013",
+    "original_text": "- Điểm PageSpeed Insights trên Mobile đạt tối thiểu 85+, thời gian tải thực tế dưới 2.5 giây. Giao diện mobile hiển thị hoàn hảo, không bị tràn viền, vỡ ảnh.",
+    "source_location": "Trang tính1!C21",
+    "verification_methods": [
+      "mobile LAB measurement",
+      "PSI if available",
+      "overflow/image inspection"
+    ],
+    "agents": [
+      "performance",
+      "ux"
+    ],
+    "evidence_required": [
+      "LAB metrics",
+      "mobile screenshots"
+    ],
+    "report_section": "performance",
+    "clause_ids": [
+      "REQ-013-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-014",
+    "original_text": "- Tích hợp Google Tag Manager (GTM), GA4, Meta Pixel và Google Ads Conversion Tracking.\n\n\n- Bắt buộc bắn sự kiện thành công khi khách bấm đặt hàng và ghi nhận tại Trang Cảm Ơn (Thank You Page).",
+    "source_location": "Trang tính1!C22",
+    "verification_methods": [
+      "public script/network/dataLayer inspection",
+      "manual successful-order event check"
+    ],
+    "agents": [
+      "analytics"
+    ],
+    "evidence_required": [
+      "network",
+      "public script identifiers",
+      "dataLayer"
+    ],
+    "report_section": "analytics",
+    "clause_ids": [
+      "REQ-014-01",
+      "REQ-014-02"
+    ]
+  },
+  {
+    "requirement_id": "REQ-015",
+    "original_text": "- Cài đặt chứng chỉ SSL (HTTPS), tự động tạo Sitemap.xml và file Robots.txt chuẩn SEO, hỗ trợ tùy biến Title/Meta Description linh hoạt.",
+    "source_location": "Trang tính1!C23",
+    "verification_methods": [
+      "HTTPS request",
+      "robots/sitemap parse",
+      "public title/meta extraction",
+      "manual backend configurability check"
+    ],
+    "agents": [
+      "seo",
+      "external_technical_diagnostic"
+    ],
+    "evidence_required": [
+      "HTTP response",
+      "robots/sitemap",
+      "metadata"
+    ],
+    "report_section": "seo",
+    "clause_ids": [
+      "REQ-015-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-016",
+    "original_text": "- Form đặt hàng cực kỳ gọn nhẹ: Chỉ yêu cầu điền Họ tên, SĐT, Địa chỉ. Tuyệt đối không bắt buộc tạo tài khoản trước khi mua hàng để tránh làm khách nản lòng.",
+    "source_location": "Trang tính1!C25",
+    "verification_methods": [
+      "read-only checkout form inspection",
+      "manual guest order validation"
+    ],
+    "agents": [
+      "checkout",
+      "persona_high_intent"
+    ],
+    "evidence_required": [
+      "form controls",
+      "checkout screenshot"
+    ],
+    "report_section": "checkout",
+    "clause_ids": [
+      "REQ-016-01"
+    ]
+  },
+  {
+    "requirement_id": "REQ-017",
+    "original_text": "- Hỗ trợ thanh toán linh hoạt: COD (nhận hàng trả tiền), Chuyển khoản ngân hàng, kèm hiển thị thông báo xác nhận đơn hàng thành công minh bạch. chuyển thẳng sang kiot viet",
+    "source_location": "Trang tính1!C26",
+    "verification_methods": [
+      "read-only visible payment options",
+      "manual success/KiotViet integration test"
+    ],
+    "agents": [
+      "checkout",
+      "external_technical_diagnostic"
+    ],
+    "evidence_required": [
+      "checkout DOM",
+      "public network"
+    ],
+    "report_section": "checkout",
+    "clause_ids": [
+      "REQ-017-01"
+    ]
+  }
+]

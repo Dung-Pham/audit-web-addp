@@ -1,0 +1,72 @@
+[
+  {
+    "finding_id": "FND-SPEC-CONTENT-001",
+    "title": "Product page does not present a direct FAQ block in the captured content",
+    "area": "content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-D1249648026B4D96"
+    ],
+    "impact": {
+      "user": "A buyer researching for a parent may not find direct answers to appropriate use, interactions or limits at the product decision point.",
+      "business": "Unanswered purchase questions can prevent informed decisions.",
+      "seo": "A structured question-and-answer section can improve direct answer extraction.",
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.87,
+    "suggested_direction": "Add evidence-grounded FAQ answers with explicit boundaries and reviewed sources beside the product information.",
+    "unknowns": [
+      "Assessment is limited to captured page text and headings; content may change after this observation."
+    ],
+    "origin": "specialist:content",
+    "specialist_interpretation": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+    "limitations": [
+      "Assessment is limited to captured page text and headings; content may change after this observation."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-CONTENT-002",
+    "title": "Viên An Đường product detail lacks a dedicated FAQ section in the captured page structure",
+    "area": "content",
+    "page": "https://addp.vn/vien-an-duong-addp.html",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured raw product page presents numbered sections for product use, audiences, dosage, ingredients, expiry and storage, but no dedicated FAQ or question-and-answer section appears in its page headings/content structure.",
+    "evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "impact": {
+      "user": "A shopper researching a health product may have difficulty interpreting the product offer and its supporting information.",
+      "business": "Unclear product information may reduce confidence at the decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.91,
+    "suggested_direction": "Add a medically reviewed, directly answered FAQ with source links and explicit boundaries for interactions, intended users and use with prescribed treatment.",
+    "unknowns": [
+      "The capture does not establish backend price configuration, product eligibility or clinical effectiveness."
+    ],
+    "origin": "specialist:content",
+    "specialist_interpretation": "The captured raw product page presents numbered sections for product use, audiences, dosage, ingredients, expiry and storage, but no dedicated FAQ or question-and-answer section appears in its page headings/content structure.",
+    "limitations": [
+      "Assessment is limited to the captured public page and does not establish backend or clinical facts."
+    ],
+    "status": "candidate"
+  }
+]

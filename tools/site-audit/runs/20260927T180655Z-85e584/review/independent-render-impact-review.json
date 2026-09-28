@@ -1,0 +1,173 @@
+{
+  "run_id": "20260927T180655Z-85e584",
+  "review_type": "critical_path_supplemental_independent_render_impact_review",
+  "status": "COMPLETE",
+  "supplements": "review/independent-final-review.json",
+  "replaces_prior_review": false,
+  "reviewer": {
+    "identity": "codex-independent-render-review-20260928-critical-path",
+    "role": "independent_visual_evidence_reviewer",
+    "independence_statement": "This reviewer did not generate the accepted findings. This review is restricted to the three user-named findings and the enumerated screenshot evidence IDs."
+  },
+  "requested_model": "GPT-5.6 Sol / High",
+  "runtime_model_verified": false,
+  "runtime_model_verification_note": "No runtime metadata available to this review proves the effective model or reasoning level.",
+  "reviewed_at": "2026-09-28T10:57:56.0140739Z",
+  "input_scope_note": "The request says 12 screenshots, but it enumerates 10 unique evidence IDs. This review inspected and cites exactly those 10 supplied IDs and no additional evidence artifacts.",
+  "reviewed_evidence_ids": [
+    "EVD-2428C5B7D856AA8B",
+    "EVD-8BF3FB60FCBEF54C",
+    "EVD-465168A6A71EDB38",
+    "EVD-790C8DBC086983DA",
+    "EVD-54E1A17F79123C44",
+    "EVD-C1DECAC3B7AA313C",
+    "EVD-322BD45F7C89FF17",
+    "EVD-9410265A412D9A83",
+    "EVD-9BB5826034C3BF9C",
+    "EVD-55A4919F83571052"
+  ],
+  "evidence_inspected": [
+    {
+      "evidence_id": "EVD-2428C5B7D856AA8B",
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_viewport_screenshot"
+    },
+    {
+      "evidence_id": "EVD-8BF3FB60FCBEF54C",
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_full_screenshot"
+    },
+    {
+      "evidence_id": "EVD-465168A6A71EDB38",
+      "url": "https://addp.vn/",
+      "viewport": "desktop",
+      "type": "stabilized_postscroll_viewport_screenshot"
+    },
+    {
+      "evidence_id": "EVD-790C8DBC086983DA",
+      "url": "https://addp.vn/",
+      "viewport": "desktop",
+      "type": "stabilized_postscroll_full_screenshot"
+    },
+    {
+      "evidence_id": "EVD-54E1A17F79123C44",
+      "url": "https://addp.vn/",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_viewport_screenshot"
+    },
+    {
+      "evidence_id": "EVD-C1DECAC3B7AA313C",
+      "url": "https://addp.vn/",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_full_screenshot"
+    },
+    {
+      "evidence_id": "EVD-322BD45F7C89FF17",
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "desktop",
+      "type": "stabilized_postscroll_viewport_screenshot"
+    },
+    {
+      "evidence_id": "EVD-9410265A412D9A83",
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "desktop",
+      "type": "stabilized_postscroll_full_screenshot"
+    },
+    {
+      "evidence_id": "EVD-9BB5826034C3BF9C",
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_viewport_screenshot"
+    },
+    {
+      "evidence_id": "EVD-55A4919F83571052",
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "mobile",
+      "type": "stabilized_postscroll_full_screenshot"
+    }
+  ],
+  "verdicts": [
+    {
+      "finding_id": "FND-PER-MOBILE-002",
+      "prior_verdict": "ACCEPT",
+      "verdict": "ACCEPT",
+      "disposition": "STANDS",
+      "reviewed_evidence_ids": [
+        "EVD-2428C5B7D856AA8B",
+        "EVD-8BF3FB60FCBEF54C"
+      ],
+      "reason": "The stabilized Glucare mobile viewport and full-page screenshots still visibly contain gold and gray product-price text on light cards, so the visual subject of the original automated contrast finding remains present. These screenshots do not independently recompute or prove the previously reported 2.77:1 and 2.45:1 ratios, but they do not visually contradict the original indexed axe measurement. The prior ACCEPT therefore stands for the original measured mobile state, with the explicit limitation that the new screenshot evidence is corroborative rather than a fresh contrast test.",
+      "checks": {
+        "artifact_and_url_match": true,
+        "visual_subject_present": true,
+        "fresh_contrast_ratio_proved_by_screenshot": false,
+        "prior_measured_result_visually_contradicted": false,
+        "black_box_limits_respected": true,
+        "medical_inference": "none",
+        "cart_order_payment_inference": "none"
+      }
+    },
+    {
+      "finding_id": "FND-SPEC-UX-001",
+      "prior_verdict": "ACCEPT",
+      "verdict": "ACCEPT",
+      "disposition": "STANDS",
+      "reviewed_evidence_ids": [
+        "EVD-465168A6A71EDB38",
+        "EVD-790C8DBC086983DA",
+        "EVD-54E1A17F79123C44",
+        "EVD-C1DECAC3B7AA313C"
+      ],
+      "reason": "Both stabilized homepage first-view screenshots show the ADDP logo, care-oriented brand message, older couple, supporting copy, and exploration/consultation actions without a product package or named principal product. The corresponding desktop and mobile full-page screenshots show the product portfolio farther down the page. The new evidence therefore supports the exact first-viewport distinction in the finding, and the prior ACCEPT stands for the saved desktop and mobile states.",
+      "checks": {
+        "artifact_and_url_match": true,
+        "desktop_first_view_has_principal_product": false,
+        "mobile_first_view_has_principal_product": false,
+        "products_visible_later_in_full_capture": true,
+        "exact_visual_observation_supported": true,
+        "black_box_limits_respected": true,
+        "customer_context_fabricated_as_evidence": false
+      }
+    },
+    {
+      "finding_id": "FND-SPEC-BRAND-004",
+      "prior_verdict": "ACCEPT",
+      "verdict": "MANUAL_REVIEW",
+      "disposition": "CHANGES",
+      "reviewed_evidence_ids": [
+        "EVD-322BD45F7C89FF17",
+        "EVD-9410265A412D9A83",
+        "EVD-9BB5826034C3BF9C",
+        "EVD-55A4919F83571052"
+      ],
+      "reason": "The stabilized desktop and mobile screenshots still show the English H1 'About us' above otherwise Vietnamese company content. The new mobile viewport, however, places the breadcrumb and H1 directly beneath the header and does not show the former oversized blank opening region. Because the accepted finding combines the still-supported mixed-language observation with a mobile-void observation contradicted by the new pixels, the prior ACCEPT changes to MANUAL_REVIEW. The finding should be split or rewritten before acceptance; no implementation cause is inferred from the screenshots.",
+      "checks": {
+        "artifact_and_url_match": true,
+        "english_about_us_h1_visible": true,
+        "otherwise_vietnamese_content_visible": true,
+        "former_oversized_mobile_opening_void_visible": false,
+        "exact_prior_observation_fully_supported": false,
+        "ungrounded_root_cause": false,
+        "black_box_limits_respected": true
+      }
+    }
+  ],
+  "totals": {
+    "supplied_unique_evidence_ids": 10,
+    "evidence_ids_actually_inspected": 10,
+    "findings_reviewed": 3,
+    "verdicts": {
+      "ACCEPT": 2,
+      "REJECT": 0,
+      "MANUAL_REVIEW": 1,
+      "BLOCKED": 0
+    },
+    "dispositions": {
+      "STANDS": 2,
+      "CHANGES": 1,
+      "REMAINS_MANUAL": 0
+    }
+  }
+}

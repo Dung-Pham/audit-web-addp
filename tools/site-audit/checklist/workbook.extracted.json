@@ -1,0 +1,545 @@
+{
+  "source": "D:\\PhpstormProjects\\addp-analys\\docs\\audit-prompts\\Check líst  yêu cầu triển khai web ADDP.xlsx",
+  "source_sha256": "c054dbe2a5bbe0c43247d0b9f84b397b45a96a4099f066f8553192f9bf9ad50e",
+  "authorization": "User approved Excel as authoritative source and exact extraction in this session.",
+  "sheets": [
+    {
+      "name": "Trang tính1",
+      "rows": [
+        {
+          "row": 4,
+          "cells": [
+            {
+              "cell": "A4",
+              "text": "Stt",
+              "type": "s"
+            },
+            {
+              "cell": "B4",
+              "text": "Hạng mục kiểm tra",
+              "type": "s"
+            },
+            {
+              "cell": "C4",
+              "text": "Tiêu chuẩn cụ thể cần đạt được (Criteria)",
+              "type": "s"
+            },
+            {
+              "cell": "D4",
+              "text": "Mục tiêu chiến lược (Truyền thông, Bán hàng, AEO, GEO)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "cell": "A5",
+              "text": "I",
+              "type": "s"
+            },
+            {
+              "cell": "B5",
+              "text": "THẨM MỸ GIAO DIỆN & TRẢI NGHIỆM THỊ GIÁC (VISUAL & UI/UX)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            {
+              "cell": "A6",
+              "text": "1.0",
+              "type": "n"
+            },
+            {
+              "cell": "B6",
+              "text": "Đồng bộ màu sắc từ Logo gốc ADDP",
+              "type": "s"
+            },
+            {
+              "cell": "C6",
+              "text": "- Màu chủ đạo (Primary - 60%): Sử dụng chuẩn xác sắc Xanh dương đậm (Navy / Royal Blue) từ logo chữ ADDP Pharmacy cho các thanh Header, tiêu đề chính (H1, H2), và logo nhận diện. \n\n\n- Màu nền trợ sáng (Background - 30%): Dùng nền trắng tinh hoặc xám sáng nhạt (#F8F9FA) để tạo không gian sạch sẽ, không bị lóa mắt.\n\n\n- Màu điểm nhấn (Accent/CTA - 10%): Dùng tông Cam ấm hoặc Đỏ đô cho các nút bấm chuyển đổi để kích thích hành vi mua sắm.",
+              "type": "s"
+            },
+            {
+              "cell": "D6",
+              "text": "- Truyền thông & Niềm tin: Kế thừa trọn vẹn sự uy tín, chuẩn mực y tế từ logo sẵn có, đồng thời khắc phục điểm yếu \"lạnh lẽo\" bằng màu điểm nhấn kích thích hành vi mua hàng.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            {
+              "cell": "A7",
+              "text": "2.0",
+              "type": "n"
+            },
+            {
+              "cell": "B7",
+              "text": "Kiểu chữ & Khoảng cách (Typography)",
+              "type": "s"
+            },
+            {
+              "cell": "C7",
+              "text": "- Dùng font không chân hiện đại (Inter, Roboto). Cỡ chữ tiêu đề tối thiểu 28-32px trên mobile, văn bản thân bài tối thiểu 16px. Khoảng cách dòng thoáng (1.5 - 1.6), giúp khách hàng trung cao tuổi đọc không bị mỏi mắt.",
+              "type": "s"
+            },
+            {
+              "cell": "D7",
+              "text": "- Trải nghiệm & Bán hàng: Đảm bảo đối tượng khách hàng lớn tuổi hoặc con cháu mua hàng dễ đọc, không bị rào cản thị giác khi tìm hiểu thông tin sức khỏe.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            {
+              "cell": "A8",
+              "text": "3.0",
+              "type": "n"
+            },
+            {
+              "cell": "B8",
+              "text": "Hình ảnh sản phẩm & Con người",
+              "type": "s"
+            },
+            {
+              "cell": "C8",
+              "text": "- 3 sản phẩm chủ lực (Glucare Plus, Viên An Đường, Dovital) phải có hình ảnh chụp studio sắc nét (hoặc 3D render cao cấp), thấy rõ bao bì, tem nhãn.\n\n\n- Có hình ảnh con người thực tế, biểu cảm an tâm ( người cao tuổi tươi cười) để củng cố thông điệp \"Chăm sóc từ giá trị thiện lành\".",
+              "type": "s"
+            },
+            {
+              "cell": "D8",
+              "text": "- Truyền thông nhân văn: Chạm đến cảm xúc của khách hàng, khẳng định chất lượng thực tế và định vị giá trị cốt lõi của thương hiệu ADDP.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            {
+              "cell": "A9",
+              "text": "4.0",
+              "type": "n"
+            },
+            {
+              "cell": "B9",
+              "text": "Thiết kế vùng \"Above the Fold\"",
+              "type": "s"
+            },
+            {
+              "cell": "C9",
+              "text": "- Ngay khi mở web (chưa cuộn chuột), màn hình đầu tiên phải hội tụ đủ: Slogan/Thông điệp cốt lõi + Hình ảnh sản phẩm chủ lực + Nút kêu gọi hành động (CTA) to rõ ràng.",
+              "type": "s"
+            },
+            {
+              "cell": "D9",
+              "text": "- Bán hàng: Định hướng người dùng ngay lập tức tập trung vào sản phẩm trọng tâm, hạn chế tối đa tỷ lệ thoát trang sớm (Bounce Rate).",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            {
+              "cell": "A10",
+              "text": "5.0",
+              "type": "n"
+            },
+            {
+              "cell": "B10",
+              "text": "Thiết kế nút bấm hành động (CTA)",
+              "type": "s"
+            },
+            {
+              "cell": "C10",
+              "text": "- Nút \"Mua ngay\", \"Đặt tư vấn\" phải có hình khối bo tròn, kích thước lớn dễ bấm bằng ngón cái trên mobile, màu sắc tương phản mạnh so với tổng thể web.",
+              "type": "s"
+            },
+            {
+              "cell": "D10",
+              "text": "- Bán hàng: Dẫn dắt thị giác người dùng tự động thực hiện hành vi chuyển đổi chốt đơn một cách thuận lợi nhất.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            {
+              "cell": "A11",
+              "text": "II",
+              "type": "s"
+            },
+            {
+              "cell": "B11",
+              "text": "NỘI DUNG WEB, TRANG SẢN PHẨM & LANDING PAGE (SALES, AEO & GEO)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            {
+              "cell": "A12",
+              "text": "1.0",
+              "type": "n"
+            },
+            {
+              "cell": "B12",
+              "text": "Cấu trúc Trang chủ (Homepage)",
+              "type": "s"
+            },
+            {
+              "cell": "C12",
+              "text": "- Nêu bật sứ mệnh thương hiệu ADDP.\n\n\n- Trưng bày trực quan 3 dòng sản phẩm chủ lực kèm nút dẫn thẳng vào Landing Page.\n\n\n- Đưa khu vực \"Bằng chứng xã hội\" (feedback khách hàng cũ, chứng nhận an toàn) lên vị trí dễ thấy.",
+              "type": "s"
+            },
+            {
+              "cell": "D12",
+              "text": "- Truyền thông & Bán hàng: Khắc sâu định vị thương hiệu và tạo điểm tựa niềm tin ngay từ trang đón khách đầu tiên.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            {
+              "cell": "A13",
+              "text": "2.0",
+              "type": "n"
+            },
+            {
+              "cell": "B13",
+              "text": "Bố cục Trang sản phẩm (Category & Detail Page) (Tích hợp GEO & AEO)",
+              "type": "s"
+            },
+            {
+              "cell": "C13",
+              "text": "\n\n- Trang chi tiết sản phẩm (PDP):\n\n+ Khu vực 1: Tên sản phẩm, giá bán, nút \"Mua ngay\" và hình ảnh.\n\n+ Khu vực 2: Tóm tắt thông tin sản phẩm: Thành phần, công dụng, đối tượng sử dụng trình bày dưới dạng bảng thông số (Tables) và danh sách gạch đầu dòng rõ ràng.\n+ Khu vực 3: Nội dung chi tiết sản phẩm + đánh giá\n\n+ Khu vực 4: Khung FAQ (Hỏi đáp nhanh) về sản phẩm (VD: \"Viên An Đường có dùng chung với thuốc Tây được không?\") trả lời trực diện ngay 40-60 từ đầu.\n\n",
+              "type": "s"
+            },
+            {
+              "cell": "D13",
+              "text": "- AEO & GEO: Cấu trúc bảng số liệu và khối FAQ giúp các công cụ tìm kiếm AI (Google AI Overviews, Perplexity) dễ dàng bóc tách thông tin cấu trúc sản phẩm để trích dẫn trực tiếp.\n\n\n- Bán hàng: Cung cấp thông tin minh bạch, khoa học giúp khách hàng tự tin ra quyết định mua ngay.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 14,
+          "cells": [
+            {
+              "cell": "A14",
+              "text": "3.0",
+              "type": "n"
+            },
+            {
+              "cell": "B14",
+              "text": "Cấu trúc 3 Landing Page sản phẩm (Theo tháp nhu cầu 3 tầng)",
+              "type": "s"
+            },
+            {
+              "cell": "C14",
+              "text": "- Tầng 1 (Cho người mua ngay): Giải pháp giải quyết vấn đề + Giá ưu đãi + Nút \"Đặt hàng ngay\" siêu tốc ở trên cùng.\n\n\n- Tầng 2 (Cho người tìm hiểu): Cơ chế tác động, thành phần dược liệu, chứng nhận kiểm định minh bạch.\n\n\n- Tầng 3 (Cho người tham khảo/đắn đo): Bằng chứng xã hội (feedback, video thực tế), khối FAQ (Hỏi đáp) xử lý từ chối và nút chốt đơn cuối trang.",
+              "type": "s"
+            },
+            {
+              "cell": "D14",
+              "text": "- Bán hàng tối đa hóa: Phục vụ trọn vẹn cả 3 nhóm tâm lý khách hàng từ \"nóng\" đến \"lạnh\" khi chạy quảng cáo Google Ads / Facebook Ads mà không bị bỏ sót phân khúc nào.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 15,
+          "cells": [
+            {
+              "cell": "A15",
+              "text": "4.0",
+              "type": "n"
+            },
+            {
+              "cell": "B15",
+              "text": "Trang tin tức / Kiến thức y khoa (Tích hợp GEO & AEO)",
+              "type": "s"
+            },
+            {
+              "cell": "C15",
+              "text": "- Bài viết được định dạng chuẩn E-E-A-T.\n\n\n- Tiêu chuẩn cấu trúc nội dung: Thẻ H2/H3 đặt dưới dạng câu hỏi người dùng hay thắc mắc (VD: \"Cách nhận biết sớm biến chứng tiểu đường tuýp 2\"). Ngay dưới tiêu đề phải có đoạn tóm tắt trực diện từ 40-60 từ. Nội dung tiếp theo phải sử dụng bảng biểu so sánh hoặc liệt kê ý chính (Bullet points).",
+              "type": "s"
+            },
+            {
+              "cell": "D15",
+              "text": "- GEO & AEO: Đây là dạng nội dung \"vàng\" để các hệ thống AI (ChatGPT, Google AI) nhận diện ADDP là nguồn uy tín và tự động đưa tên thương hiệu vào câu trả lời gợi ý cho người dùng, kéo lượng truy cập tự nhiên cực lớn.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 16,
+          "cells": [
+            {
+              "cell": "A16",
+              "text": "III",
+              "type": "s"
+            },
+            {
+              "cell": "B16",
+              "text": "TỐI ƯU HÓA TÌM KIẾM THẾ HỆ MỚI (GEO & AEO - TECHNICAL SEARCH)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 17,
+          "cells": [
+            {
+              "cell": "A17",
+              "text": "1.0",
+              "type": "n"
+            },
+            {
+              "cell": "B17",
+              "text": "Khai báo Schema Structured Data",
+              "type": "s"
+            },
+            {
+              "cell": "C17",
+              "text": "- Lập trình viên bắt buộc nhúng mã JSON-LD chuẩn cho: Organization (thực thể doanh nghiệp tại Hà Nội), Product (cho 3 sản phẩm), và FAQPage.",
+              "type": "s"
+            },
+            {
+              "cell": "D17",
+              "text": "- AEO & GEO: Giúp máy tính và bot AI đọc hiểu chính xác 100% về thông tin doanh nghiệp, giá sản phẩm, và các câu hỏi thường gặp mà không cần phỏng đoán.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 18,
+          "cells": [
+            {
+              "cell": "A18",
+              "text": "2.0",
+              "type": "n"
+            },
+            {
+              "cell": "B18",
+              "text": "Mở quyền cho AI Bots truy cập",
+              "type": "s"
+            },
+            {
+              "cell": "C18",
+              "text": "- Cấu hình file robots.txt tuyệt đối không chặn các con bot AI (ChatGPT-User, PerplexityBot, Google-Extended). Cho phép đọc thì thương hiệu mới được AI gợi ý.",
+              "type": "s"
+            },
+            {
+              "cell": "D18",
+              "text": "- GEO (Tối thượng): Tránh việc website trở nên \"vô hình\" trước các cỗ máy trả lời thế hệ mới, đảm bảo thương hiệu ADDP luôn xuất hiện trong các câu trả lời gợi ý mua hàng của AI.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 19,
+          "cells": [
+            {
+              "cell": "A19",
+              "text": "3.0",
+              "type": "n"
+            },
+            {
+              "cell": "B19",
+              "text": "Công nghệ Server-Side Rendering (SSR)",
+              "type": "s"
+            },
+            {
+              "cell": "C19",
+              "text": "- Toàn bộ nội dung chữ, giá, mô tả phải được render trực tiếp từ Server (HTML tĩnh) ngay khi tải trang, không dùng JavaScript thuần tải ngầm.",
+              "type": "s"
+            },
+            {
+              "cell": "D19",
+              "text": "- GEO: Giúp các con bot AI không có khả năng lướt màn hình vẫn đọc được toàn bộ nội dung văn bản của trang ngay từ lần quét đầu tiên.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 20,
+          "cells": [
+            {
+              "cell": "A20",
+              "text": "IV",
+              "type": "s"
+            },
+            {
+              "cell": "B20",
+              "text": "KỸ THUẬT, TỐC ĐỘ & ĐO LƯỜNG (TECHNICAL & TRACKING)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 21,
+          "cells": [
+            {
+              "cell": "A21",
+              "text": "1.0",
+              "type": "n"
+            },
+            {
+              "cell": "B21",
+              "text": "Tốc độ tải trang & Mobile-First",
+              "type": "s"
+            },
+            {
+              "cell": "C21",
+              "text": "- Điểm PageSpeed Insights trên Mobile đạt tối thiểu 85+, thời gian tải thực tế dưới 2.5 giây. Giao diện mobile hiển thị hoàn hảo, không bị tràn viền, vỡ ảnh.",
+              "type": "s"
+            },
+            {
+              "cell": "D21",
+              "text": "- Bán hàng & SEO: Đảm bảo khách hàng dùng điện thoại không bị ức chế do đợi trang tải lâu, giữ vững tỷ lệ chuyển đổi đơn hàng cao.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 22,
+          "cells": [
+            {
+              "cell": "A22",
+              "text": "2.0",
+              "type": "n"
+            },
+            {
+              "cell": "B22",
+              "text": "Cài đặt Tracking Conversion chuyên sâu",
+              "type": "s"
+            },
+            {
+              "cell": "C22",
+              "text": "- Tích hợp Google Tag Manager (GTM), GA4, Meta Pixel và Google Ads Conversion Tracking.\n\n\n- Bắt buộc bắn sự kiện thành công khi khách bấm đặt hàng và ghi nhận tại Trang Cảm Ơn (Thank You Page).",
+              "type": "s"
+            },
+            {
+              "cell": "D22",
+              "text": "- Tối ưu Marketing: Giúp đo lường chính xác chiến dịch quảng cáo nào ra đơn, tính toán đúng ROAS để tối ưu ngân sách chạy Ads hiệu quả.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 23,
+          "cells": [
+            {
+              "cell": "A23",
+              "text": "3.0",
+              "type": "n"
+            },
+            {
+              "cell": "B23",
+              "text": "Bảo mật SSL & Technical SEO",
+              "type": "s"
+            },
+            {
+              "cell": "C23",
+              "text": "- Cài đặt chứng chỉ SSL (HTTPS), tự động tạo Sitemap.xml và file Robots.txt chuẩn SEO, hỗ trợ tùy biến Title/Meta Description linh hoạt.",
+              "type": "s"
+            },
+            {
+              "cell": "D23",
+              "text": "- SEO truyền thống: Xây dựng nền tảng kỹ thuật vững chắc để Google dễ dàng lập chỉ mục (index) và đẩy từ khóa lên top tìm kiếm tự nhiên.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 24,
+          "cells": [
+            {
+              "cell": "A24",
+              "text": "V",
+              "type": "s"
+            },
+            {
+              "cell": "B24",
+              "text": "THANH TOÁN & CHỐT ĐƠN (CHECKOUT & CONVERSION)",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 25,
+          "cells": [
+            {
+              "cell": "A25",
+              "text": "1.0",
+              "type": "n"
+            },
+            {
+              "cell": "B25",
+              "text": "Quy trình Checkout tối giản",
+              "type": "s"
+            },
+            {
+              "cell": "C25",
+              "text": "- Form đặt hàng cực kỳ gọn nhẹ: Chỉ yêu cầu điền Họ tên, SĐT, Địa chỉ. Tuyệt đối không bắt buộc tạo tài khoản trước khi mua hàng để tránh làm khách nản lòng.",
+              "type": "s"
+            },
+            {
+              "cell": "D25",
+              "text": "- Bán hàng: Xóa bỏ hoàn toàn rào cản tâm lý ngại khai báo rườm rà của khách hàng (đặc biệt là người trung cao tuổi), tối đa hóa số lượng đơn chốt thành công.",
+              "type": "s"
+            }
+          ]
+        },
+        {
+          "row": 26,
+          "cells": [
+            {
+              "cell": "A26",
+              "text": "2.0",
+              "type": "n"
+            },
+            {
+              "cell": "B26",
+              "text": "Đa dạng hình thức thanh toán",
+              "type": "s"
+            },
+            {
+              "cell": "C26",
+              "text": "- Hỗ trợ thanh toán linh hoạt: COD (nhận hàng trả tiền), Chuyển khoản ngân hàng, kèm hiển thị thông báo xác nhận đơn hàng thành công minh bạch. chuyển thẳng sang kiot viet",
+              "type": "s"
+            },
+            {
+              "cell": "D26",
+              "text": "- Bán hàng: Tạo sự an tâm tuyệt đối và linh hoạt cho mọi đối tượng khách hàng khi thanh toán trực tuyến hoặc trực tiếp.",
+              "type": "s"
+            }
+          ]
+        }
+      ],
+      "merged_cells": [
+        "A1:D1",
+        "B5:D5",
+        "B11:D11",
+        "B16:D16",
+        "B20:D20",
+        "B24:D24"
+      ]
+    }
+  ]
+}

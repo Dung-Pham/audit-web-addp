@@ -1,0 +1,39 @@
+[
+  {
+    "finding_id": "FND-SPEC-GEO-001",
+    "title": "Homepage and product pages expose no JSON-LD in the captured desktop/mobile pages",
+    "area": "geo_aeo",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-010"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C"
+    ],
+    "impact": {
+      "user": null,
+      "business": "Machine-readable entity and product information is not present in these captured pages.",
+      "seo": "Requested structured entity, product and FAQ data is absent from the observed pages.",
+      "technical": "The JSON-LD collector returned empty arrays for sampled pages."
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Add validated Organization markup and accurate Product and FAQPage markup where the corresponding visible content exists.",
+    "unknowns": [
+      "Finding is limited to sampled pages and JSON-LD; other structured-data formats were not assessed here."
+    ],
+    "origin": "specialist:geo",
+    "specialist_interpretation": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+    "limitations": [
+      "Finding is limited to sampled pages and JSON-LD; other structured-data formats were not assessed here."
+    ],
+    "status": "candidate"
+  }
+]

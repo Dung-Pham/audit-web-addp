@@ -1,0 +1,20 @@
+# System validation report
+
+Status: READY_WITH_LIMITATIONS
+
+Revalidated on 2026-09-28 against the Phase A audit framework and disposable local fixtures after the production collector returned usable evidence with truthful page-level partial status on all 25 selected pages. The resumed independent architecture/safety reviewer inspected the exact amendment, verified the 854 production evidence references and 50 final PNG files, exercised positive and negative resume cases locally, and recorded `READY_WITH_LIMITATIONS` in `runtime/ARCHITECTURE_REVIEW.md`. The full `npm test` suite passed 41/41 on this exact revision; see `runtime/test-results-partial-evidence-amendment.txt`.
+
+| Gate | Result | Evidence |
+| --- | --- | --- |
+| Checklist preservation and coverage | PASS | The 82 populated XLSX cells are preserved; 17 requirements and 30 original clauses are normalized. Modified or appended source cells fail normalization. |
+| Evidence contract and artifact containment | PASS | Collector evidence requires existing regular files inside the immutable run; duplicates, missing files, directories and symlink escapes fail. The current production checkpoint has 854 evidence records and zero missing referenced artifacts. |
+| Production read-only guard | PASS in local real Chrome | Direct/popup POST, mutating GET/query, extensionless and `.js` checkout endpoints, WebSockets, unsafe redirects and cross-origin navigation remain blocked. Source cookies and Authorization are stripped from cross-origin asset access. Safe GET assets remain available. |
+| Robots, sitemap, crawl and browser collection | PASS WITH LIMITATIONS | Bounded discovery and desktop/mobile collection produce raw and rendered HTML, initial and stabilized screenshots, network/console, accessibility and LAB artifacts. HTTP/decode failures, pending images, timeouts or unreached bottom retain page-level `partial` status. Current-version partial evidence is resumable only with required viewport evidence and accessible artifacts. |
+| Partial-evidence stage gate | PASS | A stage with evidence-backed partial pages can complete with `complete_with_limitations: true` without relabeling pages. Zero pages, zero usable evidence and all-error states remain blocked. Intact partial evidence resumes without page requests; missing required evidence forces recollection. |
+| Reviewer and planning traceability | PASS in fixtures | Accepted findings require separate reviewer decisions naming the exact observation, page, requirements, evidence, supported facts and reviewer identity. Unsupported backend or KiotViet claims remain manual. |
+| Contradictions, dependencies and reports | PASS in fixtures | Contradictions move to manual review; deduplication retains origins; invalid or cyclic dependencies fail; audit, improvement, executive, backlog and dependency artifacts are generated and validated. |
+| Run safety and final gate | PASS in fixtures | Run IDs cannot be overwritten; stages resume without losing evidence. Incomplete stages, missing reviewer decisions, missing original-clause decisions or inconsistent outputs fail final validation. Production entry points require a READY report and matching frozen hashes. |
+
+Production limitations must remain visible: all 25 pages and 50 viewport captures are partial. Differing screenshot bytes do not prove visual correctness. Finite waits, resource failures and pending images may limit conclusions. The read-only boundary blocks cart mutation, checkout submission, orders, payment, account creation and form success; thank-you or private KiotViet state cannot be observed. Browser timing is LAB only. Backend, analytics administration and actual runtime inference model metadata are unavailable. Affected checks must remain blocked, needs-manual-review, unknown or partial rather than PASS.
+
+Phase A is frozen in `runtime/PHASE_A_FROZEN.json` using current framework and checklist SHA-256 digests. Any later audited-code or checklist change closes the production gate until revalidation.

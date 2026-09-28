@@ -1,0 +1,144 @@
+[
+  {
+    "finding_id": "FND-PER-MOBILE-001",
+    "title": "Mobile icon links lack accessible names",
+    "area": "accessibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids": [
+      "REQ-005",
+      "REQ-013"
+    ],
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The mobile accessibility and DOM artifacts exist, match the Glucare URL, and directly support five serious link-name failures for cart, home, search, mobile-cart, and account links. The core accessibility observation is sound and does not infer a completed cart or account action. Manual review is required because REQ-005 addresses the shape, prominence, contrast, and thumb usability of purchase/consultation CTAs, while REQ-013 addresses mobile performance and visual integrity; neither requirement directly specifies accessible names for global icon links. The finding needs a corrected requirement mapping or an explicit best-practice source before remaining final.",
+    "reviewed_evidence_ids": [
+      "EVD-238D776F29EAE37D",
+      "EVD-733F5C04719022AE"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-UX-002",
+    "title": "Mobile typography falls below the checklist's reading-size targets",
+    "area": "Mobile typography and legibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids": [
+      "REQ-002"
+    ],
+    "evidence_ids": [
+      "EVD-733F5C04719022AE"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The mobile DOM artifact exists and supports a visible 23.4px Glucare H1, below the REQ-002 mobile-heading target. However, the cited 15.5px ingredient H4 examples are marked hidden with zero-size rectangles in the same artifact. Using those hidden nodes as evidence of a user-visible typography barrier is not reliable, and the remaining visible H1 example alone does not fully justify the broad high-severity wording. The finding requires human correction to exclude hidden elements and reassess scope and severity.",
+    "reviewed_evidence_ids": [
+      "EVD-733F5C04719022AE"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-001",
+    "title": "The two homepage hero CTAs share a non-directional hash target",
+    "area": "Homepage hero conversion path",
+    "page": "https://addp.vn/",
+    "source_requirement_ids": [
+      "REQ-004"
+    ],
+    "evidence_ids": [
+      "EVD-A606C27223349F8A",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-AEE314AA3F7151E7",
+      "EVD-2CA66D18158349D8",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The stabilized HTML and DOM artifacts support the narrow fact that both visible hero anchors have href '#'. The finding also acknowledges that runtime event handlers may supplement those anchors, yet its impact states that visitors are not given a destination-specific route and its suggested direction assumes distinct destination URLs are required. No safe interaction outcome or event-handler inspection proves that broader conclusion, and REQ-004 asks for a clear first-view CTA rather than distinct anchor URLs. Manual review is required to retain only the anchor fact or add appropriate evidence and requirement framing.",
+    "reviewed_evidence_ids": [
+      "EVD-A606C27223349F8A",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-AEE314AA3F7151E7",
+      "EVD-2CA66D18158349D8",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-002",
+    "title": "Product landing pages fragment the ADDP visual identity",
+    "area": "Cross-page brand consistency",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids": [
+      "REQ-001"
+    ],
+    "evidence_ids": [
+      "EVD-EA78205F3017C505",
+      "EVD-E178F1827F773846",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-702877ACD4E72E55",
+      "EVD-4256DF417284230A",
+      "EVD-92E0841363C85BA1",
+      "EVD-C86C629E938B1E14",
+      "EVD-0581A36B72F4A783"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The cited stabilized homepage and Glucare captures exist and support the observed navy/white/warm-yellow homepage versus cream/brown/gold Glucare treatment, with shared logo and header. REQ-001 makes that comparison relevant. Manual review is required because the finding generalizes to product landing pages and its suggested direction discusses Dovital without citing Dovital evidence, while its unknowns incorrectly state that Viên An Đường was not present in the collected inventory even though it is present in the current run. The core comparison is supportable, but the current final text is stale and broader than the reviewed evidence.",
+    "reviewed_evidence_ids": [
+      "EVD-EA78205F3017C505",
+      "EVD-E178F1827F773846",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-702877ACD4E72E55",
+      "EVD-4256DF417284230A",
+      "EVD-92E0841363C85BA1",
+      "EVD-C86C629E938B1E14",
+      "EVD-0581A36B72F4A783"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-004",
+    "title": "Company page opens with an untranslated title and oversized mobile void",
+    "area": "Brand polish and company identity",
+    "page": "https://addp.vn/gioi-thieu",
+    "source_requirement_ids": [],
+    "evidence_ids": [
+      "EVD-15C51083829E2538",
+      "EVD-26BA666C7BDB43AE",
+      "EVD-8FDD8896E0E20819"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The stabilized company-page screenshots and mobile rendered HTML all exist and match the stated URL/type. They directly show the English 'About us' H1, otherwise Vietnamese content, and the large mobile blank region before the breadcrumb and heading. The finding is explicitly sourced to best practice rather than a checklist requirement, does not assert a technical cause, and confines its impact to presentation and access to company identity content.",
+    "reviewed_evidence_ids": [
+      "EVD-15C51083829E2538",
+      "EVD-26BA666C7BDB43AE",
+      "EVD-8FDD8896E0E20819",
+      "EVD-322BD45F7C89FF17",
+      "EVD-9410265A412D9A83",
+      "EVD-9BB5826034C3BF9C",
+      "EVD-55A4919F83571052"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-CONTENT-002",
+    "title": "Viên An Đường product detail lacks a dedicated FAQ section in the captured page structure",
+    "area": "content",
+    "page": "https://addp.vn/vien-an-duong-addp.html",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "status": "manual_review",
+    "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+    "reason": "The Viên An Đường raw HTML and SEO artifacts exist and support numbered product-use, audience, dosage, ingredient, expiry, and storage sections with no dedicated PDP FAQ block; the generic global 'Câu hỏi thường gặp' link to '#' is not such a block. The observation and REQ-007 mapping are sound. Manual review is required because this is the same underlying REQ-007 FAQ absence and substantially the same recommendation as accepted finding FND-SPEC-CONTENT-001 on Glucare, but the current deduplication history does not merge the two page instances. They should be consolidated into one cross-page finding or explicitly justified as separate implementation units before final acceptance.",
+    "reviewed_evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "model_routing_status": "supported_requested_models_unverified",
+  "roles": {
+    "orchestrator": "SPECIALIST",
+    "checklist_normalizer": "FAST",
+    "page_classifier": "FAST",
+    "persona_first_time": "FAST",
+    "persona_high_intent": "FAST",
+    "persona_research": "FAST",
+    "persona_mobile": "FAST",
+    "ux": "SPECIALIST",
+    "conversion": "SPECIALIST",
+    "brand": "SPECIALIST",
+    "content": "SPECIALIST",
+    "health_content": "SPECIALIST",
+    "seo": "SPECIALIST",
+    "geo_aeo": "SPECIALIST",
+    "structured_data": "SPECIALIST",
+    "performance": "SPECIALIST",
+    "analytics": "SPECIALIST",
+    "checkout": "SPECIALIST",
+    "external_technical_diagnostic": "SPECIALIST",
+    "deduplicator": "FAST",
+    "evidence_reviewer": "SPECIALIST",
+    "contradiction_reviewer": "SPECIALIST",
+    "master_planner": "SPECIALIST",
+    "architecture_reviewer": "ASTRA_EXCEPTION",
+    "final_quality_gate": "SPECIALIST"
+  },
+  "tiers": {
+    "DEEP": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "SPECIALIST": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "FAST": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "ASTRA_EXCEPTION": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "use_only_for": ["architecture blockers", "unresolved contradictions", "final deep synthesis if Sol is insufficient"]
+    },
+    "NO_MODEL": {
+      "model": null,
+      "reasoning_effort": null
+    }
+  },
+  "verified_effective_models": null,
+  "executions": [
+    {
+      "stage": "build",
+      "role": "core_builder",
+      "requested_model": "gpt-6-sol",
+      "reasoning_effort": "high",
+      "agent_id": "01a0e306-7f52-7410-8893-ff18b6a1c478"
+    },
+    {
+      "stage": "build",
+      "role": "collector_builder",
+      "requested_model": "gpt-6-sol",
+      "reasoning_effort": "high",
+      "agent_id": "01a0e306-7ffa-7693-9b47-56ab09bba795"
+    },
+    {
+      "stage": "build",
+      "role": "report_builder",
+      "requested_model": "gpt-6-sol",
+      "reasoning_effort": "high",
+      "agent_id": "01a0e306-808e-7951-ab8c-3e679af96f1d"
+    }
+  ],
+  "escalations": [],
+  "note": "User changed requested routing at the 2026-09-28 continuation. Historical build-agent requests are retained as requested at execution time. Future role requests use GPT-5.6 Sol/high by default, GPT-5.6 Luna/medium for routine/personas, and Astra/high only under the stated exceptions. Requested models are not verified effective inference metadata. Deterministic operations are NO_MODEL."
+}

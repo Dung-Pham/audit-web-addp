@@ -1,0 +1,4554 @@
+{
+  "url": "https://addp.vn/",
+  "final_url": "https://addp.vn/",
+  "http_status": 200,
+  "viewport": "desktop",
+  "activity": "audit-induced render stabilization / scroll",
+  "navigation_error": null,
+  "scroll_timed_out": false,
+  "initial": {
+    "url": "https://addp.vn/",
+    "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+    "readyState": "interactive",
+    "status": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "documentHeight": 4971,
+    "bodyTextLength": 2577,
+    "headings": [
+      "Khám Phá Các Dòng Sản Phẩm ADDP",
+      "GLUCARE PLUS",
+      "VIÊN AN ĐƯỜNG",
+      "DOVITAL",
+      "Form Tư vấn"
+    ],
+    "images": [
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 50,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 50,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "complete": true,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "complete": true,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/edit_reference_image_data_image_image_1_replace_the_transparent_checkered.png",
+        "complete": false,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_photography_banner_for_addp_pharmacy_a.png",
+        "complete": false,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png",
+        "complete": false,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+        "complete": true,
+        "naturalWidth": 896,
+        "naturalHeight": 1200,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8Xw8AAoMBgDTD2qgAAAAASUVORK5CYII=",
+        "complete": true,
+        "naturalWidth": 1,
+        "naturalHeight": 1,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "complete": true,
+        "naturalWidth": 750,
+        "naturalHeight": 250,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "complete": true,
+        "naturalWidth": 249,
+        "naturalHeight": 25,
+        "loading": "auto",
+        "visible": true
+      }
+    ],
+    "stylesheets": [
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "disabled": false,
+        "media": "screen and (min-width: 768px)",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      }
+    ],
+    "cssRulesUnreadable": 1,
+    "scripts": [
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "async": false,
+        "defer": false,
+        "readyState": null
+      }
+    ],
+    "fonts": {
+      "status": "loaded",
+      "count": 161
+    },
+    "resourceEntries": [
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "initiatorType": "link",
+        "duration": 108,
+        "transferSize": 328579
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "initiatorType": "link",
+        "duration": 5366,
+        "transferSize": 45138
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "initiatorType": "link",
+        "duration": 5383,
+        "transferSize": 75567
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "initiatorType": "link",
+        "duration": 5299,
+        "transferSize": 89868
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "initiatorType": "link",
+        "duration": 5361,
+        "transferSize": 9702
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "initiatorType": "link",
+        "duration": 5399,
+        "transferSize": 126432
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+        "initiatorType": "link",
+        "duration": 5287,
+        "transferSize": 268329
+      },
+      {
+        "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "initiatorType": "img",
+        "duration": 5417,
+        "transferSize": 85459
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "initiatorType": "img",
+        "duration": 5998,
+        "transferSize": 965
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+        "initiatorType": "img",
+        "duration": 5670,
+        "transferSize": 1241392
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "initiatorType": "img",
+        "duration": 6004,
+        "transferSize": 965
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+        "initiatorType": "img",
+        "duration": 5697,
+        "transferSize": 1225403
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "initiatorType": "img",
+        "duration": 5355,
+        "transferSize": 8886
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "initiatorType": "img",
+        "duration": 5386,
+        "transferSize": 73754
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+        "initiatorType": "img",
+        "duration": 5740,
+        "transferSize": 1414882
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+        "initiatorType": "img",
+        "duration": 5763,
+        "transferSize": 1337652
+      },
+      {
+        "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "initiatorType": "script",
+        "duration": 5354,
+        "transferSize": 1539
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "initiatorType": "script",
+        "duration": 5407,
+        "transferSize": 131600
+      },
+      {
+        "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "initiatorType": "script",
+        "duration": 5367,
+        "transferSize": 0
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto",
+        "initiatorType": "css",
+        "duration": 56,
+        "transferSize": 5848
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+        "initiatorType": "css",
+        "duration": 411,
+        "transferSize": 396
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/bkg-line4.png",
+        "initiatorType": "css",
+        "duration": 405,
+        "transferSize": 22931
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+        "initiatorType": "css",
+        "duration": 392,
+        "transferSize": 38792
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "initiatorType": "css",
+        "duration": 661,
+        "transferSize": 77200
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+        "initiatorType": "css",
+        "duration": 401,
+        "transferSize": 3492
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "initiatorType": "script",
+        "duration": 267,
+        "transferSize": 396260
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "initiatorType": "script",
+        "duration": 207,
+        "transferSize": 2145
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "initiatorType": "script",
+        "duration": 209,
+        "transferSize": 10166
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 202,
+        "transferSize": 760
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "initiatorType": "script",
+        "duration": 200,
+        "transferSize": 673
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "initiatorType": "script",
+        "duration": 205,
+        "transferSize": 3407
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 513
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "initiatorType": "script",
+        "duration": 197,
+        "transferSize": 920
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "initiatorType": "script",
+        "duration": 195,
+        "transferSize": 25135
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "initiatorType": "script",
+        "duration": 156,
+        "transferSize": 4809
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "initiatorType": "script",
+        "duration": 152,
+        "transferSize": 3053
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "initiatorType": "script",
+        "duration": 152,
+        "transferSize": 2725
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "initiatorType": "script",
+        "duration": 155,
+        "transferSize": 4436
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "initiatorType": "script",
+        "duration": 157,
+        "transferSize": 3960
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 159,
+        "transferSize": 829
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "initiatorType": "script",
+        "duration": 149,
+        "transferSize": 1616
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "initiatorType": "script",
+        "duration": 82,
+        "transferSize": 18195
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "initiatorType": "script",
+        "duration": 107,
+        "transferSize": 2270
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "initiatorType": "script",
+        "duration": 96,
+        "transferSize": 2889
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "initiatorType": "script",
+        "duration": 117,
+        "transferSize": 27667
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "initiatorType": "script",
+        "duration": 107,
+        "transferSize": 3215
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "initiatorType": "script",
+        "duration": 108,
+        "transferSize": 1685
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "initiatorType": "script",
+        "duration": 89,
+        "transferSize": 15610
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+        "initiatorType": "xmlhttprequest",
+        "duration": 354,
+        "transferSize": 26886
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "initiatorType": "script",
+        "duration": 94,
+        "transferSize": 75851
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "initiatorType": "script",
+        "duration": 86,
+        "transferSize": 938
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "initiatorType": "script",
+        "duration": 138,
+        "transferSize": 388252
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "initiatorType": "script",
+        "duration": 84,
+        "transferSize": 18905
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "initiatorType": "script",
+        "duration": 117,
+        "transferSize": 13204
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "initiatorType": "script",
+        "duration": 104,
+        "transferSize": 2195
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "initiatorType": "script",
+        "duration": 110,
+        "transferSize": 15538
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "initiatorType": "script",
+        "duration": 103,
+        "transferSize": 4997
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "initiatorType": "script",
+        "duration": 134,
+        "transferSize": 44106
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "initiatorType": "script",
+        "duration": 113,
+        "transferSize": 3745
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 9420
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 104,
+        "transferSize": 1853
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 3775
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 5708
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "initiatorType": "script",
+        "duration": 128,
+        "transferSize": 2497
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "initiatorType": "script",
+        "duration": 196,
+        "transferSize": 5014
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "initiatorType": "script",
+        "duration": 196,
+        "transferSize": 5945
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 10019
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "initiatorType": "script",
+        "duration": 195,
+        "transferSize": 13412
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 4845
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "initiatorType": "script",
+        "duration": 190,
+        "transferSize": 7904
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "initiatorType": "script",
+        "duration": 158,
+        "transferSize": 10367
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "initiatorType": "script",
+        "duration": 163,
+        "transferSize": 11932
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 302,
+        "transferSize": 2318
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 300,
+        "transferSize": 2478
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 190,
+        "transferSize": 2300
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 846
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 658
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 2000
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "initiatorType": "script",
+        "duration": 175,
+        "transferSize": 16701
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "initiatorType": "script",
+        "duration": 167,
+        "transferSize": 4530
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "initiatorType": "script",
+        "duration": 157,
+        "transferSize": 3376
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "initiatorType": "script",
+        "duration": 170,
+        "transferSize": 1366
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "initiatorType": "script",
+        "duration": 170,
+        "transferSize": 1767
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "initiatorType": "script",
+        "duration": 178,
+        "transferSize": 5633
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "initiatorType": "script",
+        "duration": 168,
+        "transferSize": 3826
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+        "initiatorType": "script",
+        "duration": 178,
+        "transferSize": 2438
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "initiatorType": "script",
+        "duration": 191,
+        "transferSize": 4206
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/loader.gif",
+        "initiatorType": "css",
+        "duration": 184,
+        "transferSize": 6160
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+        "initiatorType": "img",
+        "duration": 315,
+        "transferSize": 1487776
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "initiatorType": "script",
+        "duration": 121,
+        "transferSize": 1394
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "initiatorType": "script",
+        "duration": 121,
+        "transferSize": 1563
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "initiatorType": "script",
+        "duration": 130,
+        "transferSize": 3031
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "initiatorType": "script",
+        "duration": 124,
+        "transferSize": 881
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "initiatorType": "script",
+        "duration": 129,
+        "transferSize": 685
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "initiatorType": "script",
+        "duration": 118,
+        "transferSize": 1280
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "initiatorType": "script",
+        "duration": 118,
+        "transferSize": 2335
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "initiatorType": "script",
+        "duration": 127,
+        "transferSize": 2873
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "initiatorType": "script",
+        "duration": 126,
+        "transferSize": 1320
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "initiatorType": "script",
+        "duration": 127,
+        "transferSize": 1314
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "initiatorType": "script",
+        "duration": 128,
+        "transferSize": 7421
+      }
+    ],
+    "forms": 3,
+    "visibleText": "Giới thiệu Thực phẩm chức năng Sữa Dinh Dưỡng Thiết bị Y tế Bệnh lý Sức khỏe Tiểu đường Liên hệ\nSEARCH\n\nChăm sóc từ giá trị thiện lành\n\nSức Khỏe Bền Vững Khởi Nguồn Từ Tâm\nADDP gửi gắm tinh thần hướng thiện trong từng lựa chọn, để chăm sóc sức khỏe hôm nay và nuôi dưỡng một tương lai bền vững.\nKhám phá ngay\nTư vấn miễn phí\n\nChứng nhận an toàn\n\nSản phẩm đạt tiêu chuẩn chất lượng và an toàn.\n\nMinh bạch rõ ràng\n\nThông tin nguồn gốc và thành phần được công khai đầy đủ.\n\nTận tâm đồng hành\n\nLuôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc.\n\nGIÁ TRỊ ADDP MANG ĐẾN\n\nĐồng hành cùng bạn trên hành trình sống khỏe mỗi ngày\n\nLẮNG NGHE & THẤU HIỂU\nMỗi cơ thể là một câu chuyện khác nhau. ADDP lắng nghe và tìm hiểu nhu cầu thực tế trước khi đưa ra khuyến nghị phù hợp.\nGIẢI PHÁP PHÙ HỢP\nADDP đồng hành lựa chọn hướng chăm sóc sức khỏe phù hợp với thể trạng, mục tiêu và lối sống riêng.\nCHIA SẺ KIẾN THỨC\nChúng tôi tin rằng sức khỏe bền vững bắt đầu từ sự thấu hiểu và những kiến thức đúng đắn mỗi ngày.\nĐỒNG HÀNH DÀI LÂU\nSức khỏe là hành trình dài và ADDP luôn đồng hành cùng bạn trên từng chặng đường.\nSỨC KHỎE BỀN VỮNG\nHướng đến cuộc sống khỏe mạnh, an tâm và trọn vẹn hơn mỗi ngày.\nMINH BẠCH & TẬN TÂM\nThông tin rõ ràng, tư vấn đúng nhu cầu và luôn đặt khách hàng làm trọng tâm.\nKhám Phá Các Dòng Sản Phẩm ADDP\n\nBa giải pháp sức khỏe chủ lực dành cho nhu cầu dinh dưỡng, chăm sóc và nâng cao thể trạng.\n\nGLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá\nVIÊN AN ĐƯỜNG\nHỗ trợ đường huyết\nKhám phá\nDOVITAL\nBổ sung vitamin & thể trạng\nKhám phá\n\nGiải pháp chăm sóc sức khỏe\n\nSản Phẩm Nổi Bật Từ ADDP\n\nForm Tư vấn\n\nKết nối với chúng tôi để được tư vấn sức khỏe và lên thực đơn ăn uống miễn phí\n\nHọ và tên\nSố điện thoại\nTuổi\nTình trạng sức khỏe\n-- Vui lòng chọn Tình trạng sức khỏe --\nChỉ số đường huyết cao/Tiểu đường\nHuyết áp, Tim mạch, Mỡ máu\nMong muốn gì khi đến với ADDP?\nGỬI ĐĂNG KÝ\n\nTrải nghiệm thực tế\n\nKhách Hàng Nói Gì Về ADDP?\n\nDược phẩm ADDP đồng hành hỗ trợ người tiểu đường Việt Nam sống vui, sống khoẻ\n\n Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội,\n 0904 637 007\n addpvn@gmail.com\n\nfacebook twitter pinterest google plus rss\n\nVề chúng tôi\n\nGiới thiệu\nChính sách đặt hàng\nChính sách thanh toán\nChính sách vận chuyển và giao nhận\nChính sách đổi trả và hoàn tiền\n\nDanh sách sản phẩm\n\nSữa hạt Glucare Plus\nADDP Viên An Đường\nViên sủi Dovital\nTất cả danh mục\n\nHỗ trợ & Tư vấn sức khỏe\n\n 0904 637 007\nThứ 2 - Thứ 7: 08:00 - 20:00\nChủ nhật: 08:30 - 17:30\n\nĐăng ký\n\nĐăng ký để nhận bản tin của chúng tôi:\n\n© 2026 Bản quyền của Công ty TNHH Dược phẩm ADDP"
+  },
+  "final": {
+    "url": "https://addp.vn/",
+    "title": "ADDP - Công ty Trách nhiệm Hữu hạn Dược phẩm ADDP",
+    "readyState": "interactive",
+    "status": 200,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "documentHeight": 4971,
+    "bodyTextLength": 2577,
+    "headings": [
+      "Khám Phá Các Dòng Sản Phẩm ADDP",
+      "GLUCARE PLUS",
+      "VIÊN AN ĐƯỜNG",
+      "DOVITAL",
+      "Form Tư vấn"
+    ],
+    "images": [
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 50,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "naturalWidth": 150,
+        "naturalHeight": 50,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "complete": true,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "complete": true,
+        "naturalWidth": 0,
+        "naturalHeight": 0,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/edit_reference_image_data_image_image_1_replace_the_transparent_checkered.png",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 896,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_photography_banner_for_addp_pharmacy_a.png",
+        "complete": true,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 896,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+        "complete": true,
+        "naturalWidth": 896,
+        "naturalHeight": 1200,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_for_addp_pharmacy_strictly_based_on.png",
+        "complete": true,
+        "naturalWidth": 896,
+        "naturalHeight": 1200,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_lifestyle_photography_based_strictly_on_reference_image.png",
+        "complete": true,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_based_strictly_on_reference_image_data_image.png",
+        "complete": true,
+        "naturalWidth": 1264,
+        "naturalHeight": 848,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_studio_product_advertising_photography_based_strictly_on_reference_1.png",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 896,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/contact-banner.png",
+        "complete": true,
+        "naturalWidth": 1451,
+        "naturalHeight": 1084,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_brand_graphic_badge_and_photography_for_addp_pharmacy.png",
+        "complete": true,
+        "naturalWidth": 1376,
+        "naturalHeight": 768,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+        "complete": true,
+        "naturalWidth": 1024,
+        "naturalHeight": 1024,
+        "loading": "auto",
+        "visible": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "complete": true,
+        "naturalWidth": 750,
+        "naturalHeight": 250,
+        "loading": "auto",
+        "visible": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "complete": true,
+        "naturalWidth": 249,
+        "naturalHeight": 25,
+        "loading": "auto",
+        "visible": true
+      }
+    ],
+    "stylesheets": [
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "disabled": false,
+        "media": "screen and (min-width: 768px)",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+        "disabled": false,
+        "media": "all",
+        "matched": true
+      }
+    ],
+    "cssRulesUnreadable": 1,
+    "scripts": [
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": true,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": null,
+        "async": false,
+        "defer": false,
+        "readyState": null
+      },
+      {
+        "src": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "async": false,
+        "defer": false,
+        "readyState": null
+      }
+    ],
+    "fonts": {
+      "status": "loaded",
+      "count": 161
+    },
+    "resourceEntries": [
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "initiatorType": "link",
+        "duration": 108,
+        "transferSize": 328579
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "initiatorType": "link",
+        "duration": 5366,
+        "transferSize": 45138
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "initiatorType": "link",
+        "duration": 5383,
+        "transferSize": 75567
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "initiatorType": "link",
+        "duration": 5299,
+        "transferSize": 89868
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "initiatorType": "link",
+        "duration": 5361,
+        "transferSize": 9702
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "initiatorType": "link",
+        "duration": 5399,
+        "transferSize": 126432
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+        "initiatorType": "link",
+        "duration": 5287,
+        "transferSize": 268329
+      },
+      {
+        "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "initiatorType": "img",
+        "duration": 5417,
+        "transferSize": 85459
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "initiatorType": "img",
+        "duration": 5998,
+        "transferSize": 965
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+        "initiatorType": "img",
+        "duration": 5670,
+        "transferSize": 1241392
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "initiatorType": "img",
+        "duration": 6004,
+        "transferSize": 965
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+        "initiatorType": "img",
+        "duration": 5697,
+        "transferSize": 1225403
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "initiatorType": "img",
+        "duration": 5355,
+        "transferSize": 8886
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "initiatorType": "img",
+        "duration": 5386,
+        "transferSize": 73754
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+        "initiatorType": "img",
+        "duration": 5740,
+        "transferSize": 1414882
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+        "initiatorType": "img",
+        "duration": 5763,
+        "transferSize": 1337652
+      },
+      {
+        "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "initiatorType": "script",
+        "duration": 5354,
+        "transferSize": 1539
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "initiatorType": "script",
+        "duration": 5407,
+        "transferSize": 131600
+      },
+      {
+        "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "initiatorType": "script",
+        "duration": 5367,
+        "transferSize": 0
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto",
+        "initiatorType": "css",
+        "duration": 56,
+        "transferSize": 5848
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+        "initiatorType": "css",
+        "duration": 411,
+        "transferSize": 396
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/bkg-line4.png",
+        "initiatorType": "css",
+        "duration": 405,
+        "transferSize": 22931
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+        "initiatorType": "css",
+        "duration": 392,
+        "transferSize": 38792
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "initiatorType": "css",
+        "duration": 661,
+        "transferSize": 77200
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+        "initiatorType": "css",
+        "duration": 401,
+        "transferSize": 3492
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "initiatorType": "script",
+        "duration": 267,
+        "transferSize": 396260
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "initiatorType": "script",
+        "duration": 207,
+        "transferSize": 2145
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "initiatorType": "script",
+        "duration": 209,
+        "transferSize": 10166
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 202,
+        "transferSize": 760
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "initiatorType": "script",
+        "duration": 200,
+        "transferSize": 673
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "initiatorType": "script",
+        "duration": 205,
+        "transferSize": 3407
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 513
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "initiatorType": "script",
+        "duration": 197,
+        "transferSize": 920
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "initiatorType": "script",
+        "duration": 195,
+        "transferSize": 25135
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "initiatorType": "script",
+        "duration": 156,
+        "transferSize": 4809
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "initiatorType": "script",
+        "duration": 152,
+        "transferSize": 3053
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "initiatorType": "script",
+        "duration": 152,
+        "transferSize": 2725
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "initiatorType": "script",
+        "duration": 155,
+        "transferSize": 4436
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "initiatorType": "script",
+        "duration": 157,
+        "transferSize": 3960
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 159,
+        "transferSize": 829
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "initiatorType": "script",
+        "duration": 149,
+        "transferSize": 1616
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "initiatorType": "script",
+        "duration": 82,
+        "transferSize": 18195
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "initiatorType": "script",
+        "duration": 107,
+        "transferSize": 2270
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "initiatorType": "script",
+        "duration": 96,
+        "transferSize": 2889
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "initiatorType": "script",
+        "duration": 117,
+        "transferSize": 27667
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "initiatorType": "script",
+        "duration": 107,
+        "transferSize": 3215
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "initiatorType": "script",
+        "duration": 108,
+        "transferSize": 1685
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "initiatorType": "script",
+        "duration": 89,
+        "transferSize": 15610
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+        "initiatorType": "xmlhttprequest",
+        "duration": 354,
+        "transferSize": 26886
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "initiatorType": "script",
+        "duration": 94,
+        "transferSize": 75851
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "initiatorType": "script",
+        "duration": 86,
+        "transferSize": 938
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "initiatorType": "script",
+        "duration": 138,
+        "transferSize": 388252
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "initiatorType": "script",
+        "duration": 84,
+        "transferSize": 18905
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "initiatorType": "script",
+        "duration": 117,
+        "transferSize": 13204
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "initiatorType": "script",
+        "duration": 104,
+        "transferSize": 2195
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "initiatorType": "script",
+        "duration": 110,
+        "transferSize": 15538
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "initiatorType": "script",
+        "duration": 103,
+        "transferSize": 4997
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "initiatorType": "script",
+        "duration": 134,
+        "transferSize": 44106
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "initiatorType": "script",
+        "duration": 113,
+        "transferSize": 3745
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 9420
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "initiatorType": "script",
+        "duration": 104,
+        "transferSize": 1853
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 3775
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "initiatorType": "script",
+        "duration": 131,
+        "transferSize": 5708
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "initiatorType": "script",
+        "duration": 128,
+        "transferSize": 2497
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "initiatorType": "script",
+        "duration": 196,
+        "transferSize": 5014
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "initiatorType": "script",
+        "duration": 196,
+        "transferSize": 5945
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 10019
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "initiatorType": "script",
+        "duration": 195,
+        "transferSize": 13412
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "initiatorType": "script",
+        "duration": 198,
+        "transferSize": 4845
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "initiatorType": "script",
+        "duration": 190,
+        "transferSize": 7904
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "initiatorType": "script",
+        "duration": 158,
+        "transferSize": 10367
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "initiatorType": "script",
+        "duration": 163,
+        "transferSize": 11932
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 302,
+        "transferSize": 2318
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 300,
+        "transferSize": 2478
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+        "initiatorType": "xmlhttprequest",
+        "duration": 190,
+        "transferSize": 2300
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 846
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 658
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "initiatorType": "script",
+        "duration": 154,
+        "transferSize": 2000
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "initiatorType": "script",
+        "duration": 175,
+        "transferSize": 16701
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "initiatorType": "script",
+        "duration": 167,
+        "transferSize": 4530
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "initiatorType": "script",
+        "duration": 157,
+        "transferSize": 3376
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "initiatorType": "script",
+        "duration": 170,
+        "transferSize": 1366
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "initiatorType": "script",
+        "duration": 170,
+        "transferSize": 1767
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "initiatorType": "script",
+        "duration": 178,
+        "transferSize": 5633
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "initiatorType": "script",
+        "duration": 168,
+        "transferSize": 3826
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+        "initiatorType": "script",
+        "duration": 178,
+        "transferSize": 2438
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "initiatorType": "script",
+        "duration": 191,
+        "transferSize": 4206
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/loader.gif",
+        "initiatorType": "css",
+        "duration": 184,
+        "transferSize": 6160
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/edit_reference_image_data_image_image_1_replace_the_transparent_checkered.png",
+        "initiatorType": "img",
+        "duration": 445,
+        "transferSize": 928949
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_photography_banner_for_addp_pharmacy_a.png",
+        "initiatorType": "img",
+        "duration": 485,
+        "transferSize": 1391884
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+        "initiatorType": "img",
+        "duration": 315,
+        "transferSize": 1487776
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png",
+        "initiatorType": "img",
+        "duration": 571,
+        "transferSize": 1618714
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "initiatorType": "script",
+        "duration": 121,
+        "transferSize": 1394
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "initiatorType": "script",
+        "duration": 121,
+        "transferSize": 1563
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "initiatorType": "script",
+        "duration": 130,
+        "transferSize": 3031
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "initiatorType": "script",
+        "duration": 124,
+        "transferSize": 881
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "initiatorType": "script",
+        "duration": 129,
+        "transferSize": 685
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "initiatorType": "script",
+        "duration": 118,
+        "transferSize": 1280
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "initiatorType": "script",
+        "duration": 118,
+        "transferSize": 2335
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "initiatorType": "script",
+        "duration": 127,
+        "transferSize": 2873
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "initiatorType": "script",
+        "duration": 126,
+        "transferSize": 1320
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "initiatorType": "script",
+        "duration": 127,
+        "transferSize": 1314
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "initiatorType": "script",
+        "duration": 128,
+        "transferSize": 7421
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+        "initiatorType": "script",
+        "duration": 148,
+        "transferSize": 11064
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+        "initiatorType": "script",
+        "duration": 147,
+        "transferSize": 3728
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_for_addp_pharmacy_strictly_based_on.png",
+        "initiatorType": "img",
+        "duration": 185,
+        "transferSize": 1322022
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_studio_product_advertising_photography_based_strictly_on_reference_1.png",
+        "initiatorType": "img",
+        "duration": 109,
+        "transferSize": 280426
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_based_strictly_on_reference_image_data_image.png",
+        "initiatorType": "img",
+        "duration": 198,
+        "transferSize": 1344855
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_lifestyle_photography_based_strictly_on_reference_image.png",
+        "initiatorType": "img",
+        "duration": 231,
+        "transferSize": 1690457
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/contact-banner.png",
+        "initiatorType": "img",
+        "duration": 397,
+        "transferSize": 1679766
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_brand_graphic_badge_and_photography_for_addp_pharmacy.png",
+        "initiatorType": "img",
+        "duration": 114,
+        "transferSize": 773395
+      }
+    ],
+    "forms": 3,
+    "visibleText": "Giới thiệu Thực phẩm chức năng Sữa Dinh Dưỡng Thiết bị Y tế Bệnh lý Sức khỏe Tiểu đường Liên hệ\nSEARCH\n\nChăm sóc từ giá trị thiện lành\n\nSức Khỏe Bền Vững Khởi Nguồn Từ Tâm\nADDP gửi gắm tinh thần hướng thiện trong từng lựa chọn, để chăm sóc sức khỏe hôm nay và nuôi dưỡng một tương lai bền vững.\nKhám phá ngay\nTư vấn miễn phí\n\nChứng nhận an toàn\n\nSản phẩm đạt tiêu chuẩn chất lượng và an toàn.\n\nMinh bạch rõ ràng\n\nThông tin nguồn gốc và thành phần được công khai đầy đủ.\n\nTận tâm đồng hành\n\nLuôn sẵn sàng hỗ trợ và giải đáp mọi thắc mắc.\n\nGIÁ TRỊ ADDP MANG ĐẾN\n\nĐồng hành cùng bạn trên hành trình sống khỏe mỗi ngày\n\nLẮNG NGHE & THẤU HIỂU\nMỗi cơ thể là một câu chuyện khác nhau. ADDP lắng nghe và tìm hiểu nhu cầu thực tế trước khi đưa ra khuyến nghị phù hợp.\nGIẢI PHÁP PHÙ HỢP\nADDP đồng hành lựa chọn hướng chăm sóc sức khỏe phù hợp với thể trạng, mục tiêu và lối sống riêng.\nCHIA SẺ KIẾN THỨC\nChúng tôi tin rằng sức khỏe bền vững bắt đầu từ sự thấu hiểu và những kiến thức đúng đắn mỗi ngày.\nĐỒNG HÀNH DÀI LÂU\nSức khỏe là hành trình dài và ADDP luôn đồng hành cùng bạn trên từng chặng đường.\nSỨC KHỎE BỀN VỮNG\nHướng đến cuộc sống khỏe mạnh, an tâm và trọn vẹn hơn mỗi ngày.\nMINH BẠCH & TẬN TÂM\nThông tin rõ ràng, tư vấn đúng nhu cầu và luôn đặt khách hàng làm trọng tâm.\nKhám Phá Các Dòng Sản Phẩm ADDP\n\nBa giải pháp sức khỏe chủ lực dành cho nhu cầu dinh dưỡng, chăm sóc và nâng cao thể trạng.\n\nGLUCARE PLUS\nSữa hạt dinh dưỡng\nKhám phá\nVIÊN AN ĐƯỜNG\nHỗ trợ đường huyết\nKhám phá\nDOVITAL\nBổ sung vitamin & thể trạng\nKhám phá\n\nGiải pháp chăm sóc sức khỏe\n\nSản Phẩm Nổi Bật Từ ADDP\n\nForm Tư vấn\n\nKết nối với chúng tôi để được tư vấn sức khỏe và lên thực đơn ăn uống miễn phí\n\nHọ và tên\nSố điện thoại\nTuổi\nTình trạng sức khỏe\n-- Vui lòng chọn Tình trạng sức khỏe --\nChỉ số đường huyết cao/Tiểu đường\nHuyết áp, Tim mạch, Mỡ máu\nMong muốn gì khi đến với ADDP?\nGỬI ĐĂNG KÝ\n\nTrải nghiệm thực tế\n\nKhách Hàng Nói Gì Về ADDP?\n\nDược phẩm ADDP đồng hành hỗ trợ người tiểu đường Việt Nam sống vui, sống khoẻ\n\n Số 22, Ngách 124/49 đường Do Nha, Tổ dân phố Miêu Nha 1, P.Xuân Phương, TP.Hà Nội,\n 0904 637 007\n addpvn@gmail.com\n\nfacebook twitter pinterest google plus rss\n\nVề chúng tôi\n\nGiới thiệu\nChính sách đặt hàng\nChính sách thanh toán\nChính sách vận chuyển và giao nhận\nChính sách đổi trả và hoàn tiền\n\nDanh sách sản phẩm\n\nSữa hạt Glucare Plus\nADDP Viên An Đường\nViên sủi Dovital\nTất cả danh mục\n\nHỗ trợ & Tư vấn sức khỏe\n\n 0904 637 007\nThứ 2 - Thứ 7: 08:00 - 20:00\nChủ nhật: 08:30 - 17:30\n\nĐăng ký\n\nĐăng ký để nhận bản tin của chúng tôi:\n\n© 2026 Bản quyền của Công ty TNHH Dược phẩm ADDP"
+  },
+  "scroll_milestones": [
+    {
+      "phase": "DOMContentLoaded + bounded font wait",
+      "height": 4971,
+      "textLength": 2577,
+      "imageCount": 20,
+      "pendingImages": 3
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 1,
+      "scrollY": 820,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 2,
+      "scrollY": 1640,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 3,
+      "scrollY": 2460,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 4,
+      "scrollY": 3280,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 5,
+      "scrollY": 3971,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    },
+    {
+      "phase": "audit-induced render stabilization / scroll",
+      "step": 6,
+      "scrollY": 3971,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20,
+      "pendingImages": 0,
+      "failedImages": 2
+    }
+  ],
+  "scroll_triggered_change_signals": [
+    {
+      "step": 1,
+      "height": 4971,
+      "textLength": 2582,
+      "imageCount": 20
+    }
+  ],
+  "failed_resources": [
+    {
+      "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.023966670358803288:1790586034:yE38IAqBNywMzyNtqx7SU498eiMDk4NE_Jhn7bGfoRc/a421e11d7af4f902",
+      "method": "POST",
+      "resource_type": "xhr",
+      "error": "unsafe method POST",
+      "blocked_by_audit": true
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6aba2fd59aa62",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "text/javascript;charset=UTF-8"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Roboto",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_realistic_headshot_avatar_portrait_of_a_vietnamese_woman_42_years.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_40_year_old_vietnamese_man.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_55_year_old_vietnamese_woman.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/realistic_authentic_headshot_avatar_portrait_of_a_58_year_old_vietnamese_woman.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/images/bkg-line4.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "status": 404,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "status": 404,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/javascript; charset=UTF-8"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVn6iArmlw.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/media/codazon/themelayout/images/loader.gif",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/gif"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_lifestyle_advertising_photography_based_strictly_on_reference_image.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/edit_reference_image_data_image_image_1_replace_the_transparent_checkered.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_photography_banner_for_addp_pharmacy_a.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/professional_commercial_advertising_composite_photography_for_healthcare_brand.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_studio_product_advertising_photography_based_strictly_on_reference_1.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_for_addp_pharmacy_strictly_based_on.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_photography_based_strictly_on_reference_image_data_image.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_lifestyle_photography_based_strictly_on_reference_image.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/contact-banner.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://addp.vn/media/wysiwyg/codazon/addp/homepage/commercial_advertising_brand_graphic_badge_and_photography_for_addp_pharmacy.png",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkCXkaWzU.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkCHkaWzU.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnka.woff2",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "font",
+      "content_type": "font/woff2"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+      "status": 200,
+      "method": "GET",
+      "resource_type": "script",
+      "content_type": "application/x-javascript"
+    }
+  ],
+  "console_errors": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector",
+      "url": "https://addp.vn/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.023966670358803288:1790586034:yE38IAqBNywMzyNtqx7SU498eiMDk4NE_Jhn7bGfoRc/a421e11d7af4f902"
+    }
+  ],
+  "page_errors": [],
+  "screenshot_artifacts": {
+    "viewport": "evidence/quality-remediation-2026-09-28T09-56-36-700Z/e4e0c9a45799894e.desktop.postscroll.viewport.png",
+    "full": "evidence/quality-remediation-2026-09-28T09-56-36-700Z/e4e0c9a45799894e.desktop.postscroll.full.png"
+  },
+  "render_complete": false,
+  "remaining_failed_resource_counts": {
+    "stylesheet": 0,
+    "font": 0,
+    "image": 0,
+    "script": 0
+  }
+}

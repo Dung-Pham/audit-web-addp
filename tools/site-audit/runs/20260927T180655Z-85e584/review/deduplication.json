@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "reviewer_id": "codex-local-deduplication-20260928",
+  "input_findings": 11,
+  "output_findings": 11,
+  "duplicate_groups": {},
+  "merged_origins_preserved": true,
+  "persona_impacts_preserved": true,
+  "expanded_page_coverage": true,
+  "manual_review": 6,
+  "post_independent_review": "Only independent ACCEPT verdicts remain accepted; manual/rejected findings excluded from planner."
+}

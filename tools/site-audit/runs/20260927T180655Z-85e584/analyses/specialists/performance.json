@@ -1,0 +1,38 @@
+[
+  {
+    "finding_id": "FND-SPEC-PERFORMANCE-001",
+    "title": "Mobile lab captures show LCP above the checklist threshold on sampled pages",
+    "area": "performance",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+    "evidence_ids": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-D2E949A54A61C783",
+      "EVD-203B6173B6A72522"
+    ],
+    "impact": {
+      "user": "Slow observed rendering can delay access to product and health information.",
+      "business": "Long wait times may interrupt discovery and evaluation.",
+      "seo": "The sampled LAB values exceed the stated performance target.",
+      "technical": "The measured LCP values are 7.6 to 8.2 times the 2,500 ms target."
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Profile and reduce the observed largest-contentful paint path, then repeat comparable mobile lab runs.",
+    "unknowns": [
+      "These are single audit-browser LAB observations, not field Core Web Vitals or PageSpeed Insights scores; all page collections remain partial."
+    ],
+    "origin": "specialist:performance",
+    "specialist_interpretation": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+    "limitations": [
+      "These are single audit-browser LAB observations, not field Core Web Vitals or PageSpeed Insights scores; all page collections remain partial."
+    ],
+    "status": "candidate"
+  }
+]

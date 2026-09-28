@@ -1,0 +1,145 @@
+[
+  {
+    "finding_id": "FND-SPEC-BRAND-001",
+    "title": "Homepage presents a coherent ADDP promise, product family, and human imagery",
+    "area": "Brand identity and homepage trust",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-003",
+      "REQ-006"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The stabilized desktop and mobile homepage captures show the ADDP Pharmacy logo, a navy-and-white visual system with warm yellow accents, the promise \"Chăm sóc từ giá trị thiện lành / Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm,\" an older couple in the hero, multiple real-person care images, a panel naming GLUCARE PLUS, VIÊN AN ĐƯỜNG, and DOVITAL, and a testimonial section with names and portraits.",
+    "evidence_ids": [
+      "EVD-702877ACD4E72E55",
+      "EVD-4256DF417284230A",
+      "EVD-A606C27223349F8A"
+    ],
+    "impact": {
+      "user": "This gives both an older or middle-aged self-purchaser and an adult child researching for a parent immediate cues about the company promise, intended care context, principal product lines, and available human support.",
+      "business": "The homepage creates a recognizable ADDP brand frame and gives the three priority product lines visible portfolio context.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "low",
+    "confidence": 0.98,
+    "suggested_direction": "Preserve the combination of clear ADDP ownership, plain-language promise, real-person imagery, named product family, and support cues as other pages are refined.",
+    "unknowns": [
+      "The saved evidence does not establish whether the testimonial identities or statements are independently verified.",
+      "The Viên An Đường destination was not collected as a product-detail page in this run, so its downstream presentation cannot be assessed."
+    ],
+    "origin": "specialist:brand",
+    "specialist_interpretation": "This is positive brand evidence. The imagery and copy connect ADDP with care, clarity, and accompaniment without relying only on product packs; that is useful for a self-purchaser and for an adult child deciding whether the company feels understandable and supportive.",
+    "limitations": "The screenshots are stabilized but the run remained partial because of residual resource/decode failures. This finding records visible presentation only and does not validate testimonials, health claims, certifications, or product suitability.",
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-002",
+    "title": "Product landing pages fragment the ADDP visual identity",
+    "area": "Cross-page brand consistency",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-001"
+    ],
+    "source": "checklist",
+    "finding_type": "heuristic",
+    "observation": "The captured Glucare Plus product page uses a cream, brown and gold palette across its main sections, while the captured ADDP homepage uses navy, white and warm yellow accents. The shared logo and global header remain visible on both pages, but the main Glucare product sections do not repeat the homepage palette prominently.",
+    "evidence_ids": [
+      "EVD-EA78205F3017C505",
+      "EVD-E178F1827F773846",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-702877ACD4E72E55",
+      "EVD-4256DF417284230A",
+      "EVD-92E0841363C85BA1",
+      "EVD-C86C629E938B1E14",
+      "EVD-0581A36B72F4A783"
+    ],
+    "impact": {
+      "user": "Moving from the homepage into different products can feel like entering separate campaign sites, increasing the effort required to recognize that the same company stands behind each offer.",
+      "business": "The visual split weakens portfolio coherence and reduces the transfer of trust built on the ADDP homepage to individual product propositions.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.96,
+    "suggested_direction": "Define a shared ADDP product-page frame using recurring navy brand anchors, typography, trust modules, and portfolio cues, while retaining controlled product-specific accent colors for Glucare Plus and Dovital.",
+    "unknowns": [
+      "No separate brand-standards document or source logo palette was included in the allowed inputs; consistency was assessed from the checklist and rendered pages.",
+      "The Viên An Đường product page was not present in the collected inventory, so the three-product system could not be compared in full."
+    ],
+    "origin": "specialist:brand",
+    "specialist_interpretation": "For both a self-purchaser and an adult child comparing products for a parent, consistent ADDP ownership matters because trust must carry from company to product. The current pages show product personality clearly, but ADDP's portfolio identity becomes much less dominant inside the two captured product experiences.",
+    "limitations": "This is a visual-consistency assessment of stabilized captures. It does not assert a source-level cause, and the partial render status means unseen or unresolved assets may affect some lower-page details.",
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-003",
+    "title": "Visible safety and standards claims lack identifiable proof",
+    "area": "Brand credibility and trust evidence",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-006"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The homepage trust strip states \"Chứng nhận an toàn\" and \"Sản phẩm đạt tiêu chuẩn chất lượng và an toàn\" beside a generic badge icon, but the stabilized homepage evidence does not show a named certificate, standard identifier, issuer, or public document. The separate company page introduces a \"Tiêu chuẩn\" section while its four intended standard visuals render as pale generic placeholder tiles; the rendered HTML lists those images with empty alternative text.",
+    "evidence_ids": [
+      "EVD-4256DF417284230A",
+      "EVD-A606C27223349F8A"
+    ],
+    "impact": {
+      "user": "A skeptical buyer researching for a parent can see that safety and standards are asserted but cannot identify what credential or standard the visible claim refers to, limiting informed trust.",
+      "business": "Generic claims and placeholder-like standards imagery reduce the credibility value that visible certification or quality evidence could provide at a key decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.97,
+    "suggested_direction": "Replace generic proof cues with readable, named credential or standard details, contextual captions, and public supporting documents where the company can substantiate them; ensure the company-page visuals render as identifiable evidence rather than placeholders.",
+    "unknowns": [
+      "The run does not establish whether supporting certificates or documents exist elsewhere outside the collected paths.",
+      "Whether the pale tiles are source images or render-time fallbacks is unknown; no implementation cause is asserted.",
+      "The authenticity or validity of any certificate, standard, or health claim was not assessed."
+    ],
+    "origin": "specialist:brand",
+    "specialist_interpretation": "For an older or middle-aged buyer, the short trust strip is easy to scan, but it remains an assertion. For an adult child doing deeper diligence, the company page is the natural place to verify the claim, and the visible standards area does not provide identifiable evidence in this run.",
+    "limitations": "This finding is limited to what is visibly named or rendered in the saved homepage and company-page evidence. It does not infer certification authenticity, health validity, backend state, or the absence of documents beyond the collected scope.",
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-004",
+    "title": "Company page opens with an untranslated title and oversized mobile void",
+    "area": "Brand polish and company identity",
+    "page": "https://addp.vn/gioi-thieu",
+    "page_type": "company/about",
+    "source_requirement_ids": [],
+    "source": "best_practice",
+    "finding_type": "content_review",
+    "observation": "The stabilized company page displays the English H1 \"About us\" above otherwise Vietnamese company content. In the stabilized mobile viewport, a large blank vertical region separates the header from the breadcrumb and that English H1 before the Vietnamese heading \"CHÀO MỪNG BẠN ĐẾN VỚI DƯỢC PHẨM ADDP.\"",
+    "evidence_ids": [
+      "EVD-15C51083829E2538",
+      "EVD-26BA666C7BDB43AE",
+      "EVD-8FDD8896E0E20819"
+    ],
+    "impact": {
+      "user": "The mixed-language title and long empty opening make the company-information page feel less finished and delay the identity content, especially for a phone visitor with limited digital confidence.",
+      "business": "The presentation weakens the polish of the page most likely to be used to verify who ADDP is and what it stands for.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.99,
+    "suggested_direction": "Use a Vietnamese page title consistent with the rest of the page and tighten the mobile opening so the company identity and introductory content appear directly below the header and breadcrumb.",
+    "unknowns": [
+      "The saved evidence does not determine whether the blank region is intentional spacing, an invisible asset, or another rendering condition."
+    ],
+    "origin": "specialist:brand",
+    "specialist_interpretation": "The company page is a trust destination for both first-time visitors and adult children researching for a parent. Language and layout polish carry disproportionate weight here because the page is expected to confirm company identity and credibility.",
+    "limitations": "The observation is based on stabilized desktop and mobile evidence and the indexed rendered HTML. No probable implementation cause is offered.",
+    "status": "candidate"
+  }
+]

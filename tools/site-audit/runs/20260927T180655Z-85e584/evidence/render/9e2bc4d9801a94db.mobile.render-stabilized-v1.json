@@ -1,0 +1,4385 @@
+{
+  "version": "render-stabilized-v1",
+  "audit_induced_scroll": true,
+  "dom_content_loaded": true,
+  "load_timed_out": true,
+  "initial_assets": {
+    "timeout_ms": 8000,
+    "duration_ms": 1,
+    "timed_out": false,
+    "fonts": {
+      "result": "ready",
+      "status": "loaded",
+      "total": 161,
+      "failed": 0
+    },
+    "images": {
+      "discovered_at_start": 6,
+      "discovered_at_end": 6,
+      "complete": 4,
+      "failed": 2,
+      "pending": 0
+    }
+  },
+  "scroll": {
+    "audit_induced": true,
+    "action": "incremental read-only scroll for render stabilization",
+    "iterations": 4,
+    "max_iterations": 80,
+    "reached_bottom": true,
+    "height_increased": false,
+    "initial_height": 2559,
+    "final_height": 2559,
+    "returned_to_top": true,
+    "samples": [
+      {
+        "iteration": 1,
+        "before": 0,
+        "requested": 736,
+        "height_before": 2559,
+        "viewport_height": 866,
+        "at_bottom": false,
+        "scroll_y": 736,
+        "height_after": 2559,
+        "height_increased": false
+      },
+      {
+        "iteration": 2,
+        "before": 736,
+        "requested": 1472,
+        "height_before": 2559,
+        "viewport_height": 866,
+        "at_bottom": false,
+        "scroll_y": 1472,
+        "height_after": 2559,
+        "height_increased": false
+      },
+      {
+        "iteration": 3,
+        "before": 1472,
+        "requested": 1693,
+        "height_before": 2559,
+        "viewport_height": 866,
+        "at_bottom": true,
+        "scroll_y": 1693,
+        "height_after": 2559,
+        "height_increased": false
+      },
+      {
+        "iteration": 4,
+        "before": 1693,
+        "requested": 1693,
+        "height_before": 2559,
+        "viewport_height": 866,
+        "at_bottom": true,
+        "scroll_y": 1693,
+        "height_after": 2559,
+        "height_increased": false
+      }
+    ]
+  },
+  "post_scroll_assets": {
+    "timeout_ms": 8000,
+    "duration_ms": 0,
+    "timed_out": false,
+    "fonts": {
+      "result": "ready",
+      "status": "loaded",
+      "total": 161,
+      "failed": 0
+    },
+    "images": {
+      "discovered_at_start": 6,
+      "discovered_at_end": 6,
+      "complete": 4,
+      "failed": 2,
+      "pending": 0
+    }
+  },
+  "animations": {
+    "timeout_ms": 2500,
+    "timed_out": false,
+    "total": 0,
+    "running": 0,
+    "finite_running": 0,
+    "deterministic_freeze_applied_for_final_capture": false,
+    "freeze": {
+      "method": null,
+      "paused": 0,
+      "preserves_current_time": true
+    }
+  },
+  "before_scroll": {
+    "ready_state": "interactive",
+    "stylesheets": [
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 2334,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "disabled": false,
+        "media": "screen and (min-width: 768px)",
+        "rule_count": 38,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 1064,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 3,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+        "disabled": false,
+        "media": null,
+        "rule_count": null,
+        "access": "cross_origin_or_restricted"
+      },
+      {
+        "href": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "disabled": false,
+        "media": "all",
+        "rule_count": null,
+        "access": "cross_origin_or_restricted"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 702,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 80,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 2036,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 6,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 1,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 1,
+        "access": "available"
+      }
+    ],
+    "fonts": {
+      "status": "loaded",
+      "faces": [
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "icons-blank-theme",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "pagebuilder-font",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "FontAwesome",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "CodazonFont",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "normal"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "natural_width": 150,
+        "natural_height": 50,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "natural_width": 150,
+        "natural_height": 50,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "complete": true,
+        "natural_width": 0,
+        "natural_height": 0,
+        "loading": "auto",
+        "failed": true
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "complete": true,
+        "natural_width": 0,
+        "natural_height": 0,
+        "loading": "auto",
+        "failed": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "complete": true,
+        "natural_width": 750,
+        "natural_height": 250,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "complete": true,
+        "natural_width": 249,
+        "natural_height": 25,
+        "loading": "auto",
+        "failed": false
+      }
+    ],
+    "resources": [
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "initiator_type": "link",
+        "duration": 99.69999998807907,
+        "transfer_size": 328579,
+        "encoded_body_size": 328279,
+        "decoded_body_size": 328279
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "initiator_type": "link",
+        "duration": 5228.200000017881,
+        "transfer_size": 75567,
+        "encoded_body_size": 75267,
+        "decoded_body_size": 75267
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "initiator_type": "link",
+        "duration": 5222.700000017881,
+        "transfer_size": 89868,
+        "encoded_body_size": 89568,
+        "decoded_body_size": 89568
+      },
+      {
+        "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+        "initiator_type": "link",
+        "duration": 6956.600000023842,
+        "transfer_size": 0,
+        "encoded_body_size": 0,
+        "decoded_body_size": 0
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "initiator_type": "link",
+        "duration": 5281.0999999940395,
+        "transfer_size": 126432,
+        "encoded_body_size": 126132,
+        "decoded_body_size": 126132
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "initiator_type": "link",
+        "duration": 5282.299999982119,
+        "transfer_size": 9702,
+        "encoded_body_size": 9402,
+        "decoded_body_size": 9402
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+        "initiator_type": "link",
+        "duration": 5271.199999988079,
+        "transfer_size": 268329,
+        "encoded_body_size": 268029,
+        "decoded_body_size": 268029
+      },
+      {
+        "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "initiator_type": "img",
+        "duration": 5309.9000000059605,
+        "transfer_size": 85459,
+        "encoded_body_size": 85159,
+        "decoded_body_size": 85159
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "initiator_type": "img",
+        "duration": 5946.4000000059605,
+        "transfer_size": 965,
+        "encoded_body_size": 665,
+        "decoded_body_size": 665
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "initiator_type": "img",
+        "duration": 5282.5999999940395,
+        "transfer_size": 8886,
+        "encoded_body_size": 8586,
+        "decoded_body_size": 8586
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "initiator_type": "img",
+        "duration": 5392.5999999940395,
+        "transfer_size": 73754,
+        "encoded_body_size": 73454,
+        "decoded_body_size": 73454
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "initiator_type": "img",
+        "duration": 5906.799999982119,
+        "transfer_size": 965,
+        "encoded_body_size": 665,
+        "decoded_body_size": 665
+      },
+      {
+        "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "initiator_type": "script",
+        "duration": 5262,
+        "transfer_size": 1539,
+        "encoded_body_size": 1239,
+        "decoded_body_size": 1239
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "initiator_type": "script",
+        "duration": 5316.0999999940395,
+        "transfer_size": 131600,
+        "encoded_body_size": 131300,
+        "decoded_body_size": 131300
+      },
+      {
+        "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "initiator_type": "script",
+        "duration": 5162.5999999940395,
+        "transfer_size": 0,
+        "encoded_body_size": 0,
+        "decoded_body_size": 0
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "initiator_type": "link",
+        "duration": 5295.5999999940395,
+        "transfer_size": 45138,
+        "encoded_body_size": 44838,
+        "decoded_body_size": 44838
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto",
+        "initiator_type": "css",
+        "duration": 82.5,
+        "transfer_size": 5848,
+        "encoded_body_size": 5548,
+        "decoded_body_size": 5548
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+        "initiator_type": "css",
+        "duration": 177.60000002384186,
+        "transfer_size": 396,
+        "encoded_body_size": 96,
+        "decoded_body_size": 96
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+        "initiator_type": "css",
+        "duration": 205.40000000596046,
+        "transfer_size": 38792,
+        "encoded_body_size": 38492,
+        "decoded_body_size": 38492
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "initiator_type": "css",
+        "duration": 474.59999999403954,
+        "transfer_size": 77200,
+        "encoded_body_size": 76900,
+        "decoded_body_size": 76900
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+        "initiator_type": "css",
+        "duration": 248.59999999403954,
+        "transfer_size": 3492,
+        "encoded_body_size": 3192,
+        "decoded_body_size": 3192
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "initiator_type": "script",
+        "duration": 378.7000000178814,
+        "transfer_size": 396260,
+        "encoded_body_size": 395960,
+        "decoded_body_size": 395960
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "initiator_type": "script",
+        "duration": 138.5,
+        "transfer_size": 2145,
+        "encoded_body_size": 1845,
+        "decoded_body_size": 1845
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "initiator_type": "script",
+        "duration": 138.09999999403954,
+        "transfer_size": 10166,
+        "encoded_body_size": 9866,
+        "decoded_body_size": 9866
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 156.89999997615814,
+        "transfer_size": 760,
+        "encoded_body_size": 460,
+        "decoded_body_size": 460
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "initiator_type": "script",
+        "duration": 244.90000000596046,
+        "transfer_size": 673,
+        "encoded_body_size": 373,
+        "decoded_body_size": 373
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "initiator_type": "script",
+        "duration": 251.7000000178814,
+        "transfer_size": 3407,
+        "encoded_body_size": 3107,
+        "decoded_body_size": 3107
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "initiator_type": "script",
+        "duration": 262.40000000596046,
+        "transfer_size": 513,
+        "encoded_body_size": 213,
+        "decoded_body_size": 213
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "initiator_type": "script",
+        "duration": 242.19999998807907,
+        "transfer_size": 920,
+        "encoded_body_size": 620,
+        "decoded_body_size": 620
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "initiator_type": "script",
+        "duration": 255.89999997615814,
+        "transfer_size": 25135,
+        "encoded_body_size": 24835,
+        "decoded_body_size": 24835
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+        "initiator_type": "script",
+        "duration": 5290.299999982119,
+        "transfer_size": 4766,
+        "encoded_body_size": 4466,
+        "decoded_body_size": 4466
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magefan_Blog/js/lib/mfblogunveil.js",
+        "initiator_type": "script",
+        "duration": 5380.699999988079,
+        "transfer_size": 2084,
+        "encoded_body_size": 1784,
+        "decoded_body_size": 1784
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "initiator_type": "script",
+        "duration": 5373.5,
+        "transfer_size": 4436,
+        "encoded_body_size": 4136,
+        "decoded_body_size": 4136
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "initiator_type": "script",
+        "duration": 236.89999997615814,
+        "transfer_size": 2270,
+        "encoded_body_size": 1970,
+        "decoded_body_size": 1970
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "initiator_type": "script",
+        "duration": 237.2000000178814,
+        "transfer_size": 2889,
+        "encoded_body_size": 2589,
+        "decoded_body_size": 2589
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "initiator_type": "script",
+        "duration": 238.2999999821186,
+        "transfer_size": 27667,
+        "encoded_body_size": 27367,
+        "decoded_body_size": 27367
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "initiator_type": "script",
+        "duration": 236.5,
+        "transfer_size": 3215,
+        "encoded_body_size": 2915,
+        "decoded_body_size": 2915
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "initiator_type": "script",
+        "duration": 234,
+        "transfer_size": 1685,
+        "encoded_body_size": 1385,
+        "decoded_body_size": 1385
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "initiator_type": "script",
+        "duration": 228.90000000596046,
+        "transfer_size": 3960,
+        "encoded_body_size": 3660,
+        "decoded_body_size": 3660
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 5296.299999982119,
+        "transfer_size": 829,
+        "encoded_body_size": 529,
+        "decoded_body_size": 529
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "initiator_type": "script",
+        "duration": 138.7999999821186,
+        "transfer_size": 3053,
+        "encoded_body_size": 2753,
+        "decoded_body_size": 2753
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "initiator_type": "script",
+        "duration": 139,
+        "transfer_size": 2725,
+        "encoded_body_size": 2425,
+        "decoded_body_size": 2425
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "initiator_type": "script",
+        "duration": 133.30000001192093,
+        "transfer_size": 1616,
+        "encoded_body_size": 1316,
+        "decoded_body_size": 1316
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "initiator_type": "script",
+        "duration": 134.5,
+        "transfer_size": 18195,
+        "encoded_body_size": 17895,
+        "decoded_body_size": 17895
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "initiator_type": "script",
+        "duration": 143.30000001192093,
+        "transfer_size": 4809,
+        "encoded_body_size": 4509,
+        "decoded_body_size": 4509
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "initiator_type": "script",
+        "duration": 99.80000001192093,
+        "transfer_size": 75851,
+        "encoded_body_size": 75551,
+        "decoded_body_size": 75551
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "initiator_type": "script",
+        "duration": 94.5,
+        "transfer_size": 2195,
+        "encoded_body_size": 1895,
+        "decoded_body_size": 1895
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "initiator_type": "script",
+        "duration": 101.40000000596046,
+        "transfer_size": 15538,
+        "encoded_body_size": 15238,
+        "decoded_body_size": 15238
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "initiator_type": "script",
+        "duration": 125.90000000596046,
+        "transfer_size": 44106,
+        "encoded_body_size": 43806,
+        "decoded_body_size": 43806
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+        "initiator_type": "script",
+        "duration": 119.59999999403954,
+        "transfer_size": 670,
+        "encoded_body_size": 370,
+        "decoded_body_size": 370
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "initiator_type": "script",
+        "duration": 115.80000001192093,
+        "transfer_size": 4997,
+        "encoded_body_size": 4697,
+        "decoded_body_size": 4697
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "initiator_type": "script",
+        "duration": 126.59999999403954,
+        "transfer_size": 938,
+        "encoded_body_size": 638,
+        "decoded_body_size": 638
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "initiator_type": "script",
+        "duration": 125.7000000178814,
+        "transfer_size": 13204,
+        "encoded_body_size": 12904,
+        "decoded_body_size": 12904
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "initiator_type": "script",
+        "duration": 105.30000001192093,
+        "transfer_size": 15610,
+        "encoded_body_size": 15310,
+        "decoded_body_size": 15310
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "initiator_type": "script",
+        "duration": 85.40000000596046,
+        "transfer_size": 3745,
+        "encoded_body_size": 3445,
+        "decoded_body_size": 3445
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "initiator_type": "script",
+        "duration": 85.2000000178814,
+        "transfer_size": 2497,
+        "encoded_body_size": 2197,
+        "decoded_body_size": 2197
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+        "initiator_type": "xmlhttprequest",
+        "duration": 227.59999999403954,
+        "transfer_size": 26886,
+        "encoded_body_size": 26586,
+        "decoded_body_size": 26586
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 154.30000001192093,
+        "transfer_size": 2318,
+        "encoded_body_size": 2018,
+        "decoded_body_size": 2018
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 271.7999999821186,
+        "transfer_size": 2478,
+        "encoded_body_size": 2178,
+        "decoded_body_size": 2178
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 133,
+        "transfer_size": 2300,
+        "encoded_body_size": 2000,
+        "decoded_body_size": 2000
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "initiator_type": "script",
+        "duration": 83.90000000596046,
+        "transfer_size": 846,
+        "encoded_body_size": 546,
+        "decoded_body_size": 546
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "initiator_type": "script",
+        "duration": 83.09999999403954,
+        "transfer_size": 658,
+        "encoded_body_size": 358,
+        "decoded_body_size": 358
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "initiator_type": "script",
+        "duration": 5237.4000000059605,
+        "transfer_size": 2000,
+        "encoded_body_size": 1700,
+        "decoded_body_size": 1700
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "initiator_type": "script",
+        "duration": 77.5,
+        "transfer_size": 5014,
+        "encoded_body_size": 4714,
+        "decoded_body_size": 4714
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "initiator_type": "script",
+        "duration": 85.59999999403954,
+        "transfer_size": 5945,
+        "encoded_body_size": 5645,
+        "decoded_body_size": 5645
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "initiator_type": "script",
+        "duration": 89,
+        "transfer_size": 10019,
+        "encoded_body_size": 9719,
+        "decoded_body_size": 9719
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "initiator_type": "script",
+        "duration": 100,
+        "transfer_size": 13412,
+        "encoded_body_size": 13112,
+        "decoded_body_size": 13112
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "initiator_type": "script",
+        "duration": 87.90000000596046,
+        "transfer_size": 4845,
+        "encoded_body_size": 4545,
+        "decoded_body_size": 4545
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "initiator_type": "script",
+        "duration": 80.59999999403954,
+        "transfer_size": 7904,
+        "encoded_body_size": 7604,
+        "decoded_body_size": 7604
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+        "initiator_type": "script",
+        "duration": 89.40000000596046,
+        "transfer_size": 4742,
+        "encoded_body_size": 4442,
+        "decoded_body_size": 4442
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+        "initiator_type": "script",
+        "duration": 89.90000000596046,
+        "transfer_size": 5860,
+        "encoded_body_size": 5560,
+        "decoded_body_size": 5560
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+        "initiator_type": "script",
+        "duration": 89.09999999403954,
+        "transfer_size": 789,
+        "encoded_body_size": 489,
+        "decoded_body_size": 489
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+        "initiator_type": "script",
+        "duration": 88.40000000596046,
+        "transfer_size": 1695,
+        "encoded_body_size": 1395,
+        "decoded_body_size": 1395
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+        "initiator_type": "script",
+        "duration": 5236.0999999940395,
+        "transfer_size": 1529,
+        "encoded_body_size": 1229,
+        "decoded_body_size": 1229
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+        "initiator_type": "script",
+        "duration": 5273.0999999940395,
+        "transfer_size": 2876,
+        "encoded_body_size": 2576,
+        "decoded_body_size": 2576
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+        "initiator_type": "script",
+        "duration": 5229,
+        "transfer_size": 1096,
+        "encoded_body_size": 796,
+        "decoded_body_size": 796
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+        "initiator_type": "script",
+        "duration": 5262.4000000059605,
+        "transfer_size": 2546,
+        "encoded_body_size": 2246,
+        "decoded_body_size": 2246
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "initiator_type": "script",
+        "duration": 5228.5999999940395,
+        "transfer_size": 1394,
+        "encoded_body_size": 1094,
+        "decoded_body_size": 1094
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "initiator_type": "script",
+        "duration": 5233.800000011921,
+        "transfer_size": 1563,
+        "encoded_body_size": 1263,
+        "decoded_body_size": 1263
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "initiator_type": "script",
+        "duration": 5256.0999999940395,
+        "transfer_size": 3031,
+        "encoded_body_size": 2731,
+        "decoded_body_size": 2731
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "initiator_type": "script",
+        "duration": 5242.5999999940395,
+        "transfer_size": 881,
+        "encoded_body_size": 581,
+        "decoded_body_size": 581
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "initiator_type": "script",
+        "duration": 5265.200000017881,
+        "transfer_size": 685,
+        "encoded_body_size": 385,
+        "decoded_body_size": 385
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "initiator_type": "script",
+        "duration": 5247.5,
+        "transfer_size": 1280,
+        "encoded_body_size": 980,
+        "decoded_body_size": 980
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "initiator_type": "script",
+        "duration": 5262.700000017881,
+        "transfer_size": 2335,
+        "encoded_body_size": 2035,
+        "decoded_body_size": 2035
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "initiator_type": "script",
+        "duration": 5251,
+        "transfer_size": 2873,
+        "encoded_body_size": 2573,
+        "decoded_body_size": 2573
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "initiator_type": "script",
+        "duration": 5285.4000000059605,
+        "transfer_size": 1320,
+        "encoded_body_size": 1020,
+        "decoded_body_size": 1020
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "initiator_type": "script",
+        "duration": 5272,
+        "transfer_size": 1314,
+        "encoded_body_size": 1014,
+        "decoded_body_size": 1014
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+        "initiator_type": "script",
+        "duration": 5258.9000000059605,
+        "transfer_size": 823,
+        "encoded_body_size": 523,
+        "decoded_body_size": 523
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+        "initiator_type": "script",
+        "duration": 5276.0999999940395,
+        "transfer_size": 1786,
+        "encoded_body_size": 1486,
+        "decoded_body_size": 1486
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+        "initiator_type": "script",
+        "duration": 5263,
+        "transfer_size": 1278,
+        "encoded_body_size": 978,
+        "decoded_body_size": 978
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+        "initiator_type": "script",
+        "duration": 5265.299999982119,
+        "transfer_size": 1521,
+        "encoded_body_size": 1221,
+        "decoded_body_size": 1221
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "initiator_type": "script",
+        "duration": 75,
+        "transfer_size": 4206,
+        "encoded_body_size": 3906,
+        "decoded_body_size": 3906
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "initiator_type": "script",
+        "duration": 137.90000000596046,
+        "transfer_size": 388252,
+        "encoded_body_size": 387952,
+        "decoded_body_size": 387952
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry.js",
+        "initiator_type": "script",
+        "duration": 79.40000000596046,
+        "transfer_size": 1197,
+        "encoded_body_size": 897,
+        "decoded_body_size": 897
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+        "initiator_type": "script",
+        "duration": 78.10000002384186,
+        "transfer_size": 1759,
+        "encoded_body_size": 1459,
+        "decoded_body_size": 1459
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+        "initiator_type": "script",
+        "duration": 87.89999997615814,
+        "transfer_size": 5309,
+        "encoded_body_size": 5009,
+        "decoded_body_size": 5009
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "initiator_type": "script",
+        "duration": 94.2000000178814,
+        "transfer_size": 18905,
+        "encoded_body_size": 18605,
+        "decoded_body_size": 18605
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "initiator_type": "script",
+        "duration": 92,
+        "transfer_size": 9420,
+        "encoded_body_size": 9120,
+        "decoded_body_size": 9120
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 89.80000001192093,
+        "transfer_size": 1853,
+        "encoded_body_size": 1553,
+        "decoded_body_size": 1553
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "initiator_type": "script",
+        "duration": 90.2000000178814,
+        "transfer_size": 3775,
+        "encoded_body_size": 3475,
+        "decoded_body_size": 3475
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "initiator_type": "script",
+        "duration": 87.59999999403954,
+        "transfer_size": 5708,
+        "encoded_body_size": 5408,
+        "decoded_body_size": 5408
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "initiator_type": "script",
+        "duration": 95.59999999403954,
+        "transfer_size": 10367,
+        "encoded_body_size": 10067,
+        "decoded_body_size": 10067
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "initiator_type": "script",
+        "duration": 94.7999999821186,
+        "transfer_size": 11932,
+        "encoded_body_size": 11632,
+        "decoded_body_size": 11632
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "initiator_type": "script",
+        "duration": 120.59999999403954,
+        "transfer_size": 16701,
+        "encoded_body_size": 16401,
+        "decoded_body_size": 16401
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "initiator_type": "script",
+        "duration": 83.90000000596046,
+        "transfer_size": 4530,
+        "encoded_body_size": 4230,
+        "decoded_body_size": 4230
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+        "initiator_type": "script",
+        "duration": 103.30000001192093,
+        "transfer_size": 5735,
+        "encoded_body_size": 5435,
+        "decoded_body_size": 5435
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+        "initiator_type": "script",
+        "duration": 113.80000001192093,
+        "transfer_size": 3683,
+        "encoded_body_size": 3383,
+        "decoded_body_size": 3383
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+        "initiator_type": "script",
+        "duration": 87.7999999821186,
+        "transfer_size": 2142,
+        "encoded_body_size": 1842,
+        "decoded_body_size": 1842
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+        "initiator_type": "script",
+        "duration": 102.59999999403954,
+        "transfer_size": 949,
+        "encoded_body_size": 649,
+        "decoded_body_size": 649
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+        "initiator_type": "script",
+        "duration": 113.30000001192093,
+        "transfer_size": 1303,
+        "encoded_body_size": 1003,
+        "decoded_body_size": 1003
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+        "initiator_type": "script",
+        "duration": 118.19999998807907,
+        "transfer_size": 13947,
+        "encoded_body_size": 13647,
+        "decoded_body_size": 13647
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+        "initiator_type": "script",
+        "duration": 119.89999997615814,
+        "transfer_size": 900,
+        "encoded_body_size": 600,
+        "decoded_body_size": 600
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+        "initiator_type": "script",
+        "duration": 120.40000000596046,
+        "transfer_size": 1099,
+        "encoded_body_size": 799,
+        "decoded_body_size": 799
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+        "initiator_type": "script",
+        "duration": 123.19999998807907,
+        "transfer_size": 4048,
+        "encoded_body_size": 3748,
+        "decoded_body_size": 3748
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "initiator_type": "script",
+        "duration": 122.2000000178814,
+        "transfer_size": 3376,
+        "encoded_body_size": 3076,
+        "decoded_body_size": 3076
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "initiator_type": "script",
+        "duration": 117,
+        "transfer_size": 1366,
+        "encoded_body_size": 1066,
+        "decoded_body_size": 1066
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "initiator_type": "script",
+        "duration": 115.89999997615814,
+        "transfer_size": 1767,
+        "encoded_body_size": 1467,
+        "decoded_body_size": 1467
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "initiator_type": "script",
+        "duration": 119.59999999403954,
+        "transfer_size": 5633,
+        "encoded_body_size": 5333,
+        "decoded_body_size": 5333
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "initiator_type": "script",
+        "duration": 121.2999999821186,
+        "transfer_size": 3826,
+        "encoded_body_size": 3526,
+        "decoded_body_size": 3526
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "initiator_type": "script",
+        "duration": 145.10000002384186,
+        "transfer_size": 7421,
+        "encoded_body_size": 7121,
+        "decoded_body_size": 7121
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+        "initiator_type": "script",
+        "duration": 104.59999999403954,
+        "transfer_size": 4345,
+        "encoded_body_size": 4045,
+        "decoded_body_size": 4045
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/moment.js",
+        "initiator_type": "script",
+        "duration": 72.7999999821186,
+        "transfer_size": 59426,
+        "encoded_body_size": 59126,
+        "decoded_body_size": 59126
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+        "initiator_type": "script",
+        "duration": 78.5,
+        "transfer_size": 11064,
+        "encoded_body_size": 10764,
+        "decoded_body_size": 10764
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+        "initiator_type": "script",
+        "duration": 75.2000000178814,
+        "transfer_size": 3728,
+        "encoded_body_size": 3428,
+        "decoded_body_size": 3428
+      }
+    ],
+    "animations": {
+      "total": 0,
+      "running": 0,
+      "finite_running": 0
+    },
+    "dimensions": {
+      "scroll_height": 2559,
+      "scroll_width": 400,
+      "viewport_height": 866,
+      "viewport_width": 400
+    },
+    "scroll_y": 0,
+    "reveal_markers": 0,
+    "dynamic_height_markers": 0
+  },
+  "after_scroll": {
+    "ready_state": "interactive",
+    "stylesheets": [
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 2334,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "disabled": false,
+        "media": "screen and (min-width: 768px)",
+        "rule_count": 38,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 1064,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 3,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+        "disabled": false,
+        "media": null,
+        "rule_count": null,
+        "access": "cross_origin_or_restricted"
+      },
+      {
+        "href": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "disabled": false,
+        "media": "all",
+        "rule_count": null,
+        "access": "cross_origin_or_restricted"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 702,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 80,
+        "access": "available"
+      },
+      {
+        "href": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+        "disabled": false,
+        "media": "all",
+        "rule_count": 2036,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 6,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 1,
+        "access": "available"
+      },
+      {
+        "href": null,
+        "disabled": false,
+        "media": null,
+        "rule_count": 1,
+        "access": "available"
+      }
+    ],
+    "fonts": {
+      "status": "loaded",
+      "faces": [
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Open Sans",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "icons-blank-theme",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "pagebuilder-font",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "FontAwesome",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "italic",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "200"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "600"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "800"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "CodazonFont",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "normal"
+        }
+      ]
+    },
+    "images": [
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "natural_width": 150,
+        "natural_height": 50,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "complete": true,
+        "natural_width": 150,
+        "natural_height": 50,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "complete": true,
+        "natural_width": 0,
+        "natural_height": 0,
+        "loading": "auto",
+        "failed": true
+      },
+      {
+        "src": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "complete": true,
+        "natural_width": 0,
+        "natural_height": 0,
+        "loading": "auto",
+        "failed": true
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "complete": true,
+        "natural_width": 750,
+        "natural_height": 250,
+        "loading": "auto",
+        "failed": false
+      },
+      {
+        "src": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "complete": true,
+        "natural_width": 249,
+        "natural_height": 25,
+        "loading": "auto",
+        "failed": false
+      }
+    ],
+    "resources": [
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+        "initiator_type": "link",
+        "duration": 99.69999998807907,
+        "transfer_size": 328579,
+        "encoded_body_size": 328279,
+        "decoded_body_size": 328279
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+        "initiator_type": "link",
+        "duration": 5228.200000017881,
+        "transfer_size": 75567,
+        "encoded_body_size": 75267,
+        "decoded_body_size": 75267
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+        "initiator_type": "link",
+        "duration": 5222.700000017881,
+        "transfer_size": 89868,
+        "encoded_body_size": 89568,
+        "decoded_body_size": 89568
+      },
+      {
+        "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+        "initiator_type": "link",
+        "duration": 6956.600000023842,
+        "transfer_size": 0,
+        "encoded_body_size": 0,
+        "decoded_body_size": 0
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+        "initiator_type": "link",
+        "duration": 5281.0999999940395,
+        "transfer_size": 126432,
+        "encoded_body_size": 126132,
+        "decoded_body_size": 126132
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+        "initiator_type": "link",
+        "duration": 5282.299999982119,
+        "transfer_size": 9702,
+        "encoded_body_size": 9402,
+        "decoded_body_size": 9402
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+        "initiator_type": "link",
+        "duration": 5271.199999988079,
+        "transfer_size": 268329,
+        "encoded_body_size": 268029,
+        "decoded_body_size": 268029
+      },
+      {
+        "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+        "initiator_type": "img",
+        "duration": 5309.9000000059605,
+        "transfer_size": 85459,
+        "encoded_body_size": 85159,
+        "decoded_body_size": 85159
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+        "initiator_type": "img",
+        "duration": 5946.4000000059605,
+        "transfer_size": 965,
+        "encoded_body_size": 665,
+        "decoded_body_size": 665
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+        "initiator_type": "img",
+        "duration": 5282.5999999940395,
+        "transfer_size": 8886,
+        "encoded_body_size": 8586,
+        "decoded_body_size": 8586
+      },
+      {
+        "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+        "initiator_type": "img",
+        "duration": 5392.5999999940395,
+        "transfer_size": 73754,
+        "encoded_body_size": 73454,
+        "decoded_body_size": 73454
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+        "initiator_type": "img",
+        "duration": 5906.799999982119,
+        "transfer_size": 965,
+        "encoded_body_size": 665,
+        "decoded_body_size": 665
+      },
+      {
+        "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "initiator_type": "script",
+        "duration": 5262,
+        "transfer_size": 1539,
+        "encoded_body_size": 1239,
+        "decoded_body_size": 1239
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+        "initiator_type": "script",
+        "duration": 5316.0999999940395,
+        "transfer_size": 131600,
+        "encoded_body_size": 131300,
+        "decoded_body_size": 131300
+      },
+      {
+        "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "initiator_type": "script",
+        "duration": 5162.5999999940395,
+        "transfer_size": 0,
+        "encoded_body_size": 0,
+        "decoded_body_size": 0
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+        "initiator_type": "link",
+        "duration": 5295.5999999940395,
+        "transfer_size": 45138,
+        "encoded_body_size": 44838,
+        "decoded_body_size": 44838
+      },
+      {
+        "name": "https://fonts.googleapis.com/css?family=Roboto",
+        "initiator_type": "css",
+        "duration": 82.5,
+        "transfer_size": 5848,
+        "encoded_body_size": 5548,
+        "decoded_body_size": 5548
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+        "initiator_type": "css",
+        "duration": 177.60000002384186,
+        "transfer_size": 396,
+        "encoded_body_size": 96,
+        "decoded_body_size": 96
+      },
+      {
+        "name": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+        "initiator_type": "css",
+        "duration": 205.40000000596046,
+        "transfer_size": 38792,
+        "encoded_body_size": 38492,
+        "decoded_body_size": 38492
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+        "initiator_type": "css",
+        "duration": 474.59999999403954,
+        "transfer_size": 77200,
+        "encoded_body_size": 76900,
+        "decoded_body_size": 76900
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+        "initiator_type": "css",
+        "duration": 248.59999999403954,
+        "transfer_size": 3492,
+        "encoded_body_size": 3192,
+        "decoded_body_size": 3192
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+        "initiator_type": "script",
+        "duration": 378.7000000178814,
+        "transfer_size": 396260,
+        "encoded_body_size": 395960,
+        "decoded_body_size": 395960
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+        "initiator_type": "script",
+        "duration": 138.5,
+        "transfer_size": 2145,
+        "encoded_body_size": 1845,
+        "decoded_body_size": 1845
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+        "initiator_type": "script",
+        "duration": 138.09999999403954,
+        "transfer_size": 10166,
+        "encoded_body_size": 9866,
+        "decoded_body_size": 9866
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 156.89999997615814,
+        "transfer_size": 760,
+        "encoded_body_size": 460,
+        "decoded_body_size": 460
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+        "initiator_type": "script",
+        "duration": 244.90000000596046,
+        "transfer_size": 673,
+        "encoded_body_size": 373,
+        "decoded_body_size": 373
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+        "initiator_type": "script",
+        "duration": 251.7000000178814,
+        "transfer_size": 3407,
+        "encoded_body_size": 3107,
+        "decoded_body_size": 3107
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+        "initiator_type": "script",
+        "duration": 262.40000000596046,
+        "transfer_size": 513,
+        "encoded_body_size": 213,
+        "decoded_body_size": 213
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+        "initiator_type": "script",
+        "duration": 242.19999998807907,
+        "transfer_size": 920,
+        "encoded_body_size": 620,
+        "decoded_body_size": 620
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+        "initiator_type": "script",
+        "duration": 255.89999997615814,
+        "transfer_size": 25135,
+        "encoded_body_size": 24835,
+        "decoded_body_size": 24835
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+        "initiator_type": "script",
+        "duration": 5290.299999982119,
+        "transfer_size": 4766,
+        "encoded_body_size": 4466,
+        "decoded_body_size": 4466
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magefan_Blog/js/lib/mfblogunveil.js",
+        "initiator_type": "script",
+        "duration": 5380.699999988079,
+        "transfer_size": 2084,
+        "encoded_body_size": 1784,
+        "decoded_body_size": 1784
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+        "initiator_type": "script",
+        "duration": 5373.5,
+        "transfer_size": 4436,
+        "encoded_body_size": 4136,
+        "decoded_body_size": 4136
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+        "initiator_type": "script",
+        "duration": 236.89999997615814,
+        "transfer_size": 2270,
+        "encoded_body_size": 1970,
+        "decoded_body_size": 1970
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+        "initiator_type": "script",
+        "duration": 237.2000000178814,
+        "transfer_size": 2889,
+        "encoded_body_size": 2589,
+        "decoded_body_size": 2589
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+        "initiator_type": "script",
+        "duration": 238.2999999821186,
+        "transfer_size": 27667,
+        "encoded_body_size": 27367,
+        "decoded_body_size": 27367
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+        "initiator_type": "script",
+        "duration": 236.5,
+        "transfer_size": 3215,
+        "encoded_body_size": 2915,
+        "decoded_body_size": 2915
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+        "initiator_type": "script",
+        "duration": 234,
+        "transfer_size": 1685,
+        "encoded_body_size": 1385,
+        "decoded_body_size": 1385
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+        "initiator_type": "script",
+        "duration": 228.90000000596046,
+        "transfer_size": 3960,
+        "encoded_body_size": 3660,
+        "decoded_body_size": 3660
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 5296.299999982119,
+        "transfer_size": 829,
+        "encoded_body_size": 529,
+        "decoded_body_size": 529
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+        "initiator_type": "script",
+        "duration": 138.7999999821186,
+        "transfer_size": 3053,
+        "encoded_body_size": 2753,
+        "decoded_body_size": 2753
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+        "initiator_type": "script",
+        "duration": 139,
+        "transfer_size": 2725,
+        "encoded_body_size": 2425,
+        "decoded_body_size": 2425
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+        "initiator_type": "script",
+        "duration": 133.30000001192093,
+        "transfer_size": 1616,
+        "encoded_body_size": 1316,
+        "decoded_body_size": 1316
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+        "initiator_type": "script",
+        "duration": 134.5,
+        "transfer_size": 18195,
+        "encoded_body_size": 17895,
+        "decoded_body_size": 17895
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+        "initiator_type": "script",
+        "duration": 143.30000001192093,
+        "transfer_size": 4809,
+        "encoded_body_size": 4509,
+        "decoded_body_size": 4509
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+        "initiator_type": "script",
+        "duration": 99.80000001192093,
+        "transfer_size": 75851,
+        "encoded_body_size": 75551,
+        "decoded_body_size": 75551
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+        "initiator_type": "script",
+        "duration": 94.5,
+        "transfer_size": 2195,
+        "encoded_body_size": 1895,
+        "decoded_body_size": 1895
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+        "initiator_type": "script",
+        "duration": 101.40000000596046,
+        "transfer_size": 15538,
+        "encoded_body_size": 15238,
+        "decoded_body_size": 15238
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+        "initiator_type": "script",
+        "duration": 125.90000000596046,
+        "transfer_size": 44106,
+        "encoded_body_size": 43806,
+        "decoded_body_size": 43806
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+        "initiator_type": "script",
+        "duration": 119.59999999403954,
+        "transfer_size": 670,
+        "encoded_body_size": 370,
+        "decoded_body_size": 370
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+        "initiator_type": "script",
+        "duration": 115.80000001192093,
+        "transfer_size": 4997,
+        "encoded_body_size": 4697,
+        "decoded_body_size": 4697
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+        "initiator_type": "script",
+        "duration": 126.59999999403954,
+        "transfer_size": 938,
+        "encoded_body_size": 638,
+        "decoded_body_size": 638
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+        "initiator_type": "script",
+        "duration": 125.7000000178814,
+        "transfer_size": 13204,
+        "encoded_body_size": 12904,
+        "decoded_body_size": 12904
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+        "initiator_type": "script",
+        "duration": 105.30000001192093,
+        "transfer_size": 15610,
+        "encoded_body_size": 15310,
+        "decoded_body_size": 15310
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+        "initiator_type": "script",
+        "duration": 85.40000000596046,
+        "transfer_size": 3745,
+        "encoded_body_size": 3445,
+        "decoded_body_size": 3445
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+        "initiator_type": "script",
+        "duration": 85.2000000178814,
+        "transfer_size": 2497,
+        "encoded_body_size": 2197,
+        "decoded_body_size": 2197
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+        "initiator_type": "xmlhttprequest",
+        "duration": 227.59999999403954,
+        "transfer_size": 26886,
+        "encoded_body_size": 26586,
+        "decoded_body_size": 26586
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 154.30000001192093,
+        "transfer_size": 2318,
+        "encoded_body_size": 2018,
+        "decoded_body_size": 2018
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 271.7999999821186,
+        "transfer_size": 2478,
+        "encoded_body_size": 2178,
+        "decoded_body_size": 2178
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+        "initiator_type": "xmlhttprequest",
+        "duration": 133,
+        "transfer_size": 2300,
+        "encoded_body_size": 2000,
+        "decoded_body_size": 2000
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+        "initiator_type": "script",
+        "duration": 83.90000000596046,
+        "transfer_size": 846,
+        "encoded_body_size": 546,
+        "decoded_body_size": 546
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+        "initiator_type": "script",
+        "duration": 83.09999999403954,
+        "transfer_size": 658,
+        "encoded_body_size": 358,
+        "decoded_body_size": 358
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+        "initiator_type": "script",
+        "duration": 5237.4000000059605,
+        "transfer_size": 2000,
+        "encoded_body_size": 1700,
+        "decoded_body_size": 1700
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+        "initiator_type": "script",
+        "duration": 77.5,
+        "transfer_size": 5014,
+        "encoded_body_size": 4714,
+        "decoded_body_size": 4714
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+        "initiator_type": "script",
+        "duration": 85.59999999403954,
+        "transfer_size": 5945,
+        "encoded_body_size": 5645,
+        "decoded_body_size": 5645
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+        "initiator_type": "script",
+        "duration": 89,
+        "transfer_size": 10019,
+        "encoded_body_size": 9719,
+        "decoded_body_size": 9719
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+        "initiator_type": "script",
+        "duration": 100,
+        "transfer_size": 13412,
+        "encoded_body_size": 13112,
+        "decoded_body_size": 13112
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+        "initiator_type": "script",
+        "duration": 87.90000000596046,
+        "transfer_size": 4845,
+        "encoded_body_size": 4545,
+        "decoded_body_size": 4545
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+        "initiator_type": "script",
+        "duration": 80.59999999403954,
+        "transfer_size": 7904,
+        "encoded_body_size": 7604,
+        "decoded_body_size": 7604
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+        "initiator_type": "script",
+        "duration": 89.40000000596046,
+        "transfer_size": 4742,
+        "encoded_body_size": 4442,
+        "decoded_body_size": 4442
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+        "initiator_type": "script",
+        "duration": 89.90000000596046,
+        "transfer_size": 5860,
+        "encoded_body_size": 5560,
+        "decoded_body_size": 5560
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+        "initiator_type": "script",
+        "duration": 89.09999999403954,
+        "transfer_size": 789,
+        "encoded_body_size": 489,
+        "decoded_body_size": 489
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+        "initiator_type": "script",
+        "duration": 88.40000000596046,
+        "transfer_size": 1695,
+        "encoded_body_size": 1395,
+        "decoded_body_size": 1395
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+        "initiator_type": "script",
+        "duration": 5236.0999999940395,
+        "transfer_size": 1529,
+        "encoded_body_size": 1229,
+        "decoded_body_size": 1229
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+        "initiator_type": "script",
+        "duration": 5273.0999999940395,
+        "transfer_size": 2876,
+        "encoded_body_size": 2576,
+        "decoded_body_size": 2576
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+        "initiator_type": "script",
+        "duration": 5229,
+        "transfer_size": 1096,
+        "encoded_body_size": 796,
+        "decoded_body_size": 796
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+        "initiator_type": "script",
+        "duration": 5262.4000000059605,
+        "transfer_size": 2546,
+        "encoded_body_size": 2246,
+        "decoded_body_size": 2246
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+        "initiator_type": "script",
+        "duration": 5228.5999999940395,
+        "transfer_size": 1394,
+        "encoded_body_size": 1094,
+        "decoded_body_size": 1094
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+        "initiator_type": "script",
+        "duration": 5233.800000011921,
+        "transfer_size": 1563,
+        "encoded_body_size": 1263,
+        "decoded_body_size": 1263
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+        "initiator_type": "script",
+        "duration": 5256.0999999940395,
+        "transfer_size": 3031,
+        "encoded_body_size": 2731,
+        "decoded_body_size": 2731
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+        "initiator_type": "script",
+        "duration": 5242.5999999940395,
+        "transfer_size": 881,
+        "encoded_body_size": 581,
+        "decoded_body_size": 581
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+        "initiator_type": "script",
+        "duration": 5265.200000017881,
+        "transfer_size": 685,
+        "encoded_body_size": 385,
+        "decoded_body_size": 385
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+        "initiator_type": "script",
+        "duration": 5247.5,
+        "transfer_size": 1280,
+        "encoded_body_size": 980,
+        "decoded_body_size": 980
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+        "initiator_type": "script",
+        "duration": 5262.700000017881,
+        "transfer_size": 2335,
+        "encoded_body_size": 2035,
+        "decoded_body_size": 2035
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+        "initiator_type": "script",
+        "duration": 5251,
+        "transfer_size": 2873,
+        "encoded_body_size": 2573,
+        "decoded_body_size": 2573
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+        "initiator_type": "script",
+        "duration": 5285.4000000059605,
+        "transfer_size": 1320,
+        "encoded_body_size": 1020,
+        "decoded_body_size": 1020
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+        "initiator_type": "script",
+        "duration": 5272,
+        "transfer_size": 1314,
+        "encoded_body_size": 1014,
+        "decoded_body_size": 1014
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+        "initiator_type": "script",
+        "duration": 5258.9000000059605,
+        "transfer_size": 823,
+        "encoded_body_size": 523,
+        "decoded_body_size": 523
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+        "initiator_type": "script",
+        "duration": 5276.0999999940395,
+        "transfer_size": 1786,
+        "encoded_body_size": 1486,
+        "decoded_body_size": 1486
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+        "initiator_type": "script",
+        "duration": 5263,
+        "transfer_size": 1278,
+        "encoded_body_size": 978,
+        "decoded_body_size": 978
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+        "initiator_type": "script",
+        "duration": 5265.299999982119,
+        "transfer_size": 1521,
+        "encoded_body_size": 1221,
+        "decoded_body_size": 1221
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+        "initiator_type": "script",
+        "duration": 75,
+        "transfer_size": 4206,
+        "encoded_body_size": 3906,
+        "decoded_body_size": 3906
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+        "initiator_type": "script",
+        "duration": 137.90000000596046,
+        "transfer_size": 388252,
+        "encoded_body_size": 387952,
+        "decoded_body_size": 387952
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry.js",
+        "initiator_type": "script",
+        "duration": 79.40000000596046,
+        "transfer_size": 1197,
+        "encoded_body_size": 897,
+        "decoded_body_size": 897
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+        "initiator_type": "script",
+        "duration": 78.10000002384186,
+        "transfer_size": 1759,
+        "encoded_body_size": 1459,
+        "decoded_body_size": 1459
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+        "initiator_type": "script",
+        "duration": 87.89999997615814,
+        "transfer_size": 5309,
+        "encoded_body_size": 5009,
+        "decoded_body_size": 5009
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+        "initiator_type": "script",
+        "duration": 94.2000000178814,
+        "transfer_size": 18905,
+        "encoded_body_size": 18605,
+        "decoded_body_size": 18605
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+        "initiator_type": "script",
+        "duration": 92,
+        "transfer_size": 9420,
+        "encoded_body_size": 9120,
+        "decoded_body_size": 9120
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+        "initiator_type": "script",
+        "duration": 89.80000001192093,
+        "transfer_size": 1853,
+        "encoded_body_size": 1553,
+        "decoded_body_size": 1553
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+        "initiator_type": "script",
+        "duration": 90.2000000178814,
+        "transfer_size": 3775,
+        "encoded_body_size": 3475,
+        "decoded_body_size": 3475
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+        "initiator_type": "script",
+        "duration": 87.59999999403954,
+        "transfer_size": 5708,
+        "encoded_body_size": 5408,
+        "decoded_body_size": 5408
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+        "initiator_type": "script",
+        "duration": 95.59999999403954,
+        "transfer_size": 10367,
+        "encoded_body_size": 10067,
+        "decoded_body_size": 10067
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+        "initiator_type": "script",
+        "duration": 94.7999999821186,
+        "transfer_size": 11932,
+        "encoded_body_size": 11632,
+        "decoded_body_size": 11632
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+        "initiator_type": "script",
+        "duration": 120.59999999403954,
+        "transfer_size": 16701,
+        "encoded_body_size": 16401,
+        "decoded_body_size": 16401
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+        "initiator_type": "script",
+        "duration": 83.90000000596046,
+        "transfer_size": 4530,
+        "encoded_body_size": 4230,
+        "decoded_body_size": 4230
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+        "initiator_type": "script",
+        "duration": 103.30000001192093,
+        "transfer_size": 5735,
+        "encoded_body_size": 5435,
+        "decoded_body_size": 5435
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+        "initiator_type": "script",
+        "duration": 113.80000001192093,
+        "transfer_size": 3683,
+        "encoded_body_size": 3383,
+        "decoded_body_size": 3383
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+        "initiator_type": "script",
+        "duration": 87.7999999821186,
+        "transfer_size": 2142,
+        "encoded_body_size": 1842,
+        "decoded_body_size": 1842
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+        "initiator_type": "script",
+        "duration": 102.59999999403954,
+        "transfer_size": 949,
+        "encoded_body_size": 649,
+        "decoded_body_size": 649
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+        "initiator_type": "script",
+        "duration": 113.30000001192093,
+        "transfer_size": 1303,
+        "encoded_body_size": 1003,
+        "decoded_body_size": 1003
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+        "initiator_type": "script",
+        "duration": 118.19999998807907,
+        "transfer_size": 13947,
+        "encoded_body_size": 13647,
+        "decoded_body_size": 13647
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+        "initiator_type": "script",
+        "duration": 119.89999997615814,
+        "transfer_size": 900,
+        "encoded_body_size": 600,
+        "decoded_body_size": 600
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+        "initiator_type": "script",
+        "duration": 120.40000000596046,
+        "transfer_size": 1099,
+        "encoded_body_size": 799,
+        "decoded_body_size": 799
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+        "initiator_type": "script",
+        "duration": 123.19999998807907,
+        "transfer_size": 4048,
+        "encoded_body_size": 3748,
+        "decoded_body_size": 3748
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+        "initiator_type": "script",
+        "duration": 122.2000000178814,
+        "transfer_size": 3376,
+        "encoded_body_size": 3076,
+        "decoded_body_size": 3076
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+        "initiator_type": "script",
+        "duration": 117,
+        "transfer_size": 1366,
+        "encoded_body_size": 1066,
+        "decoded_body_size": 1066
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+        "initiator_type": "script",
+        "duration": 115.89999997615814,
+        "transfer_size": 1767,
+        "encoded_body_size": 1467,
+        "decoded_body_size": 1467
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+        "initiator_type": "script",
+        "duration": 119.59999999403954,
+        "transfer_size": 5633,
+        "encoded_body_size": 5333,
+        "decoded_body_size": 5333
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+        "initiator_type": "script",
+        "duration": 121.2999999821186,
+        "transfer_size": 3826,
+        "encoded_body_size": 3526,
+        "decoded_body_size": 3526
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+        "initiator_type": "script",
+        "duration": 145.10000002384186,
+        "transfer_size": 7421,
+        "encoded_body_size": 7121,
+        "decoded_body_size": 7121
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+        "initiator_type": "script",
+        "duration": 104.59999999403954,
+        "transfer_size": 4345,
+        "encoded_body_size": 4045,
+        "decoded_body_size": 4045
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/moment.js",
+        "initiator_type": "script",
+        "duration": 72.7999999821186,
+        "transfer_size": 59426,
+        "encoded_body_size": 59126,
+        "decoded_body_size": 59126
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+        "initiator_type": "script",
+        "duration": 78.5,
+        "transfer_size": 11064,
+        "encoded_body_size": 10764,
+        "decoded_body_size": 10764
+      },
+      {
+        "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+        "initiator_type": "script",
+        "duration": 75.2000000178814,
+        "transfer_size": 3728,
+        "encoded_body_size": 3428,
+        "decoded_body_size": 3428
+      }
+    ],
+    "animations": {
+      "total": 0,
+      "running": 0,
+      "finite_running": 0
+    },
+    "dimensions": {
+      "scroll_height": 2559,
+      "scroll_width": 400,
+      "viewport_height": 866,
+      "viewport_width": 400
+    },
+    "scroll_y": 0,
+    "reveal_markers": 0,
+    "dynamic_height_markers": 0
+  },
+  "failed_resources": [
+    {
+      "kind": "response",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "status": 404,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": null,
+      "server_timing": null
+    },
+    {
+      "kind": "response",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "status": 404,
+      "method": "GET",
+      "resource_type": "image",
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": null,
+      "server_timing": null
+    },
+    {
+      "kind": "requestfailed",
+      "url": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "failure": "net::ERR_ABORTED",
+      "audit_induced": false
+    }
+  ],
+  "decode_failures": {
+    "fonts": 0,
+    "images": 2,
+    "pending_images": 0
+  },
+  "final_capture_after_stabilization": true,
+  "render_complete": false
+}

@@ -1,0 +1,1900 @@
+{
+  "run_id": "20260927T180655Z-85e584",
+  "selected_pages": 25,
+  "page_collection_status": {
+    "partial": 25
+  },
+  "current_render_version_pages": 25,
+  "evidence_records": 854,
+  "old_screenshots_marked_provisional": 100,
+  "old_viewport_runs_marked_provisional": 50,
+  "current_capture_files": 200,
+  "render_capture_records": 50,
+  "render_complete_captures": 0,
+  "partial_render_captures": 50,
+  "reached_bottom_captures": 50,
+  "timeout_captures": 6,
+  "decode_failure_occurrences": {
+    "fonts": 0,
+    "images": 100,
+    "pending_images": 21
+  },
+  "non_audit_failed_resource_occurrences_by_type": {
+    "image": 100,
+    "stylesheet": 55
+  },
+  "unique_non_audit_failed_resources": 4,
+  "scroll_trigger_observed_pages": [
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewports": [
+        "desktop"
+      ]
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "viewports": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  ],
+  "materially_changed_full_captures": 9,
+  "materially_changed_pages": [
+    "https://addp.vn/",
+    "https://addp.vn/sua-dinh-duong.html",
+    "https://addp.vn/sui-dovital",
+    "https://addp.vn/thuc-pham-chuc-nang.html",
+    "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html"
+  ],
+  "image_difference_threshold": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%.",
+  "captures": [
+    {
+      "url": "https://addp.vn/",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": true,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": true,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [
+        "additional images completed after scroll"
+      ],
+      "failed_resources": 4,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 8
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": true,
+      "post_scroll_assets_timed_out": true,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 4,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 13
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": true,
+      "post_scroll_assets_timed_out": true,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/contact/",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/contact/",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu/",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu/",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [
+        "additional images completed after scroll"
+      ],
+      "failed_resources": 4,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": true,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [
+        "additional images completed after scroll"
+      ],
+      "failed_resources": 5,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": true,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "viewport": "desktop",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "viewport": "mobile",
+      "render_complete": false,
+      "reached_bottom": true,
+      "scroll_signals": [],
+      "failed_resources": 3,
+      "decode_failures": {
+        "fonts": 0,
+        "images": 2,
+        "pending_images": 0
+      },
+      "load_timed_out": false,
+      "initial_assets_timed_out": false,
+      "post_scroll_assets_timed_out": false,
+      "animation_timed_out": false
+    }
+  ],
+  "image_differences": [
+    {
+      "url": "https://addp.vn/",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        4971
+      ],
+      "stabilized_size": [
+        1440,
+        4971
+      ],
+      "changed_pixel_ratio": 0.218781,
+      "mean_absolute_channel_difference": 19.126155,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/",
+      "viewport": "mobile",
+      "initial_size": [
+        390,
+        5768
+      ],
+      "stabilized_size": [
+        390,
+        5768
+      ],
+      "changed_pixel_ratio": 0.258225,
+      "mean_absolute_channel_difference": 19.737733,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        2715
+      ],
+      "stabilized_size": [
+        1440,
+        2715
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/benh-ly",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        6408
+      ],
+      "stabilized_size": [
+        400,
+        6408
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        3074
+      ],
+      "stabilized_size": [
+        1440,
+        3074
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+      "viewport": "mobile",
+      "initial_size": [
+        405,
+        7161
+      ],
+      "stabilized_size": [
+        405,
+        7161
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1924
+      ],
+      "stabilized_size": [
+        1440,
+        1924
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/catalogsearch/advanced/",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2459
+      ],
+      "stabilized_size": [
+        400,
+        2459
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1580
+      ],
+      "stabilized_size": [
+        1440,
+        1580
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-dat-hang",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2559
+      ],
+      "stabilized_size": [
+        400,
+        2559
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1137
+      ],
+      "stabilized_size": [
+        1440,
+        1137
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2179
+      ],
+      "stabilized_size": [
+        400,
+        2179
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1143
+      ],
+      "stabilized_size": [
+        1440,
+        1143
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-thanh-toan",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2450
+      ],
+      "stabilized_size": [
+        400,
+        2450
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1000
+      ],
+      "stabilized_size": [
+        1440,
+        1000
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        1960
+      ],
+      "stabilized_size": [
+        400,
+        1960
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1447
+      ],
+      "stabilized_size": [
+        1440,
+        1447
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/contact",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2469
+      ],
+      "stabilized_size": [
+        400,
+        2469
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/contact/",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1447
+      ],
+      "stabilized_size": [
+        1440,
+        1447
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/contact/",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2469
+      ],
+      "stabilized_size": [
+        400,
+        2469
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1822
+      ],
+      "stabilized_size": [
+        1440,
+        1822
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        3054
+      ],
+      "stabilized_size": [
+        400,
+        3054
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu/",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1822
+      ],
+      "stabilized_size": [
+        1440,
+        1822
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/gioi-thieu/",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        3054
+      ],
+      "stabilized_size": [
+        400,
+        3054
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        2401
+      ],
+      "stabilized_size": [
+        1440,
+        2401
+      ],
+      "changed_pixel_ratio": 0.029878,
+      "mean_absolute_channel_difference": 1.6075,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        3158
+      ],
+      "stabilized_size": [
+        400,
+        3158
+      ],
+      "changed_pixel_ratio": 0.049797,
+      "mean_absolute_channel_difference": 2.972815,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        2291
+      ],
+      "stabilized_size": [
+        1440,
+        2291
+      ],
+      "changed_pixel_ratio": 0.000134,
+      "mean_absolute_channel_difference": 0.00891,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2966
+      ],
+      "stabilized_size": [
+        400,
+        2966
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.005933,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2062
+      ],
+      "stabilized_size": [
+        400,
+        2062
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        6934
+      ],
+      "stabilized_size": [
+        1440,
+        6934
+      ],
+      "changed_pixel_ratio": 0.017944,
+      "mean_absolute_channel_difference": 0.726348,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sua-hat-glucare-plus",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        10681
+      ],
+      "stabilized_size": [
+        400,
+        10681
+      ],
+      "changed_pixel_ratio": 0.019282,
+      "mean_absolute_channel_difference": 1.060588,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        7573
+      ],
+      "stabilized_size": [
+        1440,
+        7573
+      ],
+      "changed_pixel_ratio": 0.07955,
+      "mean_absolute_channel_difference": 6.399255,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/sui-dovital",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        11712
+      ],
+      "stabilized_size": [
+        400,
+        11712
+      ],
+      "changed_pixel_ratio": 0.008881,
+      "mean_absolute_channel_difference": 0.35788,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2255
+      ],
+      "stabilized_size": [
+        400,
+        2255
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.005819,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2062
+      ],
+      "stabilized_size": [
+        400,
+        2062
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.005908,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2062
+      ],
+      "stabilized_size": [
+        400,
+        2062
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.005819,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2062
+      ],
+      "stabilized_size": [
+        400,
+        2062
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.006097,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2062
+      ],
+      "stabilized_size": [
+        400,
+        2062
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        2952
+      ],
+      "stabilized_size": [
+        1440,
+        2952
+      ],
+      "changed_pixel_ratio": 0.093579,
+      "mean_absolute_channel_difference": 8.510074,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        4075
+      ],
+      "stabilized_size": [
+        400,
+        4075
+      ],
+      "changed_pixel_ratio": 0.079158,
+      "mean_absolute_channel_difference": 7.560451,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        2376
+      ],
+      "stabilized_size": [
+        1440,
+        2376
+      ],
+      "changed_pixel_ratio": 0.030584,
+      "mean_absolute_channel_difference": 2.55926,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        3247
+      ],
+      "stabilized_size": [
+        400,
+        3247
+      ],
+      "changed_pixel_ratio": 0.055639,
+      "mean_absolute_channel_difference": 4.707697,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": true,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "viewport": "desktop",
+      "initial_size": [
+        1440,
+        1736
+      ],
+      "stabilized_size": [
+        1440,
+        1736
+      ],
+      "changed_pixel_ratio": 0.000114,
+      "mean_absolute_channel_difference": 0.005933,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    },
+    {
+      "url": "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html",
+      "viewport": "mobile",
+      "initial_size": [
+        400,
+        2081
+      ],
+      "stabilized_size": [
+        400,
+        2081
+      ],
+      "changed_pixel_ratio": 0.0,
+      "mean_absolute_channel_difference": 0.0,
+      "dimension_delta_ratio": 0.0,
+      "material_difference": false,
+      "method": "Images reduced to 256 px width, padded white, then compared; material if >2% pixels differ by >15, mean channel difference >=1.5, or dimensions differ >=1%."
+    }
+  ],
+  "failed_resources": [
+    {
+      "resource_type": "image",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "occurrences": 50,
+      "statuses": {
+        "404": 50
+      },
+      "page_count": 25,
+      "pages": [
+        "https://addp.vn/",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+        "https://addp.vn/catalogsearch/advanced/",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+        "https://addp.vn/contact",
+        "https://addp.vn/contact/",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/gioi-thieu/",
+        "https://addp.vn/sua-dinh-duong.html",
+        "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+        "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/thiet-bi-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+        "https://addp.vn/thuc-pham-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html"
+      ],
+      "viewports": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "resource_type": "image",
+      "url": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "occurrences": 50,
+      "statuses": {
+        "404": 50
+      },
+      "page_count": 25,
+      "pages": [
+        "https://addp.vn/",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+        "https://addp.vn/catalogsearch/advanced/",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+        "https://addp.vn/contact",
+        "https://addp.vn/contact/",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/gioi-thieu/",
+        "https://addp.vn/sua-dinh-duong.html",
+        "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+        "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/thiet-bi-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+        "https://addp.vn/thuc-pham-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html"
+      ],
+      "viewports": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "resource_type": "stylesheet",
+      "url": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "occurrences": 50,
+      "statuses": {
+        "net::ERR_ABORTED": 50
+      },
+      "page_count": 25,
+      "pages": [
+        "https://addp.vn/",
+        "https://addp.vn/benh-ly",
+        "https://addp.vn/blog/category/suc-khoe-tieu-duong",
+        "https://addp.vn/catalogsearch/advanced/",
+        "https://addp.vn/chinh-sach-dat-hang",
+        "https://addp.vn/chinh-sach-doi-tra-va-hoan-tien",
+        "https://addp.vn/chinh-sach-thanh-toan",
+        "https://addp.vn/chinh-sach-van-chuyen-va-giao-nhan",
+        "https://addp.vn/contact",
+        "https://addp.vn/contact/",
+        "https://addp.vn/gioi-thieu",
+        "https://addp.vn/gioi-thieu/",
+        "https://addp.vn/sua-dinh-duong.html",
+        "https://addp.vn/sua-dinh-duong/sua-nguoi-lon.html",
+        "https://addp.vn/sua-dinh-duong/sua-tre-em.html",
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/sui-dovital",
+        "https://addp.vn/thiet-bi-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-so-cuu.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-theo-doi.html",
+        "https://addp.vn/thiet-bi-y-te/dung-cu-y-te.html",
+        "https://addp.vn/thiet-bi-y-te/khau-trang.html",
+        "https://addp.vn/thuc-pham-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang.html",
+        "https://addp.vn/thuc-pham-chuc-nang/cai-thien-tang-cuong-chuc-nang/bo-mat-bao-ve-mat.html"
+      ],
+      "viewports": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "resource_type": "stylesheet",
+      "url": "https://addp.vn/style-addp.css",
+      "occurrences": 5,
+      "statuses": {
+        "net::ERR_ABORTED": 5
+      },
+      "page_count": 2,
+      "pages": [
+        "https://addp.vn/sua-hat-glucare-plus",
+        "https://addp.vn/sui-dovital"
+      ],
+      "viewports": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  ]
+}

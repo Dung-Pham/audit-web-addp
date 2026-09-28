@@ -1,0 +1,229 @@
+[
+  {
+    "finding_id": "FND-PER-HIGH-001",
+    "observed_problem": "The captured Glucare Plus product page text presents a 1-package listing at 9,000 VND and other product listings at 0 VND in the same product section.",
+    "confirmed_external_facts": [
+      "The captured Glucare Plus product page text presents a 1-package listing at 9,000 VND and other product listings at 0 VND in the same product section."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "commerce"
+    ],
+    "confidence": 0.91,
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-238D776F29EAE37D",
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-PER-RESEARCH-001",
+    "observed_problem": "The captured Glucare Plus page states that it is suitable for people with diabetes, uses “Công thức y khoa ADDP”, and safely supports blood-glucose control; the captured link set exposes an ingredient anchor but no visible link labelled as a study, declaration, certification, or supporting document.",
+    "confirmed_external_facts": [
+      "The captured Glucare Plus page states that it is suitable for people with diabetes, uses “Công thức y khoa ADDP”, and safely supports blood-glucose control; the captured link set exposes an ingredient anchor but no visible link labelled as a study, declaration, certification, or supporting document."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "health_content"
+    ],
+    "confidence": 0.88,
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-PER-MOBILE-002",
+    "observed_problem": "The mobile accessibility artifact reports serious color-contrast failures for product-price text, including gold text at 2.77:1 on the light background and gray text at 2.45:1, below the stated 3:1 or 4.5:1 thresholds.",
+    "confirmed_external_facts": [
+      "The mobile accessibility artifact reports serious color-contrast failures for product-price text, including gold text at 2.77:1 on the light background and gray text at 2.45:1, below the stated 3:1 or 4.5:1 thresholds."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "accessibility"
+    ],
+    "confidence": 0.99,
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-UX-001",
+    "observed_problem": "The stabilized desktop and mobile first-view captures show the ADDP logo, the message \"Chăm sóc từ giá trị thiện lành\", the headline \"Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm\", an older couple, supporting copy, and the actions \"Khám phá ngay\" and \"Tư vấn miễn phí\". No product package or named principal product is visible in either captured first viewport. REQ-004 calls for the first viewport to combine a core message, a principal-product image, and a large clear CTA; the message and actions are present, while the product-image element is absent from the captured state.",
+    "confirmed_external_facts": [
+      "The stabilized desktop and mobile first-view captures show the ADDP logo, the message \"Chăm sóc từ giá trị thiện lành\", the headline \"Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm\", an older couple, supporting copy, and the actions \"Khám phá ngay\" and \"Tư vấn miễn phí\". No product package or named principal product is visible in either captured first viewport. REQ-004 calls for the first viewport to combine a core message, a principal-product image, and a large clear CTA; the message and actions are present, while the product-image element is absent from the captured state."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "Homepage above-the-fold orientation"
+    ],
+    "confidence": 0.96,
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A",
+      "EVD-702877ACD4E72E55",
+      "EVD-92E0841363C85BA1"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-CONTENT-001",
+    "observed_problem": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+    "confirmed_external_facts": [
+      "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "content"
+    ],
+    "confidence": 0.87,
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-D1249648026B4D96"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-SEO-001",
+    "observed_problem": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+    "confirmed_external_facts": [
+      "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "seo"
+    ],
+    "confidence": 0.99,
+    "evidence_ids": [
+      "EVD-D1249648026B4D96",
+      "EVD-1BA12AFB05B5BD13"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-SEO-002",
+    "observed_problem": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+    "confirmed_external_facts": [
+      "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "seo"
+    ],
+    "confidence": 0.99,
+    "evidence_ids": [
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-GEO-001",
+    "observed_problem": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+    "confirmed_external_facts": [
+      "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "geo_aeo"
+    ],
+    "confidence": 0.98,
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-PERFORMANCE-001",
+    "observed_problem": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+    "confirmed_external_facts": [
+      "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "performance"
+    ],
+    "confidence": 0.98,
+    "evidence_ids": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-D2E949A54A61C783",
+      "EVD-203B6173B6A72522"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-006",
+    "observed_problem": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+    "confirmed_external_facts": [
+      "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "commerce"
+    ],
+    "confidence": 0.91,
+    "evidence_ids": [
+      "EVD-CB952D69E3E21F68",
+      "EVD-E744CA9DD952F84A"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  },
+  {
+    "finding_id": "FND-SPEC-HEALTH-002",
+    "observed_problem": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+    "confirmed_external_facts": [
+      "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability."
+    ],
+    "probable_technical_causes": [],
+    "developer_investigation": [
+      "Inspect the relevant public page content and configuration in an authorized development environment; verify the observed state and acceptance criteria before selecting an implementation."
+    ],
+    "implementation_area": [
+      "health_content"
+    ],
+    "confidence": 0.91,
+    "evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "diagnostic_boundary": "No internal cause, source file, backend, analytics administration, clinical effectiveness, or order integration outcome was inferred from public evidence."
+  }
+]

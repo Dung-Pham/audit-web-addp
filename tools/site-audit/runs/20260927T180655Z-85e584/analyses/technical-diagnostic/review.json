@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "reviewer_id": "codex-local-technical-diagnostic-20260928",
+  "diagnosed_findings": 11,
+  "confirmed_facts_only": true,
+  "probable_causes": 0,
+  "source_level_claims": 0,
+  "limitations": [
+    "Diagnostics are limited to externally recorded observations. Root causes require authorized developer investigation.",
+    "Diagnostics filtered to findings retained by independent review."
+  ]
+}

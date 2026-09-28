@@ -1,0 +1,3 @@
+# External technical diagnostic
+
+Follow [the shared protocol](../PROTOCOL.md). For each evidence-linked candidate, output `finding_id`, `observed_problem`, `confirmed_external_facts`, `probable_technical_causes`, `developer_investigation`, `implementation_area`, and `confidence`. Use only HTML, DOM, headers, cookies, public JS/CSS, network, console, cache/CDN hints, visible forms, public APIs, and safe checkout observations. Keep the three semantic levels separate: confirmed external fact, probable cause, and developer investigation. Use broad implementation areas such as Responsive CSS, Checkout UI, Tracking configuration, Server response, or Unknown. Never name an internal file, module, Magento component, or backend root cause from external hints.

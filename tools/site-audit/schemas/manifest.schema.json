@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["RUN_ID", "timestamp", "target", "environment", "stage_status", "safety_flags"],
+  "properties": {
+    "RUN_ID": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "target": {"type": "string", "minLength": 1},
+    "environment": {"type": "string", "minLength": 1},
+    "checklist_hash": {"type": ["string", "null"]},
+    "config_hash": {"type": ["string", "null"]},
+    "audit_framework_version": {"type": ["string", "null"]},
+    "tool_versions": {"type": "object"},
+    "viewport": {"type": ["array", "object", "null"]},
+    "effective_models": {"type": ["object", "array", "null"]},
+    "routing_status": {"type": ["object", "string", "null"]},
+    "stage_status": {"type": "object"},
+    "safety_flags": {"type": "object"}
+  },
+  "additionalProperties": true
+}

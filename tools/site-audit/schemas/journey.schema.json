@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["persona", "goal", "entry_url", "steps", "clicks", "pages_visited", "blockers", "confusion_points", "positive_signals", "completion_status", "evidence_ids"],
+  "properties": {
+    "persona": {"type": "string", "minLength": 1},
+    "goal": {"type": "string", "minLength": 1},
+    "entry_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "steps": {"type": "array"},
+    "clicks": {"type": "integer", "minimum": 0},
+    "pages_visited": {"type": "array", "items": {"type": "string"}},
+    "blockers": {"type": "array"},
+    "confusion_points": {"type": "array"},
+    "positive_signals": {"type": "array"},
+    "completion_status": {"enum": ["complete", "partial", "blocked", "failed"]},
+    "evidence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

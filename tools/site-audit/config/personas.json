@@ -1,0 +1,18 @@
+[
+  {
+    "id": "first_time",
+    "goal": "Understand ADDP, its principal products, trust information and route to products."
+  },
+  {
+    "id": "high_intent",
+    "goal": "Find a named product and price, inspect safe route toward cart and guest checkout; stop before mutation."
+  },
+  {
+    "id": "research",
+    "goal": "Inspect ingredients, benefits, evidence, FAQ, company and policies."
+  },
+  {
+    "id": "mobile",
+    "goal": "Navigate and read using a 390px viewport; inspect touch controls and safe commerce paths."
+  }
+]

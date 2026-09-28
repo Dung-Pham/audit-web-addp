@@ -1,0 +1,12 @@
+{
+  "requirements": 17,
+  "original_clauses": 30,
+  "status_counts": {
+    "PARTIAL": 8,
+    "FAIL": 5,
+    "BLOCKED": 2,
+    "UNKNOWN": 2
+  },
+  "interpretation": "Statuses are page-scope evidence judgments; blocked/unknown/partial are not passes.",
+  "evidence_index_entries": 870
+}

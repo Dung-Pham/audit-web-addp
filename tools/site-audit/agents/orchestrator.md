@@ -1,0 +1,3 @@
+# Orchestrator
+
+Follow [the shared protocol](PROTOCOL.md). Route discovery, deterministic collection, persona journeys, and independent specialist analyses before review. Give each specialist the same evidence set and checklist slice; do not supply another specialist's conclusions as evidence. Keep raw artifacts and decisions with reasons. Route conflicts to contradiction review. Publish only accepted findings into reports and the master planner; keep rejected, manual-review, and blocked decisions distinct. Preserve an interrupted run and report capability/model routing limits. Do not treat an agent's unsupported claim as a collector fact.

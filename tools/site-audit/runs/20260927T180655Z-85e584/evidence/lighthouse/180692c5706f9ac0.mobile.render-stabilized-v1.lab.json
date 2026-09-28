@@ -1,0 +1,2097 @@
+{
+  "source": "LAB",
+  "field": {
+    "available": false,
+    "reason": "No real-user field data source configured"
+  },
+  "lighthouse_scores": {
+    "available": false,
+    "reason": "Lighthouse not run; no scores inferred"
+  },
+  "inp": {
+    "available": false,
+    "reason": "No trusted user interaction or field data during read-only collection"
+  },
+  "lcp_ms": 12748,
+  "cls": 0.028500055438833053,
+  "ttfb_ms": 5878.4000000059605,
+  "navigation": {
+    "startTime": 0,
+    "duration": 18535.80000001192,
+    "responseStart": 5878.4000000059605,
+    "responseEnd": 5878.4000000059605,
+    "domContentLoadedEventEnd": 12732.800000011921,
+    "loadEventEnd": 18535.80000001192,
+    "transferSize": 111734,
+    "encodedBodySize": 111434,
+    "decodedBodySize": 111434,
+    "type": "navigate"
+  },
+  "request_count": 248,
+  "transfer": {
+    "known_response_content_length_bytes": 1231822,
+    "browser_reported_transfer_bytes": 4375698,
+    "limitation": "Header lengths and browser transferSize may omit compressed, cached, or cross-origin bytes"
+  },
+  "render_blocking_resources": [
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+      "initiatorType": "link",
+      "duration": 92.69999998807907,
+      "transferSize": 328579,
+      "encodedBodySize": 328279,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+      "initiatorType": "link",
+      "duration": 5269.4000000059605,
+      "transferSize": 75567,
+      "encodedBodySize": 75267,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "link",
+      "duration": 6747.700000017881,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "initiatorType": "link",
+      "duration": 5201.5999999940395,
+      "transferSize": 89868,
+      "encodedBodySize": 89568,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "initiatorType": "link",
+      "duration": 5249.5999999940395,
+      "transferSize": 126432,
+      "encodedBodySize": 126132,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "initiatorType": "link",
+      "duration": 5283.5999999940395,
+      "transferSize": 9702,
+      "encodedBodySize": 9402,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+      "initiatorType": "link",
+      "duration": 5310.5,
+      "transferSize": 268329,
+      "encodedBodySize": 268029,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "css",
+      "duration": 87.89999997615814,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "blocking"
+    }
+  ],
+  "large_images": [],
+  "third_party_scripts": [
+    {
+      "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "initiatorType": "script",
+      "duration": 5276.800000011921,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    }
+  ],
+  "resources": [
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+      "initiatorType": "link",
+      "duration": 92.69999998807907,
+      "transferSize": 328579,
+      "encodedBodySize": 328279,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+      "initiatorType": "link",
+      "duration": 5269.4000000059605,
+      "transferSize": 75567,
+      "encodedBodySize": 75267,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "link",
+      "duration": 6747.700000017881,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "initiatorType": "link",
+      "duration": 5201.5999999940395,
+      "transferSize": 89868,
+      "encodedBodySize": 89568,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "initiatorType": "link",
+      "duration": 5249.5999999940395,
+      "transferSize": 126432,
+      "encodedBodySize": 126132,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "initiatorType": "link",
+      "duration": 5283.5999999940395,
+      "transferSize": 9702,
+      "encodedBodySize": 9402,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+      "initiatorType": "link",
+      "duration": 5310.5,
+      "transferSize": 268329,
+      "encodedBodySize": 268029,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "initiatorType": "img",
+      "duration": 5244.300000011921,
+      "transferSize": 965,
+      "encodedBodySize": 665,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "initiatorType": "img",
+      "duration": 5284.699999988079,
+      "transferSize": 965,
+      "encodedBodySize": 665,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+      "initiatorType": "img",
+      "duration": 5312.0999999940395,
+      "transferSize": 85459,
+      "encodedBodySize": 85159,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+      "initiatorType": "img",
+      "duration": 5333.300000011921,
+      "transferSize": 73754,
+      "encodedBodySize": 73454,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+      "initiatorType": "img",
+      "duration": 5280.700000017881,
+      "transferSize": 8886,
+      "encodedBodySize": 8586,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "initiatorType": "script",
+      "duration": 5261.200000017881,
+      "transferSize": 1539,
+      "encodedBodySize": 1239,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "initiatorType": "script",
+      "duration": 5276.800000011921,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+      "initiatorType": "script",
+      "duration": 5303.300000011921,
+      "transferSize": 131600,
+      "encodedBodySize": 131300,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+      "initiatorType": "link",
+      "duration": 5293.5999999940395,
+      "transferSize": 45138,
+      "encodedBodySize": 44838,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "css",
+      "duration": 87.89999997615814,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/images/tspr.png",
+      "initiatorType": "css",
+      "duration": 136.7000000178814,
+      "transferSize": 396,
+      "encodedBodySize": 96,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/fonts/CodazonFont.woff2",
+      "initiatorType": "css",
+      "duration": 144.59999999403954,
+      "transferSize": 38792,
+      "encodedBodySize": 38492,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "initiatorType": "css",
+      "duration": 237.5,
+      "transferSize": 77200,
+      "encodedBodySize": 76900,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+      "initiatorType": "css",
+      "duration": 146.09999999403954,
+      "transferSize": 3492,
+      "encodedBodySize": 3192,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+      "initiatorType": "script",
+      "duration": 152.09999999403954,
+      "transferSize": 396260,
+      "encodedBodySize": 395960,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+      "initiatorType": "script",
+      "duration": 78.2000000178814,
+      "transferSize": 2145,
+      "encodedBodySize": 1845,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+      "initiatorType": "script",
+      "duration": 81.90000000596046,
+      "transferSize": 10166,
+      "encodedBodySize": 9866,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 92.40000000596046,
+      "transferSize": 760,
+      "encodedBodySize": 460,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+      "initiatorType": "script",
+      "duration": 108,
+      "transferSize": 673,
+      "encodedBodySize": 373,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+      "initiatorType": "script",
+      "duration": 112,
+      "transferSize": 3407,
+      "encodedBodySize": 3107,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+      "initiatorType": "script",
+      "duration": 96.69999998807907,
+      "transferSize": 513,
+      "encodedBodySize": 213,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+      "initiatorType": "script",
+      "duration": 114.19999998807907,
+      "transferSize": 920,
+      "encodedBodySize": 620,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+      "initiatorType": "script",
+      "duration": 115.5,
+      "transferSize": 25135,
+      "encodedBodySize": 24835,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+      "initiatorType": "script",
+      "duration": 5247.899999976158,
+      "transferSize": 4766,
+      "encodedBodySize": 4466,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magefan_Blog/js/lib/mfblogunveil.js",
+      "initiatorType": "script",
+      "duration": 5215,
+      "transferSize": 2084,
+      "encodedBodySize": 1784,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+      "initiatorType": "script",
+      "duration": 5225.5,
+      "transferSize": 4436,
+      "encodedBodySize": 4136,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+      "initiatorType": "script",
+      "duration": 90.09999999403954,
+      "transferSize": 2270,
+      "encodedBodySize": 1970,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/confirm.js",
+      "initiatorType": "script",
+      "duration": 83.7999999821186,
+      "transferSize": 2889,
+      "encodedBodySize": 2589,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+      "initiatorType": "script",
+      "duration": 89.10000002384186,
+      "transferSize": 27667,
+      "encodedBodySize": 27367,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dataPost.js",
+      "initiatorType": "script",
+      "duration": 87.19999998807907,
+      "transferSize": 3215,
+      "encodedBodySize": 2915,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+      "initiatorType": "script",
+      "duration": 85.7000000178814,
+      "transferSize": 1685,
+      "encodedBodySize": 1385,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+      "initiatorType": "script",
+      "duration": 104.19999998807907,
+      "transferSize": 3960,
+      "encodedBodySize": 3660,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 102.39999997615814,
+      "transferSize": 829,
+      "encodedBodySize": 529,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+      "initiatorType": "script",
+      "duration": 92.40000000596046,
+      "transferSize": 4809,
+      "encodedBodySize": 4509,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+      "initiatorType": "script",
+      "duration": 86.30000001192093,
+      "transferSize": 1616,
+      "encodedBodySize": 1316,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+      "initiatorType": "script",
+      "duration": 85.40000000596046,
+      "transferSize": 18195,
+      "encodedBodySize": 17895,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+      "initiatorType": "script",
+      "duration": 78.40000000596046,
+      "transferSize": 3053,
+      "encodedBodySize": 2753,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+      "initiatorType": "script",
+      "duration": 5223.0999999940395,
+      "transferSize": 2725,
+      "encodedBodySize": 2425,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+      "initiatorType": "script",
+      "duration": 86.5,
+      "transferSize": 44106,
+      "encodedBodySize": 43806,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+      "initiatorType": "script",
+      "duration": 74.2999999821186,
+      "transferSize": 75851,
+      "encodedBodySize": 75551,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+      "initiatorType": "script",
+      "duration": 75.80000001192093,
+      "transferSize": 2195,
+      "encodedBodySize": 1895,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/modal.js",
+      "initiatorType": "script",
+      "duration": 100.7000000178814,
+      "transferSize": 15538,
+      "encodedBodySize": 15238,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+      "initiatorType": "script",
+      "duration": 94.09999999403954,
+      "transferSize": 4997,
+      "encodedBodySize": 4697,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+      "initiatorType": "script",
+      "duration": 123.40000000596046,
+      "transferSize": 388252,
+      "encodedBodySize": 387952,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+      "initiatorType": "script",
+      "duration": 105.7999999821186,
+      "transferSize": 18905,
+      "encodedBodySize": 18605,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+      "initiatorType": "xmlhttprequest",
+      "duration": 202.59999999403954,
+      "transferSize": 26886,
+      "encodedBodySize": 26586,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+      "initiatorType": "script",
+      "duration": 92.40000000596046,
+      "transferSize": 938,
+      "encodedBodySize": 638,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+      "initiatorType": "script",
+      "duration": 97.2999999821186,
+      "transferSize": 13204,
+      "encodedBodySize": 12904,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+      "initiatorType": "script",
+      "duration": 99.69999998807907,
+      "transferSize": 15610,
+      "encodedBodySize": 15310,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+      "initiatorType": "script",
+      "duration": 96.40000000596046,
+      "transferSize": 670,
+      "encodedBodySize": 370,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+      "initiatorType": "script",
+      "duration": 97.40000000596046,
+      "transferSize": 9420,
+      "encodedBodySize": 9120,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 97.59999999403954,
+      "transferSize": 1853,
+      "encodedBodySize": 1553,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+      "initiatorType": "script",
+      "duration": 5240.300000011921,
+      "transferSize": 3775,
+      "encodedBodySize": 3475,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+      "initiatorType": "script",
+      "duration": 5239.5,
+      "transferSize": 5708,
+      "encodedBodySize": 5408,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/scripts.js",
+      "initiatorType": "script",
+      "duration": 5236.5999999940395,
+      "transferSize": 3745,
+      "encodedBodySize": 3445,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+      "initiatorType": "script",
+      "duration": 5229.199999988079,
+      "transferSize": 2497,
+      "encodedBodySize": 2197,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-popup.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 135.59999999403954,
+      "transferSize": 2318,
+      "encodedBodySize": 2018,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-slide.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 135,
+      "transferSize": 2478,
+      "encodedBodySize": 2178,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/modal/modal-custom.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 234.30000001192093,
+      "transferSize": 2300,
+      "encodedBodySize": 2000,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/key-codes.js",
+      "initiatorType": "script",
+      "duration": 94.19999998807907,
+      "transferSize": 846,
+      "encodedBodySize": 546,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/core.js",
+      "initiatorType": "script",
+      "duration": 87,
+      "transferSize": 658,
+      "encodedBodySize": 358,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/z-index.js",
+      "initiatorType": "script",
+      "duration": 87.39999997615814,
+      "transferSize": 2000,
+      "encodedBodySize": 1700,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+      "initiatorType": "script",
+      "duration": 128.5,
+      "transferSize": 10367,
+      "encodedBodySize": 10067,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+      "initiatorType": "script",
+      "duration": 132.2000000178814,
+      "transferSize": 11932,
+      "encodedBodySize": 11632,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+      "initiatorType": "script",
+      "duration": 125.69999998807907,
+      "transferSize": 5014,
+      "encodedBodySize": 4714,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+      "initiatorType": "script",
+      "duration": 127.30000001192093,
+      "transferSize": 5945,
+      "encodedBodySize": 5645,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+      "initiatorType": "script",
+      "duration": 129.5,
+      "transferSize": 10019,
+      "encodedBodySize": 9719,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+      "initiatorType": "script",
+      "duration": 128.69999998807907,
+      "transferSize": 13412,
+      "encodedBodySize": 13112,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+      "initiatorType": "script",
+      "duration": 124.7000000178814,
+      "transferSize": 4845,
+      "encodedBodySize": 4545,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+      "initiatorType": "script",
+      "duration": 5265.9000000059605,
+      "transferSize": 7904,
+      "encodedBodySize": 7604,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+      "initiatorType": "script",
+      "duration": 5301.800000011921,
+      "transferSize": 1410,
+      "encodedBodySize": 1110,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+      "initiatorType": "script",
+      "duration": 5288,
+      "transferSize": 16701,
+      "encodedBodySize": 16401,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+      "initiatorType": "script",
+      "duration": 5264.199999988079,
+      "transferSize": 4530,
+      "encodedBodySize": 4230,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+      "initiatorType": "script",
+      "duration": 5283.5,
+      "transferSize": 5735,
+      "encodedBodySize": 5435,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+      "initiatorType": "script",
+      "duration": 5258,
+      "transferSize": 3683,
+      "encodedBodySize": 3383,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+      "initiatorType": "script",
+      "duration": 5304.399999976158,
+      "transferSize": 2142,
+      "encodedBodySize": 1842,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+      "initiatorType": "script",
+      "duration": 5261.200000017881,
+      "transferSize": 949,
+      "encodedBodySize": 649,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+      "initiatorType": "script",
+      "duration": 5248.5,
+      "transferSize": 1303,
+      "encodedBodySize": 1003,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+      "initiatorType": "script",
+      "duration": 5265.5,
+      "transferSize": 13947,
+      "encodedBodySize": 13647,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+      "initiatorType": "script",
+      "duration": 5280.5,
+      "transferSize": 900,
+      "encodedBodySize": 600,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+      "initiatorType": "script",
+      "duration": 5280.5,
+      "transferSize": 1099,
+      "encodedBodySize": 799,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+      "initiatorType": "script",
+      "duration": 5282.9000000059605,
+      "transferSize": 4048,
+      "encodedBodySize": 3748,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+      "initiatorType": "script",
+      "duration": 5297.899999976158,
+      "transferSize": 3376,
+      "encodedBodySize": 3076,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+      "initiatorType": "script",
+      "duration": 5282.4000000059605,
+      "transferSize": 1366,
+      "encodedBodySize": 1066,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+      "initiatorType": "script",
+      "duration": 5277.800000011921,
+      "transferSize": 1767,
+      "encodedBodySize": 1467,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+      "initiatorType": "script",
+      "duration": 5288.4000000059605,
+      "transferSize": 5633,
+      "encodedBodySize": 5333,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+      "initiatorType": "script",
+      "duration": 5296,
+      "transferSize": 3826,
+      "encodedBodySize": 3526,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+      "initiatorType": "script",
+      "duration": 5305.9000000059605,
+      "transferSize": 2438,
+      "encodedBodySize": 2138,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+      "initiatorType": "script",
+      "duration": 5325.300000011921,
+      "transferSize": 2654,
+      "encodedBodySize": 2354,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+      "initiatorType": "script",
+      "duration": 5326.100000023842,
+      "transferSize": 28148,
+      "encodedBodySize": 27848,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+      "initiatorType": "script",
+      "duration": 5309.9000000059605,
+      "transferSize": 3325,
+      "encodedBodySize": 3025,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/data.js",
+      "initiatorType": "script",
+      "duration": 76.59999999403954,
+      "transferSize": 1394,
+      "encodedBodySize": 1094,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/disable-selection.js",
+      "initiatorType": "script",
+      "duration": 100.90000000596046,
+      "transferSize": 1563,
+      "encodedBodySize": 1263,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/focusable.js",
+      "initiatorType": "script",
+      "duration": 87.30000001192093,
+      "transferSize": 3031,
+      "encodedBodySize": 2731,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form.js",
+      "initiatorType": "script",
+      "duration": 84.40000000596046,
+      "transferSize": 881,
+      "encodedBodySize": 581,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/ie.js",
+      "initiatorType": "script",
+      "duration": 5265.4000000059605,
+      "transferSize": 685,
+      "encodedBodySize": 385,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/keycode.js",
+      "initiatorType": "script",
+      "duration": 103.7999999821186,
+      "transferSize": 1280,
+      "encodedBodySize": 980,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/labels.js",
+      "initiatorType": "script",
+      "duration": 92.2000000178814,
+      "transferSize": 2335,
+      "encodedBodySize": 2035,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-patch.js",
+      "initiatorType": "script",
+      "duration": 91.5,
+      "transferSize": 2873,
+      "encodedBodySize": 2573,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/plugin.js",
+      "initiatorType": "script",
+      "duration": 97.5,
+      "transferSize": 1320,
+      "encodedBodySize": 1020,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-active-element.js",
+      "initiatorType": "script",
+      "duration": 96.80000001192093,
+      "transferSize": 1314,
+      "encodedBodySize": 1014,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/safe-blur.js",
+      "initiatorType": "script",
+      "duration": 98.2999999821186,
+      "transferSize": 823,
+      "encodedBodySize": 523,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/scroll-parent.js",
+      "initiatorType": "script",
+      "duration": 96.80000001192093,
+      "transferSize": 1786,
+      "encodedBodySize": 1486,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/tabbable.js",
+      "initiatorType": "script",
+      "duration": 5276.800000011921,
+      "transferSize": 1278,
+      "encodedBodySize": 978,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/unique-id.js",
+      "initiatorType": "script",
+      "duration": 5284.299999982119,
+      "transferSize": 1521,
+      "encodedBodySize": 1221,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+      "initiatorType": "script",
+      "duration": 78.30000001192093,
+      "transferSize": 1759,
+      "encodedBodySize": 1459,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+      "initiatorType": "script",
+      "duration": 74.59999999403954,
+      "transferSize": 5309,
+      "encodedBodySize": 5009,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+      "initiatorType": "script",
+      "duration": 121.30000001192093,
+      "transferSize": 4742,
+      "encodedBodySize": 4442,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+      "initiatorType": "script",
+      "duration": 119.7999999821186,
+      "transferSize": 4206,
+      "encodedBodySize": 3906,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+      "initiatorType": "script",
+      "duration": 108.10000002384186,
+      "transferSize": 5860,
+      "encodedBodySize": 5560,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+      "initiatorType": "script",
+      "duration": 105.80000001192093,
+      "transferSize": 789,
+      "encodedBodySize": 489,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "initiatorType": "script",
+      "duration": 105.7999999821186,
+      "transferSize": 1695,
+      "encodedBodySize": 1395,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+      "initiatorType": "script",
+      "duration": 106.09999999403954,
+      "transferSize": 1529,
+      "encodedBodySize": 1229,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+      "initiatorType": "script",
+      "duration": 107.19999998807907,
+      "transferSize": 2876,
+      "encodedBodySize": 2576,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+      "initiatorType": "script",
+      "duration": 104.2000000178814,
+      "transferSize": 1096,
+      "encodedBodySize": 796,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+      "initiatorType": "script",
+      "duration": 104.19999998807907,
+      "transferSize": 2546,
+      "encodedBodySize": 2246,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/moment.js",
+      "initiatorType": "script",
+      "duration": 86.40000000596046,
+      "transferSize": 59426,
+      "encodedBodySize": 59126,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry.js",
+      "initiatorType": "script",
+      "duration": 84.90000000596046,
+      "transferSize": 1197,
+      "encodedBodySize": 897,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+      "initiatorType": "script",
+      "duration": 83.30000001192093,
+      "transferSize": 7421,
+      "encodedBodySize": 7121,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+      "initiatorType": "script",
+      "duration": 80.19999998807907,
+      "transferSize": 4345,
+      "encodedBodySize": 4045,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/class.js",
+      "initiatorType": "script",
+      "duration": 80.09999999403954,
+      "transferSize": 4445,
+      "encodedBodySize": 4145,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/spectrum.js",
+      "initiatorType": "script",
+      "duration": 84.5,
+      "transferSize": 83722,
+      "encodedBodySize": 83422,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/tinycolor.js",
+      "initiatorType": "script",
+      "duration": 81.69999998807907,
+      "transferSize": 43239,
+      "encodedBodySize": 42939,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/tooltip/tooltip.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 121.89999997615814,
+      "transferSize": 821,
+      "encodedBodySize": 521,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+      "initiatorType": "script",
+      "duration": 76,
+      "transferSize": 11064,
+      "encodedBodySize": 10764,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+      "initiatorType": "script",
+      "duration": 70.69999998807907,
+      "transferSize": 3728,
+      "encodedBodySize": 3428,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/cdn-cgi/rum?",
+      "initiatorType": "xmlhttprequest",
+      "duration": 3.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+      "initiatorType": "other",
+      "duration": 81.80000001192093,
+      "transferSize": 6116,
+      "encodedBodySize": 5816,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/theme-widgets.js",
+      "initiatorType": "script",
+      "duration": 79.90000000596046,
+      "transferSize": 56558,
+      "encodedBodySize": 56258,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/loader.js",
+      "initiatorType": "script",
+      "duration": 69.09999999403954,
+      "transferSize": 6801,
+      "encodedBodySize": 6501,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/page-cache.js",
+      "initiatorType": "script",
+      "duration": 75.59999999403954,
+      "transferSize": 9672,
+      "encodedBodySize": 9372,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Search/js/form-mini.js",
+      "initiatorType": "script",
+      "duration": 79.90000000596046,
+      "transferSize": 15364,
+      "encodedBodySize": 15064,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/tabs.js",
+      "initiatorType": "script",
+      "duration": 88.10000002384186,
+      "transferSize": 10656,
+      "encodedBodySize": 10356,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/dropdown.js",
+      "initiatorType": "script",
+      "duration": 86.40000000596046,
+      "transferSize": 8132,
+      "encodedBodySize": 7832,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/validation/validation.js",
+      "initiatorType": "script",
+      "duration": 91.69999998807907,
+      "transferSize": 6197,
+      "encodedBodySize": 5897,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_GoogleGtag/js/google-analytics.js",
+      "initiatorType": "script",
+      "duration": 16.19999998807907,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/widget-initializer.js",
+      "initiatorType": "script",
+      "duration": 88.2999999821186,
+      "transferSize": 1769,
+      "encodedBodySize": 1469,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/cookie-status.js",
+      "initiatorType": "script",
+      "duration": 120.5,
+      "transferSize": 1172,
+      "encodedBodySize": 872,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/block-loader.js",
+      "initiatorType": "script",
+      "duration": 136,
+      "transferSize": 3262,
+      "encodedBodySize": 2962,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/customer-global-session-loader.js",
+      "initiatorType": "script",
+      "duration": 136.59999999403954,
+      "transferSize": 1061,
+      "encodedBodySize": 761,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/section-config.js",
+      "initiatorType": "script",
+      "duration": 146.80000001192093,
+      "transferSize": 3065,
+      "encodedBodySize": 2765,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/invalidation-processor.js",
+      "initiatorType": "script",
+      "duration": 135.5,
+      "transferSize": 1572,
+      "encodedBodySize": 1272,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_MegaMenu/js/menu.js",
+      "initiatorType": "script",
+      "duration": 203.19999998807907,
+      "transferSize": 33601,
+      "encodedBodySize": 33301,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/customer-data.js",
+      "initiatorType": "script",
+      "duration": 139.90000000596046,
+      "transferSize": 14423,
+      "encodedBodySize": 14123,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Persistent/js/view/customer-data-mixin.js",
+      "initiatorType": "script",
+      "duration": 140.69999998807907,
+      "transferSize": 2395,
+      "encodedBodySize": 2095,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/view/compare-products.js",
+      "initiatorType": "script",
+      "duration": 141.5,
+      "transferSize": 1901,
+      "encodedBodySize": 1601,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/view/customer.js",
+      "initiatorType": "script",
+      "duration": 128.59999999403954,
+      "transferSize": 723,
+      "encodedBodySize": 423,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/minicart.js",
+      "initiatorType": "script",
+      "duration": 140.40000000596046,
+      "transferSize": 6186,
+      "encodedBodySize": 5886,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/collection.js",
+      "initiatorType": "script",
+      "duration": 153.10000002384186,
+      "transferSize": 12514,
+      "encodedBodySize": 12214,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Tax/js/view/checkout/minicart/subtotal/totals.js",
+      "initiatorType": "script",
+      "duration": 21.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.js",
+      "initiatorType": "script",
+      "duration": 21.19999998807907,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/cart-item-renderer.js",
+      "initiatorType": "script",
+      "duration": 127.90000000596046,
+      "transferSize": 1180,
+      "encodedBodySize": 880,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/view/image.js",
+      "initiatorType": "script",
+      "duration": 127.30000001192093,
+      "transferSize": 689,
+      "encodedBodySize": 389,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/view/authentication-popup.js",
+      "initiatorType": "script",
+      "duration": 137.59999999403954,
+      "transferSize": 3717,
+      "encodedBodySize": 3417,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Captcha/js/view/checkout/loginCaptcha.js",
+      "initiatorType": "script",
+      "duration": 19.19999998807907,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/js/view/social-buttons.js",
+      "initiatorType": "script",
+      "duration": 135.90000000596046,
+      "transferSize": 2420,
+      "encodedBodySize": 2120,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/minicart.js",
+      "initiatorType": "script",
+      "duration": 166.2000000178814,
+      "transferSize": 12578,
+      "encodedBodySize": 12278,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/view/checkout/minicart/subtotal/totals.js",
+      "initiatorType": "script",
+      "duration": 21.69999998807907,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/autocomplete.js",
+      "initiatorType": "script",
+      "duration": 135.90000000596046,
+      "transferSize": 1407,
+      "encodedBodySize": 1107,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/bindEvents.js",
+      "initiatorType": "script",
+      "duration": 148.30000001192093,
+      "transferSize": 3392,
+      "encodedBodySize": 3092,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/js/dataProvider.js",
+      "initiatorType": "script",
+      "duration": 148.80000001192093,
+      "transferSize": 5618,
+      "encodedBodySize": 5318,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/view/messages.js",
+      "initiatorType": "script",
+      "duration": 134.69999998807907,
+      "transferSize": 2364,
+      "encodedBodySize": 2064,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/storage-manager.js",
+      "initiatorType": "script",
+      "duration": 147.80000001192093,
+      "transferSize": 8356,
+      "encodedBodySize": 8056,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/view/messages.js",
+      "initiatorType": "script",
+      "duration": 146.69999998807907,
+      "transferSize": 2260,
+      "encodedBodySize": 1960,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaFrontendUi/js/ui-messages-mixin.js",
+      "initiatorType": "script",
+      "duration": 134.40000000596046,
+      "transferSize": 1464,
+      "encodedBodySize": 1164,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+      "initiatorType": "other",
+      "duration": 106.59999999403954,
+      "transferSize": 6116,
+      "encodedBodySize": 5816,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/matchMedia.js",
+      "initiatorType": "script",
+      "duration": 124.90000000596046,
+      "transferSize": 5311,
+      "encodedBodySize": 5011,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/dialog.js",
+      "initiatorType": "script",
+      "duration": 128.5,
+      "transferSize": 33275,
+      "encodedBodySize": 32975,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/tabs.js",
+      "initiatorType": "script",
+      "duration": 128.2999999821186,
+      "transferSize": 33028,
+      "encodedBodySize": 32728,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/collapsible.js",
+      "initiatorType": "script",
+      "duration": 125,
+      "transferSize": 18198,
+      "encodedBodySize": 17898,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/content-type/row/appearance/default/widget.js",
+      "initiatorType": "script",
+      "duration": 109.69999998807907,
+      "transferSize": 1590,
+      "encodedBodySize": 1290,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/validation.js",
+      "initiatorType": "script",
+      "duration": 112.39999997615814,
+      "transferSize": 76101,
+      "encodedBodySize": 75801,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Bundle/js/validation.js",
+      "initiatorType": "script",
+      "duration": 110.19999998807907,
+      "transferSize": 2388,
+      "encodedBodySize": 2088,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/element/element.js",
+      "initiatorType": "script",
+      "duration": 114.80000001192093,
+      "transferSize": 18243,
+      "encodedBodySize": 17943,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/block-loader.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 165.59999999403954,
+      "transferSize": 632,
+      "encodedBodySize": 332,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/url.js",
+      "initiatorType": "script",
+      "duration": 123.7000000178814,
+      "transferSize": 880,
+      "encodedBodySize": 580,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/storage.js",
+      "initiatorType": "script",
+      "duration": 123,
+      "transferSize": 3680,
+      "encodedBodySize": 3380,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-storage/storage-wrapper.js",
+      "initiatorType": "script",
+      "duration": 123.5,
+      "transferSize": 2644,
+      "encodedBodySize": 2344,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/js/provider.js",
+      "initiatorType": "script",
+      "duration": 141.5,
+      "transferSize": 3452,
+      "encodedBodySize": 3152,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/form.js",
+      "initiatorType": "script",
+      "duration": 132.30000001192093,
+      "transferSize": 9590,
+      "encodedBodySize": 9290,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/action/login.js",
+      "initiatorType": "script",
+      "duration": 121.69999998807907,
+      "transferSize": 2675,
+      "encodedBodySize": 2375,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/model/authentication-popup.js",
+      "initiatorType": "script",
+      "duration": 136,
+      "transferSize": 1310,
+      "encodedBodySize": 1010,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/modal/alert.js",
+      "initiatorType": "script",
+      "duration": 127.40000000596046,
+      "transferSize": 1591,
+      "encodedBodySize": 1291,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/js/sidebar.js",
+      "initiatorType": "script",
+      "duration": 131.59999999403954,
+      "transferSize": 11070,
+      "encodedBodySize": 10770,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/decorate.js",
+      "initiatorType": "script",
+      "duration": 140.5,
+      "transferSize": 4494,
+      "encodedBodySize": 4194,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Security/js/escaper.js",
+      "initiatorType": "script",
+      "duration": 123.5,
+      "transferSize": 6929,
+      "encodedBodySize": 6629,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaFrontendUi/js/registry.js",
+      "initiatorType": "script",
+      "duration": 128.59999999403954,
+      "transferSize": 600,
+      "encodedBodySize": 300,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effects/effect-blind.js",
+      "initiatorType": "script",
+      "duration": 136.80000001192093,
+      "transferSize": 2318,
+      "encodedBodySize": 2018,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/storage-service.js",
+      "initiatorType": "script",
+      "duration": 122.19999998807907,
+      "transferSize": 7418,
+      "encodedBodySize": 7118,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/model/messageList.js",
+      "initiatorType": "script",
+      "duration": 116.89999997615814,
+      "transferSize": 501,
+      "encodedBodySize": 201,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/megamenu/index/ajax/?menu=addp-main-menu&paging_menu=1&menu_type=0",
+      "initiatorType": "xmlhttprequest",
+      "duration": 2.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/widget/video-background.js",
+      "initiatorType": "script",
+      "duration": 76.7000000178814,
+      "transferSize": 1669,
+      "encodedBodySize": 1369,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax.js",
+      "initiatorType": "script",
+      "duration": 83.5,
+      "transferSize": 23940,
+      "encodedBodySize": 23640,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.validate.js",
+      "initiatorType": "script",
+      "duration": 84.5,
+      "transferSize": 72575,
+      "encodedBodySize": 72275,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/button.js",
+      "initiatorType": "script",
+      "duration": 77.40000000596046,
+      "transferSize": 16764,
+      "encodedBodySize": 16464,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/draggable.js",
+      "initiatorType": "script",
+      "duration": 90,
+      "transferSize": 49061,
+      "encodedBodySize": 48761,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/mouse.js",
+      "initiatorType": "script",
+      "duration": 86.59999999403954,
+      "transferSize": 8471,
+      "encodedBodySize": 8171,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/resizable.js",
+      "initiatorType": "script",
+      "duration": 84.59999999403954,
+      "transferSize": 42763,
+      "encodedBodySize": 42463,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/position.js",
+      "initiatorType": "script",
+      "duration": 78.10000002384186,
+      "transferSize": 22776,
+      "encodedBodySize": 22476,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/element/links.js",
+      "initiatorType": "script",
+      "duration": 82.69999998807907,
+      "transferSize": 7478,
+      "encodedBodySize": 7178,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-storage/js.storage.js",
+      "initiatorType": "script",
+      "duration": 84.80000001192093,
+      "transferSize": 24703,
+      "encodedBodySize": 24403,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/spinner.js",
+      "initiatorType": "script",
+      "duration": 84.40000000596046,
+      "transferSize": 1027,
+      "encodedBodySize": 727,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/resolver.js",
+      "initiatorType": "script",
+      "duration": 78.5,
+      "transferSize": 4285,
+      "encodedBodySize": 3985,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effects/effect-fade.js",
+      "initiatorType": "script",
+      "duration": 99.5,
+      "transferSize": 1464,
+      "encodedBodySize": 1164,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/ids-storage.js",
+      "initiatorType": "script",
+      "duration": 93.30000001192093,
+      "transferSize": 3448,
+      "encodedBodySize": 3148,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/data-storage.js",
+      "initiatorType": "script",
+      "duration": 79,
+      "transferSize": 8876,
+      "encodedBodySize": 8576,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/storage/ids-storage-compare.js",
+      "initiatorType": "script",
+      "duration": 100.40000000596046,
+      "transferSize": 3010,
+      "encodedBodySize": 2710,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/adapter.js",
+      "initiatorType": "script",
+      "duration": 90.09999999403954,
+      "transferSize": 2263,
+      "encodedBodySize": 1963,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/model/messages.js",
+      "initiatorType": "script",
+      "duration": 82.80000001192093,
+      "transferSize": 3195,
+      "encodedBodySize": 2895,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/loader-1.gif",
+      "initiatorType": "img",
+      "duration": 77.5,
+      "transferSize": 17555,
+      "encodedBodySize": 17255,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/effect.js",
+      "initiatorType": "script",
+      "duration": 95.30000001192093,
+      "transferSize": 37182,
+      "encodedBodySize": 36882,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/vimeo/vimeo-wrapper.js",
+      "initiatorType": "script",
+      "duration": 79.90000000596046,
+      "transferSize": 536,
+      "encodedBodySize": 236,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax-wrapper.js",
+      "initiatorType": "script",
+      "duration": 77.80000001192093,
+      "transferSize": 562,
+      "encodedBodySize": 262,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.metadata.js",
+      "initiatorType": "script",
+      "duration": 78.90000000596046,
+      "transferSize": 6526,
+      "encodedBodySize": 6226,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/controlgroup.js",
+      "initiatorType": "script",
+      "duration": 83,
+      "transferSize": 11851,
+      "encodedBodySize": 11551,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widgets/checkboxradio.js",
+      "initiatorType": "script",
+      "duration": 76.60000002384186,
+      "transferSize": 10181,
+      "encodedBodySize": 9881,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/jquery.cookie.js",
+      "initiatorType": "script",
+      "duration": 75.40000000596046,
+      "transferSize": 476,
+      "encodedBodySize": 176,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Catalog/js/product/query-builder.js",
+      "initiatorType": "script",
+      "duration": 84.7000000178814,
+      "transferSize": 1257,
+      "encodedBodySize": 957,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/form/adapter/buttons.js",
+      "initiatorType": "script",
+      "duration": 78.80000001192093,
+      "transferSize": 588,
+      "encodedBodySize": 288,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/MageWorx_SearchSuiteAutocomplete/template/autocomplete.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 146.7999999821186,
+      "transferSize": 3859,
+      "encodedBodySize": 3559,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/vimeo/player.js",
+      "initiatorType": "script",
+      "duration": 99.7999999821186,
+      "transferSize": 74461,
+      "encodedBodySize": 74161,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/jquery-var-for-color.js",
+      "initiatorType": "script",
+      "duration": 80.7999999821186,
+      "transferSize": 830,
+      "encodedBodySize": 530,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/vendor/jquery-color/jquery.color.js",
+      "initiatorType": "script",
+      "duration": 83.59999999403954,
+      "transferSize": 17718,
+      "encodedBodySize": 17418,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/form-reset-mixin.js",
+      "initiatorType": "script",
+      "duration": 75.30000001192093,
+      "transferSize": 2605,
+      "encodedBodySize": 2305,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/js/invalidation-rules/website-rule.js",
+      "initiatorType": "script",
+      "duration": 74.19999998807907,
+      "transferSize": 1155,
+      "encodedBodySize": 855,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/customer/section/load/?sections=customer&_=1790552748876",
+      "initiatorType": "xmlhttprequest",
+      "duration": 3.300000011920929,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Customer/template/authentication-popup.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 134.59999999403954,
+      "transferSize": 4957,
+      "encodedBodySize": 4657,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageBuilder/js/resource/jarallax/jarallax-video.js",
+      "initiatorType": "script",
+      "duration": 85.19999998807907,
+      "transferSize": 35847,
+      "encodedBodySize": 35547,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/customer/section/load/?sections=cart&force_new_section_timestamp=false&_=1790552748877",
+      "initiatorType": "xmlhttprequest",
+      "duration": 1.5999999940395355,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Checkout/template/minicart/content.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 161.5,
+      "transferSize": 5600,
+      "encodedBodySize": 5300,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/template/minicart/content.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 153.59999999403954,
+      "transferSize": 5421,
+      "encodedBodySize": 5121,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/template/messages.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 156.90000000596046,
+      "transferSize": 1065,
+      "encodedBodySize": 765,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Mageplaza_SocialLogin/template/social-buttons.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 286.40000000596046,
+      "transferSize": 1497,
+      "encodedBodySize": 1197,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/collection.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 138.80000001192093,
+      "transferSize": 498,
+      "encodedBodySize": 198,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "xmlhttprequest",
+      "duration": 70.5,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "xmlhttprequest",
+      "duration": 1688.0999999940395,
+      "transferSize": 107459,
+      "encodedBodySize": 107159,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "initiatorType": "xmlhttprequest",
+      "duration": 5157.4000000059605,
+      "transferSize": 89868,
+      "encodedBodySize": 89568,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/calendar.min.css",
+      "initiatorType": "link",
+      "duration": 80.59999999403954,
+      "transferSize": 5230,
+      "encodedBodySize": 4930,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/animate/animate.min.css",
+      "initiatorType": "link",
+      "duration": 73.7000000178814,
+      "transferSize": 17689,
+      "encodedBodySize": 17389,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/print.min.css",
+      "initiatorType": "link",
+      "duration": 79.10000002384186,
+      "transferSize": 1500,
+      "encodedBodySize": 1200,
+      "renderBlockingStatus": "non-blocking"
+    }
+  ],
+  "limitations": [
+    "Single browser run per viewport",
+    "All browser requests were mediated by Playwright to inspect redirects; timing includes routing overhead",
+    "LCP and CLS are lab observations; CLS window may be incomplete",
+    "No interaction was performed"
+  ]
+}

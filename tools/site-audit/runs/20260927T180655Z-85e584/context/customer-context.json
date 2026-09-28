@@ -1,0 +1,38 @@
+{
+  "run_id": "20260927T180655Z-85e584",
+  "scope": "run_level_interpretation_overlay",
+  "framework_change": false,
+  "evidence_creation": false,
+  "primary_audiences": [
+    "middle-aged adults",
+    "older adults",
+    "adult children researching or purchasing for parents"
+  ],
+  "decision_contexts": [
+    "older or middle-aged product user and self-purchaser",
+    "adult child decision-maker and purchaser for a parent"
+  ],
+  "anti_stereotyping_rule": "Do not infer inability from age or digital confidence; report only evidence-backed barriers.",
+  "health_claim_boundary": "Do not infer medical validity, clinical effectiveness, certification or document authenticity, or individual suitability.",
+  "mutation_boundary": "Read-only. No cart mutation, order, checkout or form submission, payment, account creation, or other state-changing action.",
+  "persona_context": {
+    "first_time": "Middle-aged or older first-time visitor assessing identity, offerings, intended users, trust, product route, next action, legibility, hierarchy, navigation, CTA, animation and complexity.",
+    "high_intent": "Evaluate an older self-purchaser and an adult child purchaser for a parent; seek product, intended user, price, package, promotion, trust, CTA, cart and visible checkout path, support, and exact safe stop point.",
+    "mobile": "Middle-aged or older phone user with ordinary or limited digital confidence; assess legibility, contrast, density, navigation, target size, labels, scroll burden, overlays, movement, precision, gestures, orientation, recovery, product, price, CTA and help.",
+    "research": "Digitally capable adult child researching for a parent; separate site-present information, website-linked support, and unknowns across ingredients, claims, evidence, documents, company, credentials, reviews, FAQ, boundaries, price, support and purchase path."
+  },
+  "shared_focus": [
+    "small text and thin fonts",
+    "low contrast and color-only meaning",
+    "unclear hierarchy and dense copy",
+    "small or precision-dependent controls",
+    "animation, auto-moving content, carousel timing, hover or gesture dependencies",
+    "ambiguous icons and unclear CTAs",
+    "hard-to-find product, price, trust, company, support or purchase information",
+    "product documents, certifications, ingredients and health/nutrition claim support",
+    "product and price consistency",
+    "review and feedback evidence"
+  ],
+  "required_specialists": ["ux", "conversion", "brand", "content", "health_content", "checkout"],
+  "artifact": "context/ADDP_CUSTOMER_CONTEXT.md"
+}

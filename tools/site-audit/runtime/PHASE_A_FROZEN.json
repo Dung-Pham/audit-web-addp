@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-09-28T04:12:36.267Z",
+  "status": "READY_WITH_LIMITATIONS",
+  "framework_hash": "4ef379d148210586b431d4ad1d62427d636e44c6437c7246fe24b6f2216df673",
+  "checklist_hash": "71a39e82b8ab8ea0c66d0eefb3538a39dbac8f277057c522fa1c92cb36b7054f",
+  "validation_report": "SYSTEM_VALIDATION_REPORT.md",
+  "test_results": "runtime/test-results-partial-evidence-amendment.txt",
+  "architecture_review": "runtime/ARCHITECTURE_REVIEW.md",
+  "tests_passed": 41,
+  "tests_failed": 0,
+  "revalidation_reason": "Accept evidence-backed current-version partial page captures as a deterministic collection complete with limitations, preserve page-level partial status, and reuse intact artifacts without production recollection; independent review READY_WITH_LIMITATIONS and 41/41 tests passed",
+  "previous_framework_hash": "6b8883be4df51d92a0a1a98cd4e686fe8e0029856293224b479b0e7bc83f509a"
+}

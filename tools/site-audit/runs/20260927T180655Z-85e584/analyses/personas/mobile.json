@@ -1,0 +1,72 @@
+[
+  {
+    "finding_id": "FND-PER-MOBILE-001",
+    "title": "Mobile icon links lack accessible names",
+    "area": "accessibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-005",
+      "REQ-013"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The mobile accessibility artifact reports serious link-name failures for the cart, home, search, mobile-cart, and account icon links because the focusable elements have no discernible accessible text or ARIA label.",
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "Icon-only controls are harder to identify with assistive technology and provide weak explicit labeling for users with limited confidence.",
+      "business": "Unclear navigation and cart controls can obstruct product and purchase tasks.",
+      "seo": null,
+      "technical": "Focusable links require accessible names."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Give each icon control a localized accessible name and retain a clear visible or programmatic label across mobile states.",
+    "unknowns": [
+      "The audit did not conduct a human screen-reader session."
+    ],
+    "origin": "persona:mobile",
+    "persona_impact": "A mobile user should not have to infer search, cart, account, or home actions from icon shape alone.",
+    "limitations": [
+      "Impact is based on deterministic axe output and captured DOM, not a human assistive-technology test."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-PER-MOBILE-002",
+    "title": "Product-price text fails automated contrast checks on mobile",
+    "area": "accessibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-002",
+      "REQ-013"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "The mobile accessibility artifact reports serious color-contrast failures for product-price text, including gold text at 2.77:1 on the light background and gray text at 2.45:1, below the stated 3:1 or 4.5:1 thresholds.",
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "Low-contrast price text can be difficult to read, especially for visitors with reduced contrast sensitivity.",
+      "business": "Price legibility affects product comparison and confidence.",
+      "seo": null,
+      "technical": "Rendered foreground/background combinations fail automated contrast rules."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Adjust price colors or backgrounds so rendered text meets the applicable WCAG contrast ratio in every product-card state.",
+    "unknowns": [
+      "Automated contrast results should be confirmed against final design tokens and states."
+    ],
+    "origin": "persona:mobile",
+    "persona_impact": "Middle-aged and older visitors need price information that remains legible without zoom or unusually high visual effort.",
+    "limitations": [
+      "The result applies to the captured mobile rendering and does not measure individual visual ability."
+    ],
+    "status": "candidate"
+  }
+]

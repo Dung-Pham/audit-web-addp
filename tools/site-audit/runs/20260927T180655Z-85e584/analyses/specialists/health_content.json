@@ -1,0 +1,71 @@
+[
+  {
+    "finding_id": "FND-SPEC-HEALTH-001",
+    "title": "Product claims about blood-glucose support are shown without a linked evidence source in the captured state",
+    "area": "health_content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The product page text says the product is usable by people with diabetes and describes support for maintaining or safely controlling blood glucose; the captured visible links include an ingredient anchor but no link to a study, public declaration or claim source.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1"
+    ],
+    "impact": {
+      "user": "An adult child cannot distinguish the stated health claim from supporting material within the captured product state.",
+      "business": "Health-related claims without visible support may weaken trust.",
+      "seo": "Claim context and attributable sources are absent from the captured linked material.",
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.9,
+    "suggested_direction": "Place reviewable public sources and appropriate-use boundaries next to each health-related claim.",
+    "unknowns": [
+      "No conclusion about validity, clinical effectiveness, certification or document authenticity, or individual suitability."
+    ],
+    "origin": "specialist:health",
+    "specialist_interpretation": "The product page text says the product is usable by people with diabetes and describes support for maintaining or safely controlling blood glucose; the captured visible links include an ingredient anchor but no link to a study, public declaration or claim source.",
+    "limitations": [
+      "No conclusion about validity, clinical effectiveness, certification or document authenticity, or individual suitability."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-HEALTH-002",
+    "title": "Viên An Đường product copy makes an unqualified no-side-effects claim",
+    "area": "health_content",
+    "page": "https://addp.vn/vien-an-duong-addp.html",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+    "evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "impact": {
+      "user": "A shopper researching a health product may have difficulty interpreting the product offer and its supporting information.",
+      "business": "Unclear product information may reduce confidence at the decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.91,
+    "suggested_direction": "Have qualified reviewers substantiate, qualify or remove absolute efficacy and side-effect claims, and show appropriate-use boundaries with accessible supporting sources.",
+    "unknowns": [
+      "The capture does not establish backend price configuration, product eligibility or clinical effectiveness."
+    ],
+    "origin": "specialist:health",
+    "specialist_interpretation": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+    "limitations": [
+      "Assessment is limited to the captured public page and does not establish backend or clinical facts."
+    ],
+    "status": "candidate"
+  }
+]

@@ -1,0 +1,209 @@
+# Authoritative checklist extracted from Check líst  yêu cầu triển khai web ADDP.xlsx
+# Cell contents below are preserved verbatim. Cell references and headings are extraction metadata.
+
+## SHEET: Trang tính1
+[Trang tính1!A4]
+Stt
+[Trang tính1!B4]
+Hạng mục kiểm tra
+[Trang tính1!C4]
+Tiêu chuẩn cụ thể cần đạt được (Criteria)
+[Trang tính1!D4]
+Mục tiêu chiến lược (Truyền thông, Bán hàng, AEO, GEO)
+[Trang tính1!A5]
+I
+[Trang tính1!B5]
+THẨM MỸ GIAO DIỆN & TRẢI NGHIỆM THỊ GIÁC (VISUAL & UI/UX)
+[Trang tính1!A6]
+1.0
+[Trang tính1!B6]
+Đồng bộ màu sắc từ Logo gốc ADDP
+[Trang tính1!C6]
+- Màu chủ đạo (Primary - 60%): Sử dụng chuẩn xác sắc Xanh dương đậm (Navy / Royal Blue) từ logo chữ ADDP Pharmacy cho các thanh Header, tiêu đề chính (H1, H2), và logo nhận diện. 
+
+
+- Màu nền trợ sáng (Background - 30%): Dùng nền trắng tinh hoặc xám sáng nhạt (#F8F9FA) để tạo không gian sạch sẽ, không bị lóa mắt.
+
+
+- Màu điểm nhấn (Accent/CTA - 10%): Dùng tông Cam ấm hoặc Đỏ đô cho các nút bấm chuyển đổi để kích thích hành vi mua sắm.
+[Trang tính1!D6]
+- Truyền thông & Niềm tin: Kế thừa trọn vẹn sự uy tín, chuẩn mực y tế từ logo sẵn có, đồng thời khắc phục điểm yếu "lạnh lẽo" bằng màu điểm nhấn kích thích hành vi mua hàng.
+[Trang tính1!A7]
+2.0
+[Trang tính1!B7]
+Kiểu chữ & Khoảng cách (Typography)
+[Trang tính1!C7]
+- Dùng font không chân hiện đại (Inter, Roboto). Cỡ chữ tiêu đề tối thiểu 28-32px trên mobile, văn bản thân bài tối thiểu 16px. Khoảng cách dòng thoáng (1.5 - 1.6), giúp khách hàng trung cao tuổi đọc không bị mỏi mắt.
+[Trang tính1!D7]
+- Trải nghiệm & Bán hàng: Đảm bảo đối tượng khách hàng lớn tuổi hoặc con cháu mua hàng dễ đọc, không bị rào cản thị giác khi tìm hiểu thông tin sức khỏe.
+[Trang tính1!A8]
+3.0
+[Trang tính1!B8]
+Hình ảnh sản phẩm & Con người
+[Trang tính1!C8]
+- 3 sản phẩm chủ lực (Glucare Plus, Viên An Đường, Dovital) phải có hình ảnh chụp studio sắc nét (hoặc 3D render cao cấp), thấy rõ bao bì, tem nhãn.
+
+
+- Có hình ảnh con người thực tế, biểu cảm an tâm ( người cao tuổi tươi cười) để củng cố thông điệp "Chăm sóc từ giá trị thiện lành".
+[Trang tính1!D8]
+- Truyền thông nhân văn: Chạm đến cảm xúc của khách hàng, khẳng định chất lượng thực tế và định vị giá trị cốt lõi của thương hiệu ADDP.
+[Trang tính1!A9]
+4.0
+[Trang tính1!B9]
+Thiết kế vùng "Above the Fold"
+[Trang tính1!C9]
+- Ngay khi mở web (chưa cuộn chuột), màn hình đầu tiên phải hội tụ đủ: Slogan/Thông điệp cốt lõi + Hình ảnh sản phẩm chủ lực + Nút kêu gọi hành động (CTA) to rõ ràng.
+[Trang tính1!D9]
+- Bán hàng: Định hướng người dùng ngay lập tức tập trung vào sản phẩm trọng tâm, hạn chế tối đa tỷ lệ thoát trang sớm (Bounce Rate).
+[Trang tính1!A10]
+5.0
+[Trang tính1!B10]
+Thiết kế nút bấm hành động (CTA)
+[Trang tính1!C10]
+- Nút "Mua ngay", "Đặt tư vấn" phải có hình khối bo tròn, kích thước lớn dễ bấm bằng ngón cái trên mobile, màu sắc tương phản mạnh so với tổng thể web.
+[Trang tính1!D10]
+- Bán hàng: Dẫn dắt thị giác người dùng tự động thực hiện hành vi chuyển đổi chốt đơn một cách thuận lợi nhất.
+[Trang tính1!A11]
+II
+[Trang tính1!B11]
+NỘI DUNG WEB, TRANG SẢN PHẨM & LANDING PAGE (SALES, AEO & GEO)
+[Trang tính1!A12]
+1.0
+[Trang tính1!B12]
+Cấu trúc Trang chủ (Homepage)
+[Trang tính1!C12]
+- Nêu bật sứ mệnh thương hiệu ADDP.
+
+
+- Trưng bày trực quan 3 dòng sản phẩm chủ lực kèm nút dẫn thẳng vào Landing Page.
+
+
+- Đưa khu vực "Bằng chứng xã hội" (feedback khách hàng cũ, chứng nhận an toàn) lên vị trí dễ thấy.
+[Trang tính1!D12]
+- Truyền thông & Bán hàng: Khắc sâu định vị thương hiệu và tạo điểm tựa niềm tin ngay từ trang đón khách đầu tiên.
+[Trang tính1!A13]
+2.0
+[Trang tính1!B13]
+Bố cục Trang sản phẩm (Category & Detail Page) (Tích hợp GEO & AEO)
+[Trang tính1!C13]
+
+
+- Trang chi tiết sản phẩm (PDP):
+
++ Khu vực 1: Tên sản phẩm, giá bán, nút "Mua ngay" và hình ảnh.
+
++ Khu vực 2: Tóm tắt thông tin sản phẩm: Thành phần, công dụng, đối tượng sử dụng trình bày dưới dạng bảng thông số (Tables) và danh sách gạch đầu dòng rõ ràng.
++ Khu vực 3: Nội dung chi tiết sản phẩm + đánh giá
+
++ Khu vực 4: Khung FAQ (Hỏi đáp nhanh) về sản phẩm (VD: "Viên An Đường có dùng chung với thuốc Tây được không?") trả lời trực diện ngay 40-60 từ đầu.
+
+
+[Trang tính1!D13]
+- AEO & GEO: Cấu trúc bảng số liệu và khối FAQ giúp các công cụ tìm kiếm AI (Google AI Overviews, Perplexity) dễ dàng bóc tách thông tin cấu trúc sản phẩm để trích dẫn trực tiếp.
+
+
+- Bán hàng: Cung cấp thông tin minh bạch, khoa học giúp khách hàng tự tin ra quyết định mua ngay.
+[Trang tính1!A14]
+3.0
+[Trang tính1!B14]
+Cấu trúc 3 Landing Page sản phẩm (Theo tháp nhu cầu 3 tầng)
+[Trang tính1!C14]
+- Tầng 1 (Cho người mua ngay): Giải pháp giải quyết vấn đề + Giá ưu đãi + Nút "Đặt hàng ngay" siêu tốc ở trên cùng.
+
+
+- Tầng 2 (Cho người tìm hiểu): Cơ chế tác động, thành phần dược liệu, chứng nhận kiểm định minh bạch.
+
+
+- Tầng 3 (Cho người tham khảo/đắn đo): Bằng chứng xã hội (feedback, video thực tế), khối FAQ (Hỏi đáp) xử lý từ chối và nút chốt đơn cuối trang.
+[Trang tính1!D14]
+- Bán hàng tối đa hóa: Phục vụ trọn vẹn cả 3 nhóm tâm lý khách hàng từ "nóng" đến "lạnh" khi chạy quảng cáo Google Ads / Facebook Ads mà không bị bỏ sót phân khúc nào.
+[Trang tính1!A15]
+4.0
+[Trang tính1!B15]
+Trang tin tức / Kiến thức y khoa (Tích hợp GEO & AEO)
+[Trang tính1!C15]
+- Bài viết được định dạng chuẩn E-E-A-T.
+
+
+- Tiêu chuẩn cấu trúc nội dung: Thẻ H2/H3 đặt dưới dạng câu hỏi người dùng hay thắc mắc (VD: "Cách nhận biết sớm biến chứng tiểu đường tuýp 2"). Ngay dưới tiêu đề phải có đoạn tóm tắt trực diện từ 40-60 từ. Nội dung tiếp theo phải sử dụng bảng biểu so sánh hoặc liệt kê ý chính (Bullet points).
+[Trang tính1!D15]
+- GEO & AEO: Đây là dạng nội dung "vàng" để các hệ thống AI (ChatGPT, Google AI) nhận diện ADDP là nguồn uy tín và tự động đưa tên thương hiệu vào câu trả lời gợi ý cho người dùng, kéo lượng truy cập tự nhiên cực lớn.
+[Trang tính1!A16]
+III
+[Trang tính1!B16]
+TỐI ƯU HÓA TÌM KIẾM THẾ HỆ MỚI (GEO & AEO - TECHNICAL SEARCH)
+[Trang tính1!A17]
+1.0
+[Trang tính1!B17]
+Khai báo Schema Structured Data
+[Trang tính1!C17]
+- Lập trình viên bắt buộc nhúng mã JSON-LD chuẩn cho: Organization (thực thể doanh nghiệp tại Hà Nội), Product (cho 3 sản phẩm), và FAQPage.
+[Trang tính1!D17]
+- AEO & GEO: Giúp máy tính và bot AI đọc hiểu chính xác 100% về thông tin doanh nghiệp, giá sản phẩm, và các câu hỏi thường gặp mà không cần phỏng đoán.
+[Trang tính1!A18]
+2.0
+[Trang tính1!B18]
+Mở quyền cho AI Bots truy cập
+[Trang tính1!C18]
+- Cấu hình file robots.txt tuyệt đối không chặn các con bot AI (ChatGPT-User, PerplexityBot, Google-Extended). Cho phép đọc thì thương hiệu mới được AI gợi ý.
+[Trang tính1!D18]
+- GEO (Tối thượng): Tránh việc website trở nên "vô hình" trước các cỗ máy trả lời thế hệ mới, đảm bảo thương hiệu ADDP luôn xuất hiện trong các câu trả lời gợi ý mua hàng của AI.
+[Trang tính1!A19]
+3.0
+[Trang tính1!B19]
+Công nghệ Server-Side Rendering (SSR)
+[Trang tính1!C19]
+- Toàn bộ nội dung chữ, giá, mô tả phải được render trực tiếp từ Server (HTML tĩnh) ngay khi tải trang, không dùng JavaScript thuần tải ngầm.
+[Trang tính1!D19]
+- GEO: Giúp các con bot AI không có khả năng lướt màn hình vẫn đọc được toàn bộ nội dung văn bản của trang ngay từ lần quét đầu tiên.
+[Trang tính1!A20]
+IV
+[Trang tính1!B20]
+KỸ THUẬT, TỐC ĐỘ & ĐO LƯỜNG (TECHNICAL & TRACKING)
+[Trang tính1!A21]
+1.0
+[Trang tính1!B21]
+Tốc độ tải trang & Mobile-First
+[Trang tính1!C21]
+- Điểm PageSpeed Insights trên Mobile đạt tối thiểu 85+, thời gian tải thực tế dưới 2.5 giây. Giao diện mobile hiển thị hoàn hảo, không bị tràn viền, vỡ ảnh.
+[Trang tính1!D21]
+- Bán hàng & SEO: Đảm bảo khách hàng dùng điện thoại không bị ức chế do đợi trang tải lâu, giữ vững tỷ lệ chuyển đổi đơn hàng cao.
+[Trang tính1!A22]
+2.0
+[Trang tính1!B22]
+Cài đặt Tracking Conversion chuyên sâu
+[Trang tính1!C22]
+- Tích hợp Google Tag Manager (GTM), GA4, Meta Pixel và Google Ads Conversion Tracking.
+
+
+- Bắt buộc bắn sự kiện thành công khi khách bấm đặt hàng và ghi nhận tại Trang Cảm Ơn (Thank You Page).
+[Trang tính1!D22]
+- Tối ưu Marketing: Giúp đo lường chính xác chiến dịch quảng cáo nào ra đơn, tính toán đúng ROAS để tối ưu ngân sách chạy Ads hiệu quả.
+[Trang tính1!A23]
+3.0
+[Trang tính1!B23]
+Bảo mật SSL & Technical SEO
+[Trang tính1!C23]
+- Cài đặt chứng chỉ SSL (HTTPS), tự động tạo Sitemap.xml và file Robots.txt chuẩn SEO, hỗ trợ tùy biến Title/Meta Description linh hoạt.
+[Trang tính1!D23]
+- SEO truyền thống: Xây dựng nền tảng kỹ thuật vững chắc để Google dễ dàng lập chỉ mục (index) và đẩy từ khóa lên top tìm kiếm tự nhiên.
+[Trang tính1!A24]
+V
+[Trang tính1!B24]
+THANH TOÁN & CHỐT ĐƠN (CHECKOUT & CONVERSION)
+[Trang tính1!A25]
+1.0
+[Trang tính1!B25]
+Quy trình Checkout tối giản
+[Trang tính1!C25]
+- Form đặt hàng cực kỳ gọn nhẹ: Chỉ yêu cầu điền Họ tên, SĐT, Địa chỉ. Tuyệt đối không bắt buộc tạo tài khoản trước khi mua hàng để tránh làm khách nản lòng.
+[Trang tính1!D25]
+- Bán hàng: Xóa bỏ hoàn toàn rào cản tâm lý ngại khai báo rườm rà của khách hàng (đặc biệt là người trung cao tuổi), tối đa hóa số lượng đơn chốt thành công.
+[Trang tính1!A26]
+2.0
+[Trang tính1!B26]
+Đa dạng hình thức thanh toán
+[Trang tính1!C26]
+- Hỗ trợ thanh toán linh hoạt: COD (nhận hàng trả tiền), Chuyển khoản ngân hàng, kèm hiển thị thông báo xác nhận đơn hàng thành công minh bạch. chuyển thẳng sang kiot viet
+[Trang tính1!D26]
+- Bán hàng: Tạo sự an tâm tuyệt đối và linh hoạt cho mọi đối tượng khách hàng khi thanh toán trực tuyến hoặc trực tiếp.

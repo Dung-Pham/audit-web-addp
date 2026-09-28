@@ -1,0 +1,201 @@
+[
+  {
+    "finding_id": "FND-SPEC-CONVERSION-001",
+    "title": "The two homepage hero CTAs share a non-directional hash target",
+    "area": "Homepage hero conversion path",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-004"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "In the stabilized desktop and mobile DOM evidence, the visible hero actions \"Khám phá ngay\" and \"Tư vấn miễn phí\" both resolve to https://addp.vn/#. The stabilized rendered HTML records both anchors as href=\"#\". The two labels are visible and distinguish product discovery from consultation, but the saved anchors do not encode distinct destinations for those actions.",
+    "evidence_ids": [
+      "EVD-A606C27223349F8A",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-AEE314AA3F7151E7",
+      "EVD-2CA66D18158349D8",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A"
+    ],
+    "impact": {
+      "user": "A first-time visitor choosing between exploration and advice is not given a destination-specific route by either primary hero action.",
+      "business": "The highest-visibility conversion choices do not provide a direct, differentiated handoff to a product or consultation destination in the saved page state.",
+      "seo": null,
+      "technical": "Both saved anchor targets point to the same page fragment target."
+    },
+    "severity": "medium",
+    "confidence": 0.99,
+    "suggested_direction": "Give each hero action a concrete, distinct destination: a principal-product or product-selection route for discovery and the consultation form or support route for advice. Retain the differentiated labels and verify the resulting destinations in read-only QA.",
+    "unknowns": [
+      "The saved evidence does not establish whether runtime event handlers supplement the hash anchors in other sessions.",
+      "The intended destination for each hero action is not stated in the captured page."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "For both a self-purchaser and an adult child researching for a parent, the hero presents two useful intents but does not expose where either choice will lead. This adds uncertainty at the first conversion decision without negating the clear mission copy and visible action labels.",
+    "limitations": [
+      "This conclusion is limited to the saved stabilized rendered HTML and DOM state.",
+      "Audit-induced journey navigation errors were excluded and are not treated as website defects.",
+      "No form submission, cart mutation, or other state-changing interaction was performed."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-002",
+    "title": "The homepage hero does not show a principal product",
+    "area": "Homepage above-the-fold merchandising",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-004"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The stabilized first viewport on desktop and mobile shows the ADDP mission message, supporting copy, the two hero actions, and a photograph of an older couple. No named or packaged principal product is visible in that hero. Principal product imagery and links for Glucare Plus, Viên An Đường, and Dovital appear farther down the stabilized full-page captures.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A",
+      "EVD-702877ACD4E72E55",
+      "EVD-92E0841363C85BA1"
+    ],
+    "impact": {
+      "user": "A first-time visitor can understand the brand promise but cannot identify a principal product from the initial viewport.",
+      "business": "The opening screen delays the connection between the brand message and the products the site is trying to sell.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.98,
+    "suggested_direction": "Add a clearly named principal product or product group, with recognizable packaging, to the hero while preserving the current mission message and human imagery. Connect the adjacent discovery CTA to that product route.",
+    "unknowns": [
+      "The evidence does not state which principal product should lead the homepage hero.",
+      "The audit does not measure whether the current human image or a product-led variant converts better."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "The current hero supports emotional reassurance for middle-aged and older users, but an adult child or self-purchaser must scroll before learning which concrete ADDP product is being offered. The finding concerns product visibility only and does not assess the identity or suitability of the people pictured.",
+    "limitations": [
+      "The page-level render status is partial because residual resource failures were recorded; the finding relies only on the stabilized screenshots supplied for visual interpretation.",
+      "The full-page evidence confirms that principal product routes exist lower on the homepage.",
+      "No inference is made about image authenticity, medical value, or individual product suitability."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-003",
+    "title": "Purchase CTAs appear before any visible price on both principal product pages",
+    "area": "Product hero offer clarity",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "On the stabilized Glucare Plus page, the purchase CTA is visible in the first viewport while the first price-bearing product sample appears farther down the captured page. The captured mobile CTA begins around y=484 px, while the first price-bearing product sample appears around y=1,744 px; the desktop capture shows the same sequence, with the price-bearing sample below the first viewport.",
+    "evidence_ids": [
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-C86C629E938B1E14",
+      "EVD-E178F1827F773846",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "impact": {
+      "user": "A high-intent self-purchaser or adult child cannot evaluate the advertised offer price before choosing the prominent purchase action.",
+      "business": "Price uncertainty is introduced at the strongest buying prompt on two critical product routes, increasing the amount of exploration needed before a purchase decision.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Place the current price, package or quantity, and any promotion terms beside each primary hero CTA. If the CTA jumps to multiple offer cards, state that clearly and summarize the starting price or available package range before the action.",
+    "unknowns": [
+      "The captured heroes do not identify which downstream package each primary CTA is intended to represent.",
+      "The evidence does not establish promotion duration or eligibility."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "The product identity and primary action are strong, especially on mobile, but both purchase audiences must act or scroll without first seeing the commercial terms. This is a price-visibility issue; it does not question the products' health claims or suitability.",
+    "limitations": [
+      "Price-bearing product cards are present farther down both pages and are preserved as positive evidence.",
+      "The finding is based on stabilized screenshots and captured element coordinates, not on an order attempt.",
+      "No cart, checkout, payment, account, or form mutation was performed."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-004",
+    "title": "Purchasable product cards display 0,00 ₫ beside paid alternatives",
+    "area": "Product and price consistency",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The captured Glucare Plus page shows a related Glucare Plus product card at 0,00 ₫ with an add-to-cart control beside a 9.000,00 ₫ sachet and a 560.000,00 ₫ item. The visible cards therefore show inconsistent prices in the same product section; the reason for the zero-price state is unknown.",
+    "evidence_ids": [
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "impact": {
+      "user": "A purchaser cannot tell from the cards whether 0,00 ₫ means free, unavailable, price on request, or another offer state, especially when similar paid alternatives are adjacent.",
+      "business": "Ambiguous zero-price offers can weaken price confidence and interrupt product comparison at the add-to-cart decision.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Replace each unexplained 0,00 ₫ display with the actual public price or an explicit customer-facing state such as unavailable, contact for price, or free sample with conditions. Differentiate similarly named packages by quantity and contents before the add-to-cart control.",
+    "unknowns": [
+      "The saved public evidence does not establish the intended commercial state of either zero-price item.",
+      "The amount that would be charged after cart mutation is unknown because cart mutation was prohibited."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "This ambiguity affects both an older self-purchaser and an adult child comparing products for a parent because the displayed amount conflicts with the surrounding paid offer context. The finding reports only the public display and makes no claim about backend price state.",
+    "limitations": [
+      "No add-to-cart, cart, checkout, order, or payment action was executed.",
+      "The evidence cannot determine whether the zero-price items are intentionally free, placeholders, unavailable, or incorrectly configured.",
+      "No inference is made about backend state or the eventual transaction amount."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-006",
+    "title": "Viên An Đường combo URL promotion and displayed pack count disagree",
+    "area": "commerce",
+    "page": "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+    "evidence_ids": [
+      "EVD-CB952D69E3E21F68",
+      "EVD-E744CA9DD952F84A"
+    ],
+    "impact": {
+      "user": "A shopper researching a health product may have difficulty interpreting the product offer and its supporting information.",
+      "business": "Unclear product information may reduce confidence at the decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.91,
+    "suggested_direction": "Align campaign URL/title/quantity labels and explicitly show total units and gift quantity before any order action.",
+    "unknowns": [
+      "The capture does not establish backend price configuration, product eligibility or clinical effectiveness."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+    "limitations": [
+      "Assessment is limited to the captured public page and does not establish backend or clinical facts."
+    ],
+    "status": "candidate"
+  }
+]

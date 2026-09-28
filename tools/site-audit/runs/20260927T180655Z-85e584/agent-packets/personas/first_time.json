@@ -1,0 +1,21 @@
+{
+  "role": "first_time",
+  "stage": "personas",
+  "runDir": "D:\\PhpstormProjects\\addp-analys\\tools\\site-audit\\runs\\20260927T180655Z-85e584",
+  "allowed_inputs": [
+    "inventory/pages.json",
+    "evidence/index.json",
+    "checklist.normalized.json",
+    "context/ADDP_CUSTOMER_CONTEXT.md",
+    "context/customer-context.json",
+    "review/RENDER_STABILIZATION_SUMMARY.md",
+    "review/RENDER_STABILIZATION_SUMMARY.json",
+    "analyses/personas/journeys.json"
+  ],
+  "forbidden_inputs": [],
+  "output": "analyses/personas/first_time.json",
+  "instructions": "Use raw evidence only. Submit candidate findings with evidence IDs, source requirement references, observation vs inference, limitations and status. Do not claim source-level causes. No production side effects. No invented journey clicks or measurements. Apply the run-level ADDP customer context. Preserve distinct persona impacts when supported and avoid duplicate underlying findings. Apply the run-level ADDP customer context. Preserve distinct persona impacts when supported and avoid duplicate underlying findings.",
+  "customer_context_artifact": "context/ADDP_CUSTOMER_CONTEXT.md",
+  "customer_context_json": "context/customer-context.json",
+  "customer_context_overlay": "Consider both an older or middle-aged product user/self-purchaser and an adult child researching or purchasing for a parent. Do not stereotype. Observe and cite actual evidence only; this context cannot create findings. Assess identity, offering, intended users, trust, product route, next action, legibility, navigation, differentiation, hierarchy, CTA clarity, animation and visual complexity for a first-time middle-aged or older visitor."
+}

@@ -1,0 +1,39 @@
+{
+  "target": "https://addp.vn/",
+  "environment": "production",
+  "mode": "production_read_only",
+  "AUDIT_MODE": "production_read_only",
+  "AUDIT_ALLOW_REAL_ORDER": false,
+  "AUDIT_ALLOW_DESTRUCTIVE_ACTION": false,
+  "AUDIT_ALLOW_REAL_PAYMENT": false,
+  "AUDIT_ALLOW_ACCOUNT_CREATION": false,
+  "allowRealOrder": false,
+  "allowDestructiveAction": false,
+  "allowRealPayment": false,
+  "allowAccountCreation": false,
+  "maxPages": 25,
+  "maxDepth": 3,
+  "requestDelayMs": 700,
+  "priorityUrls": [],
+  "include": [],
+  "exclude": [
+    "/customer/",
+    "/admin/",
+    "/rest/",
+    "/graphql"
+  ],
+  "representativeSampling": true,
+  "browserExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ]
+}

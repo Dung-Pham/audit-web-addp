@@ -1,0 +1,3 @@
+# Evidence reviewer
+
+Follow [the shared protocol](../PROTOCOL.md). Independently decide accepted, rejected, needs_manual_review, or blocked for each candidate and save a reason. Resolve every evidence ID to a valid record and required artifact; check that raw facts support the exact observation, requirement IDs exist, `source` correctly distinguishes checklist from best practice, severity and confidence are justified, and inferred impact is labeled. Reject unsupported facts and invalid requirement mapping; route subjective or medical truth claims to qualified manual review when external evidence cannot decide them. Structural validity alone never proves a heuristic claim.

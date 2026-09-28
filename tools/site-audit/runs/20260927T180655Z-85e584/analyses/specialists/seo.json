@@ -1,0 +1,72 @@
+[
+  {
+    "finding_id": "FND-SPEC-SEO-001",
+    "title": "Product page retains a generic meta description",
+    "area": "seo",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+    "evidence_ids": [
+      "EVD-D1249648026B4D96",
+      "EVD-1BA12AFB05B5BD13"
+    ],
+    "impact": {
+      "user": "Search previews may not describe the specific product page.",
+      "business": "A generic snippet may reduce relevance for product searches.",
+      "seo": "The product URL has a non-specific description.",
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.99,
+    "suggested_direction": "Write a unique accurate description for the product page and verify it in the rendered document.",
+    "unknowns": [
+      "Search-result appearance and ranking impact were not measured."
+    ],
+    "origin": "specialist:seo",
+    "specialist_interpretation": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+    "limitations": [
+      "Search-result appearance and ranking impact were not measured."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-SEO-002",
+    "title": "Both discovered sitemap URLs returned HTTP 404 during the audit",
+    "area": "seo",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+    "evidence_ids": [
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ],
+    "impact": {
+      "user": null,
+      "business": "A crawler may not discover an XML sitemap through these advertised URLs.",
+      "seo": "The robots file advertises a sitemap URL that returned 404; the alternate root sitemap URL also returned 404.",
+      "technical": "Both observed sitemap endpoints returned HTTP 404."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Publish a valid sitemap at the advertised URL and verify its response and submitted URL set.",
+    "unknowns": [
+      "The audit did not access Search Console or verify other sitemap locations."
+    ],
+    "origin": "specialist:seo",
+    "specialist_interpretation": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+    "limitations": [
+      "The audit did not access Search Console or verify other sitemap locations."
+    ],
+    "status": "candidate"
+  }
+]

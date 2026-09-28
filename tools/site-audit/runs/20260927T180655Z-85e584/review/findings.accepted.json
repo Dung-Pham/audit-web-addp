@@ -1,0 +1,1040 @@
+[
+  {
+    "finding_id": "FND-PER-HIGH-001",
+    "title": "Product listings expose both a sample price and zero-price items",
+    "area": "commerce",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus product page text presents a 1-package listing at 9,000 VND and other product listings at 0 VND in the same product section.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-238D776F29EAE37D",
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "impact": {
+      "user": "A self-purchaser or adult child cannot tell from the captured state whether zero is a real price, unavailable price, or placeholder.",
+      "business": "Ambiguous price presentation can interrupt purchase confidence.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Replace zero-price merchandising states with an explicit availability or contact-for-price label and keep package/price meaning consistent.",
+    "unknowns": [
+      "The capture does not establish inventory, configuration, or backend pricing state."
+    ],
+    "origin": "persona:high_intent",
+    "persona_impact": "Both an older self-purchaser and an adult child buying for a parent need an unambiguous package and payable price before proceeding.",
+    "limitations": [
+      "Cart mutation and checkout were not performed; no payable total was observed."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "All cited artifacts exist and are indexed to the Glucare Plus URL. The captured text and DOM show a 9,000 VND single-package item, a 0 VND Glucare item, and other priced items in the same product section. The finding limits itself to the captured merchandising state, explicitly leaves backend pricing and inventory unknown, and makes no cart, order, checkout, payment, or KiotViet claim. REQ-007 and its PARTIAL checklist result cover price and offer clarity on the PDP; the high severity is reasonable for a price ambiguity next to purchase controls."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "persona:high_intent",
+        "persona": "high_intent",
+        "impact": "Both an older self-purchaser and an adult child buying for a parent need an unambiguous package and payable price before proceeding."
+      },
+      {
+        "origin": "persona:research",
+        "persona": "research",
+        "impact": "An adult child comparing options for a parent needs consistent product/package/price information."
+      },
+      {
+        "origin": "specialist:conversion",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:conversion",
+        "interpretation": "This ambiguity affects both an older self-purchaser and an adult child comparing products for a parent because the displayed amount conflicts with the surrounding paid offer context. The finding reports only the public display and makes no claim about backend price state."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "persona:high_intent",
+      "FND-PER-HIGH-001",
+      "persona:research",
+      "FND-PER-RESEARCH-002",
+      "specialist:conversion",
+      "FND-SPEC-CONVERSION-004"
+    ],
+    "duplicate_group": "price-clarity",
+    "merged_candidate_ids": [
+      "FND-PER-HIGH-001",
+      "FND-PER-RESEARCH-002",
+      "FND-SPEC-CONVERSION-004"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "All cited artifacts exist and are indexed to the Glucare Plus URL. The captured text and DOM show a 9,000 VND single-package item, a 0 VND Glucare item, and other priced items in the same product section. The finding limits itself to the captured merchandising state, explicitly leaves backend pricing and inventory unknown, and makes no cart, order, checkout, payment, or KiotViet claim. REQ-007 and its PARTIAL checklist result cover price and offer clarity on the PDP; the high severity is reasonable for a price ambiguity next to purchase controls.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-D67F1CCFC3746E81-1",
+        "EVD-238D776F29EAE37D",
+        "EVD-DF63C483FC434445",
+        "EVD-733F5C04719022AE",
+        "EVD-EA78205F3017C505",
+        "EVD-0581A36B72F4A783"
+      ],
+      "supported_facts": [
+        "All cited artifacts exist and are indexed to the Glucare Plus URL. The captured text and DOM show a 9,000 VND single-package item, a 0 VND Glucare item, and other priced items in the same product section. The finding limits itself to the captured merchandising state, explicitly leaves backend pricing and inventory unknown, and makes no cart, order, checkout, payment, or KiotViet claim. REQ-007 and its PARTIAL checklist result cover price and offer clarity on the PDP; the high severity is reasonable for a price ambiguity next to purchase controls."
+      ],
+      "observation_reviewed": "The captured Glucare Plus product page text presents a 1-package listing at 9,000 VND and other product listings at 0 VND in the same product section.",
+      "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+      "source_requirement_ids_reviewed": [
+        "REQ-007"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-238D776F29EAE37D",
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ]
+  },
+  {
+    "finding_id": "FND-PER-RESEARCH-001",
+    "title": "Health and safety claims appear without an identifiable supporting-document route in the captured product state",
+    "area": "health_content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus page states that it is suitable for people with diabetes, uses “Công thức y khoa ADDP”, and safely supports blood-glucose control; the captured link set exposes an ingredient anchor but no visible link labelled as a study, declaration, certification, or supporting document.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1"
+    ],
+    "impact": {
+      "user": "A skeptical adult child cannot trace these high-stakes claims to supporting material from the captured product state.",
+      "business": "Unverifiable claim presentation can reduce trust for a health-related purchase.",
+      "seo": "Clear source and evidence links can improve entity and claim context.",
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.9,
+    "suggested_direction": "Place clearly labelled public supporting sources, product declarations, and appropriate-use boundaries next to the relevant claims.",
+    "unknowns": [
+      "No judgment is made about medical validity, effectiveness, document authenticity, certification authenticity, or individual suitability.",
+      "A source may exist outside the captured page or selected scope."
+    ],
+    "origin": "persona:research",
+    "persona_impact": "An adult child researching for a parent needs to distinguish marketing claims from evidence shown or linked by the site.",
+    "limitations": [
+      "Conclusion is limited to links and text in the captured browser state."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "The indexed Glucare journey artifact exists and contains the cited diabetes, medical-formula, safe blood-glucose-control, and related product statements. Its visible link inventory contains an ingredient route but no visible study, declaration, certification, or supporting-document route. The finding reports the site's claim presentation rather than endorsing medical validity, and it explicitly preserves the possibility of sources outside the captured scope. REQ-007 is an appropriate PDP-content requirement and is PARTIAL in the checklist."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "persona:research",
+        "persona": "research",
+        "impact": "An adult child researching for a parent needs to distinguish marketing claims from evidence shown or linked by the site."
+      },
+      {
+        "origin": "specialist:health",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:health",
+        "interpretation": "The product page text says the product is usable by people with diabetes and describes support for maintaining or safely controlling blood glucose; the captured visible links include an ingredient anchor but no link to a study, public declaration or claim source."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "persona:research",
+      "FND-PER-RESEARCH-001",
+      "specialist:health",
+      "FND-SPEC-HEALTH-001"
+    ],
+    "duplicate_group": "health-claim-support",
+    "merged_candidate_ids": [
+      "FND-PER-RESEARCH-001",
+      "FND-SPEC-HEALTH-001"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The indexed Glucare journey artifact exists and contains the cited diabetes, medical-formula, safe blood-glucose-control, and related product statements. Its visible link inventory contains an ingredient route but no visible study, declaration, certification, or supporting-document route. The finding reports the site's claim presentation rather than endorsing medical validity, and it explicitly preserves the possibility of sources outside the captured scope. REQ-007 is an appropriate PDP-content requirement and is PARTIAL in the checklist.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-D67F1CCFC3746E81-1"
+      ],
+      "supported_facts": [
+        "The indexed Glucare journey artifact exists and contains the cited diabetes, medical-formula, safe blood-glucose-control, and related product statements. Its visible link inventory contains an ingredient route but no visible study, declaration, certification, or supporting-document route. The finding reports the site's claim presentation rather than endorsing medical validity, and it explicitly preserves the possibility of sources outside the captured scope. REQ-007 is an appropriate PDP-content requirement and is PARTIAL in the checklist."
+      ],
+      "observation_reviewed": "The captured Glucare Plus page states that it is suitable for people with diabetes, uses “Công thức y khoa ADDP”, and safely supports blood-glucose control; the captured link set exposes an ingredient anchor but no visible link labelled as a study, declaration, certification, or supporting document.",
+      "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+      "source_requirement_ids_reviewed": [
+        "REQ-007"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-D67F1CCFC3746E81-1"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ]
+  },
+  {
+    "finding_id": "FND-PER-MOBILE-002",
+    "title": "Product-price text fails automated contrast checks on mobile",
+    "area": "accessibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-002",
+      "REQ-013"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "The mobile accessibility artifact reports serious color-contrast failures for product-price text, including gold text at 2.77:1 on the light background and gray text at 2.45:1, below the stated 3:1 or 4.5:1 thresholds.",
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "Low-contrast price text can be difficult to read, especially for visitors with reduced contrast sensitivity.",
+      "business": "Price legibility affects product comparison and confidence.",
+      "seo": null,
+      "technical": "Rendered foreground/background combinations fail automated contrast rules."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Adjust price colors or backgrounds so rendered text meets the applicable WCAG contrast ratio in every product-card state.",
+    "unknowns": [
+      "Automated contrast results should be confirmed against final design tokens and states."
+    ],
+    "origin": "persona:mobile",
+    "persona_impact": "Middle-aged and older visitors need price information that remains legible without zoom or unusually high visual effort.",
+    "limitations": [
+      "The result applies to the captured mobile rendering and does not measure individual visual ability."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "The stabilized Glucare mobile viewport and full-page screenshots still visibly contain gold and gray product-price text on light cards, so the visual subject of the original automated contrast finding remains present. These screenshots do not independently recompute or prove the previously reported 2.77:1 and 2.45:1 ratios, but they do not visually contradict the original indexed axe measurement. The prior ACCEPT therefore stands for the original measured mobile state, with the explicit limitation that the new screenshot evidence is corroborative rather than a fresh contrast test."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "persona:mobile",
+        "persona": "mobile",
+        "impact": "Middle-aged and older visitors need price information that remains legible without zoom or unusually high visual effort."
+      },
+      {
+        "origin": "specialist:ux",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:ux",
+        "interpretation": "The affected content includes orientation cues and prices that matter to both an older or middle-aged self-purchaser and an adult child comparing options for a parent. The evidence supports a legibility issue only; it does not establish price correctness or product suitability."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "persona:mobile",
+      "FND-PER-MOBILE-002",
+      "specialist:ux",
+      "FND-SPEC-UX-005"
+    ],
+    "duplicate_group": "mobile-price-contrast",
+    "merged_candidate_ids": [
+      "FND-PER-MOBILE-002",
+      "FND-SPEC-UX-005"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The stabilized Glucare mobile viewport and full-page screenshots still visibly contain gold and gray product-price text on light cards, so the visual subject of the original automated contrast finding remains present. These screenshots do not independently recompute or prove the previously reported 2.77:1 and 2.45:1 ratios, but they do not visually contradict the original indexed axe measurement. The prior ACCEPT therefore stands for the original measured mobile state, with the explicit limitation that the new screenshot evidence is corroborative rather than a fresh contrast test.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+      "reviewed_at": "2026-09-28T10:57:56.0140739Z",
+      "evidence_ids_reviewed": [
+        "EVD-238D776F29EAE37D",
+        "EVD-2428C5B7D856AA8B",
+        "EVD-8BF3FB60FCBEF54C"
+      ],
+      "supported_facts": [
+        "The stabilized Glucare mobile viewport and full-page screenshots still visibly contain gold and gray product-price text on light cards, so the visual subject of the original automated contrast finding remains present. These screenshots do not independently recompute or prove the previously reported 2.77:1 and 2.45:1 ratios, but they do not visually contradict the original indexed axe measurement. The prior ACCEPT therefore stands for the original measured mobile state, with the explicit limitation that the new screenshot evidence is corroborative rather than a fresh contrast test.",
+        "The indexed mobile axe artifact exists and reports serious product-price contrast failures, including gold text at 2.77:1 against #fdfbf7 with a 3:1 expectation and gray text at 2.45:1 with a 4.5:1 expectation. The finding correctly limits the result to the captured rendering and does not generalize individual visual ability. REQ-002 directly covers mobile legibility, while REQ-013 provides the broader mobile-quality context; both checklist statuses are consistent with the evidence."
+      ],
+      "observation_reviewed": "The mobile accessibility artifact reports serious color-contrast failures for product-price text, including gold text at 2.77:1 on the light background and gray text at 2.45:1, below the stated 3:1 or 4.5:1 thresholds.",
+      "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+      "source_requirement_ids_reviewed": [
+        "REQ-002",
+        "REQ-013"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-238D776F29EAE37D",
+      "EVD-2428C5B7D856AA8B",
+      "EVD-8BF3FB60FCBEF54C"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-002",
+      "REQ-013"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-UX-001",
+    "title": "The homepage hero does not show a principal product",
+    "area": "Homepage above-the-fold orientation",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-004"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The stabilized desktop and mobile first-view captures show the ADDP logo, the message \"Chăm sóc từ giá trị thiện lành\", the headline \"Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm\", an older couple, supporting copy, and the actions \"Khám phá ngay\" and \"Tư vấn miễn phí\". No product package or named principal product is visible in either captured first viewport. REQ-004 calls for the first viewport to combine a core message, a principal-product image, and a large clear CTA; the message and actions are present, while the product-image element is absent from the captured state.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A",
+      "EVD-702877ACD4E72E55",
+      "EVD-92E0841363C85BA1"
+    ],
+    "impact": {
+      "user": "A first-time visitor can understand the care-oriented brand message, but must continue down the page before seeing what ADDP sells. This adds orientation work for an older or middle-aged self-purchaser and for an adult child quickly assessing a product for a parent.",
+      "business": "The first viewport does not immediately connect the brand promise to a specific purchasable product, weakening product discovery at the earliest decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Keep the current human, reassuring message, but add a clearly identifiable principal-product packshot or product grouping within the first desktop and mobile viewport and preserve an obvious route to that product.",
+    "unknowns": [
+      "Whether another timed or carousel state shows a product before user interaction.",
+      "Whether the hero is intended to prioritize corporate positioning over immediate product orientation."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The existing headline, supportive imagery, and two visible actions are positive orientation signals. Within the ADDP customer context, product identification is still a necessary part of first-view confidence because the researcher or purchaser may differ from the eventual product user.",
+    "limitations": [
+      "This visual conclusion is limited to the saved stabilized viewport state at 1440x1000 and 390x1000; animation was frozen after stabilization, and the homepage had a material initial-to-stabilized difference.",
+      "The render remained partial with residual resource/decode failures, so this finding does not claim that every possible hero state lacks product imagery.",
+      "The first-time and high-intent journey interaction failures were excluded because they may be audit-induced and do not establish a site defect."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "Both stabilized homepage first-view screenshots show the ADDP logo, care-oriented brand message, older couple, supporting copy, and exploration/consultation actions without a product package or named principal product. The corresponding desktop and mobile full-page screenshots show the product portfolio farther down the page. The new evidence therefore supports the exact first-viewport distinction in the finding, and the prior ACCEPT stands for the saved desktop and mobile states."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:ux",
+        "persona": null,
+        "impact": null
+      },
+      {
+        "origin": "specialist:conversion",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:ux",
+        "interpretation": "The existing headline, supportive imagery, and two visible actions are positive orientation signals. Within the ADDP customer context, product identification is still a necessary part of first-view confidence because the researcher or purchaser may differ from the eventual product user."
+      },
+      {
+        "origin": "specialist:conversion",
+        "interpretation": "The current hero supports emotional reassurance for middle-aged and older users, but an adult child or self-purchaser must scroll before learning which concrete ADDP product is being offered. The finding concerns product visibility only and does not assess the identity or suitability of the people pictured."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "origins": [
+      "specialist:ux",
+      "FND-SPEC-UX-001",
+      "specialist:conversion",
+      "FND-SPEC-CONVERSION-002"
+    ],
+    "duplicate_group": "homepage-hero-products",
+    "merged_candidate_ids": [
+      "FND-SPEC-UX-001",
+      "FND-SPEC-CONVERSION-002"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "Both stabilized homepage first-view screenshots show the ADDP logo, care-oriented brand message, older couple, supporting copy, and exploration/consultation actions without a product package or named principal product. The corresponding desktop and mobile full-page screenshots show the product portfolio farther down the page. The new evidence therefore supports the exact first-viewport distinction in the finding, and the prior ACCEPT stands for the saved desktop and mobile states.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-render-review-20260928-critical-path",
+      "reviewed_at": "2026-09-28T10:57:56.0140739Z",
+      "evidence_ids_reviewed": [
+        "EVD-8C749E8D6F00DF83",
+        "EVD-4256DF417284230A",
+        "EVD-702877ACD4E72E55",
+        "EVD-92E0841363C85BA1",
+        "EVD-465168A6A71EDB38",
+        "EVD-790C8DBC086983DA",
+        "EVD-54E1A17F79123C44",
+        "EVD-C1DECAC3B7AA313C"
+      ],
+      "supported_facts": [
+        "Both stabilized homepage first-view screenshots show the ADDP logo, care-oriented brand message, older couple, supporting copy, and exploration/consultation actions without a product package or named principal product. The corresponding desktop and mobile full-page screenshots show the product portfolio farther down the page. The new evidence therefore supports the exact first-viewport distinction in the finding, and the prior ACCEPT stands for the saved desktop and mobile states.",
+        "All four stabilized post-scroll homepage screenshots exist, are correctly indexed, and show the saved desktop and mobile first view with the brand message, an older couple, and two actions but no named principal product or product pack. REQ-004 explicitly requires a principal-product image in the first viewport and the checklist is FAIL. The finding appropriately limits itself to the saved stabilized states, notes residual partial-render conditions and possible unseen timed states, and uses customer context only to interpret added orientation effort."
+      ],
+      "observation_reviewed": "The stabilized desktop and mobile first-view captures show the ADDP logo, the message \"Chăm sóc từ giá trị thiện lành\", the headline \"Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm\", an older couple, supporting copy, and the actions \"Khám phá ngay\" and \"Tư vấn miễn phí\". No product package or named principal product is visible in either captured first viewport. REQ-004 calls for the first viewport to combine a core message, a principal-product image, and a large clear CTA; the message and actions are present, while the product-image element is absent from the captured state.",
+      "page_reviewed": "https://addp.vn/",
+      "source_requirement_ids_reviewed": [
+        "REQ-004"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A",
+      "EVD-702877ACD4E72E55",
+      "EVD-92E0841363C85BA1",
+      "EVD-465168A6A71EDB38",
+      "EVD-790C8DBC086983DA",
+      "EVD-54E1A17F79123C44",
+      "EVD-C1DECAC3B7AA313C"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-004"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-CONTENT-001",
+    "title": "Product page does not present a direct FAQ block in the captured content",
+    "area": "content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-D1249648026B4D96"
+    ],
+    "impact": {
+      "user": "A buyer researching for a parent may not find direct answers to appropriate use, interactions or limits at the product decision point.",
+      "business": "Unanswered purchase questions can prevent informed decisions.",
+      "seo": "A structured question-and-answer section can improve direct answer extraction.",
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.87,
+    "suggested_direction": "Add evidence-grounded FAQ answers with explicit boundaries and reviewed sources beside the product information.",
+    "unknowns": [
+      "Assessment is limited to captured page text and headings; content may change after this observation."
+    ],
+    "origin": "specialist:content",
+    "specialist_interpretation": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+    "limitations": [
+      "Assessment is limited to captured page text and headings; content may change after this observation."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "The Glucare journey and rendered SEO artifacts exist and contain extensive product, ingredient, use, audience, and offer content but no visible FAQ or question-and-answer content block among the page text or headings. A generic 'Câu hỏi thường gặp' navigation link to '#' exists, which does not constitute the direct PDP FAQ block required by REQ-007. The finding is correctly limited to captured content and does not infer medical answers."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:content",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:content",
+        "interpretation": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "specialist:content",
+      "FND-SPEC-CONTENT-001"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The Glucare journey and rendered SEO artifacts exist and contain extensive product, ingredient, use, audience, and offer content but no visible FAQ or question-and-answer content block among the page text or headings. A generic 'Câu hỏi thường gặp' navigation link to '#' exists, which does not constitute the direct PDP FAQ block required by REQ-007. The finding is correctly limited to captured content and does not infer medical answers.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-D67F1CCFC3746E81-1",
+        "EVD-D1249648026B4D96"
+      ],
+      "supported_facts": [
+        "The Glucare journey and rendered SEO artifacts exist and contain extensive product, ingredient, use, audience, and offer content but no visible FAQ or question-and-answer content block among the page text or headings. A generic 'Câu hỏi thường gặp' navigation link to '#' exists, which does not constitute the direct PDP FAQ block required by REQ-007. The finding is correctly limited to captured content and does not infer medical answers."
+      ],
+      "observation_reviewed": "The captured Glucare Plus product page includes product claims, ingredient sections, usage steps and offers, but its visible heading and text extract contains no FAQ or question-and-answer block.",
+      "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+      "source_requirement_ids_reviewed": [
+        "REQ-007"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-D1249648026B4D96"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-SEO-001",
+    "title": "Product page retains a generic meta description",
+    "area": "seo",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+    "evidence_ids": [
+      "EVD-D1249648026B4D96",
+      "EVD-1BA12AFB05B5BD13"
+    ],
+    "impact": {
+      "user": "Search previews may not describe the specific product page.",
+      "business": "A generic snippet may reduce relevance for product searches.",
+      "seo": "The product URL has a non-specific description.",
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.99,
+    "suggested_direction": "Write a unique accurate description for the product page and verify it in the rendered document.",
+    "unknowns": [
+      "Search-result appearance and ranking impact were not measured."
+    ],
+    "origin": "specialist:seo",
+    "specialist_interpretation": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+    "limitations": [
+      "Search-result appearance and ranking impact were not measured."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "Both indexed rendered SEO artifacts exist for the Glucare desktop and mobile states and record the meta description exactly as 'Default Description'. REQ-015 covers title/meta support and the checklist is FAIL. The finding does not claim a measured ranking or search-result effect and does not infer backend configurability or root cause."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:seo",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:seo",
+        "interpretation": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "specialist:seo",
+      "FND-SPEC-SEO-001"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "Both indexed rendered SEO artifacts exist for the Glucare desktop and mobile states and record the meta description exactly as 'Default Description'. REQ-015 covers title/meta support and the checklist is FAIL. The finding does not claim a measured ranking or search-result effect and does not infer backend configurability or root cause.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-D1249648026B4D96",
+        "EVD-1BA12AFB05B5BD13"
+      ],
+      "supported_facts": [
+        "Both indexed rendered SEO artifacts exist for the Glucare desktop and mobile states and record the meta description exactly as 'Default Description'. REQ-015 covers title/meta support and the checklist is FAIL. The finding does not claim a measured ranking or search-result effect and does not infer backend configurability or root cause."
+      ],
+      "observation_reviewed": "The rendered SEO artifact records the Glucare Plus page meta description as “Default Description” on both desktop and mobile.",
+      "page_reviewed": "https://addp.vn/sua-hat-glucare-plus",
+      "source_requirement_ids_reviewed": [
+        "REQ-015"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-D1249648026B4D96",
+      "EVD-1BA12AFB05B5BD13"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-015"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-SEO-002",
+    "title": "Both discovered sitemap URLs returned HTTP 404 during the audit",
+    "area": "seo",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-015"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+    "evidence_ids": [
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784"
+    ],
+    "impact": {
+      "user": null,
+      "business": "A crawler may not discover an XML sitemap through these advertised URLs.",
+      "seo": "The robots file advertises a sitemap URL that returned 404; the alternate root sitemap URL also returned 404.",
+      "technical": "Both observed sitemap endpoints returned HTTP 404."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Publish a valid sitemap at the advertised URL and verify its response and submitted URL set.",
+    "unknowns": [
+      "The audit did not access Search Console or verify other sitemap locations."
+    ],
+    "origin": "specialist:seo",
+    "specialist_interpretation": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+    "limitations": [
+      "The audit did not access Search Console or verify other sitemap locations."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "The two indexed sitemap-response artifacts exist and each records HTTP 404 for its exact URL. The indexed robots artifact was additionally reviewed and advertises https://addp.vn/pub/sitemap.xml, corroborating the finding's SEO impact wording. REQ-015 explicitly covers sitemap and robots configuration and is FAIL. The finding leaves Search Console and other possible sitemap locations unknown."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:seo",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:seo",
+        "interpretation": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "origins": [
+      "specialist:seo",
+      "FND-SPEC-SEO-002"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The two indexed sitemap-response artifacts exist and each records HTTP 404 for its exact URL. The indexed robots artifact was additionally reviewed and advertises https://addp.vn/pub/sitemap.xml, corroborating the finding's SEO impact wording. REQ-015 explicitly covers sitemap and robots configuration and is FAIL. The finding leaves Search Console and other possible sitemap locations unknown.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-B093A16D09E3A37E",
+        "EVD-A57DC932D580B784",
+        "EVD-C51AC48D3DB98538"
+      ],
+      "supported_facts": [
+        "The two indexed sitemap-response artifacts exist and each records HTTP 404 for its exact URL. The indexed robots artifact was additionally reviewed and advertises https://addp.vn/pub/sitemap.xml, corroborating the finding's SEO impact wording. REQ-015 explicitly covers sitemap and robots configuration and is FAIL. The finding leaves Search Console and other possible sitemap locations unknown."
+      ],
+      "observation_reviewed": "Discovery recorded HTTP 404 for both https://addp.vn/pub/sitemap.xml and https://addp.vn/sitemap.xml.",
+      "page_reviewed": "https://addp.vn/",
+      "source_requirement_ids_reviewed": [
+        "REQ-015"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784",
+      "EVD-C51AC48D3DB98538"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-015"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-GEO-001",
+    "title": "Homepage and product pages expose no JSON-LD in the captured desktop/mobile pages",
+    "area": "geo_aeo",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-010"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C"
+    ],
+    "impact": {
+      "user": null,
+      "business": "Machine-readable entity and product information is not present in these captured pages.",
+      "seo": "Requested structured entity, product and FAQ data is absent from the observed pages.",
+      "technical": "The JSON-LD collector returned empty arrays for sampled pages."
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Add validated Organization markup and accurate Product and FAQPage markup where the corresponding visible content exists.",
+    "unknowns": [
+      "Finding is limited to sampled pages and JSON-LD; other structured-data formats were not assessed here."
+    ],
+    "origin": "specialist:geo",
+    "specialist_interpretation": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+    "limitations": [
+      "Finding is limited to sampled pages and JSON-LD; other structured-data formats were not assessed here."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "All four indexed homepage and Glucare desktop/mobile JSON-LD artifacts exist and contain empty arrays. The observation is explicitly limited to those captured pages and JSON-LD, matches REQ-010, and does not claim that every site page or every structured-data syntax was tested. The merged GEO/structured-data dedup history is preserved."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:geo",
+        "persona": null,
+        "impact": null
+      },
+      {
+        "origin": "specialist:structured",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:geo",
+        "interpretation": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures."
+      },
+      {
+        "origin": "specialist:structured",
+        "interpretation": "The captured JSON-LD artifacts are empty arrays on the homepage and Glucare Plus product page at desktop and mobile viewports."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/",
+      "https://addp.vn/sua-hat-glucare-plus"
+    ],
+    "origins": [
+      "specialist:geo",
+      "FND-SPEC-GEO-001",
+      "specialist:structured",
+      "FND-SPEC-STRUCTURED-001"
+    ],
+    "duplicate_group": "jsonld-absence",
+    "merged_candidate_ids": [
+      "FND-SPEC-GEO-001",
+      "FND-SPEC-STRUCTURED-001"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "All four indexed homepage and Glucare desktop/mobile JSON-LD artifacts exist and contain empty arrays. The observation is explicitly limited to those captured pages and JSON-LD, matches REQ-010, and does not claim that every site page or every structured-data syntax was tested. The merged GEO/structured-data dedup history is preserved.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-32CB6452441EDF9E",
+        "EVD-C16C9A26189A6C8E",
+        "EVD-80257931D1966034",
+        "EVD-5DEB9224EB2D897C"
+      ],
+      "supported_facts": [
+        "All four indexed homepage and Glucare desktop/mobile JSON-LD artifacts exist and contain empty arrays. The observation is explicitly limited to those captured pages and JSON-LD, matches REQ-010, and does not claim that every site page or every structured-data syntax was tested. The merged GEO/structured-data dedup history is preserved."
+      ],
+      "observation_reviewed": "The indexed JSON-LD evidence artifacts contain empty arrays for the homepage and captured Glucare Plus desktop and mobile pages; no Organization, Product or FAQPage JSON-LD item was recorded in these captures.",
+      "page_reviewed": "https://addp.vn/",
+      "source_requirement_ids_reviewed": [
+        "REQ-010"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-010"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-PERFORMANCE-001",
+    "title": "Mobile lab captures show LCP above the checklist threshold on sampled pages",
+    "area": "performance",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-013"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+    "evidence_ids": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-D2E949A54A61C783",
+      "EVD-203B6173B6A72522"
+    ],
+    "impact": {
+      "user": "Slow observed rendering can delay access to product and health information.",
+      "business": "Long wait times may interrupt discovery and evaluation.",
+      "seo": "The sampled LAB values exceed the stated performance target.",
+      "technical": "The measured LCP values are 7.6 to 8.2 times the 2,500 ms target."
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Profile and reduce the observed largest-contentful paint path, then repeat comparable mobile lab runs.",
+    "unknowns": [
+      "These are single audit-browser LAB observations, not field Core Web Vitals or PageSpeed Insights scores; all page collections remain partial."
+    ],
+    "origin": "specialist:performance",
+    "specialist_interpretation": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+    "limitations": [
+      "These are single audit-browser LAB observations, not field Core Web Vitals or PageSpeed Insights scores; all page collections remain partial."
+    ],
+    "status": "candidate",
+    "review_status": "accepted",
+    "review_reasons": [
+      "The three indexed mobile lab artifacts exist and record LCP values of 20,456 ms, 19,952 ms, and 18,956 ms on the exact cited URLs. The title and observation explicitly label the measurements LAB, and the limitations state that these are single audit-browser observations rather than field Core Web Vitals or PageSpeed Insights scores. REQ-013 and its FAIL checklist status are correct; no internal performance cause is asserted."
+    ],
+    "persona_impacts": [
+      {
+        "origin": "specialist:performance",
+        "persona": null,
+        "impact": null
+      }
+    ],
+    "specialist_interpretations": [
+      {
+        "origin": "specialist:performance",
+        "interpretation": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds."
+      }
+    ],
+    "affected_urls": [
+      "https://addp.vn/"
+    ],
+    "origins": [
+      "specialist:performance",
+      "FND-SPEC-PERFORMANCE-001"
+    ],
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The three indexed mobile lab artifacts exist and record LCP values of 20,456 ms, 19,952 ms, and 18,956 ms on the exact cited URLs. The title and observation explicitly label the measurements LAB, and the limitations state that these are single audit-browser observations rather than field Core Web Vitals or PageSpeed Insights scores. REQ-013 and its FAIL checklist status are correct; no internal performance cause is asserted.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-3D15DCDB359887BF",
+        "EVD-D2E949A54A61C783",
+        "EVD-203B6173B6A72522"
+      ],
+      "supported_facts": [
+        "The three indexed mobile lab artifacts exist and record LCP values of 20,456 ms, 19,952 ms, and 18,956 ms on the exact cited URLs. The title and observation explicitly label the measurements LAB, and the limitations state that these are single audit-browser observations rather than field Core Web Vitals or PageSpeed Insights scores. REQ-013 and its FAIL checklist status are correct; no internal performance cause is asserted."
+      ],
+      "observation_reviewed": "The mobile LAB artifact records LCP 20,456 ms on the homepage, 19,952 ms on /benh-ly, and 18,956 ms on the diabetes-health article listing; the checklist target is under 2.5 seconds.",
+      "page_reviewed": "https://addp.vn/",
+      "source_requirement_ids_reviewed": [
+        "REQ-013"
+      ]
+    },
+    "evidence_ids_reviewed": [
+      "EVD-3D15DCDB359887BF",
+      "EVD-D2E949A54A61C783",
+      "EVD-203B6173B6A72522"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-013"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-006",
+    "title": "Viên An Đường combo URL promotion and displayed pack count disagree",
+    "area": "commerce",
+    "page": "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+    "evidence_ids": [
+      "EVD-CB952D69E3E21F68",
+      "EVD-E744CA9DD952F84A"
+    ],
+    "impact": {
+      "user": "A shopper researching a health product may have difficulty interpreting the product offer and its supporting information.",
+      "business": "Unclear product information may reduce confidence at the decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.91,
+    "suggested_direction": "Align campaign URL/title/quantity labels and explicitly show total units and gift quantity before any order action.",
+    "unknowns": [
+      "The capture does not establish backend price configuration, product eligibility or clinical effectiveness."
+    ],
+    "origin": "specialist:conversion",
+    "specialist_interpretation": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+    "limitations": [
+      "Assessment is limited to the captured public page and does not establish backend or clinical facts."
+    ],
+    "status": "candidate",
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "Both raw HTML artifacts exist and are indexed to the exact Viên An Đường combo URLs. The first URL contains 'mua-2-tang-2' while its H1/title says '[Combo 3 Hộp]'; the second contains 'mua-3-tang-4' while its H1/title says '[Combo 5 Hộp]'. The captured copy does not explain the different quantities. The finding stays at public offer-label clarity, maps correctly to REQ-007, and makes no backend eligibility, payable-total, cart, order, checkout, payment, or KiotViet inference.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-CB952D69E3E21F68",
+        "EVD-E744CA9DD952F84A"
+      ],
+      "supported_facts": [
+        "Both raw HTML artifacts exist and are indexed to the exact Viên An Đường combo URLs. The first URL contains 'mua-2-tang-2' while its H1/title says '[Combo 3 Hộp]'; the second contains 'mua-3-tang-4' while its H1/title says '[Combo 5 Hộp]'. The captured copy does not explain the different quantities. The finding stays at public offer-label clarity, maps correctly to REQ-007, and makes no backend eligibility, payable-total, cart, order, checkout, payment, or KiotViet inference."
+      ],
+      "observation_reviewed": "The URL slug says “combo-mua-2-tang-2” while the captured page H1 labels the offer “[Combo 3 Hộp]”; on the separate “mua-3-tang-4” URL, the H1 says “[Combo 5 Hộp]”. The captured copy does not explain that the route wording and displayed pack count refer to different quantities.",
+      "page_reviewed": "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+      "source_requirement_ids_reviewed": [
+        "REQ-007"
+      ]
+    },
+    "review_status": "accepted",
+    "review_reasons": [
+      "Both raw HTML artifacts exist and are indexed to the exact Viên An Đường combo URLs. The first URL contains 'mua-2-tang-2' while its H1/title says '[Combo 3 Hộp]'; the second contains 'mua-3-tang-4' while its H1/title says '[Combo 5 Hộp]'. The captured copy does not explain the different quantities. The finding stays at public offer-label clarity, maps correctly to REQ-007, and makes no backend eligibility, payable-total, cart, order, checkout, payment, or KiotViet inference."
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-CB952D69E3E21F68",
+      "EVD-E744CA9DD952F84A"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-HEALTH-002",
+    "title": "Viên An Đường product copy makes an unqualified no-side-effects claim",
+    "area": "health_content",
+    "page": "https://addp.vn/vien-an-duong-addp.html",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+    "evidence_ids": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "impact": {
+      "user": "A shopper researching a health product may have difficulty interpreting the product offer and its supporting information.",
+      "business": "Unclear product information may reduce confidence at the decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.91,
+    "suggested_direction": "Have qualified reviewers substantiate, qualify or remove absolute efficacy and side-effect claims, and show appropriate-use boundaries with accessible supporting sources.",
+    "unknowns": [
+      "The capture does not establish backend price configuration, product eligibility or clinical effectiveness."
+    ],
+    "origin": "specialist:health",
+    "specialist_interpretation": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+    "limitations": [
+      "Assessment is limited to the captured public page and does not establish backend or clinical facts."
+    ],
+    "status": "candidate",
+    "review": {
+      "status": "accepted",
+      "supported": true,
+      "reason": "The indexed Viên An Đường raw HTML and raw SEO artifacts exist and support the exact public copy 'đảm bảo hiệu quả không tác dụng phụ', the diabetes audience statements, the canonical URL, and the product heading structure. The finding reports that wording and the absence of adjacent identified support without independently deciding safety, efficacy, clinical validity, authenticity, or suitability. REQ-007 and the PARTIAL checklist status are appropriate.",
+      "provenance": "independent_evidence_review",
+      "reviewer_role": "evidence_reviewer",
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "reviewed_at": "2026-09-28T09:59:58.340Z",
+      "evidence_ids_reviewed": [
+        "EVD-8B09867D19F1496E",
+        "EVD-927DDAF696B5D339"
+      ],
+      "supported_facts": [
+        "The indexed Viên An Đường raw HTML and raw SEO artifacts exist and support the exact public copy 'đảm bảo hiệu quả không tác dụng phụ', the diabetes audience statements, the canonical URL, and the product heading structure. The finding reports that wording and the absence of adjacent identified support without independently deciding safety, efficacy, clinical validity, authenticity, or suitability. REQ-007 and the PARTIAL checklist status are appropriate."
+      ],
+      "observation_reviewed": "The captured product page says “đảm bảo hiệu quả không tác dụng phụ” and separately lists people with diabetes among potential users. The captured page does not identify supporting material beside this claim; this observation does not establish safety, efficacy or suitability.",
+      "page_reviewed": "https://addp.vn/vien-an-duong-addp.html",
+      "source_requirement_ids_reviewed": [
+        "REQ-007"
+      ]
+    },
+    "review_status": "accepted",
+    "review_reasons": [
+      "The indexed Viên An Đường raw HTML and raw SEO artifacts exist and support the exact public copy 'đảm bảo hiệu quả không tác dụng phụ', the diabetes audience statements, the canonical URL, and the product heading structure. The finding reports that wording and the absence of adjacent identified support without independently deciding safety, efficacy, clinical validity, authenticity, or suitability. REQ-007 and the PARTIAL checklist status are appropriate."
+    ],
+    "evidence_ids_reviewed": [
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339"
+    ],
+    "source_requirement_ids_reviewed": [
+      "REQ-007"
+    ]
+  }
+]

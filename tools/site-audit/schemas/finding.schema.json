@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["finding_id", "title", "area", "page", "page_type", "source_requirement_ids", "source", "finding_type", "observation", "evidence_ids", "impact", "severity", "confidence", "suggested_direction", "unknowns"],
+  "properties": {
+    "finding_id": {"type": "string", "pattern": "^FND-[A-Za-z0-9._-]+$"},
+    "title": {"type": "string", "minLength": 1},
+    "area": {"type": "string", "minLength": 1},
+    "page": {"type": "string", "minLength": 1},
+    "page_type": {"type": "string", "minLength": 1},
+    "source_requirement_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "source": {"enum": ["checklist", "best_practice"]},
+    "finding_type": {"enum": ["measured", "deterministic", "heuristic", "content_review"]},
+    "observation": {"type": "string", "minLength": 1},
+    "evidence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "impact": {
+      "type": "object", "required": ["user", "business", "seo", "technical"],
+      "properties": {"user": {"type": ["string", "null"]}, "business": {"type": ["string", "null"]}, "seo": {"type": ["string", "null"]}, "technical": {"type": ["string", "null"]}},
+      "additionalProperties": true
+    },
+    "severity": {"enum": ["critical", "high", "medium", "low"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "suggested_direction": {"type": ["string", "null"]},
+    "unknowns": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

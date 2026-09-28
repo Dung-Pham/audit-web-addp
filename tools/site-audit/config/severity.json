@@ -1,0 +1,18 @@
+{
+  "critical": {
+    "priority": "P0",
+    "description": "Confirmed severe immediate business/user impact"
+  },
+  "high": {
+    "priority": "P1",
+    "description": "Major journey barrier or explicit critical business requirement"
+  },
+  "medium": {
+    "priority": "P2",
+    "description": "Material friction or discoverability/clarity issue"
+  },
+  "low": {
+    "priority": "P3",
+    "description": "Limited impact polish or minor consistency"
+  }
+}

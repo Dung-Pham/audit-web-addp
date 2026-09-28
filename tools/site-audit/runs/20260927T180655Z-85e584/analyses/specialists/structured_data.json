@@ -1,0 +1,38 @@
+[
+  {
+    "finding_id": "FND-SPEC-STRUCTURED-001",
+    "title": "Required Organization and Product JSON-LD was not present in sampled pages",
+    "area": "structured_data",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-010"
+    ],
+    "source": "checklist",
+    "finding_type": "deterministic",
+    "observation": "The captured JSON-LD artifacts are empty arrays on the homepage and Glucare Plus product page at desktop and mobile viewports.",
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C"
+    ],
+    "impact": {
+      "user": null,
+      "business": "Search and assistant systems lack the requested structured product and organization declarations in these samples.",
+      "seo": "Organization and Product JSON-LD required by the checklist was not observed.",
+      "technical": "No JSON-LD object was returned by the sampled page collectors."
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Add structured data that matches visible, verifiable page content and validate it against current parsers.",
+    "unknowns": [
+      "Only JSON-LD was tested; this does not rule out other structured data formats."
+    ],
+    "origin": "specialist:structured",
+    "specialist_interpretation": "The captured JSON-LD artifacts are empty arrays on the homepage and Glucare Plus product page at desktop and mobile viewports.",
+    "limitations": [
+      "Only JSON-LD was tested; this does not rule out other structured data formats."
+    ],
+    "status": "candidate"
+  }
+]

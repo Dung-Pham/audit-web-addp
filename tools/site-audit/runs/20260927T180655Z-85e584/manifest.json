@@ -1,0 +1,292 @@
+{
+  "RUN_ID": "20260927T180655Z-85e584",
+  "timestamp": "2026-09-27T18:06:55.895Z",
+  "target": "https://addp.vn/",
+  "environment": "production",
+  "mode": "production_read_only",
+  "checklist_hash": "71a39e82b8ab8ea0c66d0eefb3538a39dbac8f277057c522fa1c92cb36b7054f",
+  "config_hash": "d6462e1b84fb4267b1a9791ceba0678871decc773f806e098badf8285023aa8d",
+  "audit_framework_version": "1.0.0",
+  "audit_framework_hash": "4ef379d148210586b431d4ad1d62427d636e44c6437c7246fe24b6f2216df673",
+  "website_source_available": false,
+  "tool_versions": {
+    "node": "v22.17.0",
+    "playwright": "1.63.0",
+    "axe": "4.13.0",
+    "codex_cli": "0.158.0-alpha.2.1"
+  },
+  "viewport": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "effective_models": null,
+  "routing_status": "supported_requested_models_unverified",
+  "requested_routing": {
+    "DEEP": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "SPECIALIST": {
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "FAST": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "ASTRA_EXCEPTION": {
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high",
+      "use_only_for": [
+        "architecture blockers",
+        "unresolved contradictions",
+        "final deep synthesis if Sol is insufficient"
+      ]
+    },
+    "NO_MODEL": {
+      "model": null,
+      "reasoning_effort": null
+    }
+  },
+  "stage_status": {
+    "discovery": {
+      "status": "complete",
+      "updated_at": "2026-09-28T09:22:39.636Z",
+      "pages": 31
+    },
+    "deterministic_collection": {
+      "usable": 31,
+      "complete": 0,
+      "partial": 31,
+      "errors": 0,
+      "complete_with_limitations": true,
+      "status": "complete",
+      "updated_at": "2026-09-28T09:36:23.065Z",
+      "mode": "collect",
+      "discovered": 269,
+      "pages": 31,
+      "collected": 0,
+      "evidence": 1261,
+      "blocked": 451,
+      "collection_status": "partial"
+    },
+    "personas": {
+      "journeys": 4,
+      "candidate_findings": 5,
+      "completion_limitations": [
+        "First-time and high-intent deterministic click traces are partial.",
+        "Requested Luna persona agents failed twice with a host-side stream error; effective model was not verified.",
+        "Persona candidates were produced locally from saved evidence."
+      ],
+      "status": "complete",
+      "updated_at": "2026-09-28T09:34:41.743Z",
+      "expanded_product_urls": 6,
+      "clicks_verified": 0,
+      "click_attempts": 3
+    },
+    "specialists": {
+      "roles": 11,
+      "candidate_findings": 28,
+      "agent_roles": [
+        "ux",
+        "conversion",
+        "brand"
+      ],
+      "local_evidence_roles": [
+        "content",
+        "health_content",
+        "seo",
+        "geo_aeo",
+        "structured_data",
+        "performance",
+        "analytics",
+        "checkout"
+      ],
+      "candidate_quality_validation": "schema_and_traceability_pass",
+      "status": "complete",
+      "updated_at": "2026-09-28T09:34:41.743Z"
+    },
+    "evidence_review": {
+      "status": "complete",
+      "reviewed_candidates": 20,
+      "accepted_before_dedup": 11,
+      "rejected": 3,
+      "manual_review": 6,
+      "external_independent_reviewer": true,
+      "updated_at": "2026-09-28T09:35:54.650Z",
+      "blocked": 0,
+      "reviewer_id": "codex-independent-final-review-20260928",
+      "requested_model": "GPT-5.6 Sol / High",
+      "runtime_model_verified": false,
+      "review_artifacts": [
+        "review/independent-final-review.json",
+        "review/independent-render-impact-review.json"
+      ]
+    },
+    "contradiction_review": {
+      "status": "complete",
+      "reviewed_findings": 11,
+      "contradictions": 0,
+      "external_independent_reviewer": false,
+      "updated_at": "2026-09-28T09:35:54.650Z"
+    },
+    "deduplication": {
+      "status": "complete",
+      "input_findings": 20,
+      "output_findings": 11,
+      "duplicate_groups": 0,
+      "updated_at": "2026-09-28T09:35:54.650Z",
+      "manual_review": 6
+    },
+    "external_diagnostic": {
+      "status": "complete",
+      "diagnostics": 11,
+      "probable_causes": 0,
+      "source_level_inferences": 0,
+      "updated_at": "2026-09-28T09:35:54.650Z"
+    },
+    "reports": {
+      "status": "complete",
+      "updated_at": "2026-09-28T11:06:59.706Z"
+    },
+    "master_planner": {
+      "status": "complete",
+      "updated_at": "2026-09-28T11:06:59.710Z"
+    },
+    "final_consistency": {
+      "status": "complete",
+      "updated_at": "2026-09-28T11:32:31.362Z",
+      "errors": 0
+    },
+    "render_quality_remediation": {
+      "status": "complete_with_limitations",
+      "activity": "audit-induced render stabilization / scroll",
+      "selected_pages": 31,
+      "pages_recollected": 31,
+      "render_complete_pages": 0,
+      "remaining_partial_pages": 31,
+      "evidence_records": 1261,
+      "summary": "evidence/quality-remediation-2026-09-28T09-56-36-700Z/summary.json",
+      "updated_at": "2026-09-28T10:45:27.121Z",
+      "pixel_comparisons": 124,
+      "material_pages": 30,
+      "remaining_failed_resources": {
+        "stylesheet": 6,
+        "font": 0,
+        "image": 124,
+        "script": 0
+      }
+    }
+  },
+  "safety_flags": {
+    "AUDIT_MODE": "production_read_only",
+    "AUDIT_ALLOW_REAL_ORDER": false,
+    "AUDIT_ALLOW_REAL_PAYMENT": false,
+    "AUDIT_ALLOW_DESTRUCTIVE_ACTION": false,
+    "AUDIT_ALLOW_ACCOUNT_CREATION": false,
+    "allow_real_order": false,
+    "allow_payment": false,
+    "allow_account_creation": false,
+    "allow_destructive_actions": false
+  },
+  "safety_outcomes": {
+    "real_orders": 0,
+    "real_payments": 0,
+    "accounts_created": 0,
+    "forms_submitted": 0,
+    "website_changes": 0
+  },
+  "limitations": [
+    "No source, backend, analytics admin or KiotViet access.",
+    "Non-GET browser requests blocked and explicitly labelled audit induced.",
+    "Render evidence remains partial when assets fail or do not decode, bounded scrolling cannot reach the bottom, or stabilization times out.",
+    "Actual inference model metadata is not exposed.",
+    "No purchase/lead submission and no cart mutation."
+  ],
+  "escalations": [],
+  "audit_framework_amendments": [
+    {
+      "at": "2026-09-27T18:25:41.415Z",
+      "from": "582b06197f67e5e738d6fd125dea956d3356865ae2664f05a033563aa7b9678f",
+      "to": "3a1013ee77f1daefbd4cec57e2dc3859f7c1991a4d21f2355b8b06ef840596a8",
+      "reason": "Production discovery paused before first page checkpoint after account/login URL exposed pathological safety regex; guard repaired and independent architecture review passed",
+      "pre_pause_artifacts": [
+        "evidence/discovery/robots.txt",
+        "evidence/discovery/sitemap-18ff84938bf215b3.xml",
+        "evidence/discovery/sitemap-52618716ffbf735c.xml"
+      ]
+    },
+    {
+      "at": "2026-09-27T23:33:52.042Z",
+      "from": "3a1013ee77f1daefbd4cec57e2dc3859f7c1991a4d21f2355b8b06ef840596a8",
+      "to": "6b8883be4df51d92a0a1a98cd4e686fe8e0029856293224b479b0e7bc83f509a",
+      "reason": "Production screenshots were provisional because render assets were overblocked and scroll-triggered content was not stabilized. Added bounded render stabilization, safe static asset handling, truthful partial status, decode-failure accounting, and immutable provisional screenshot archives; independent architecture verdict READY_WITH_LIMITATIONS and 40/40 tests passed.",
+      "provisional_evidence_diagnosis": "review/RENDER_EVIDENCE_DIAGNOSIS.md",
+      "selected_pages": 25,
+      "previous_viewport_captures": 50,
+      "previous_screenshots_marked_provisional": 100
+    },
+    {
+      "at": "2026-09-28T04:12:36.267Z",
+      "from": "6b8883be4df51d92a0a1a98cd4e686fe8e0029856293224b479b0e7bc83f509a",
+      "to": "4ef379d148210586b431d4ad1d62427d636e44c6437c7246fe24b6f2216df673",
+      "reason": "Accept evidence-backed current-version partial page captures as a deterministic collection complete with limitations, preserve page-level partial status, and reuse intact artifacts without production recollection; independent review READY_WITH_LIMITATIONS and 41/41 tests passed",
+      "production_checkpoint": {
+        "selected_pages": 25,
+        "page_status": {
+          "partial": 25,
+          "complete": 0,
+          "error": 0
+        },
+        "evidence_records": 854,
+        "missing_artifacts": 0
+      },
+      "review": "runtime/ARCHITECTURE_REVIEW.md",
+      "tests": "runtime/test-results-partial-evidence-amendment.txt"
+    }
+  ],
+  "run_context": {
+    "customer_context": "context/customer-context.json",
+    "narrative": "context/ADDP_CUSTOMER_CONTEXT.md",
+    "render_stabilization_summary": "review/RENDER_STABILIZATION_SUMMARY.json",
+    "propagated_personas": [
+      "first_time",
+      "high_intent",
+      "mobile",
+      "research"
+    ],
+    "propagated_specialists": [
+      "ux",
+      "conversion",
+      "brand",
+      "content",
+      "health_content",
+      "checkout"
+    ],
+    "framework_change": false
+  },
+  "agent_execution": {
+    "personas": {
+      "requested_model": "chatgpt-web/gpt-5.6-luna",
+      "requested_reasoning_effort": "medium",
+      "runtime_model_verified": false,
+      "agent_ids": [
+        "01a0e640-0e3d-7b32-9e4a-1663be799d20",
+        "01a0e640-0ed2-7ef1-ad2c-569e0241c854",
+        "01a0e640-0fd7-7e90-99bc-7088a0707b9f",
+        "01a0e640-11df-7541-9941-6cdb00f708a3"
+      ],
+      "status": "host_stream_error_after_resume_retry",
+      "fallback": "local evidence interpretation",
+      "candidate_findings": 5
+    }
+  }
+}

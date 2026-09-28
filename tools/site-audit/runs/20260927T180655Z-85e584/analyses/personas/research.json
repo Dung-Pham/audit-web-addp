@@ -1,0 +1,72 @@
+[
+  {
+    "finding_id": "FND-PER-RESEARCH-001",
+    "title": "Health and safety claims appear without an identifiable supporting-document route in the captured product state",
+    "area": "health_content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus page states that it is suitable for people with diabetes, uses “Công thức y khoa ADDP”, and safely supports blood-glucose control; the captured link set exposes an ingredient anchor but no visible link labelled as a study, declaration, certification, or supporting document.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1"
+    ],
+    "impact": {
+      "user": "A skeptical adult child cannot trace these high-stakes claims to supporting material from the captured product state.",
+      "business": "Unverifiable claim presentation can reduce trust for a health-related purchase.",
+      "seo": "Clear source and evidence links can improve entity and claim context.",
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.88,
+    "suggested_direction": "Place clearly labelled public supporting sources, product declarations, and appropriate-use boundaries next to the relevant claims.",
+    "unknowns": [
+      "No judgment is made about medical validity, effectiveness, document authenticity, certification authenticity, or individual suitability.",
+      "A source may exist outside the captured page or selected scope."
+    ],
+    "origin": "persona:research",
+    "persona_impact": "An adult child researching for a parent needs to distinguish marketing claims from evidence shown or linked by the site.",
+    "limitations": [
+      "Conclusion is limited to links and text in the captured browser state."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-PER-RESEARCH-002",
+    "title": "Product section mixes 9,000 VND and zero-price listings",
+    "area": "content",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured product state lists a 1-package Glucare Plus item at 9,000 VND while other product cards in the same section expose 0 VND prices.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "The researcher cannot determine the actual package and purchase price for the zero-price items.",
+      "business": "Inconsistent visible price information weakens comparison and purchase confidence.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.94,
+    "suggested_direction": "Use explicit, consistent package and price labels; replace zero placeholders with a meaningful availability state.",
+    "unknowns": [
+      "The capture does not establish backend price configuration or whether every listing represents the same package."
+    ],
+    "origin": "persona:research",
+    "persona_impact": "An adult child comparing options for a parent needs consistent product/package/price information.",
+    "limitations": [
+      "No cart or checkout total was observed."
+    ],
+    "status": "candidate"
+  }
+]

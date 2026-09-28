@@ -1,0 +1,37 @@
+[
+  {
+    "finding_id": "FND-PER-HIGH-001",
+    "title": "Product listings expose both a sample price and zero-price items",
+    "area": "commerce",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The captured Glucare Plus product page text presents a 1-package listing at 9,000 VND and other product listings at 0 VND in the same product section.",
+    "evidence_ids": [
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "A self-purchaser or adult child cannot tell from the captured state whether zero is a real price, unavailable price, or placeholder.",
+      "business": "Ambiguous price presentation can interrupt purchase confidence.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.91,
+    "suggested_direction": "Replace zero-price merchandising states with an explicit availability or contact-for-price label and keep package/price meaning consistent.",
+    "unknowns": [
+      "The capture does not establish inventory, configuration, or backend pricing state."
+    ],
+    "origin": "persona:high_intent",
+    "persona_impact": "Both an older self-purchaser and an adult child buying for a parent need an unambiguous package and payable price before proceeding.",
+    "limitations": [
+      "Cart mutation and checkout were not performed; no payable total was observed."
+    ],
+    "status": "candidate"
+  }
+]

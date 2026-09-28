@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["evidence_id", "url", "page_type", "collector", "type", "viewport", "artifact", "raw_fact", "observed_at"],
+  "properties": {
+    "evidence_id": {"type": "string", "pattern": "^EVD-[A-Za-z0-9._-]+$"},
+    "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "page_type": {"type": "string", "minLength": 1},
+    "collector": {"type": "string", "minLength": 1},
+    "type": {"type": "string", "minLength": 1},
+    "viewport": {"type": ["object", "string", "null"]},
+    "artifact": {"type": "string", "minLength": 1},
+    "raw_fact": {"type": "object"},
+    "observed_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": true
+}

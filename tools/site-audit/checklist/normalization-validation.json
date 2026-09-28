@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "requirements": 17,
+  "clauses": 30,
+  "source_cells": 82,
+  "source_sha256": "c054dbe2a5bbe0c43247d0b9f84b397b45a96a4099f066f8553192f9bf9ad50e",
+  "checklist_sha256": "71a39e82b8ab8ea0c66d0eefb3538a39dbac8f277057c522fa1c92cb36b7054f",
+  "original_text_preserved": true
+}

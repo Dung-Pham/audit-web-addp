@@ -1,0 +1,841 @@
+[
+  {
+    "requirement_id": "REQ-001",
+    "status": "PARTIAL",
+    "method": [
+      "visual review",
+      "computed colors"
+    ],
+    "observation": "Homepage and product captures show palette variation; no separate brand specification file was available.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A",
+      "EVD-C86C629E938B1E14",
+      "EVD-E178F1827F773846",
+      "EVD-6695052421D33FF3",
+      "EVD-9175C04DA21427CA",
+      "EVD-571CE21693716D24-0-SHOT",
+      "EVD-28869D62E349AE02-0-SHOT",
+      "EVD-3C63ACE8EED6B470-0-SHOT",
+      "EVD-D67F1CCFC3746E81-1-SHOT",
+      "EVD-998DA9C93EAB1C0B-0-SHOT",
+      "EVD-E500EB5EAF7D49CB-1-SHOT"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-001-01",
+        "status": "PARTIAL",
+        "observation": "Homepage and product captures show palette variation; no separate brand specification file was available.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-4256DF417284230A",
+          "EVD-C86C629E938B1E14",
+          "EVD-E178F1827F773846",
+          "EVD-6695052421D33FF3",
+          "EVD-9175C04DA21427CA",
+          "EVD-571CE21693716D24-0-SHOT",
+          "EVD-28869D62E349AE02-0-SHOT"
+        ]
+      },
+      {
+        "clause_id": "REQ-001-02",
+        "status": "PARTIAL",
+        "observation": "Homepage and product captures show palette variation; no separate brand specification file was available.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-4256DF417284230A",
+          "EVD-C86C629E938B1E14",
+          "EVD-E178F1827F773846",
+          "EVD-6695052421D33FF3",
+          "EVD-9175C04DA21427CA",
+          "EVD-571CE21693716D24-0-SHOT",
+          "EVD-28869D62E349AE02-0-SHOT"
+        ]
+      },
+      {
+        "clause_id": "REQ-001-03",
+        "status": "PARTIAL",
+        "observation": "Homepage and product captures show palette variation; no separate brand specification file was available.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-4256DF417284230A",
+          "EVD-C86C629E938B1E14",
+          "EVD-E178F1827F773846",
+          "EVD-6695052421D33FF3",
+          "EVD-9175C04DA21427CA",
+          "EVD-571CE21693716D24-0-SHOT",
+          "EVD-28869D62E349AE02-0-SHOT"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-002",
+    "status": "FAIL",
+    "method": [
+      "computed typography at mobile viewport"
+    ],
+    "observation": "Mobile measured examples fall below the checklist text-size targets; sampled contrast failures are also recorded.",
+    "evidence_ids": [
+      "EVD-AEE314AA3F7151E7",
+      "EVD-6E93B5B6099AB8DE",
+      "EVD-2CA66D18158349D8",
+      "EVD-3425B7ADB4DE40C6",
+      "EVD-DF63C483FC434445",
+      "EVD-4D473131699530B4",
+      "EVD-733F5C04719022AE",
+      "EVD-238D776F29EAE37D",
+      "EVD-B968E829D7DEA2D7",
+      "EVD-4DBA8882236BC114",
+      "EVD-9B7514F9C1D9F906",
+      "EVD-3B04A9D3DDC17AE0"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-002-01",
+        "status": "FAIL",
+        "observation": "Mobile measured examples fall below the checklist text-size targets; sampled contrast failures are also recorded.",
+        "evidence_ids": [
+          "EVD-AEE314AA3F7151E7",
+          "EVD-6E93B5B6099AB8DE",
+          "EVD-2CA66D18158349D8",
+          "EVD-3425B7ADB4DE40C6",
+          "EVD-DF63C483FC434445",
+          "EVD-4D473131699530B4",
+          "EVD-733F5C04719022AE",
+          "EVD-238D776F29EAE37D"
+        ]
+      }
+    ],
+    "review_status": "reviewed_with_evidence"
+  },
+  {
+    "requirement_id": "REQ-003",
+    "status": "PARTIAL",
+    "method": [
+      "named-product image inspection",
+      "visual review"
+    ],
+    "observation": "Product imagery and people imagery are visible on sampled pages; image studio quality and full principal-product coverage remain subjective or incomplete.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-702877ACD4E72E55",
+      "EVD-4256DF417284230A",
+      "EVD-92E0841363C85BA1",
+      "EVD-C86C629E938B1E14",
+      "EVD-EA78205F3017C505",
+      "EVD-E178F1827F773846",
+      "EVD-0581A36B72F4A783",
+      "EVD-6695052421D33FF3",
+      "EVD-AA139D52B8CD9DFC",
+      "EVD-9175C04DA21427CA",
+      "EVD-A56C5E202BFD212A"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-003-01",
+        "status": "PARTIAL",
+        "observation": "Product imagery and people imagery are visible on sampled pages; image studio quality and full principal-product coverage remain subjective or incomplete.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-702877ACD4E72E55",
+          "EVD-4256DF417284230A",
+          "EVD-92E0841363C85BA1",
+          "EVD-C86C629E938B1E14",
+          "EVD-EA78205F3017C505",
+          "EVD-E178F1827F773846",
+          "EVD-0581A36B72F4A783"
+        ]
+      },
+      {
+        "clause_id": "REQ-003-02",
+        "status": "PARTIAL",
+        "observation": "Product imagery and people imagery are visible on sampled pages; image studio quality and full principal-product coverage remain subjective or incomplete.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-702877ACD4E72E55",
+          "EVD-4256DF417284230A",
+          "EVD-92E0841363C85BA1",
+          "EVD-C86C629E938B1E14",
+          "EVD-EA78205F3017C505",
+          "EVD-E178F1827F773846",
+          "EVD-0581A36B72F4A783"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-004",
+    "status": "FAIL",
+    "method": [
+      "first viewport visual review"
+    ],
+    "observation": "Homepage first viewport contains the core message and actions but no principal product package or named product.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-004-01",
+        "status": "FAIL",
+        "observation": "Homepage first viewport contains the core message and actions but no principal product package or named product.",
+        "evidence_ids": [
+          "EVD-8C749E8D6F00DF83",
+          "EVD-4256DF417284230A"
+        ]
+      }
+    ],
+    "review_status": "reviewed_with_evidence"
+  },
+  {
+    "requirement_id": "REQ-005",
+    "status": "PARTIAL",
+    "method": [
+      "CTA size/style inspection"
+    ],
+    "observation": "Large filled purchase controls are visible on product pages; the homepage hero actions are smaller and less prominent on mobile.",
+    "evidence_ids": [
+      "EVD-AEE314AA3F7151E7",
+      "EVD-8C749E8D6F00DF83",
+      "EVD-2CA66D18158349D8",
+      "EVD-4256DF417284230A",
+      "EVD-DF63C483FC434445",
+      "EVD-C86C629E938B1E14",
+      "EVD-733F5C04719022AE",
+      "EVD-E178F1827F773846",
+      "EVD-B968E829D7DEA2D7",
+      "EVD-6695052421D33FF3",
+      "EVD-9B7514F9C1D9F906",
+      "EVD-9175C04DA21427CA"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-005-01",
+        "status": "PARTIAL",
+        "observation": "Large filled purchase controls are visible on product pages; the homepage hero actions are smaller and less prominent on mobile.",
+        "evidence_ids": [
+          "EVD-AEE314AA3F7151E7",
+          "EVD-8C749E8D6F00DF83",
+          "EVD-2CA66D18158349D8",
+          "EVD-4256DF417284230A",
+          "EVD-DF63C483FC434445",
+          "EVD-C86C629E938B1E14",
+          "EVD-733F5C04719022AE",
+          "EVD-E178F1827F773846"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-006",
+    "status": "PARTIAL",
+    "method": [
+      "mission/product links/social proof content review"
+    ],
+    "observation": "Mission and three product names are present; testimonials are visible, while supporting proof for safety and standards is not identifiable in sampled views.",
+    "evidence_ids": [
+      "EVD-AEE314AA3F7151E7",
+      "EVD-702877ACD4E72E55",
+      "EVD-2CA66D18158349D8",
+      "EVD-92E0841363C85BA1"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-006-01",
+        "status": "PARTIAL",
+        "observation": "Mission and three product names are present; testimonials are visible, while supporting proof for safety and standards is not identifiable in sampled views.",
+        "evidence_ids": [
+          "EVD-AEE314AA3F7151E7",
+          "EVD-702877ACD4E72E55",
+          "EVD-2CA66D18158349D8",
+          "EVD-92E0841363C85BA1"
+        ]
+      },
+      {
+        "clause_id": "REQ-006-02",
+        "status": "PARTIAL",
+        "observation": "Mission and three product names are present; testimonials are visible, while supporting proof for safety and standards is not identifiable in sampled views.",
+        "evidence_ids": [
+          "EVD-AEE314AA3F7151E7",
+          "EVD-702877ACD4E72E55",
+          "EVD-2CA66D18158349D8",
+          "EVD-92E0841363C85BA1"
+        ]
+      },
+      {
+        "clause_id": "REQ-006-03",
+        "status": "PARTIAL",
+        "observation": "Mission and three product names are present; testimonials are visible, while supporting proof for safety and standards is not identifiable in sampled views.",
+        "evidence_ids": [
+          "EVD-AEE314AA3F7151E7",
+          "EVD-702877ACD4E72E55",
+          "EVD-2CA66D18158349D8",
+          "EVD-92E0841363C85BA1"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-007",
+    "status": "PARTIAL",
+    "method": [
+      "PDP table/bullet/FAQ/review/offer inspection"
+    ],
+    "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+    "evidence_ids": [
+      "EVD-42AE297DAC33A1B9",
+      "EVD-689120860F2FACA2",
+      "EVD-D1249648026B4D96",
+      "EVD-DF63C483FC434445",
+      "EVD-AADDB45759F67004",
+      "EVD-1BA12AFB05B5BD13",
+      "EVD-733F5C04719022AE",
+      "EVD-1C46740F9999CF7B",
+      "EVD-5636E0D9D1AB2605",
+      "EVD-239333BC638CDEBA",
+      "EVD-B968E829D7DEA2D7",
+      "EVD-91A2524CB7C652D0",
+      "EVD-8B09867D19F1496E",
+      "EVD-927DDAF696B5D339",
+      "EVD-CB952D69E3E21F68",
+      "EVD-1B8FE822419C5EFC",
+      "EVD-E744CA9DD952F84A",
+      "EVD-A27A80D35B6C440F",
+      "EVD-64F79412948E2E74",
+      "EVD-6829F253D543AA00"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-007-01",
+        "status": "PARTIAL",
+        "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-D1249648026B4D96",
+          "EVD-DF63C483FC434445",
+          "EVD-AADDB45759F67004",
+          "EVD-1BA12AFB05B5BD13",
+          "EVD-733F5C04719022AE",
+          "EVD-1C46740F9999CF7B",
+          "EVD-8B09867D19F1496E",
+          "EVD-927DDAF696B5D339",
+          "EVD-CB952D69E3E21F68",
+          "EVD-1B8FE822419C5EFC",
+          "EVD-E744CA9DD952F84A",
+          "EVD-A27A80D35B6C440F",
+          "EVD-64F79412948E2E74",
+          "EVD-6829F253D543AA00"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-02",
+        "status": "PARTIAL",
+        "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-D1249648026B4D96",
+          "EVD-DF63C483FC434445",
+          "EVD-AADDB45759F67004",
+          "EVD-1BA12AFB05B5BD13",
+          "EVD-733F5C04719022AE",
+          "EVD-1C46740F9999CF7B",
+          "EVD-8B09867D19F1496E",
+          "EVD-927DDAF696B5D339",
+          "EVD-CB952D69E3E21F68",
+          "EVD-1B8FE822419C5EFC",
+          "EVD-E744CA9DD952F84A",
+          "EVD-A27A80D35B6C440F",
+          "EVD-64F79412948E2E74",
+          "EVD-6829F253D543AA00"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-03",
+        "status": "PARTIAL",
+        "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-D1249648026B4D96",
+          "EVD-DF63C483FC434445",
+          "EVD-AADDB45759F67004",
+          "EVD-1BA12AFB05B5BD13",
+          "EVD-733F5C04719022AE",
+          "EVD-1C46740F9999CF7B",
+          "EVD-8B09867D19F1496E",
+          "EVD-927DDAF696B5D339",
+          "EVD-CB952D69E3E21F68",
+          "EVD-1B8FE822419C5EFC",
+          "EVD-E744CA9DD952F84A",
+          "EVD-A27A80D35B6C440F",
+          "EVD-64F79412948E2E74",
+          "EVD-6829F253D543AA00"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-04",
+        "status": "PARTIAL",
+        "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-D1249648026B4D96",
+          "EVD-DF63C483FC434445",
+          "EVD-AADDB45759F67004",
+          "EVD-1BA12AFB05B5BD13",
+          "EVD-733F5C04719022AE",
+          "EVD-1C46740F9999CF7B",
+          "EVD-8B09867D19F1496E",
+          "EVD-927DDAF696B5D339",
+          "EVD-CB952D69E3E21F68",
+          "EVD-1B8FE822419C5EFC",
+          "EVD-E744CA9DD952F84A",
+          "EVD-A27A80D35B6C440F",
+          "EVD-64F79412948E2E74",
+          "EVD-6829F253D543AA00"
+        ]
+      },
+      {
+        "clause_id": "REQ-007-05",
+        "status": "PARTIAL",
+        "observation": "The newly sampled Viên An Đường detail and three combo pages expose pack names, stock/price/Buy Now and long product-use/ingredient text in server HTML. Their numbered sections do not show a dedicated FAQ, and two promotion URL slugs conflict with displayed pack counts; rendered captures remain partial.",
+        "evidence_ids": [
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-D1249648026B4D96",
+          "EVD-DF63C483FC434445",
+          "EVD-AADDB45759F67004",
+          "EVD-1BA12AFB05B5BD13",
+          "EVD-733F5C04719022AE",
+          "EVD-1C46740F9999CF7B",
+          "EVD-8B09867D19F1496E",
+          "EVD-927DDAF696B5D339",
+          "EVD-CB952D69E3E21F68",
+          "EVD-1B8FE822419C5EFC",
+          "EVD-E744CA9DD952F84A",
+          "EVD-A27A80D35B6C440F",
+          "EVD-64F79412948E2E74",
+          "EVD-6829F253D543AA00"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-008",
+    "status": "PARTIAL",
+    "method": [
+      "three-tier landing review for each named product"
+    ],
+    "observation": "The previously omitted Viên An Đường public product landing page is now included and has a product message, ingredient/use sections and product route. Coverage of the three requested product journeys is now present, but the landing view does not establish that all three purchase/research/social-proof/FAQ tiers are complete; rendering is partial.",
+    "evidence_ids": [
+      "EVD-80DB3C701FE061F9",
+      "EVD-A606C27223349F8A",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-7175E2F7A2FB1CE7",
+      "EVD-F937EC170B27DBBE",
+      "EVD-966EC45D4AF196BD",
+      "EVD-08F52276A2F3039C",
+      "EVD-BD78A039077C5231",
+      "EVD-4E535E98956506AC",
+      "EVD-EDC2C4DD0945DE30",
+      "EVD-1123045C65722F6B",
+      "EVD-FB8961F5DDFAE616",
+      "EVD-A6F4FB1EBECEC2DF",
+      "EVD-BA9F6C2BC097CDFF",
+      "EVD-72EEA95DB9F0EDD5-1",
+      "EVD-72EEA95DB9F0EDD5-1-SHOT"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-008-01",
+        "status": "PARTIAL",
+        "observation": "The previously omitted Viên An Đường public product landing page is now included and has a product message, ingredient/use sections and product route. Coverage of the three requested product journeys is now present, but the landing view does not establish that all three purchase/research/social-proof/FAQ tiers are complete; rendering is partial.",
+        "evidence_ids": [
+          "EVD-80DB3C701FE061F9",
+          "EVD-A606C27223349F8A",
+          "EVD-0B1AEB9BA55C2F0C",
+          "EVD-7175E2F7A2FB1CE7",
+          "EVD-F937EC170B27DBBE",
+          "EVD-966EC45D4AF196BD",
+          "EVD-08F52276A2F3039C",
+          "EVD-BD78A039077C5231",
+          "EVD-A6F4FB1EBECEC2DF",
+          "EVD-BA9F6C2BC097CDFF",
+          "EVD-72EEA95DB9F0EDD5-1",
+          "EVD-72EEA95DB9F0EDD5-1-SHOT"
+        ]
+      },
+      {
+        "clause_id": "REQ-008-02",
+        "status": "PARTIAL",
+        "observation": "The previously omitted Viên An Đường public product landing page is now included and has a product message, ingredient/use sections and product route. Coverage of the three requested product journeys is now present, but the landing view does not establish that all three purchase/research/social-proof/FAQ tiers are complete; rendering is partial.",
+        "evidence_ids": [
+          "EVD-80DB3C701FE061F9",
+          "EVD-A606C27223349F8A",
+          "EVD-0B1AEB9BA55C2F0C",
+          "EVD-7175E2F7A2FB1CE7",
+          "EVD-F937EC170B27DBBE",
+          "EVD-966EC45D4AF196BD",
+          "EVD-08F52276A2F3039C",
+          "EVD-BD78A039077C5231",
+          "EVD-A6F4FB1EBECEC2DF",
+          "EVD-BA9F6C2BC097CDFF",
+          "EVD-72EEA95DB9F0EDD5-1",
+          "EVD-72EEA95DB9F0EDD5-1-SHOT"
+        ]
+      },
+      {
+        "clause_id": "REQ-008-03",
+        "status": "PARTIAL",
+        "observation": "The previously omitted Viên An Đường public product landing page is now included and has a product message, ingredient/use sections and product route. Coverage of the three requested product journeys is now present, but the landing view does not establish that all three purchase/research/social-proof/FAQ tiers are complete; rendering is partial.",
+        "evidence_ids": [
+          "EVD-80DB3C701FE061F9",
+          "EVD-A606C27223349F8A",
+          "EVD-0B1AEB9BA55C2F0C",
+          "EVD-7175E2F7A2FB1CE7",
+          "EVD-F937EC170B27DBBE",
+          "EVD-966EC45D4AF196BD",
+          "EVD-08F52276A2F3039C",
+          "EVD-BD78A039077C5231",
+          "EVD-A6F4FB1EBECEC2DF",
+          "EVD-BA9F6C2BC097CDFF",
+          "EVD-72EEA95DB9F0EDD5-1",
+          "EVD-72EEA95DB9F0EDD5-1-SHOT"
+        ]
+      }
+    ],
+    "review_status": "blocked_by_scope_or_safety"
+  },
+  {
+    "requirement_id": "REQ-009",
+    "status": "UNKNOWN",
+    "method": [
+      "question headings/40-60 word answers/table/bullet/attribution review"
+    ],
+    "observation": "A health-topic listing was collected, but article-level authorship, answer summaries, citations and experience credentials were not fully verified in scope.",
+    "evidence_ids": [
+      "EVD-BD78A039077C5231",
+      "EVD-193B911618A48573",
+      "EVD-4E535E98956506AC",
+      "EVD-0E21303A3735BA32"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-009-01",
+        "status": "UNKNOWN",
+        "observation": "A health-topic listing was collected, but article-level authorship, answer summaries, citations and experience credentials were not fully verified in scope.",
+        "evidence_ids": [
+          "EVD-BD78A039077C5231",
+          "EVD-193B911618A48573",
+          "EVD-4E535E98956506AC",
+          "EVD-0E21303A3735BA32"
+        ]
+      },
+      {
+        "clause_id": "REQ-009-02",
+        "status": "UNKNOWN",
+        "observation": "A health-topic listing was collected, but article-level authorship, answer summaries, citations and experience credentials were not fully verified in scope.",
+        "evidence_ids": [
+          "EVD-BD78A039077C5231",
+          "EVD-193B911618A48573",
+          "EVD-4E535E98956506AC",
+          "EVD-0E21303A3735BA32"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-010",
+    "status": "FAIL",
+    "method": [
+      "parse JSON-LD",
+      "compare structured data with visible content"
+    ],
+    "observation": "JSON-LD artifacts for homepage and sampled product pages are empty arrays.",
+    "evidence_ids": [
+      "EVD-32CB6452441EDF9E",
+      "EVD-C16C9A26189A6C8E",
+      "EVD-80257931D1966034",
+      "EVD-5DEB9224EB2D897C",
+      "EVD-E32F848C405D32E0",
+      "EVD-EDDAD1FAFA69798C"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-010-01",
+        "status": "FAIL",
+        "observation": "JSON-LD artifacts for homepage and sampled product pages are empty arrays.",
+        "evidence_ids": [
+          "EVD-32CB6452441EDF9E",
+          "EVD-C16C9A26189A6C8E",
+          "EVD-80257931D1966034",
+          "EVD-5DEB9224EB2D897C",
+          "EVD-E32F848C405D32E0",
+          "EVD-EDDAD1FAFA69798C"
+        ]
+      }
+    ],
+    "review_status": "reviewed_with_evidence"
+  },
+  {
+    "requirement_id": "REQ-011",
+    "status": "PARTIAL",
+    "method": [
+      "robots user-agent rule analysis"
+    ],
+    "observation": "robots.txt provides wildcard rules and does not list specific named AI user agents; crawl behavior of those external bots was not tested.",
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-011-01",
+        "status": "PARTIAL",
+        "observation": "robots.txt provides wildcard rules and does not list specific named AI user agents; crawl behavior of those external bots was not tested.",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-012",
+    "status": "PARTIAL",
+    "method": [
+      "compare raw server HTML and rendered content"
+    ],
+    "observation": "Raw and rendered HTML evidence exists; sampled text appears in collected HTML, but full server-rendering behavior and all route states were not verified.",
+    "evidence_ids": [
+      "EVD-80DB3C701FE061F9",
+      "EVD-A606C27223349F8A",
+      "EVD-0B1AEB9BA55C2F0C",
+      "EVD-42AE297DAC33A1B9",
+      "EVD-689120860F2FACA2",
+      "EVD-AADDB45759F67004",
+      "EVD-1C46740F9999CF7B",
+      "EVD-5636E0D9D1AB2605",
+      "EVD-91A2524CB7C652D0"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-012-01",
+        "status": "PARTIAL",
+        "observation": "Raw and rendered HTML evidence exists; sampled text appears in collected HTML, but full server-rendering behavior and all route states were not verified.",
+        "evidence_ids": [
+          "EVD-80DB3C701FE061F9",
+          "EVD-A606C27223349F8A",
+          "EVD-0B1AEB9BA55C2F0C",
+          "EVD-42AE297DAC33A1B9",
+          "EVD-689120860F2FACA2",
+          "EVD-AADDB45759F67004",
+          "EVD-1C46740F9999CF7B",
+          "EVD-5636E0D9D1AB2605"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-013",
+    "status": "FAIL",
+    "method": [
+      "mobile LAB measurement",
+      "PSI if available",
+      "overflow/image inspection"
+    ],
+    "observation": "Single mobile LAB captures report LCP around 19–20 seconds on sampled pages, above the stated 2.5-second goal; Lighthouse and field metrics were unavailable.",
+    "evidence_ids": [
+      "EVD-6E93B5B6099AB8DE",
+      "EVD-85956D06B433ABCA",
+      "EVD-3425B7ADB4DE40C6",
+      "EVD-3D15DCDB359887BF",
+      "EVD-22E0DDE6D2609F17",
+      "EVD-6FA8247E2A86C79A",
+      "EVD-9C7D299C355C1D56",
+      "EVD-203B6173B6A72522",
+      "EVD-4D473131699530B4",
+      "EVD-9F9FDDCFDF43F393",
+      "EVD-238D776F29EAE37D",
+      "EVD-1FE036CF43DBF534"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-013-01",
+        "status": "FAIL",
+        "observation": "Single mobile LAB captures report LCP around 19–20 seconds on sampled pages, above the stated 2.5-second goal; Lighthouse and field metrics were unavailable.",
+        "evidence_ids": [
+          "EVD-6E93B5B6099AB8DE",
+          "EVD-85956D06B433ABCA",
+          "EVD-3425B7ADB4DE40C6",
+          "EVD-3D15DCDB359887BF",
+          "EVD-22E0DDE6D2609F17",
+          "EVD-6FA8247E2A86C79A",
+          "EVD-9C7D299C355C1D56",
+          "EVD-203B6173B6A72522"
+        ]
+      }
+    ],
+    "review_status": "reviewed_with_evidence"
+  },
+  {
+    "requirement_id": "REQ-014",
+    "status": "UNKNOWN",
+    "method": [
+      "public script/network/dataLayer inspection",
+      "manual successful-order event check"
+    ],
+    "observation": "Tracking requests and events were not evaluated because telemetry requests were explicitly blocked as audit-induced; analytics admin access is unavailable.",
+    "evidence_ids": [
+      "EVD-DBF33A19881A487E",
+      "EVD-04B228A36544C865",
+      "EVD-97810824842F6F36",
+      "EVD-6F5D373CB335C509",
+      "EVD-A4A1CE693EA3E721",
+      "EVD-1964859DD63DD62B"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-014-01",
+        "status": "UNKNOWN",
+        "observation": "Tracking requests and events were not evaluated because telemetry requests were explicitly blocked as audit-induced; analytics admin access is unavailable.",
+        "evidence_ids": [
+          "EVD-DBF33A19881A487E",
+          "EVD-04B228A36544C865",
+          "EVD-97810824842F6F36",
+          "EVD-6F5D373CB335C509",
+          "EVD-A4A1CE693EA3E721",
+          "EVD-1964859DD63DD62B"
+        ]
+      },
+      {
+        "clause_id": "REQ-014-02",
+        "status": "UNKNOWN",
+        "observation": "Tracking requests and events were not evaluated because telemetry requests were explicitly blocked as audit-induced; analytics admin access is unavailable.",
+        "evidence_ids": [
+          "EVD-DBF33A19881A487E",
+          "EVD-04B228A36544C865",
+          "EVD-97810824842F6F36",
+          "EVD-6F5D373CB335C509",
+          "EVD-A4A1CE693EA3E721",
+          "EVD-1964859DD63DD62B"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  },
+  {
+    "requirement_id": "REQ-015",
+    "status": "FAIL",
+    "method": [
+      "HTTPS request",
+      "robots/sitemap parse",
+      "public title/meta extraction",
+      "manual backend configurability check"
+    ],
+    "observation": "Both sitemap URLs discovered by robots/root probing returned HTTP 404; HTTPS page rendering and metadata were observed separately.",
+    "evidence_ids": [
+      "EVD-C51AC48D3DB98538",
+      "EVD-B093A16D09E3A37E",
+      "EVD-A57DC932D580B784",
+      "EVD-A81704E1324D31CC",
+      "EVD-AEED7CD9E819A9C7",
+      "EVD-47098AAEBE5261A0",
+      "EVD-1B0A276A53B73033",
+      "EVD-193B911618A48573",
+      "EVD-0E21303A3735BA32",
+      "EVD-8847193527214305",
+      "EVD-FEAE1B2C290B94CB",
+      "EVD-13C7A1BCD9836960"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-015-01",
+        "status": "FAIL",
+        "observation": "Both sitemap URLs discovered by robots/root probing returned HTTP 404; HTTPS page rendering and metadata were observed separately.",
+        "evidence_ids": [
+          "EVD-C51AC48D3DB98538",
+          "EVD-B093A16D09E3A37E",
+          "EVD-A57DC932D580B784",
+          "EVD-A81704E1324D31CC",
+          "EVD-AEED7CD9E819A9C7",
+          "EVD-47098AAEBE5261A0",
+          "EVD-1B0A276A53B73033",
+          "EVD-193B911618A48573"
+        ]
+      }
+    ],
+    "review_status": "reviewed_with_evidence"
+  },
+  {
+    "requirement_id": "REQ-016",
+    "status": "BLOCKED",
+    "method": [
+      "read-only checkout form inspection",
+      "manual guest order validation"
+    ],
+    "observation": "Actual checkout fields, guest checkout and account requirements were not tested because checkout routes are safety-blocked and robots-disallowed.",
+    "evidence_ids": [
+      "EVD-571CE21693716D24-0",
+      "EVD-28869D62E349AE02-0",
+      "EVD-3C63ACE8EED6B470-0",
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-998DA9C93EAB1C0B-0",
+      "EVD-E500EB5EAF7D49CB-1"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-016-01",
+        "status": "BLOCKED",
+        "observation": "Actual checkout fields, guest checkout and account requirements were not tested because checkout routes are safety-blocked and robots-disallowed.",
+        "evidence_ids": [
+          "EVD-571CE21693716D24-0",
+          "EVD-28869D62E349AE02-0",
+          "EVD-3C63ACE8EED6B470-0",
+          "EVD-D67F1CCFC3746E81-1",
+          "EVD-998DA9C93EAB1C0B-0",
+          "EVD-E500EB5EAF7D49CB-1"
+        ]
+      }
+    ],
+    "review_status": "blocked_by_scope_or_safety"
+  },
+  {
+    "requirement_id": "REQ-017",
+    "status": "PARTIAL",
+    "method": [
+      "read-only visible payment options",
+      "manual success/KiotViet integration test"
+    ],
+    "observation": "The public ordering policy lists COD and bank-transfer/electronic options; order confirmation and any transfer to a private order system could not be observed.",
+    "evidence_ids": [
+      "EVD-EDC2C4DD0945DE30",
+      "EVD-1123045C65722F6B",
+      "EVD-FB8961F5DDFAE616",
+      "EVD-C087DF8FD18C7192-3"
+    ],
+    "subchecks": [
+      {
+        "clause_id": "REQ-017-01",
+        "status": "PARTIAL",
+        "observation": "The public ordering policy lists COD and bank-transfer/electronic options; order confirmation and any transfer to a private order system could not be observed.",
+        "evidence_ids": [
+          "EVD-EDC2C4DD0945DE30",
+          "EVD-1123045C65722F6B",
+          "EVD-FB8961F5DDFAE616",
+          "EVD-C087DF8FD18C7192-3"
+        ]
+      }
+    ],
+    "review_status": "qualified"
+  }
+]

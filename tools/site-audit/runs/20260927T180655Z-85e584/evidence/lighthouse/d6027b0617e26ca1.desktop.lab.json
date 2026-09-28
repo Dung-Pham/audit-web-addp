@@ -1,0 +1,1137 @@
+{
+  "source": "LAB",
+  "field": {
+    "available": false,
+    "reason": "No real-user field data source configured"
+  },
+  "lighthouse_scores": {
+    "available": false,
+    "reason": "Lighthouse not run; no scores inferred"
+  },
+  "inp": {
+    "available": false,
+    "reason": "No trusted user interaction or field data during read-only collection"
+  },
+  "lcp_ms": 11488,
+  "cls": 0.0525826520378207,
+  "ttfb_ms": 5665.600000008941,
+  "navigation": {
+    "startTime": 0,
+    "duration": 17215.20000000298,
+    "responseStart": 5665.600000008941,
+    "responseEnd": 5665.600000008941,
+    "domContentLoadedEventEnd": 11258.800000011921,
+    "loadEventEnd": 17215.20000000298,
+    "transferSize": 112669,
+    "encodedBodySize": 112369,
+    "decodedBodySize": 112369,
+    "type": "navigate"
+  },
+  "request_count": 114,
+  "transfer": {
+    "known_response_content_length_bytes": 654282,
+    "browser_reported_transfer_bytes": 2651827,
+    "limitation": "Header lengths and browser transferSize may omit compressed, cached, or cross-origin bytes"
+  },
+  "render_blocking_resources": [
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+      "initiatorType": "link",
+      "duration": 107.29999999701977,
+      "transferSize": 328579,
+      "encodedBodySize": 328279,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+      "initiatorType": "link",
+      "duration": 5290.5,
+      "transferSize": 45138,
+      "encodedBodySize": 44838,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "link",
+      "duration": 23.299999997019768,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+      "initiatorType": "link",
+      "duration": 5257.5,
+      "transferSize": 75567,
+      "encodedBodySize": 75267,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "initiatorType": "link",
+      "duration": 31.799999997019768,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "initiatorType": "link",
+      "duration": 5228.9000000059605,
+      "transferSize": 89868,
+      "encodedBodySize": 89568,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "initiatorType": "link",
+      "duration": 31.899999991059303,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+      "initiatorType": "link",
+      "duration": 31.900000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "css",
+      "duration": 89.20000000298023,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "blocking"
+    }
+  ],
+  "large_images": [],
+  "third_party_scripts": [
+    {
+      "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "initiatorType": "script",
+      "duration": 5138.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    }
+  ],
+  "resources": [
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/dad436fcd93977da7321eb590f6e734d.min.css",
+      "initiatorType": "link",
+      "duration": 107.29999999701977,
+      "transferSize": 328579,
+      "encodedBodySize": 328279,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/styles-l.min.css",
+      "initiatorType": "link",
+      "duration": 5290.5,
+      "transferSize": 45138,
+      "encodedBodySize": 44838,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "link",
+      "duration": 23.299999997019768,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/63f9d9e75e69939fba36120442a0b68f.min.css",
+      "initiatorType": "link",
+      "duration": 5257.5,
+      "transferSize": 75567,
+      "encodedBodySize": 75267,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "initiatorType": "link",
+      "duration": 31.799999997019768,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&subset=latin,cyrillic-ext,cyrillic,greek-ext,greek,vietnamese,latin-ext&display=swap",
+      "initiatorType": "link",
+      "duration": 5228.9000000059605,
+      "transferSize": 89868,
+      "encodedBodySize": 89568,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "initiatorType": "link",
+      "duration": 31.899999991059303,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+      "initiatorType": "link",
+      "duration": 31.900000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_vn.gif",
+      "initiatorType": "img",
+      "duration": 5324.5,
+      "transferSize": 965,
+      "encodedBodySize": 665,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/logo/56/default/addplog.svg",
+      "initiatorType": "img",
+      "duration": 5326.4000000059605,
+      "transferSize": 85459,
+      "encodedBodySize": 85159,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/images/flags/flag_en.gif",
+      "initiatorType": "img",
+      "duration": 5324,
+      "transferSize": 965,
+      "encodedBodySize": 665,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/about-us.jpg",
+      "initiatorType": "img",
+      "duration": 5794.0999999940395,
+      "transferSize": 1992,
+      "encodedBodySize": 1692,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/2_2.png",
+      "initiatorType": "img",
+      "duration": 5675,
+      "transferSize": 1992,
+      "encodedBodySize": 1692,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/3_1.png",
+      "initiatorType": "img",
+      "duration": 5697.29999999702,
+      "transferSize": 1992,
+      "encodedBodySize": 1692,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/1_2.png",
+      "initiatorType": "img",
+      "duration": 5793.70000000298,
+      "transferSize": 1992,
+      "encodedBodySize": 1692,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/4.png",
+      "initiatorType": "img",
+      "duration": 5803.20000000298,
+      "transferSize": 1992,
+      "encodedBodySize": 1692,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/codazon/footer-payment.png",
+      "initiatorType": "img",
+      "duration": 5281.79999999702,
+      "transferSize": 8886,
+      "encodedBodySize": 8586,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/wysiwyg/addp/homepage/3.png",
+      "initiatorType": "img",
+      "duration": 5337.699999988079,
+      "transferSize": 73754,
+      "encodedBodySize": 73454,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "initiatorType": "script",
+      "duration": 5272.9000000059605,
+      "transferSize": 1539,
+      "encodedBodySize": 1239,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/_cache/merged/e951a2cc1764ce3116c1e323f1851a66.js",
+      "initiatorType": "script",
+      "duration": 5345.79999999702,
+      "transferSize": 131600,
+      "encodedBodySize": 131300,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "initiatorType": "script",
+      "duration": 5138.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "css",
+      "duration": 89.20000000298023,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/opensans/regular/opensans-400.woff2",
+      "initiatorType": "css",
+      "duration": 300.09999999403954,
+      "transferSize": 18148,
+      "encodedBodySize": 17848,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/opensans/bold/opensans-700.woff2",
+      "initiatorType": "css",
+      "duration": 312.5,
+      "transferSize": 17968,
+      "encodedBodySize": 17668,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2",
+      "initiatorType": "css",
+      "duration": 326.90000000596046,
+      "transferSize": 3492,
+      "encodedBodySize": 3192,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/fonts/opensans/light/opensans-300.woff2",
+      "initiatorType": "css",
+      "duration": 328.5,
+      "transferSize": 17736,
+      "encodedBodySize": 17436,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "initiatorType": "css",
+      "duration": 245.6000000089407,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery.js",
+      "initiatorType": "script",
+      "duration": 224.09999999403954,
+      "transferSize": 396260,
+      "encodedBodySize": 395960,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/common.js",
+      "initiatorType": "script",
+      "duration": 114.70000000298023,
+      "transferSize": 2145,
+      "encodedBodySize": 1845,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ShoppingCartPro/js/ajax-post.js",
+      "initiatorType": "script",
+      "duration": 46,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 132,
+      "transferSize": 760,
+      "encodedBodySize": 460,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/app.js",
+      "initiatorType": "script",
+      "duration": 131.19999998807907,
+      "transferSize": 673,
+      "encodedBodySize": 373,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_PageCache/js/form-key-provider.js",
+      "initiatorType": "script",
+      "duration": 130,
+      "transferSize": 3407,
+      "encodedBodySize": 3107,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Translation/js/mage-translation-dictionary.js",
+      "initiatorType": "script",
+      "duration": 5311.5,
+      "transferSize": 513,
+      "encodedBodySize": 213,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Theme/js/theme.js",
+      "initiatorType": "script",
+      "duration": 5310.5,
+      "transferSize": 920,
+      "encodedBodySize": 620,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/themecore.js",
+      "initiatorType": "script",
+      "duration": 5317.699999988079,
+      "transferSize": 25135,
+      "encodedBodySize": 24835,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/cookies.js",
+      "initiatorType": "script",
+      "duration": 5321.70000000298,
+      "transferSize": 4766,
+      "encodedBodySize": 4466,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magefan_Blog/js/lib/mfblogunveil.js",
+      "initiatorType": "script",
+      "duration": 5310.70000000298,
+      "transferSize": 2084,
+      "encodedBodySize": 1784,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/requirejs/domReady.js",
+      "initiatorType": "script",
+      "duration": 5319.70000000298,
+      "transferSize": 4436,
+      "encodedBodySize": 4136,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.woff?v=4.7.0",
+      "initiatorType": "css",
+      "duration": 45,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/css/fonts/fontawesome-webfont.ttf?v=4.7.0",
+      "initiatorType": "css",
+      "duration": 10.300000011920929,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/apply/main.js",
+      "initiatorType": "script",
+      "duration": 4,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 84.90000000596046,
+      "transferSize": 829,
+      "encodedBodySize": 529,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_ReCaptchaWebapiUi/js/jquery-mixin.js",
+      "initiatorType": "script",
+      "duration": 93.79999999701977,
+      "transferSize": 1685,
+      "encodedBodySize": 1385,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/types.js",
+      "initiatorType": "script",
+      "duration": 90,
+      "transferSize": 1616,
+      "encodedBodySize": 1316,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/core/renderer/layout.js",
+      "initiatorType": "script",
+      "duration": 84,
+      "transferSize": 18195,
+      "encodedBodySize": 17895,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout.js",
+      "initiatorType": "script",
+      "duration": 187.09999999403954,
+      "transferSize": 388252,
+      "encodedBodySize": 387952,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-es5.js",
+      "initiatorType": "script",
+      "duration": 120.20000000298023,
+      "transferSize": 18905,
+      "encodedBodySize": 18605,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/underscore.js",
+      "initiatorType": "script",
+      "duration": 113.5,
+      "transferSize": 75851,
+      "encodedBodySize": 75551,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/main.js",
+      "initiatorType": "script",
+      "duration": 128.70000000298023,
+      "transferSize": 938,
+      "encodedBodySize": 638,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/registry/registry.js",
+      "initiatorType": "script",
+      "duration": 173.70000000298023,
+      "transferSize": 13204,
+      "encodedBodySize": 12904,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/wrapper.js",
+      "initiatorType": "script",
+      "duration": 131,
+      "transferSize": 4997,
+      "encodedBodySize": 4697,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Codazon_ThemeLayoutPro/js/material-theme.js",
+      "initiatorType": "script",
+      "duration": 112.3999999910593,
+      "transferSize": 15610,
+      "encodedBodySize": 15310,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/engine.js",
+      "initiatorType": "script",
+      "duration": 139.29999999701977,
+      "transferSize": 9420,
+      "encodedBodySize": 9120,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bootstrap.js",
+      "initiatorType": "script",
+      "duration": 172,
+      "transferSize": 1853,
+      "encodedBodySize": 1553,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/observable_array.js",
+      "initiatorType": "script",
+      "duration": 132.8999999910593,
+      "transferSize": 3775,
+      "encodedBodySize": 3475,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/extender/bound-nodes.js",
+      "initiatorType": "script",
+      "duration": 173,
+      "transferSize": 5708,
+      "encodedBodySize": 5408,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-logger.js",
+      "initiatorType": "script",
+      "duration": 170.70000000298023,
+      "transferSize": 2497,
+      "encodedBodySize": 2197,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/arrays.js",
+      "initiatorType": "script",
+      "duration": 84.90000000596046,
+      "transferSize": 5014,
+      "encodedBodySize": 4714,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/compare.js",
+      "initiatorType": "script",
+      "duration": 85.1000000089407,
+      "transferSize": 5945,
+      "encodedBodySize": 5645,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/misc.js",
+      "initiatorType": "script",
+      "duration": 84.6000000089407,
+      "transferSize": 10019,
+      "encodedBodySize": 9719,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/objects.js",
+      "initiatorType": "script",
+      "duration": 98.1000000089407,
+      "transferSize": 13412,
+      "encodedBodySize": 13112,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/strings.js",
+      "initiatorType": "script",
+      "duration": 102.09999999403954,
+      "transferSize": 4845,
+      "encodedBodySize": 4545,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/utils/template.js",
+      "initiatorType": "script",
+      "duration": 95.8999999910593,
+      "transferSize": 7904,
+      "encodedBodySize": 7604,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/observable_source.js",
+      "initiatorType": "script",
+      "duration": 87.19999998807907,
+      "transferSize": 1410,
+      "encodedBodySize": 1110,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/renderer.js",
+      "initiatorType": "script",
+      "duration": 84.3999999910593,
+      "transferSize": 16701,
+      "encodedBodySize": 16401,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-repeat.js",
+      "initiatorType": "script",
+      "duration": 96.1000000089407,
+      "transferSize": 10367,
+      "encodedBodySize": 10067,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/knockoutjs/knockout-fast-foreach.js",
+      "initiatorType": "script",
+      "duration": 98.79999999701977,
+      "transferSize": 11932,
+      "encodedBodySize": 11632,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/storage/local.js",
+      "initiatorType": "script",
+      "duration": 82.8999999910593,
+      "transferSize": 4742,
+      "encodedBodySize": 4442,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/events.js",
+      "initiatorType": "script",
+      "duration": 81.09999999403954,
+      "transferSize": 4206,
+      "encodedBodySize": 3906,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/resizable.js",
+      "initiatorType": "script",
+      "duration": 95.09999999403954,
+      "transferSize": 4530,
+      "encodedBodySize": 4230,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/i18n.js",
+      "initiatorType": "script",
+      "duration": 94.09999999403954,
+      "transferSize": 5735,
+      "encodedBodySize": 5435,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/scope.js",
+      "initiatorType": "script",
+      "duration": 89.1000000089407,
+      "transferSize": 3683,
+      "encodedBodySize": 3383,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/range.js",
+      "initiatorType": "script",
+      "duration": 5283.800000011921,
+      "transferSize": 2142,
+      "encodedBodySize": 1842,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/mage-init.js",
+      "initiatorType": "script",
+      "duration": 5272.399999991059,
+      "transferSize": 949,
+      "encodedBodySize": 649,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/keyboard.js",
+      "initiatorType": "script",
+      "duration": 5313.399999991059,
+      "transferSize": 1303,
+      "encodedBodySize": 1003,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/optgroup.js",
+      "initiatorType": "script",
+      "duration": 5287.9000000059605,
+      "transferSize": 13947,
+      "encodedBodySize": 13647,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/after-render.js",
+      "initiatorType": "script",
+      "duration": 5270.70000000298,
+      "transferSize": 900,
+      "encodedBodySize": 600,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/autoselect.js",
+      "initiatorType": "script",
+      "duration": 5274.20000000298,
+      "transferSize": 1099,
+      "encodedBodySize": 799,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/datepicker.js",
+      "initiatorType": "script",
+      "duration": 5282.29999999702,
+      "transferSize": 4048,
+      "encodedBodySize": 3748,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/outer_click.js",
+      "initiatorType": "script",
+      "duration": 5272.600000008941,
+      "transferSize": 3376,
+      "encodedBodySize": 3076,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/fadeVisible.js",
+      "initiatorType": "script",
+      "duration": 5305.9000000059605,
+      "transferSize": 1366,
+      "encodedBodySize": 1066,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/dimVisible.js",
+      "initiatorType": "script",
+      "duration": 5269.29999999702,
+      "transferSize": 1767,
+      "encodedBodySize": 1467,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/collapsible.js",
+      "initiatorType": "script",
+      "duration": 5270.300000011921,
+      "transferSize": 5633,
+      "encodedBodySize": 5333,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/staticChecked.js",
+      "initiatorType": "script",
+      "duration": 5304.29999999702,
+      "transferSize": 3826,
+      "encodedBodySize": 3526,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/simple-checked.js",
+      "initiatorType": "script",
+      "duration": 5270.0999999940395,
+      "transferSize": 2438,
+      "encodedBodySize": 2138,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/bind-html.js",
+      "initiatorType": "script",
+      "duration": 5270,
+      "transferSize": 2654,
+      "encodedBodySize": 2354,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/tooltip.js",
+      "initiatorType": "script",
+      "duration": 5340.20000000298,
+      "transferSize": 28148,
+      "encodedBodySize": 27848,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/bindings/color-picker.js",
+      "initiatorType": "script",
+      "duration": 5349.800000011921,
+      "transferSize": 3325,
+      "encodedBodySize": 3025,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger.js",
+      "initiatorType": "script",
+      "duration": 5298.5999999940395,
+      "transferSize": 5860,
+      "encodedBodySize": 5560,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry-factory.js",
+      "initiatorType": "script",
+      "duration": 5345.20000000298,
+      "transferSize": 789,
+      "encodedBodySize": 489,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/console-output-handler.js",
+      "initiatorType": "script",
+      "duration": 5293.4000000059605,
+      "transferSize": 1695,
+      "encodedBodySize": 1395,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/formatter.js",
+      "initiatorType": "script",
+      "duration": 5280.899999991059,
+      "transferSize": 1529,
+      "encodedBodySize": 1229,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/message-pool.js",
+      "initiatorType": "script",
+      "duration": 5338.70000000298,
+      "transferSize": 2876,
+      "encodedBodySize": 2576,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/levels-pool.js",
+      "initiatorType": "script",
+      "duration": 5310.5,
+      "transferSize": 1096,
+      "encodedBodySize": 796,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/logger-utils.js",
+      "initiatorType": "script",
+      "duration": 5312.79999999702,
+      "transferSize": 2546,
+      "encodedBodySize": 2246,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/core/class.js",
+      "initiatorType": "script",
+      "duration": 73.1000000089407,
+      "transferSize": 4445,
+      "encodedBodySize": 4145,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/knockout/template/loader.js",
+      "initiatorType": "script",
+      "duration": 88.40000000596046,
+      "transferSize": 4345,
+      "encodedBodySize": 4045,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/translate.js",
+      "initiatorType": "script",
+      "duration": 73.8999999910593,
+      "transferSize": 2195,
+      "encodedBodySize": 1895,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/async.js",
+      "initiatorType": "script",
+      "duration": 77.40000000596046,
+      "transferSize": 7421,
+      "encodedBodySize": 7121,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/mage.js",
+      "initiatorType": "script",
+      "duration": 70.3999999910593,
+      "transferSize": 2725,
+      "encodedBodySize": 2425,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/dom-observer.js",
+      "initiatorType": "script",
+      "duration": 74.90000000596046,
+      "transferSize": 11064,
+      "encodedBodySize": 10764,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/view/utils/bindings.js",
+      "initiatorType": "script",
+      "duration": 77.79999999701977,
+      "transferSize": 3728,
+      "encodedBodySize": 3428,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/requirejs/text.js",
+      "initiatorType": "script",
+      "duration": 79,
+      "transferSize": 4809,
+      "encodedBodySize": 4509,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/smart-keyboard-handler.js",
+      "initiatorType": "script",
+      "duration": 82.29999999701977,
+      "transferSize": 3053,
+      "encodedBodySize": 2753,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/cookie-wrapper.js",
+      "initiatorType": "script",
+      "duration": 70.8999999910593,
+      "transferSize": 1759,
+      "encodedBodySize": 1459,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/owl.carousel.min.js",
+      "initiatorType": "script",
+      "duration": 73.20000000298023,
+      "transferSize": 44106,
+      "encodedBodySize": 43806,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-translation.json",
+      "initiatorType": "xmlhttprequest",
+      "duration": 385.1000000089407,
+      "transferSize": 26886,
+      "encodedBodySize": 26586,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js-cookie/js.cookie.js",
+      "initiatorType": "script",
+      "duration": 68.59999999403954,
+      "transferSize": 5309,
+      "encodedBodySize": 5009,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/moment.js",
+      "initiatorType": "script",
+      "duration": 80.29999999701977,
+      "transferSize": 59426,
+      "encodedBodySize": 59126,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/mage/template.js",
+      "initiatorType": "script",
+      "duration": 77.1000000089407,
+      "transferSize": 2270,
+      "encodedBodySize": 1970,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/templates/tooltip/tooltip.html",
+      "initiatorType": "xmlhttprequest",
+      "duration": 305,
+      "transferSize": 821,
+      "encodedBodySize": 521,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/spectrum.js",
+      "initiatorType": "script",
+      "duration": 84,
+      "transferSize": 83722,
+      "encodedBodySize": 83422,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/spectrum/tinycolor.js",
+      "initiatorType": "script",
+      "duration": 82.59999999403954,
+      "transferSize": 43239,
+      "encodedBodySize": 42939,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/Magento_Ui/js/lib/logger/entry.js",
+      "initiatorType": "script",
+      "duration": 96.8999999910593,
+      "transferSize": 1197,
+      "encodedBodySize": 897,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/cdn-cgi/rum?",
+      "initiatorType": "xmlhttprequest",
+      "duration": 3.7999999970197678,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+      "initiatorType": "other",
+      "duration": 82.5,
+      "transferSize": 6116,
+      "encodedBodySize": 5816,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/js/theme-widgets.js",
+      "initiatorType": "script",
+      "duration": 84.19999998807907,
+      "transferSize": 56558,
+      "encodedBodySize": 56258,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/favicon/stores/107/favicon-addp.png",
+      "initiatorType": "other",
+      "duration": 85.69999998807907,
+      "transferSize": 6116,
+      "encodedBodySize": 5816,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/widget.js",
+      "initiatorType": "script",
+      "duration": 75.70000000298023,
+      "transferSize": 27667,
+      "encodedBodySize": 27367,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/static/version1790061737/frontend/Codazon/unlimited_child/vi_VN/jquery/ui-modules/version.js",
+      "initiatorType": "script",
+      "duration": 75.90000000596046,
+      "transferSize": 670,
+      "encodedBodySize": 370,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://fonts.googleapis.com/css?family=Roboto",
+      "initiatorType": "xmlhttprequest",
+      "duration": 145.09999999403954,
+      "transferSize": 5848,
+      "encodedBodySize": 5548,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/pub/static_custom/custom.css?v=1.0",
+      "initiatorType": "xmlhttprequest",
+      "duration": 12.900000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/header/header-style-54/header-styles.css?version=6aae42f070b5f",
+      "initiatorType": "xmlhttprequest",
+      "duration": 12.900000005960464,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/footer/addp-footer-09/footer-styles.css?version=6ab241a69898b",
+      "initiatorType": "xmlhttprequest",
+      "duration": 12.599999994039536,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    },
+    {
+      "name": "https://addp.vn/media/codazon/themelayout/main/main-content-style54/main-styles.css?version=6ab4a2cde3782",
+      "initiatorType": "xmlhttprequest",
+      "duration": 12.5,
+      "transferSize": 0,
+      "encodedBodySize": 0,
+      "renderBlockingStatus": "non-blocking"
+    }
+  ],
+  "limitations": [
+    "Single browser run per viewport",
+    "All browser requests were mediated by Playwright to inspect redirects; timing includes routing overhead",
+    "LCP and CLS are lab observations; CLS window may be incomplete",
+    "No interaction was performed"
+  ]
+}

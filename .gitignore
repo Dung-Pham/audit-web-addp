@@ -1,0 +1,13 @@
+# Install dependencies from lockfiles instead of committing generated packages.
+**/node_modules/
+
+# Local secrets and runtime-only credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS/editor noise.
+Thumbs.db
+.DS_Store

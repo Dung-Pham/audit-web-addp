@@ -1,0 +1,67 @@
+[
+  {
+    "finding_id": "FND-SPEC-UX-003",
+    "title": "Homepage hero actions are less prominent and less thumb-friendly than product-page CTAs",
+    "page": "https://addp.vn/",
+    "source_requirement_ids": [
+      "REQ-005"
+    ],
+    "evidence_ids": [
+      "EVD-2CA66D18158349D8",
+      "EVD-4256DF417284230A"
+    ],
+    "status": "rejected",
+    "reviewer_id": "codex-independent-final-review-20260928",
+    "reason": "The cited homepage DOM and mobile screenshot exist and support the homepage action dimensions and lightweight visual treatment. They do not contain the stated 358x54.3px Glucare or 303.6x54.4px Dovital CTA measurements used for the comparison, and no product-page evidence ID is cited. Because the exact observation, impact, and suggested pattern materially depend on that uncited comparison, the current finding is not fully evidence-backed even though the homepage-only portion is plausible.",
+    "reviewed_evidence_ids": [
+      "EVD-2CA66D18158349D8",
+      "EVD-4256DF417284230A"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-CONVERSION-003",
+    "title": "Purchase CTAs appear before any visible price on both principal product pages",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "source_requirement_ids": [
+      "REQ-007"
+    ],
+    "evidence_ids": [
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-C86C629E938B1E14",
+      "EVD-E178F1827F773846",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ],
+    "status": "rejected",
+    "reviewer_id": "codex-independent-final-review-20260928",
+    "reason": "Every cited artifact exists and is indexed only to the Glucare Plus URL. They support a Glucare CTA in the first viewport and the first price-bearing product sample lower on the page, including the cited mobile coordinates. The finding title says this occurs on both principal product pages and its business impact refers to two critical product routes, but no second product URL or evidence is cited and the observation itself names only Glucare. The current finding therefore materially exceeds its evidence scope.",
+    "reviewed_evidence_ids": [
+      "EVD-DF63C483FC434445",
+      "EVD-733F5C04719022AE",
+      "EVD-C86C629E938B1E14",
+      "EVD-E178F1827F773846",
+      "EVD-EA78205F3017C505",
+      "EVD-0581A36B72F4A783"
+    ]
+  },
+  {
+    "finding_id": "FND-SPEC-BRAND-003",
+    "title": "Visible safety and standards claims lack identifiable proof",
+    "page": "https://addp.vn/",
+    "source_requirement_ids": [
+      "REQ-006"
+    ],
+    "evidence_ids": [
+      "EVD-4256DF417284230A",
+      "EVD-A606C27223349F8A"
+    ],
+    "status": "rejected",
+    "reviewer_id": "codex-independent-final-review-20260928",
+    "reason": "Both cited artifacts exist but are indexed to the homepage only. They support the visible homepage 'Chứng nhận an toàn' and quality/safety wording without a named certificate in the cited homepage state. They cannot support the finding's additional claims about the separate company page, its 'Tiêu chuẩn' section, four pale placeholder tiles, or empty image alternative text. Because those company-page assertions are a material part of the exact observation and no company-page artifact is cited, the current finding is not adequately evidenced.",
+    "reviewed_evidence_ids": [
+      "EVD-4256DF417284230A",
+      "EVD-A606C27223349F8A"
+    ]
+  }
+]

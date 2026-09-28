@@ -1,0 +1,186 @@
+[
+  {
+    "finding_id": "FND-SPEC-UX-001",
+    "title": "The homepage hero does not show a principal product",
+    "area": "Homepage above-the-fold orientation",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-004"
+    ],
+    "source": "checklist",
+    "finding_type": "content_review",
+    "observation": "The stabilized desktop and mobile first-view captures show the ADDP logo, the message \"Chăm sóc từ giá trị thiện lành\", the headline \"Sức Khỏe Bền Vững Khởi Nguồn Từ Tâm\", an older couple, supporting copy, and the actions \"Khám phá ngay\" and \"Tư vấn miễn phí\". No product package or named principal product is visible in either captured first viewport. REQ-004 calls for the first viewport to combine a core message, a principal-product image, and a large clear CTA; the message and actions are present, while the product-image element is absent from the captured state.",
+    "evidence_ids": [
+      "EVD-8C749E8D6F00DF83",
+      "EVD-4256DF417284230A"
+    ],
+    "impact": {
+      "user": "A first-time visitor can understand the care-oriented brand message, but must continue down the page before seeing what ADDP sells. This adds orientation work for an older or middle-aged self-purchaser and for an adult child quickly assessing a product for a parent.",
+      "business": "The first viewport does not immediately connect the brand promise to a specific purchasable product, weakening product discovery at the earliest decision point.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.96,
+    "suggested_direction": "Keep the current human, reassuring message, but add a clearly identifiable principal-product packshot or product grouping within the first desktop and mobile viewport and preserve an obvious route to that product.",
+    "unknowns": [
+      "Whether another timed or carousel state shows a product before user interaction.",
+      "Whether the hero is intended to prioritize corporate positioning over immediate product orientation."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The existing headline, supportive imagery, and two visible actions are positive orientation signals. Within the ADDP customer context, product identification is still a necessary part of first-view confidence because the researcher or purchaser may differ from the eventual product user.",
+    "limitations": [
+      "This visual conclusion is limited to the saved stabilized viewport state at 1440x1000 and 390x1000; animation was frozen after stabilization, and the homepage had a material initial-to-stabilized difference.",
+      "The render remained partial with residual resource/decode failures, so this finding does not claim that every possible hero state lacks product imagery.",
+      "The first-time and high-intent journey interaction failures were excluded because they may be audit-induced and do not establish a site defect."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-UX-002",
+    "title": "Mobile typography falls below the checklist's reading-size targets",
+    "area": "Mobile typography and legibility",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [
+      "REQ-002"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "The Glucare mobile DOM records its hero heading at 23.4px and several ingredient headings at 15.5px. Those measured examples are below the checklist targets of 28–32px for mobile headings and 16px for body text. The examples support a product-page typography concern; no exhaustive text inventory is claimed.",
+    "evidence_ids": [
+      "EVD-733F5C04719022AE"
+    ],
+    "impact": {
+      "user": "Small supporting copy and undersized headings increase reading effort on a phone, particularly for visitors with ordinary age-related vision changes or limited tolerance for dense health-product information.",
+      "business": "Visitors may scan past trust details, ingredient labels, or product distinctions that support confidence and purchase decisions.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "high",
+    "confidence": 0.98,
+    "suggested_direction": "Raise mobile body and supporting text to at least 16px, bring primary and section headings into the 28-32px range where practical, and use 1.5-1.6 line height for reading copy while preserving the current responsive width behavior.",
+    "unknowns": [
+      "The DOM text sampler does not inventory every visible text node, so the finding identifies evidenced examples rather than an exhaustive count.",
+      "User browser zoom, operating-system text scaling, and device pixel density were not varied."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The three inspected mobile layouts fit their recorded viewport widths without horizontal overflow, which is positive. The remaining legibility burden comes from text sizing and line spacing rather than a broken responsive width in these captures.",
+    "limitations": [
+      "Measurements come from the saved 390-400px mobile DOM captures only.",
+      "All relevant page collections remained partial; Glucare had pending images, and all three pages recorded residual resource/decode failures.",
+      "No claim is made about individual medical suitability or comprehension of the health statements."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-UX-003",
+    "title": "Homepage hero actions are less prominent and less thumb-friendly than product-page CTAs",
+    "area": "Primary CTA affordance",
+    "page": "https://addp.vn/",
+    "page_type": "homepage",
+    "source_requirement_ids": [
+      "REQ-005"
+    ],
+    "source": "checklist",
+    "finding_type": "measured",
+    "observation": "In the stabilized mobile homepage DOM, \"Khám phá ngay\" measures about 142.5x38.2px and \"Tư vấn miễn phí\" about 134.6x32px; both use 13.5px text and appear as lightweight text/icon actions in the stabilized screenshot. By comparison, the saved mobile product pages show a 358x54.3px Glucare purchase action and a 303.6x54.4px Dovital purchase action as prominent filled controls. The homepage consultation action therefore does not match REQ-005's request for a large, rounded, strongly contrasting mobile action that is easy to press with a thumb, although the product-page purchase actions provide a positive implementation pattern.",
+    "evidence_ids": [
+      "EVD-2CA66D18158349D8",
+      "EVD-4256DF417284230A"
+    ],
+    "impact": {
+      "user": "The two homepage choices are visible, but their smaller height and lighter button affordance demand more precision and provide less obvious prioritization for a phone user with ordinary or limited digital confidence.",
+      "business": "The homepage gives less visual emphasis to exploration and consultation than the product pages give to purchase, which may reduce progression from the first brand encounter.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.96,
+    "suggested_direction": "Apply the product pages' successful mobile CTA pattern to the homepage hero: use a clearly filled, rounded primary action with at least a 44px hit height, retain a distinct secondary consultation action, and keep both labels explicit.",
+    "unknowns": [
+      "No touch-usability study was performed, so the impact is based on measured hit areas and visible affordance.",
+      "The saved evidence does not establish which of the two homepage actions is intended to be primary."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The contrast with the two product pages is useful positive evidence: ADDP already uses large mobile purchase controls in the same site experience, so the homepage inconsistency is visible to both self-purchasers and adult-child researchers.",
+    "limitations": [
+      "The comparison uses stabilized screenshots and computed rectangles at one mobile viewport per page.",
+      "The homepage had a material initial-to-stabilized visual difference, so only the stabilized state supports this finding.",
+      "No click outcome is claimed; persona journey navigation errors were excluded as possible audit-induced behavior."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-UX-004",
+    "title": "Shared mobile utility navigation creates precision and assistive-technology barriers",
+    "area": "Global mobile header and navigation",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [],
+    "source": "best_practice",
+    "finding_type": "measured",
+    "observation": "On the captured Glucare mobile page, the Search and Cart links measure 35×35px. The mobile accessibility scan reports serious link-name failures for cart, home, search, mobile-cart, and account icons and nested focusable controls in the menu, account and settings tab-like items. This supports a shared mobile navigation concern from the captured page.",
+    "evidence_ids": [
+      "EVD-733F5C04719022AE",
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "The 35px icon targets require more precise tapping, while unnamed and nested controls make the same navigation harder to identify or operate with a screen reader or keyboard. This affects recovery and wayfinding across the homepage and product journey.",
+      "business": "Search, account access, and cart access are recurring commerce routes; friction in the shared controls can interrupt product discovery and purchase progression on every inspected core page.",
+      "seo": null,
+      "technical": "The saved accessibility scans identify missing accessible names, invalid child relationships for the tablist, and nested interactive descendants in the shared navigation semantics."
+    },
+    "severity": "high",
+    "confidence": 0.99,
+    "suggested_direction": "Give every utility control a clear programmatic name and, where space permits, a visible text label; enlarge touch areas to at least 44x44px without reducing icon clarity; and expose each mobile navigation choice as one focusable control with valid parent/child roles and state attributes.",
+    "unknowns": [
+      "Keyboard order and spoken screen-reader output were not manually tested.",
+      "The evidence does not measure accidental-tap frequency in real use."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The header and fixed bottom bar make these utilities easy to find visually, which is positive. The present icon-only treatment and semantic failures still impose avoidable precision and interpretation demands for mobile visitors and assistive-technology users.",
+    "limitations": [
+      "The finding uses direct DOM rectangles and axe results from the saved mobile states; it does not claim that every assistive technology reacts identically.",
+      "The page collections were partial, but the controls were present, visible, and independently measured in the stabilized DOM and screenshot evidence.",
+      "No implementation cause is inferred."
+    ],
+    "status": "candidate"
+  },
+  {
+    "finding_id": "FND-SPEC-UX-005",
+    "title": "Low-contrast supporting text and prices weaken scanability",
+    "area": "Text and commerce-information contrast",
+    "page": "https://addp.vn/sua-hat-glucare-plus",
+    "page_type": "product_detail",
+    "source_requirement_ids": [],
+    "source": "best_practice",
+    "finding_type": "measured",
+    "observation": "On the captured Glucare mobile page, sampled gold product-price text is reported at 2.86:1 against the applicable 4.5:1 expectation. This is an observed low-contrast price example; other product and homepage color combinations are not asserted here.",
+    "evidence_ids": [
+      "EVD-238D776F29EAE37D"
+    ],
+    "impact": {
+      "user": "Visitors with reduced contrast sensitivity may miss section orientation labels or struggle to read price information while scanning product choices, even though the main headings and primary CTAs remain easier to see.",
+      "business": "Harder-to-read prices and supporting labels can weaken product comparison and confidence during research or purchase consideration.",
+      "seo": null,
+      "technical": null
+    },
+    "severity": "medium",
+    "confidence": 0.99,
+    "suggested_direction": "Darken the gray, gold, and orange text colors or adjust their backgrounds so normal-size text reaches at least 4.5:1 and large bold text reaches at least 3:1, then recheck the exact rendered combinations on desktop and mobile.",
+    "unknowns": [
+      "The automated scan samples rendered color combinations but does not quantify every text element on the pages.",
+      "Display calibration, ambient light, and user contrast settings were not varied."
+    ],
+    "origin": "specialist:ux",
+    "specialist_interpretation": "The affected content includes orientation cues and prices that matter to both an older or middle-aged self-purchaser and an adult child comparing options for a parent. The evidence supports a legibility issue only; it does not establish price correctness or product suitability.",
+    "limitations": [
+      "The full-page visual review used only stabilized screenshots; provisional screenshots were excluded.",
+      "The captures remained partial with residual resource/decode failures, but the contrast values come from rendered elements that were present in the stabilized DOM.",
+      "No inference is made about the validity of health claims, certifications, or individual suitability."
+    ],
+    "status": "candidate"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "source_of_truth": "Checklist.txt (authorized exact extraction of original XLSX)",
+  "best_practice_must_be_labelled": true,
+  "health_claims": "Do not validate medical efficacy. Review visible attribution and qualification only.",
+  "metrics": "LAB metrics must never be called FIELD. PSI threshold remains unverified without PSI/Lighthouse score.",
+  "cause_levels": [
+    "observed",
+    "probable",
+    "developer_investigation"
+  ],
+  "schema_presence_not_search_eligibility": true,
+  "ai_visibility_not_guaranteed": true
+}

@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-09-27T13:23:40.979Z",
+  "codex_version": "codex-cli 0.158.0-alpha.2.1",
+  "desktop_build": null,
+  "multi_agent_supported": true,
+  "custom_agents_supported": null,
+  "per_subagent_model_supported": true,
+  "reasoning_override_supported": true,
+  "runtime_model_verification_supported": null,
+  "available_models": [
+    "gpt-6-astra",
+    "chatgpt-web/gpt-5.6-luna",
+    "gpt-6-sol",
+    "gpt-6-luna",
+    "gpt-5.6-sol"
+  ],
+  "evidence": "Live multi_agent_v1__spawn_agent tool metadata plus accepted build-agent calls with model/reasoning parameters.",
+  "notes": [
+    "CLI version is not desktop app version.",
+    "Available models listed by live subagent tool, not assumed from public documentation.",
+    "Dispatcher does not return verified inference model metadata; requested and verified models are separate.",
+    "Custom file-based agent configuration support has not been probed."
+  ],
+  "documentation": "https://learn.chatgpt.com/docs/agent-configuration/subagents"
+}

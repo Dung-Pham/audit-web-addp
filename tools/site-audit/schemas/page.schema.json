@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["url", "page_type", "discovered_from", "http_status", "canonical", "indexability", "importance"],
+  "properties": {
+    "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "page_type": {"type": "string", "minLength": 1},
+    "discovered_from": {"type": "array", "items": {"type": "string"}},
+    "http_status": {"type": ["integer", "null"], "minimum": 100, "maximum": 599},
+    "canonical": {"type": ["string", "null"]},
+    "indexability": {"type": ["string", "null"]},
+    "importance": {"enum": ["critical", "high", "normal", "low"]}
+  },
+  "additionalProperties": true
+}

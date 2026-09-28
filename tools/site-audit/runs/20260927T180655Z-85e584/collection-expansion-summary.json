@@ -1,0 +1,22 @@
+{
+  "mode": "collect",
+  "status": "partial",
+  "complete_with_limitations": true,
+  "discovered": 269,
+  "pages": 31,
+  "collected": 0,
+  "usable": 31,
+  "partial": 31,
+  "errors": 0,
+  "evidence": 1050,
+  "blocked": 451,
+  "added_urls": [
+    "https://addp.vn/vien-an-duong",
+    "https://addp.vn/vien-an-duong-addp.html",
+    "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+    "https://addp.vn/vien-an-duong-addp-combo-mua-3-tang-4.html",
+    "https://addp.vn/vien-an-duong-addp-combo-hai-hop.html",
+    "https://addp.vn/vien-sui-dovital"
+  ],
+  "selected_pages": 31
+}

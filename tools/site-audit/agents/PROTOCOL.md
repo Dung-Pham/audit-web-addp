@@ -1,0 +1,9 @@
+# Shared black-box audit protocol
+
+Use only the run's public/external evidence, normalized requirements, and recorded journeys. Website source, backend state, private analytics, platform modules, and internal files are unavailable unless a separate artifact proves otherwise. Do not assert them. Never make production writes, submit forms, add to cart, create accounts, place orders, or make destructive requests.
+
+Every candidate finding must have `finding_id`, `title`, `area`, `page`, `page_type`, `source_requirement_ids`, `source` (`checklist` or `best_practice`), `finding_type` (`measured`, `deterministic`, `heuristic`, or `content_review`), `observation`, `evidence_ids`, `impact` (`user`, `business`, `seo`, `technical`), `severity`, `confidence`, `suggested_direction`, and `unknowns`. Cite exact evidence IDs and valid requirement IDs. No evidence means no accepted claim. Checklist text is a requirement, not proof that the site fails it. Label interpretations and recommendations separately from observed facts. Never turn absence of a collected signal into proof of absence when coverage is incomplete.
+
+When useful, provide `planning` metadata on a candidate: specific objective, target_state, recommended_changes, affected_urls, implementation_area, developer_investigation, dependencies, priority, effort, acceptance_criteria, automated_verification, manual_verification, risks. This metadata remains a proposal until the finding is accepted. Do not name a source file, module, owner, or schedule without direct evidence.
+
+Performance data collected in a browser or Lighthouse is LAB. Call it FIELD only with a documented field-data source. Mark unavailable metrics unknown. For health claims, do not validate medical truth, invent sources, or invent credentials. Preserve exact claims and cite their public location for expert review.

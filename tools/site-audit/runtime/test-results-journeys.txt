@@ -1,0 +1,30 @@
+TAP version 13
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: four actual browser journeys preserve click evidence without order/form side effects
+ok 1 - four actual browser journeys preserve click evidence without order/form side effects
+  ---
+  duration_ms: 8462.1755
+  type: 'test'
+  ...
+# Journey first_time: partial, clicks 1
+# Journey high_intent: partial, clicks 1
+# Journey research: partial, clicks 1
+# Journey mobile: partial, clicks 1
+# Subtest: persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+ok 2 - persona browser guard blocks popup POST, two-hop unsafe redirect, WebSocket and mutating query
+  ---
+  duration_ms: 8545.2728
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 17941.7091

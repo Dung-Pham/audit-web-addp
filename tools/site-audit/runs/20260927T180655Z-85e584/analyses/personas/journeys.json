@@ -1,0 +1,378 @@
+[
+  {
+    "persona": "first_time",
+    "goal": "Understand ADDP, find its company information and principal product route.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-571CE21693716D24-0",
+          "EVD-571CE21693716D24-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/",
+        "href": "https://addp.vn/",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-B4E970182A871FB8-0",
+          "EVD-B4E970182A871FB8-0-SHOT"
+        ]
+      },
+      {
+        "step": 3,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong",
+        "href": "https://addp.vn/vien-an-duong",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-72EEA95DB9F0EDD5-1",
+          "EVD-72EEA95DB9F0EDD5-1-SHOT"
+        ]
+      },
+      {
+        "step": 4,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp.html",
+        "href": "https://addp.vn/vien-an-duong-addp.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-E6D0865F197D96B9-2",
+          "EVD-E6D0865F197D96B9-2-SHOT"
+        ]
+      }
+    ],
+    "clicks": 0,
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/vien-an-duong",
+      "https://addp.vn/vien-an-duong-addp.html"
+    ],
+    "blockers": [
+      "Visible link interaction could not be completed: page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "Visible link interaction could not be completed: page.evaluate: Execution context was destroyed, most likely because of a navigation"
+    ],
+    "confusion_points": [
+      "Supplemental coverage was read by direct URL navigation; zero clicks are claimed for these steps.",
+      "Earlier attempted clicks did not produce a verified destination state; click completion is recorded as zero."
+    ],
+    "positive_signals": [
+      "Read 3 distinct public page(s) through guarded navigation. Incomplete click attempts are documented as blockers; no unobserved destination is claimed."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-571CE21693716D24-0",
+      "EVD-571CE21693716D24-0-SHOT",
+      "EVD-B4E970182A871FB8-0",
+      "EVD-B4E970182A871FB8-0-SHOT",
+      "EVD-72EEA95DB9F0EDD5-1",
+      "EVD-72EEA95DB9F0EDD5-1-SHOT",
+      "EVD-E6D0865F197D96B9-2",
+      "EVD-E6D0865F197D96B9-2-SHOT"
+    ],
+    "method": "Executed deterministic browsing policy, then interpreted by the separately dispatched persona agent. Observed clicks only; no commerce mutation. Supplemental product coverage added through guarded direct navigation; no click or commerce action claimed.",
+    "click_attempts": 2
+  },
+  {
+    "persona": "high_intent",
+    "goal": "Find a principal product and inspect the route toward cart/checkout without mutation.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "evidence_ids": [
+          "EVD-28869D62E349AE02-0",
+          "EVD-28869D62E349AE02-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp.html",
+        "href": "https://addp.vn/vien-an-duong-addp.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-95A7A385066B4767-0",
+          "EVD-95A7A385066B4767-0-SHOT"
+        ]
+      },
+      {
+        "step": 3,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+        "href": "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-4904299128015771-1",
+          "EVD-4904299128015771-1-SHOT"
+        ]
+      },
+      {
+        "step": 4,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp-combo-mua-3-tang-4.html",
+        "href": "https://addp.vn/vien-an-duong-addp-combo-mua-3-tang-4.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-3AF216AB0137661E-2",
+          "EVD-3AF216AB0137661E-2-SHOT"
+        ]
+      },
+      {
+        "step": 5,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp-combo-hai-hop.html",
+        "href": "https://addp.vn/vien-an-duong-addp-combo-hai-hop.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-EAD334DEA5DC1406-3",
+          "EVD-EAD334DEA5DC1406-3-SHOT"
+        ]
+      }
+    ],
+    "clicks": 0,
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/vien-an-duong-addp.html",
+      "https://addp.vn/vien-an-duong-addp-combo-mua-2-tang-2.html",
+      "https://addp.vn/vien-an-duong-addp-combo-mua-3-tang-4.html",
+      "https://addp.vn/vien-an-duong-addp-combo-hai-hop.html"
+    ],
+    "blockers": [
+      "Visible link interaction could not be completed: page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "No safe reachable URL in collected scope for journey goal pattern checkout\\/cart|gio-hang|\\/cart\\/?$",
+      "Visible link interaction could not be completed: locator.click: Timeout 5000ms exceeded.",
+      "Add-to-cart, order submission and downstream confirmation intentionally not executed in production read-only mode.",
+      "Cart/checkout route not entered; add-to-cart, order, payment and form actions were not executed."
+    ],
+    "confusion_points": [
+      "Supplemental coverage was read by direct URL navigation; zero clicks are claimed for these steps.",
+      "Earlier attempted clicks did not produce a verified destination state; click completion is recorded as zero."
+    ],
+    "positive_signals": [
+      "Read 5 distinct public page(s) through guarded navigation. Incomplete click attempts are documented as blockers; no unobserved destination is claimed."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-28869D62E349AE02-0",
+      "EVD-28869D62E349AE02-0-SHOT",
+      "EVD-95A7A385066B4767-0",
+      "EVD-95A7A385066B4767-0-SHOT",
+      "EVD-4904299128015771-1",
+      "EVD-4904299128015771-1-SHOT",
+      "EVD-3AF216AB0137661E-2",
+      "EVD-3AF216AB0137661E-2-SHOT",
+      "EVD-EAD334DEA5DC1406-3",
+      "EVD-EAD334DEA5DC1406-3-SHOT"
+    ],
+    "method": "Executed deterministic browsing policy, then interpreted by the separately dispatched persona agent. Observed clicks only; no commerce mutation. Supplemental product coverage added through guarded direct navigation; no click or commerce action claimed.",
+    "click_attempts": 1
+  },
+  {
+    "persona": "research",
+    "goal": "Research a nutrition product for a parent, then inspect company and policy information.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "href": "https://addp.vn/",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-3C63ACE8EED6B470-0",
+          "EVD-3C63ACE8EED6B470-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Navigate to public inventory URL",
+        "url": "https://addp.vn/sua-hat-glucare-plus",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-D67F1CCFC3746E81-1",
+          "EVD-D67F1CCFC3746E81-1-SHOT"
+        ]
+      },
+      {
+        "step": 3,
+        "action": "Navigate to public inventory URL",
+        "url": "https://addp.vn/gioi-thieu",
+        "href": "https://addp.vn/gioi-thieu",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-B61797A9CD1390CF-2",
+          "EVD-B61797A9CD1390CF-2-SHOT"
+        ]
+      },
+      {
+        "step": 4,
+        "action": "Navigate to public inventory URL",
+        "url": "https://addp.vn/chinh-sach-dat-hang",
+        "href": "https://addp.vn/chinh-sach-dat-hang",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-C087DF8FD18C7192-3",
+          "EVD-C087DF8FD18C7192-3-SHOT"
+        ]
+      },
+      {
+        "step": 5,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp.html",
+        "href": "https://addp.vn/vien-an-duong-addp.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-A5A2EC5D07364AA0-0",
+          "EVD-A5A2EC5D07364AA0-0-SHOT"
+        ]
+      },
+      {
+        "step": 6,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/chinh-sach-dat-hang",
+        "href": "https://addp.vn/chinh-sach-dat-hang",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-600B2A843FE0B546-1",
+          "EVD-600B2A843FE0B546-1-SHOT"
+        ]
+      },
+      {
+        "step": 7,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/gioi-thieu",
+        "href": "https://addp.vn/gioi-thieu",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-A52D49B4C5C8E378-2",
+          "EVD-A52D49B4C5C8E378-2-SHOT"
+        ]
+      }
+    ],
+    "clicks": 0,
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/gioi-thieu",
+      "https://addp.vn/chinh-sach-dat-hang",
+      "https://addp.vn/vien-an-duong-addp.html"
+    ],
+    "blockers": [],
+    "confusion_points": [
+      "Continuation used safe URLs already present in the public inventory after the generic journey runner stalled; direct navigation is not counted as a click.",
+      "Supplemental coverage was read by direct URL navigation; zero clicks are claimed for these steps."
+    ],
+    "positive_signals": [
+      "Recorded 4 bounded read-only page state(s) across 4 distinct page(s).",
+      "Supplemental coverage: 3 additional public page state(s) recorded."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-3C63ACE8EED6B470-0",
+      "EVD-3C63ACE8EED6B470-0-SHOT",
+      "EVD-D67F1CCFC3746E81-1",
+      "EVD-D67F1CCFC3746E81-1-SHOT",
+      "EVD-B61797A9CD1390CF-2",
+      "EVD-B61797A9CD1390CF-2-SHOT",
+      "EVD-C087DF8FD18C7192-3",
+      "EVD-C087DF8FD18C7192-3-SHOT",
+      "EVD-A5A2EC5D07364AA0-0",
+      "EVD-A5A2EC5D07364AA0-0-SHOT",
+      "EVD-600B2A843FE0B546-1",
+      "EVD-600B2A843FE0B546-1-SHOT",
+      "EVD-A52D49B4C5C8E378-2",
+      "EVD-A52D49B4C5C8E378-2-SHOT"
+    ],
+    "method": "Run-level continuation of unfinished deterministic journey using production read-only browser guards and bounded direct navigation to inventory URLs. Supplemental product coverage added through guarded direct navigation; no click or commerce action claimed."
+  },
+  {
+    "persona": "mobile",
+    "goal": "Inspect product discovery and purchase controls as a middle-aged or older phone user with ordinary or limited digital confidence.",
+    "entry_url": "https://addp.vn/",
+    "steps": [
+      {
+        "step": 1,
+        "action": "Open homepage",
+        "url": "https://addp.vn/",
+        "href": "https://addp.vn/",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-998DA9C93EAB1C0B-0",
+          "EVD-998DA9C93EAB1C0B-0-SHOT"
+        ]
+      },
+      {
+        "step": 2,
+        "action": "Navigate to public inventory URL",
+        "url": "https://addp.vn/sua-hat-glucare-plus",
+        "href": "https://addp.vn/sua-hat-glucare-plus",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-E500EB5EAF7D49CB-1",
+          "EVD-E500EB5EAF7D49CB-1-SHOT"
+        ]
+      },
+      {
+        "step": 3,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong",
+        "href": "https://addp.vn/vien-an-duong",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-6934AB226B4221DC-0",
+          "EVD-6934AB226B4221DC-0-SHOT"
+        ]
+      },
+      {
+        "step": 4,
+        "action": "Directly open discovered public product/policy page",
+        "url": "https://addp.vn/vien-an-duong-addp.html",
+        "href": "https://addp.vn/vien-an-duong-addp.html",
+        "click_counted": false,
+        "evidence_ids": [
+          "EVD-051C12B979C427BA-1",
+          "EVD-051C12B979C427BA-1-SHOT"
+        ]
+      }
+    ],
+    "clicks": 0,
+    "pages_visited": [
+      "https://addp.vn/",
+      "https://addp.vn/sua-hat-glucare-plus",
+      "https://addp.vn/vien-an-duong",
+      "https://addp.vn/vien-an-duong-addp.html"
+    ],
+    "blockers": [
+      "Cart mutation, checkout submission, order, payment, account creation and form submission intentionally not executed."
+    ],
+    "confusion_points": [
+      "Continuation used safe URLs already present in the public inventory after the generic journey runner stalled; direct navigation is not counted as a click.",
+      "Supplemental coverage was read by direct URL navigation; zero clicks are claimed for these steps."
+    ],
+    "positive_signals": [
+      "Recorded 2 bounded read-only page state(s) across 2 distinct page(s).",
+      "Supplemental coverage: 2 additional public page state(s) recorded."
+    ],
+    "completion_status": "partial",
+    "evidence_ids": [
+      "EVD-998DA9C93EAB1C0B-0",
+      "EVD-998DA9C93EAB1C0B-0-SHOT",
+      "EVD-E500EB5EAF7D49CB-1",
+      "EVD-E500EB5EAF7D49CB-1-SHOT",
+      "EVD-6934AB226B4221DC-0",
+      "EVD-6934AB226B4221DC-0-SHOT",
+      "EVD-051C12B979C427BA-1",
+      "EVD-051C12B979C427BA-1-SHOT"
+    ],
+    "method": "Run-level continuation of unfinished deterministic journey using production read-only browser guards and bounded direct navigation to inventory URLs. Supplemental product coverage added through guarded direct navigation; no click or commerce action claimed."
+  }
+]
