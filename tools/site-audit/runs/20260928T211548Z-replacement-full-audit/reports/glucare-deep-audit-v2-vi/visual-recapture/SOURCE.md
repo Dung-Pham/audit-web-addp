@@ -1,0 +1,1 @@
+Ảnh được sao chép nguyên trạng từ ../deep-page-audit-v2-vi/visual-recapture của cùng canonical run; xem manifest và INDEX gốc để biết thời điểm/scrollY. Không phải ảnh chụp mới 2026-09-29.\n
